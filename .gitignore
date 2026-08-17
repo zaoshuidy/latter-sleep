@@ -11,6 +11,7 @@ node_modules/
 .omx/state/
 .omx/logs/
 .omx/notepad.md
+.worktrees/
 projects/**/indesign/qa-*.png
 projects/**/indesign/**/qa-*.png
 research/reference-originals/lulu-a5/
