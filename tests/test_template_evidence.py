@@ -1,3 +1,4 @@
+from copy import deepcopy
 import unittest
 
 from ai.contracts import validate_data
@@ -46,6 +47,14 @@ class TemplateEvidenceContractTests(unittest.TestCase):
         record["activation_errors"] = []
         return record
 
+    def assertSchemaErrorsContain(self, payload, schema_name, *expected_fragments):
+        errors = validate_data(payload, schema_name)
+        self.assertTrue(errors, "expected schema errors")
+        joined = "\n".join(errors)
+        for fragment in expected_fragments:
+            self.assertIn(fragment, joined)
+        return errors
+
     def test_candidate_record_is_schema_valid(self):
         self.assertEqual([], validate_data(self.valid_candidate_record(), "template-evidence"))
 
@@ -57,15 +66,50 @@ class TemplateEvidenceContractTests(unittest.TestCase):
     def test_approved_record_is_schema_valid_once_gate_is_complete(self):
         self.assertEqual([], validate_data(self.valid_approved_record(), "template-evidence"))
 
+    def test_approved_record_rejects_each_open_evidence_gate_independently(self):
+        cases = [
+            (
+                "fewer than two chinese_book_references",
+                lambda record: record.__setitem__("chinese_book_references", ["ISBN 9787100000001 / 某出版社 / 2022"]),
+                ("too short",),
+            ),
+            (
+                "empty adobe_sources",
+                lambda record: record.__setitem__("adobe_sources", []),
+                ("non-empty",),
+            ),
+            (
+                "empty print_sources",
+                lambda record: record.__setitem__("print_sources", []),
+                ("non-empty",),
+            ),
+            (
+                "null field_mapping_path",
+                lambda record: record.__setitem__("field_mapping_path", None),
+                ("not of type 'string'",),
+            ),
+            (
+                "empty field_mapping_path",
+                lambda record: record.__setitem__("field_mapping_path", ""),
+                ("non-empty",),
+            ),
+            (
+                "nonempty activation_errors",
+                lambda record: record.__setitem__("activation_errors", ["still pending"]),
+                ("expected to be empty",),
+            ),
+        ]
+
+        for label, mutate, expected_fragments in cases:
+            with self.subTest(label=label):
+                record = deepcopy(self.valid_approved_record())
+                mutate(record)
+                self.assertSchemaErrorsContain(record, "template-evidence", *expected_fragments)
+
     def test_schema_is_closed_to_unexpected_properties(self):
         record = self.valid_candidate_record()
         record["unexpected"] = True
-        self.assertTrue(validate_data(record, "template-evidence"))
-
-    def test_approved_record_requires_zero_activation_errors(self):
-        record = self.valid_approved_record()
-        record["activation_errors"] = ["still pending"]
-        self.assertTrue(validate_data(record, "template-evidence"))
+        self.assertSchemaErrorsContain(record, "template-evidence", "Additional properties are not allowed")
 
 
 if __name__ == "__main__":
