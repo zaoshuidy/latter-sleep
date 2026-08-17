@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "template-evidence.schema.json",
+  "title": "Template Evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "evidence_id",
+    "template_id",
+    "status",
+    "original",
+    "chinese_book_references",
+    "adobe_sources",
+    "print_sources",
+    "field_mapping_path",
+    "activation_errors"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "evidence_id": {
+      "type": "string",
+      "pattern": "^EVD-[A-Z0-9-]+$"
+    },
+    "template_id": {
+      "type": "string",
+      "pattern": "^TPL-[A-Z0-9-]+$"
+    },
+    "status": {
+      "enum": ["candidate", "approved", "rejected", "archived"]
+    },
+    "original": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "source_url", "relative_path", "sha256", "format"],
+      "properties": {
+        "provider": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "relative_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[A-F0-9]{64}$"
+        },
+        "format": {
+          "enum": ["indd", "idml", "indt", "zip-with-indd-idml"]
+        }
+      }
+    },
+    "chinese_book_references": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "adobe_sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "print_sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "field_mapping_path": {
+      "type": ["string", "null"]
+    },
+    "activation_errors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "approved"
+          }
+        },
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "chinese_book_references": {
+            "minItems": 2
+          },
+          "adobe_sources": {
+            "minItems": 1
+          },
+          "print_sources": {
+            "minItems": 1
+          },
+          "field_mapping_path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "activation_errors": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ]
+}

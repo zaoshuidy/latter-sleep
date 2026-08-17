@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "trim-profile.schema.json",
+  "title": "Trim Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "trim_profile_id",
+    "display_name",
+    "status",
+    "trim_mm",
+    "bleed_mm",
+    "binding",
+    "evidence_id",
+    "activation_errors"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "trim_profile_id": {
+      "type": "string",
+      "pattern": "^TRIM-[A-Z0-9-]+$"
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": ["candidate", "approved"]
+    },
+    "trim_mm": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "prefixItems": [
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          ],
+          "items": false
+        }
+      ]
+    },
+    "bleed_mm": {
+      "type": ["number", "null"]
+    },
+    "binding": {
+      "type": ["string", "null"]
+    },
+    "evidence_id": {
+      "type": ["string", "null"],
+      "pattern": "^EVD-[A-Z0-9-]+$"
+    },
+    "activation_errors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "approved"
+          }
+        },
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "trim_mm": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "prefixItems": [
+              {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            ],
+            "items": false
+          },
+          "bleed_mm": {
+            "type": "number",
+            "minimum": 0
+          },
+          "binding": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^EVD-[A-Z0-9-]+$"
+          },
+          "activation_errors": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "trim_mm": {
+            "type": "null"
+          },
+          "bleed_mm": {
+            "type": "null"
+          },
+          "binding": {
+            "type": "null"
+          },
+          "evidence_id": {
+            "type": "null"
+          },
+          "activation_errors": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ]
+}
