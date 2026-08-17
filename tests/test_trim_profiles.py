@@ -1,7 +1,14 @@
 from copy import deepcopy
+import json
+from pathlib import Path
 import unittest
 
 from ai.contracts import validate_data
+from ai.indesign_templates.trim import load_trim_profile
+
+
+ROOT = Path(__file__).resolve().parents[1]
+EXPECTED_PROFILE_ERRORS = ["missing exact evidence-backed dimensions"]
 
 
 class TrimProfileContractTests(unittest.TestCase):
@@ -139,6 +146,45 @@ class TrimProfileContractTests(unittest.TestCase):
         profile = self.valid_candidate_profile()
         profile["unexpected"] = "extra"
         self.assertSchemaErrorsContain(profile, "trim-profile", "Additional properties are not allowed")
+
+
+class TrimProfileRuntimeTests(unittest.TestCase):
+    def test_inventory_contains_exactly_three_expected_profiles(self):
+        names = sorted(path.stem for path in (ROOT / "templates" / "trim-profiles").glob("*.json"))
+        self.assertEqual(["16k-standard", "32k-large", "32k-standard"], names)
+
+    def test_registered_profiles_are_candidate_only_and_schema_valid(self):
+        expected_profiles = {
+            "16k-standard": ("TRIM-16K-STANDARD", "标准16开"),
+            "32k-large": ("TRIM-32K-LARGE", "大32开"),
+            "32k-standard": ("TRIM-32K-STANDARD", "标准32开"),
+        }
+
+        for stem, (trim_profile_id, display_name) in expected_profiles.items():
+            with self.subTest(stem=stem):
+                path = ROOT / "templates" / "trim-profiles" / f"{stem}.json"
+                profile = json.loads(path.read_text(encoding="utf-8"))
+                self.assertEqual([], validate_data(profile, "trim-profile"))
+                self.assertEqual("1.0", profile["schema_version"])
+                self.assertEqual(trim_profile_id, profile["trim_profile_id"])
+                self.assertEqual(display_name, profile["display_name"])
+                self.assertEqual("candidate", profile["status"])
+                self.assertIsNone(profile["trim_mm"])
+                self.assertIsNone(profile["bleed_mm"])
+                self.assertIsNone(profile["binding"])
+                self.assertIsNone(profile["evidence_id"])
+                self.assertEqual(EXPECTED_PROFILE_ERRORS, profile["activation_errors"])
+
+    def test_require_approved_rejects_each_registered_candidate_profile(self):
+        for stem, trim_profile_id in [
+            ("16k-standard", "TRIM-16K-STANDARD"),
+            ("32k-large", "TRIM-32K-LARGE"),
+            ("32k-standard", "TRIM-32K-STANDARD"),
+        ]:
+            with self.subTest(stem=stem):
+                path = ROOT / "templates" / "trim-profiles" / f"{stem}.json"
+                with self.assertRaisesRegex(ValueError, f"not approved.*{trim_profile_id}"):
+                    load_trim_profile(path, require_approved=True)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "trim_profile_id": "TRIM-16K-STANDARD",
+  "display_name": "标准16开",
+  "status": "candidate",
+  "trim_mm": null,
+  "bleed_mm": null,
+  "binding": null,
+  "evidence_id": null,
+  "activation_errors": [
+    "missing exact evidence-backed dimensions"
+  ]
+}
