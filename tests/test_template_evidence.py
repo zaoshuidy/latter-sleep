@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest import mock
 
 from ai.contracts import validate_data
 from ai.indesign_templates import can_activate, evaluate_evidence, verify_original
@@ -127,6 +128,46 @@ class EvidenceRuntimeTests(unittest.TestCase):
     def load_lulu_record(self):
         return json.loads(LULU_EVIDENCE_PATH.read_text(encoding="utf-8"))
 
+    def make_record(self, relative_path, sha256):
+        return {
+            "original": {
+                "relative_path": relative_path,
+                "sha256": sha256,
+            }
+        }
+
+    def create_file(self, path, content=b"original"):
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(content)
+        return hashlib.sha256(content).hexdigest().upper()
+
+    def create_symlink_or_skip(self, link_path, target, is_directory=False):
+        try:
+            if is_directory:
+                link_path.symlink_to(target, target_is_directory=True)
+            else:
+                link_path.symlink_to(target)
+        except (NotImplementedError, OSError) as exc:
+            self.skipTest(f"symlink creation denied by OS: {exc}")
+
+    def patch_link_flags(self, *, symlink_paths=(), junction_paths=()):
+        symlink_values = {Path(path).resolve() for path in symlink_paths}
+        junction_values = {Path(path).resolve() for path in junction_paths}
+        original_is_junction = getattr(Path, "is_junction", None)
+
+        def fake_is_symlink(path_obj):
+            return path_obj.resolve() in symlink_values
+
+        def fake_is_junction(path_obj):
+            return path_obj.resolve() in junction_values
+
+        patches = [mock.patch.object(Path, "is_symlink", autospec=True, side_effect=fake_is_symlink)]
+        if original_is_junction is not None:
+            patches.append(
+                mock.patch.object(Path, "is_junction", autospec=True, side_effect=fake_is_junction)
+            )
+        return patches
+
     def test_evaluate_evidence_returns_exact_missing_requirements_in_order(self):
         errors = evaluate_evidence(
             {
@@ -162,13 +203,89 @@ class EvidenceRuntimeTests(unittest.TestCase):
             artifact = root / "original.idml"
             artifact.write_bytes(b"original")
             record = {
-                "original": {
-                    "relative_path": "original.idml",
-                    "sha256": "0" * 64,
-                }
+                "original": {"relative_path": "original.idml", "sha256": "0" * 64}
             }
             with self.assertRaisesRegex(ValueError, "SHA-256"):
                 verify_original(root, record)
+
+    def test_verify_original_rejects_mocked_symlink_leaf(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            leaf = root / "original.idml"
+            sha256 = self.create_file(leaf)
+
+            with self.patch_link_flags(symlink_paths=[leaf])[0]:
+                with self.assertRaisesRegex(ValueError, "symlink|links"):
+                    verify_original(root, self.make_record("original.idml", sha256))
+
+    def test_verify_original_rejects_mocked_symlinked_root(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            sha256 = self.create_file(root / "original.idml")
+
+            with self.patch_link_flags(symlink_paths=[root])[0]:
+                with self.assertRaisesRegex(ValueError, "symlink|links"):
+                    verify_original(root, self.make_record("original.idml", sha256))
+
+    def test_verify_original_rejects_mocked_intermediate_symlink(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            intermediate = root / "nested"
+            sha256 = self.create_file(intermediate / "original.idml")
+
+            with self.patch_link_flags(symlink_paths=[intermediate])[0]:
+                with self.assertRaisesRegex(ValueError, "symlink|links"):
+                    verify_original(root, self.make_record("nested/original.idml", sha256))
+
+    def test_verify_original_rejects_mocked_junction_leaf_when_supported(self):
+        if not hasattr(Path, "is_junction"):
+            self.skipTest("Path.is_junction is unavailable on this Python build")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            leaf = root / "original.idml"
+            sha256 = self.create_file(leaf)
+
+            with self.patch_link_flags(junction_paths=[leaf])[0], self.patch_link_flags(
+                junction_paths=[leaf]
+            )[1]:
+                with self.assertRaisesRegex(ValueError, "links"):
+                    verify_original(root, self.make_record("original.idml", sha256))
+
+    def test_verify_original_rejects_symlink_leaf(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            target = root / "target.idml"
+            sha256 = self.create_file(target)
+            link = root / "leaf-link.idml"
+            self.create_symlink_or_skip(link, target)
+
+            with self.assertRaisesRegex(ValueError, "symlink|links"):
+                verify_original(root, self.make_record("leaf-link.idml", sha256))
+
+    def test_verify_original_rejects_symlinked_root(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            workspace = Path(tmp)
+            real_root = workspace / "real-root"
+            real_root.mkdir()
+            sha256 = self.create_file(real_root / "original.idml")
+            linked_root = workspace / "linked-root"
+            self.create_symlink_or_skip(linked_root, real_root, is_directory=True)
+
+            with self.assertRaisesRegex(ValueError, "symlink|links"):
+                verify_original(linked_root, self.make_record("original.idml", sha256))
+
+    def test_verify_original_rejects_intermediate_symlink(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            target_dir = root / "actual"
+            target_dir.mkdir()
+            sha256 = self.create_file(target_dir / "original.idml")
+            linked_dir = root / "linked-dir"
+            self.create_symlink_or_skip(linked_dir, target_dir, is_directory=True)
+
+            with self.assertRaisesRegex(ValueError, "symlink|links"):
+                verify_original(root, self.make_record("linked-dir/original.idml", sha256))
 
     def test_registered_lulu_record_is_schema_valid_and_candidate_only(self):
         record = self.load_lulu_record()

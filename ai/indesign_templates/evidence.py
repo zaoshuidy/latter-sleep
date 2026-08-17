@@ -34,13 +34,41 @@ def _sha256_file(path: Path) -> str:
     return digest.hexdigest().upper()
 
 
+def _is_junction(path: Path) -> bool:
+    is_junction = getattr(path, "is_junction", None)
+    if callable(is_junction):
+        return bool(is_junction())
+    return False
+
+
+def _path_uses_links(path: Path) -> bool:
+    try:
+        path.lstat()
+    except FileNotFoundError:
+        return False
+    return path.is_symlink() or _is_junction(path)
+
+
+def _reject_links(path: Path) -> None:
+    if _path_uses_links(path):
+        raise ValueError("original path must not include symlink or junction links")
+
+
 def verify_original(root: Path, record: dict[str, Any]) -> Path:
-    root = root.resolve()
     relative = Path(record["original"]["relative_path"])
     if relative.is_absolute() or ".." in relative.parts:
         raise ValueError("original path must stay under root")
 
-    path = (root / relative).resolve()
+    lexical_root = Path(root)
+    _reject_links(lexical_root)
+
+    lexical_path = lexical_root
+    for part in relative.parts:
+        lexical_path = lexical_path / part
+        _reject_links(lexical_path)
+
+    root = lexical_root.resolve()
+    path = (lexical_root / relative).resolve()
     if root != path and root not in path.parents:
         raise ValueError("original path must stay under root")
     if not path.is_file():
