@@ -1,4 +1,5 @@
 from copy import deepcopy
+from contextlib import ExitStack
 import hashlib
 import json
 from pathlib import Path
@@ -251,6 +252,37 @@ class EvidenceRuntimeTests(unittest.TestCase):
             )[1]:
                 with self.assertRaisesRegex(ValueError, "links"):
                     verify_original(root, self.make_record("original.idml", sha256))
+
+    def test_verify_original_rejects_mocked_junction_root_when_supported(self):
+        if not hasattr(Path, "is_junction"):
+            self.skipTest("Path.is_junction is unavailable on this Python build")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            sha256 = self.create_file(root / "original.idml")
+            patches = self.patch_link_flags(junction_paths=[root])
+
+            with ExitStack() as stack:
+                for patch in patches:
+                    stack.enter_context(patch)
+                with self.assertRaisesRegex(ValueError, "links"):
+                    verify_original(root, self.make_record("original.idml", sha256))
+
+    def test_verify_original_rejects_mocked_junction_intermediate_when_supported(self):
+        if not hasattr(Path, "is_junction"):
+            self.skipTest("Path.is_junction is unavailable on this Python build")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            intermediate = root / "nested"
+            sha256 = self.create_file(intermediate / "original.idml")
+            patches = self.patch_link_flags(junction_paths=[intermediate])
+
+            with ExitStack() as stack:
+                for patch in patches:
+                    stack.enter_context(patch)
+                with self.assertRaisesRegex(ValueError, "links"):
+                    verify_original(root, self.make_record("nested/original.idml", sha256))
 
     def test_verify_original_rejects_symlink_leaf(self):
         with tempfile.TemporaryDirectory() as tmp:
