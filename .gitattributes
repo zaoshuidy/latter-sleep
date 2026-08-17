@@ -1,0 +1,17 @@
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.tif binary
+*.tiff binary
+*.pdf binary
+*.indd binary
+*.idml binary
+*.indt binary
+*.psd binary
+*.zip binary
+*.docx binary
+*.dotx binary
