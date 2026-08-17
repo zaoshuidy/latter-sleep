@@ -1,7 +1,23 @@
 from copy import deepcopy
+import hashlib
+import json
+from pathlib import Path
+import tempfile
 import unittest
 
 from ai.contracts import validate_data
+from ai.indesign_templates import can_activate, evaluate_evidence, verify_original
+
+
+ROOT = Path(__file__).resolve().parents[1]
+LULU_EVIDENCE_PATH = ROOT / "references" / "templates" / "lulu-a5" / "evidence.json"
+REGISTRY_PATH = ROOT / "references" / "templates" / "registry.json"
+EXPECTED_EVIDENCE_ERRORS = [
+    "requires two Chinese published-book references",
+    "requires one Adobe source",
+    "requires one print or trim source",
+    "requires reviewed field mapping",
+]
 
 
 class TemplateEvidenceContractTests(unittest.TestCase):
@@ -22,12 +38,7 @@ class TemplateEvidenceContractTests(unittest.TestCase):
             "adobe_sources": [],
             "print_sources": [],
             "field_mapping_path": None,
-            "activation_errors": [
-                "requires two Chinese published-book references",
-                "requires one Adobe source",
-                "requires one print or trim source",
-                "requires reviewed field mapping",
-            ],
+            "activation_errors": EXPECTED_EVIDENCE_ERRORS.copy(),
         }
 
     def valid_approved_record(self):
@@ -110,6 +121,88 @@ class TemplateEvidenceContractTests(unittest.TestCase):
         record = self.valid_candidate_record()
         record["unexpected"] = True
         self.assertSchemaErrorsContain(record, "template-evidence", "Additional properties are not allowed")
+
+
+class EvidenceRuntimeTests(unittest.TestCase):
+    def load_lulu_record(self):
+        return json.loads(LULU_EVIDENCE_PATH.read_text(encoding="utf-8"))
+
+    def test_evaluate_evidence_returns_exact_missing_requirements_in_order(self):
+        errors = evaluate_evidence(
+            {
+                "chinese_book_references": [],
+                "adobe_sources": [],
+                "print_sources": [],
+                "field_mapping_path": None,
+            }
+        )
+        self.assertEqual(EXPECTED_EVIDENCE_ERRORS, errors)
+
+    def test_verify_original_rejects_escape_paths(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cases = [
+                ("absolute", "C:/outside/original.idml"),
+                ("traversal", "../outside/original.idml"),
+            ]
+            for label, relative_path in cases:
+                with self.subTest(label=label):
+                    record = {
+                        "original": {
+                            "relative_path": relative_path,
+                            "sha256": "0" * 64,
+                        }
+                    }
+                    with self.assertRaisesRegex(ValueError, "under root"):
+                        verify_original(root, record)
+
+    def test_verify_original_reports_sha256_on_hash_mismatch(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            artifact = root / "original.idml"
+            artifact.write_bytes(b"original")
+            record = {
+                "original": {
+                    "relative_path": "original.idml",
+                    "sha256": "0" * 64,
+                }
+            }
+            with self.assertRaisesRegex(ValueError, "SHA-256"):
+                verify_original(root, record)
+
+    def test_registered_lulu_record_is_schema_valid_and_candidate_only(self):
+        record = self.load_lulu_record()
+        self.assertEqual([], validate_data(record, "template-evidence"))
+        self.assertEqual("candidate", record["status"])
+        self.assertEqual([], record["chinese_book_references"])
+        self.assertEqual([], record["adobe_sources"])
+        self.assertEqual([], record["print_sources"])
+        self.assertIsNone(record["field_mapping_path"])
+        self.assertEqual(EXPECTED_EVIDENCE_ERRORS, record["activation_errors"])
+
+    def test_registered_lulu_record_hash_matches_real_zip_and_verifies(self):
+        record = self.load_lulu_record()
+        artifact = ROOT / record["original"]["relative_path"]
+        digest = hashlib.sha256(artifact.read_bytes()).hexdigest().upper()
+        self.assertEqual(record["original"]["sha256"], digest)
+        self.assertEqual(artifact, verify_original(ROOT, record))
+
+    def test_can_activate_is_false_for_candidate_lulu_record(self):
+        self.assertFalse(can_activate(ROOT, self.load_lulu_record()))
+
+    def test_registry_links_to_evidence_without_duplicating_record(self):
+        registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
+        self.assertEqual({"schema_version", "templates"}, set(registry))
+        self.assertEqual("1.0", registry["schema_version"])
+        self.assertEqual(1, len(registry["templates"]))
+
+        entry = registry["templates"][0]
+        self.assertEqual({"template_id", "status", "evidence_path"}, set(entry))
+        self.assertEqual("TPL-LULU-A5-INTERIOR", entry["template_id"])
+        self.assertEqual("candidate", entry["status"])
+        self.assertEqual("references/templates/lulu-a5/evidence.json", entry["evidence_path"])
+        self.assertNotIn("original", entry)
+        self.assertEqual(self.load_lulu_record(), json.loads((ROOT / entry["evidence_path"]).read_text(encoding="utf-8")))
 
 
 if __name__ == "__main__":
