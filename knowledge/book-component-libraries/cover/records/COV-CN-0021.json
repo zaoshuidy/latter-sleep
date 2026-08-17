@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0021",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0021", "book_title": "广西历史地图集", "author": "广西壮族自治区自然资源厅（编著）", "designer": "CLABdesign", "publisher": "中国地图出版社", "publication_year": 2020, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0021", "source_url": "https://clab-design.com/23559966", "platform": "CLABdesign", "collected_at": "2026-08-11", "publication_year": 2020, "publication_year_source_url": "https://dnr.gxzf.gov.cn/zfxxgk/fdzdgknr/ghjh/ndjh/t16382179.shtml"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0021.jpg", "sha256": "f012785937f42686c0d8fd13177b4813cd71ca01b9c6c1e4b79e7c9ca125ea66", "mime_type": "image/jpeg", "width": 2067, "height": 1379},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "mixed", "composition": "grid", "title_zone": "bottom", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定左侧白色题名面：上部用七列线性民族纹样建立纵向栅格，下部以粗黑汉字和细小编著信息形成清晰标题区；右侧棕色物件仅作为同案展示对象，不推断其结构角色", "observations": [
+    {"aspect": "纹样栅格", "value": "七列窄长线性纹样并排占据白色题名面上半部", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片左侧白色题名面上部可见七个由细线构成的竖向纹样栏，颜色从深色过渡到多色", "content_tags": ["民族纹样", "纵向栅格", "线条"]},
+    {"aspect": "标题层级", "value": "粗黑中文书名集中在左下，旁侧排列细小编著信息", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片白色题名面左下可读粗黑“广西历史地图集”，右侧可见较细编著信息", "content_tags": ["粗黑标题", "左下", "地图集"]}
+  ]},
+  "reference_transfer": {"transferable": ["以地域纹样建立可扩展的纵向信息栅格", "将大标题集中于纹样之外的底部区域", "把陪衬展示物与封面检索特征分开记录"], "avoid_copying": ["不复刻原书七列纹样单元和排列", "不照搬标题断行及地域符号"], "adaptation_notes": ["从项目自身地域资料中提炼原创纹样", "先明确实际包装结构再分配不同物件的信息职责"]},
+  "retrieval_features": {"style_tags": ["地域设计", "纹样栅格", "图集"], "content_tags": ["广西", "历史", "地图"], "color_tags": ["白色", "黑色", "棕色", "多色"], "mood_tags": ["庄重", "秩序", "文化感"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

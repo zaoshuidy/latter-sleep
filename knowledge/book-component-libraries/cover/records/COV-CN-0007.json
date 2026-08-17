@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0007",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0007", "book_title": "在，或不在", "author": "徐南鹏", "designer": "周伟伟、张云浩", "publisher": "作家出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0007", "source_url": "https://beautyofbooks.cn/bookdetail?id=526", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://tenmilliontimes.com/Here-or-Not-Here"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0007.jpg", "sha256": "f2773977033c70e5a95c7d03f86d3f456f1e2573155000e29c8816a5942d2ce7", "mime_type": "image/jpeg", "width": 1500, "height": 1015},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "bottom", "spine_relationship": "not-visible", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "黑色封面以少量白色手写字和边缘小字建立诗集气质，书口的重复缺口成为比图像更醒目的结构符号", "observations": [
+    {"aspect": "文字", "value": "白色手写书名位于黑色封面下半部", "visibility": "clear", "confidence": 0.98, "evidence": "当前封面图下半部可见白色手写字，上半部保持大面积黑色", "content_tags": ["手写字", "黑底", "诗集"]},
+    {"aspect": "边缘结构", "value": "书口沿边可见多处规则重复的矩形开口", "visibility": "clear", "confidence": 0.95, "evidence": "当前图右侧书口沿线可见等距重复的矩形缺口", "content_tags": ["书口", "重复", "结构节奏"]}
+  ]},
+  "reference_transfer": {"transferable": ["用大面积深色留白承托少量手写字", "以边缘重复结构制造章节节奏", "把信息重心压低"], "avoid_copying": ["不复制原书手写笔迹", "不沿用相同书口开口形状与数量"], "adaptation_notes": ["用项目自身的笔迹系统替换原字形", "边缘结构仅作为节奏原理而非工艺复刻"]},
+  "retrieval_features": {"style_tags": ["诗性", "手写", "黑色极简"], "content_tags": ["诗画", "章节", "书口"], "color_tags": ["黑色", "白色"], "mood_tags": ["安静", "内省", "含蓄"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

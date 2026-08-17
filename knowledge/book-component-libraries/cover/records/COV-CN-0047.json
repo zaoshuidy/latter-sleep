@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0047",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0047", "book_title": "一群马 满天星", "author": "李刚", "designer": "樊响", "publisher": "中国摄影出版社", "publication_year": 2022, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0047", "source_url": "https://beautyofbooks.cn/bookdetail?id=476", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2022, "publication_year_source_url": "https://aus.zxhsd.com/kgsm/ts/2022/09/26/5639030.shtml"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0047.jpg", "sha256": "55ed9368d7c692d5193777d883c9920fd89edef1e2d35df0bf794bfad342ecb3", "mime_type": "image/jpeg", "width": 1875, "height": 1250},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "mixed", "composition": "asymmetric", "title_zone": "vertical", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 中孤立展示的黑色正封：上部左侧排列数行小型英文，右侧纵向中文形成第二轴线；下半部灰度草原与马群照片从黑场中浮现", "observations": [
+    {"aspect": "双轴文字", "value": "黑色正封左上为数行小型白色英文，右上为竖向中文题名", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片黑色书面上部可见左侧横向英文行列和右侧纵向中文字符", "content_tags": ["横向英文", "竖向中文", "双轴信息"]},
+    {"aspect": "下部马群影像", "value": "正封下半部出现灰度草原地平线和多匹马的暗色影像", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片黑色正面下方可见低对比灰色地景与成群马匹轮廓", "content_tags": ["马群", "草原", "灰度摄影"]}
+  ]},
+  "reference_transfer": {"transferable": ["以横向小字和纵向题名建立双轴秩序", "让低对比摄影从大面积黑场下部浮现", "用极暗色调保持摄影书的沉浸感"], "avoid_copying": ["不照搬原中英文文案、字距和马群照片", "不复制原地平线高度与黑灰比例"], "adaptation_notes": ["根据新项目语种关系重新确定双轴优先级", "暗部影像须通过印刷打样确认细节层次"]},
+  "retrieval_features": {"style_tags": ["摄影书", "双轴排版", "黑场"], "content_tags": ["马群", "草原", "摄影"], "color_tags": ["黑色", "灰色", "白色"], "mood_tags": ["辽阔", "寂静", "沉思"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

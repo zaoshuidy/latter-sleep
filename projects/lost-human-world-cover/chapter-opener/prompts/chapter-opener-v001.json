@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "PROMPT-LOST-HUMAN-WORLD-CHAPTER-001-V001",
+  "component_type": "chapter-opener",
+  "selection_id": "SEL-LOST-HUMAN-WORLD-CHAPTER-A-001",
+  "generation_mode": "background-only",
+  "aspect_ratio": "29:21",
+  "background_prompt_summary": "暖灰纸色跨页；左侧深炭黑未闭合抽象边界；一条暗红细线接近但不穿越书沟；右页保留纵向文字安全区。",
+  "symbolic_intent": "以未能抵达归属的边界表达异化、悬置和不被接纳。",
+  "negative_constraints": [
+    "no readable text or pseudo-text",
+    "no person, road, vehicle, window, house, city, village, illness or funeral",
+    "no literal narrative scene",
+    "no book mockup, logo, signature or watermark"
+  ],
+  "editable_text_overlay": {
+    "chapter_number": "第一章",
+    "chapter_title": "车窗里的故乡"
+  }
+}

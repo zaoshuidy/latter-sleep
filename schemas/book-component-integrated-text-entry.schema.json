@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-component-integrated-text-entry.schema.json",
+  "title": "Book Component Integrated Text Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["text_id", "surface", "role", "value", "language"],
+  "properties": {
+    "text_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]*[0-9]$"},
+    "surface": {"enum": ["front", "back", "spine"]},
+    "role": {
+      "enum": [
+        "title",
+        "subtitle",
+        "author",
+        "short-note",
+        "back-cover-copy",
+        "recommendation"
+      ]
+    },
+    "value": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2}
+  }
+}

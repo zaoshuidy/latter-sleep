@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "selection_id": "SEL-LOST-HUMAN-WORLD-CHAPTER-A-001",
+  "query_id": "QUERY-LOST-HUMAN-WORLD-CHAPTER-01",
+  "component_type": "chapter-opener",
+  "selected_references": [
+    {
+      "record_id": "CHO-CN-0006",
+      "include_fields": [
+        "visual_strategy",
+        "text_image_relationship",
+        "whitespace"
+      ],
+      "existing_baseline": "本项目采用统一的跨页章首页母版，以空缺和未闭合边界表达悬置感。",
+      "adjustment_instruction": "只转译抽象策略、图文整合关系与高留白，用本项目自身内容重新设计一条无法闭合的边界。",
+      "preserve_elements": [
+        "本项目克制而开放的文学气质",
+        "本项目章首页的跨页呼吸空间",
+        "最终信息层由后续编辑排版承载"
+      ],
+      "required_changes": [
+        "重新设计不规则边界的形态与进入方向",
+        "改变深浅面积比例和跨页节奏",
+        "使抽象形状只承担象征关系而不复述具体情节"
+      ],
+      "exclude_fields": [
+        "原书任何可读内容与信息层",
+        "原案例的具体瓷片轮廓和折切结构",
+        "原案例的线条路径、色值与独特组合",
+        "人物、道路、车窗、建筑、疾病或葬礼的直白图像"
+      ]
+    },
+    {
+      "record_id": "CHO-CN-0011",
+      "include_fields": [
+        "visual_strategy",
+        "chapter_title_zone",
+        "text_image_relationship",
+        "whitespace"
+      ],
+      "existing_baseline": "本项目以单侧聚焦组织章节信息，并为不同长度的项目自身章节内容保留排版弹性。",
+      "adjustment_instruction": "只转译纯排版策略、纵向章节区域、纯信息关系与高留白，按本项目自身内容重新建立层级。",
+      "preserve_elements": [
+        "本项目的单侧视觉重心",
+        "项目自身章节信息的可编辑性",
+        "空场与小尺度信息之间的张力"
+      ],
+      "required_changes": [
+        "按本项目自身内容长度重新确定纵向区域",
+        "重新设定字号反差、列数、间距和底部平衡点",
+        "与抽象边界共同形成新的组合而非沿用原书版式"
+      ],
+      "exclude_fields": [
+        "原书任何可读内容与双语信息",
+        "原书的具体断行、字距和列间比例",
+        "原书手工纸外观与精确灰度",
+        "任何由背景图生成的可识别字符或标记"
+      ]
+    }
+  ],
+  "status": "approved"
+}

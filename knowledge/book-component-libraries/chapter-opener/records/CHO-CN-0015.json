@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0015","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0062","book_title":"别猜了，就是一本小说","author":"素言","designer":"李瑾、孙智威","publisher":"陕西师范大学出版总社","publication_year":2023,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0064","source_url":"https://beautyofbooks.cn/bookdetail?id=482","platform":"最美的书官网","collected_at":"2026-08-13","publication_year":2023,"publication_year_source_url":"https://book.douban.com/isbn/9787569538755/"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0015.jpg","sha256":"2318a301091d238207766a0ceaed87e3c79e8a1469d9ab3fbc70918d9d84e3d2","mime_type":"image/jpeg","width":1200,"height":800},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"mixed","chapter_number_zone":"top","chapter_title_zone":"vertical","image_role":"decoration","text_image_relationship":"overlay","whitespace":"high"},
+  "visual_decomposition":{"overall_strategy":"浅米跨页用红色细框收束竖题，极淡人物线稿作为低对比背景","observations":[{"aspect":"标题框","value":"右页红色细线框围住竖排章题，背后人物轮廓极淡","visibility":"clear","confidence":0.96,"evidence":"当前图片可见细红框、竖题和低对比人物线稿","content_tags":["细框章题","淡人物线稿","高留白"]}]},
+  "reference_transfer":{"transferable":["极淡底图","细框聚焦章题","双色只用于小范围节奏"],"avoid_copying":["不复制人物线稿、题字与红绿比例"],"adaptation_notes":["底图须来自项目自身叙事意象"]},
+  "retrieval_features":{"style_tags":["文学","细线框","低对比"],"content_tags":["小说","人物轮廓","章题"],"color_tags":["浅米","红色","绿色"],"mood_tags":["含蓄","轻盈","叙事"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

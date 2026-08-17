@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0015",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0015", "book_title": "吉尔伽美什史诗", "author": "拱玉书（译注）", "designer": null, "publisher": "商务印书馆", "publication_year": 2021, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0015", "source_url": "https://www.cp.com.cn/book/c38dbaed-b.html", "platform": "商务印书馆官网", "collected_at": "2026-08-11", "publication_year": 2021, "publication_year_source_url": "https://www.cp.com.cn/book/c38dbaed-b.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0015.jpg", "sha256": "be695c7846c5a43dafdf3b7fedd2b95e7bb5560dbeaeb40739bf0e91b8a9bb95", "mime_type": "image/jpeg", "width": 800, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "mixed", "composition": "asymmetric", "title_zone": "distributed", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "深蓝封面以金色英文大字纵向分段铺陈，右侧竖排中文题名与中央金色面具图像共同建立古代史诗的庄重识别", "observations": [
+    {"aspect": "中英文字", "value": "金色英文题名分成多行占据左中部，浅色中文题名竖排靠右", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片主面可清晰读到分行英文题名和右侧竖排中文“吉尔伽美什史诗”", "content_tags": ["英文大字", "竖排中文", "双语"]},
+    {"aspect": "中心图像", "value": "金色面具状图像位于主面中央偏右", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片文字之间可见一枚具有面部特征的金色小型图像", "content_tags": ["面具", "金色", "古代意象"]}
+  ]},
+  "reference_transfer": {"transferable": ["以双语标题建立纵向阅读节奏", "用单一小型文物图像连接文字层级", "深色背景搭配少量暖色信息"], "avoid_copying": ["不复用原书面具图像与泥版轮廓", "不照搬英文标题的具体断行"], "adaptation_notes": ["选择与项目直接相关且有使用权的核心物件", "按中文书名长度重建双语层级"]},
+  "retrieval_features": {"style_tags": ["古典", "双语排版", "文物意象"], "content_tags": ["史诗", "古代文明", "面具"], "color_tags": ["深蓝", "金色", "白色"], "mood_tags": ["庄重", "神秘", "宏大"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

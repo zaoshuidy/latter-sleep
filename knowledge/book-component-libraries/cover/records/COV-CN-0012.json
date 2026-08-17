@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0012",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0012", "book_title": "炫彩童年：中国百年童书精品图鉴", "author": "黄洁、王泉根", "designer": "张志奇工作室", "publisher": "人民教育出版社", "publication_year": 2017, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0012", "source_url": "https://www.pep.com.cn/xw/zt/ss/hx/gcls/jqztcb/202211/t20221130_1981618.shtml", "platform": "人民教育出版社官网", "collected_at": "2026-08-11", "publication_year": 2017, "publication_year_source_url": "https://www.cbbr.com.cn/contents/480/63354.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0012.jpg", "sha256": "b0af5b56f1617fd6b43281322a7d0179b78e0f9bee93cb6680113afb8325ee73", "mime_type": "image/jpeg", "width": 720, "height": 540},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "whitespace", "title_zone": "vertical", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "资产为同一书的合成多视图，准确面别待确认；component_profile 只绑定右侧黄色题名面，其以分散竖排黑字和大面积纯色建立识别，左侧彩色图像面仅作为同案可见对照", "observations": [
+    {"aspect": "合成多视图", "value": "同一画面并置一个彩色图像面和一个黄色题名面，具体面别仅凭图片无法确认", "visibility": "clear", "confidence": 0.98, "evidence": "当前资产在黑色背景上并列展示两个立体书面，左侧为彩色人物图像，右侧为黄色题名面；没有标注各自结构角色", "content_tags": ["合成多视图", "不同可见面", "疏密对照"]},
+    {"aspect": "黄色题名面", "value": "黄色底上以稀疏竖排黑字构成主要信息，周围保留大面积纯色", "visibility": "clear", "confidence": 0.97, "evidence": "当前图片右侧黄色可见面上，黑色书名字符分散在中轴附近，其余区域保持黄色留白", "content_tags": ["黄色", "竖排字", "留白"]}
+  ]},
+  "reference_transfer": {"transferable": ["用黄色纯色面与稀疏竖排题名建立强识别", "在同一案例展示中以不同可见面的疏密形成对照", "将主要检索特征绑定到明确选定的题名面"], "avoid_copying": ["不复用原书具体人物线描与色块分布", "不复制黄色题名面的字符间距"], "adaptation_notes": ["先明确项目实际封面结构，再决定不同信息面如何分工", "多视图展示只用于理解同一案例，不据此扩展成多册系统"]},
+  "retrieval_features": {"style_tags": ["童书图鉴", "竖排题名", "多视图展示"], "content_tags": ["童年", "童书", "历史"], "color_tags": ["黄色", "粉色", "绿色", "蓝色"], "mood_tags": ["活泼", "丰富", "怀旧"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

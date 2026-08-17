@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "query_id": "QUERY-COV-FOUR-SEASONS-LETTERS-0001",
+  "component_type": "cover",
+  "field_targets": {
+    "visual_strategy": [
+      "photography",
+      "mixed"
+    ],
+    "composition": [
+      "centered",
+      "full-bleed",
+      "asymmetric"
+    ],
+    "title_zone": [
+      "top",
+      "center",
+      "vertical"
+    ],
+    "color": [
+      "黑色",
+      "白色",
+      "米白",
+      "灰色",
+      "橙色",
+      "灰绿色",
+      "浅灰"
+    ],
+    "mood": [
+      "怀念",
+      "私密",
+      "温柔",
+      "怀旧",
+      "温暖",
+      "时间感",
+      "克制",
+      "档案感",
+      "纪实",
+      "寂静",
+      "沉思"
+    ],
+    "cover_scope": [
+      "front"
+    ],
+    "book_category": [
+      "letters-diaries",
+      "memoir"
+    ]
+  },
+  "selection_policy": {
+    "max_results": 5,
+    "diversity": "strict"
+  }
+}

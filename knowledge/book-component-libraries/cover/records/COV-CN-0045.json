@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0045",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0045", "book_title": "天上掉下一头鲸", "author": "西雨客文图", "designer": "林蓓", "publisher": "天天出版社", "publication_year": 2019, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0045", "source_url": "https://beautyofbooks.cn/bookdetail?id=399", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2019, "publication_year_source_url": "https://ci.nii.ac.jp/ncid/BD14670867"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0045.jpg", "sha256": "f3d8bfbc0cacf97374a0590a133dfad97f329701c850146874de72c54f735cab", "mime_type": "image/jpeg", "width": 833, "height": 556},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "illustration", "composition": "asymmetric", "title_zone": "bottom", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 只绑定官方案例 hero 右侧直立书籍正封：深蓝上部与白色下部形成斜向分区，蓝色手写感题名落在下部，右侧小橙圆形成第二识别点；左侧展开页仅作上下文", "observations": [
+    {"aspect": "蓝白插画分区", "value": "正封上半部为深蓝图像区域，下半部保留白色区域，交界呈斜向变化", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片右侧直立书面可见深蓝上部和白色下部，两区边界并非水平直线", "content_tags": ["深蓝图像", "白色底", "斜向分区"]},
+    {"aspect": "底部题名与橙色圆点", "value": "蓝色中文题名位于白色区域下部，右侧另有小型橙色圆形信息", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片右侧正封下部可读蓝色“天上掉下一头鲸”，其右侧可见橙色圆点", "content_tags": ["底部题名", "蓝色手写字", "橙色圆点"]}
+  ]},
+  "reference_transfer": {"transferable": ["用深色图像和大面积白区构成斜向叙事分区", "把手写感标题压到下部并设置单一暖色提示点", "在展开案例图中只绑定直立正封"], "avoid_copying": ["不照搬鲸主题图像、题名字形或橙色圆点位置", "不复制原蓝白边界轮廓"], "adaptation_notes": ["以新故事核心意象重建深浅分区", "先在缩略图确认底部题名不被裁切或弱化"]},
+  "retrieval_features": {"style_tags": ["绘本", "蓝白分区", "手写题名"], "content_tags": ["鲸", "非遗", "青花瓷板画"], "color_tags": ["深蓝", "白色", "橙色"], "mood_tags": ["奇想", "童真", "轻盈"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

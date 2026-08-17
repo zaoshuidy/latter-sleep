@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1474" height="1067" viewBox="0 0 1474 1067">
+  <title>《失落人间》第一章章首页 V001</title>
+  <desc>无字生成背景与可编辑章号、章题文字层的组合稿。</desc>
+
+  <image id="generated-background"
+         x="0" y="0" width="1474" height="1067"
+         preserveAspectRatio="none"
+         xlink:href="/Users/edy/Desktop/book/book-production-skills-v1/projects/lost-human-world-cover/chapter-opener/generated/chapter-opener-background-v001.png"/>
+
+  <!-- Editable typography layer: keep these as text, never flatten into the AI background. -->
+  <g id="editable-chapter-text"
+     font-family="Source Han Serif SC, Noto Serif CJK SC, Songti SC, STSong, serif">
+    <g id="chapter-number"
+       fill="#7A2428"
+       font-size="17"
+       font-weight="500"
+       text-anchor="middle">
+      <text x="1246" y="158">第</text>
+      <text x="1246" y="184">一</text>
+      <text x="1246" y="210">章</text>
+    </g>
+
+    <g id="chapter-title"
+       fill="#1C1B19"
+       font-size="39"
+       font-weight="500"
+       text-anchor="middle">
+      <text x="1162" y="282">车</text>
+      <text x="1162" y="334">窗</text>
+      <text x="1162" y="386">里</text>
+      <text x="1162" y="438">的</text>
+      <text x="1092" y="334">故</text>
+      <text x="1092" y="386">乡</text>
+    </g>
+  </g>
+</svg>

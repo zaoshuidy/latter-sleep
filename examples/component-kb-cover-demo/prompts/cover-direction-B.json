@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "PROMPT-COV-FOUR-SEASONS-B-0001",
+  "component_type": "cover",
+  "selection_id": "SEL-COV-FOUR-SEASONS-B-0001",
+  "compiled_blocks": {
+    "PROJECT_TRUTH": "{\"mode\":\"memorial\",\"primary_category\":\"letters-diaries\",\"primary_readers\":\"个人项目维护者\",\"project_id\":\"DEMO-FOUR-SEASONS-LETTERS\",\"purpose\":\"验证图书生产 Skills 的结构化流程\",\"title_handling\":\"real title remains metadata for an editable layout layer; do not render it\"}",
+    "COMPONENT_ROLE": "front-cover background for a warm memory direction",
+    "DESIGN_GENOME": "{\"brand_profile\":\"paper-boat\",\"color\":{\"accent\":\"low-saturation amber and muted sage\",\"ink\":\"soft charcoal\",\"paper\":\"warm cream\"},\"direction_id\":\"DIRECTION-B-WARM-MEMORY\",\"grid\":{\"character\":\"warm memory window with quiet centered hierarchy\",\"columns\":6},\"page_families\":[\"cover-interface\",\"toc\",\"chapter-opener\",\"body\",\"image-page\",\"running-headers\"]}",
+    "REFERENCE_TRANSFERS": "{\"adjustment_instruction\":\"用项目自身的季节信件、照片或象征物建立新的记忆窗口，顶部保留可编辑文字安全区\",\"exclude_fields\":[\"原书文字\",\"原彩色线条轨迹\",\"原中央方块内容\",\"原黑白比例\",\"原书家庭叙事内容\"],\"existing_baseline\":\"深色记忆窗口被宽白边居中包围，低密度点色维持私密焦点\",\"include_fields\":[\"composition\",\"color\",\"title_zone\"],\"preserve_elements\":[\"框中框的居中层级\",\"深色窗口与白色外框关系\",\"低密度点色\",\"顶部可编辑文字安全区\"],\"record_id\":\"COV-CN-0004\",\"required_changes\":[\"中央内容必须替换为新项目素材\",\"点色轨迹必须重新组织\",\"黑白面积比例须重新设计\"]}\n{\"adjustment_instruction\":\"从项目获授权档案中选择季节或书信相关影像，并建立专属的低饱和暖色体系\",\"exclude_fields\":[\"原书文字\",\"原建筑影像\",\"原橙色色值\",\"原文字位置\",\"原电影项目内容\"],\"existing_baseline\":\"单色罩染统一全幅低对比档案影像，形成温暖的时间感\",\"include_fields\":[\"visual_strategy\",\"composition\",\"color\"],\"preserve_elements\":[\"单色档案摄影策略\",\"全幅低对比影像\",\"温暖时间感\",\"充足的可编辑文字呼吸区\"],\"record_id\":\"COV-CN-0005\",\"required_changes\":[\"档案影像必须来自新项目\",\"单色色值须按项目照片重新确定\",\"影像裁切须适配新封面比例\"]}",
+    "COMPOSITION": "portrait cover with a centered dark memory window inside a generous warm-paper frame, low-density newly arranged color traces, and a softly unified low-contrast archival layer with a quiet upper safe zone",
+    "IMAGE_CONTENT": "blank seasonal letter-paper forms and non-identifying memory fragments; use only authorized project imagery when supplied, otherwise keep the archival layer abstract and non-photographic",
+    "COLOR_LIGHT_MATERIAL": "warm cream paper, soft charcoal memory window, low-saturation amber and muted sage accents, gentle window light, tactile uncoated-paper surface",
+    "EDITABLE_TEXT_SAFE_ZONES": "preserve a spacious quiet upper zone and secondary lower corner for later editable layout layers; keep both zones free of image detail",
+    "PRINT_AND_CROP": "portrait 2:3 composition with 3 mm bleed allowance; keep the memory window and color traces inside the trim-safe area",
+    "NEGATIVE": "no readable text; no title, author, publisher, spine, or page-number glyphs; no logo; no watermark; no title or author glyphs; no publisher or studio mark; no copied line trajectory; no original central square content; no original architecture image; no copied orange color value; no invented personal photograph or identity",
+    "OUTPUT_SPEC": "{\"aspect_ratio\":\"2:3\",\"component_type\":\"cover\",\"deliverable\":\"background image only; typography is added later as editable layers\",\"editable_text_overlay\":[\"title\",\"author\",\"studio_mark\"]}"
+  },
+  "background_prompt": "PROJECT_TRUTH\n{\"mode\":\"memorial\",\"primary_category\":\"letters-diaries\",\"primary_readers\":\"个人项目维护者\",\"project_id\":\"DEMO-FOUR-SEASONS-LETTERS\",\"purpose\":\"验证图书生产 Skills 的结构化流程\",\"title_handling\":\"real title remains metadata for an editable layout layer; do not render it\"}\n\nCOMPONENT_ROLE\nfront-cover background for a warm memory direction\n\nDESIGN_GENOME\n{\"brand_profile\":\"paper-boat\",\"color\":{\"accent\":\"low-saturation amber and muted sage\",\"ink\":\"soft charcoal\",\"paper\":\"warm cream\"},\"direction_id\":\"DIRECTION-B-WARM-MEMORY\",\"grid\":{\"character\":\"warm memory window with quiet centered hierarchy\",\"columns\":6},\"page_families\":[\"cover-interface\",\"toc\",\"chapter-opener\",\"body\",\"image-page\",\"running-headers\"]}\n\nREFERENCE_TRANSFERS\n{\"adjustment_instruction\":\"用项目自身的季节信件、照片或象征物建立新的记忆窗口，顶部保留可编辑文字安全区\",\"exclude_fields\":[\"原书文字\",\"原彩色线条轨迹\",\"原中央方块内容\",\"原黑白比例\",\"原书家庭叙事内容\"],\"existing_baseline\":\"深色记忆窗口被宽白边居中包围，低密度点色维持私密焦点\",\"include_fields\":[\"composition\",\"color\",\"title_zone\"],\"preserve_elements\":[\"框中框的居中层级\",\"深色窗口与白色外框关系\",\"低密度点色\",\"顶部可编辑文字安全区\"],\"record_id\":\"COV-CN-0004\",\"required_changes\":[\"中央内容必须替换为新项目素材\",\"点色轨迹必须重新组织\",\"黑白面积比例须重新设计\"]}\n{\"adjustment_instruction\":\"从项目获授权档案中选择季节或书信相关影像，并建立专属的低饱和暖色体系\",\"exclude_fields\":[\"原书文字\",\"原建筑影像\",\"原橙色色值\",\"原文字位置\",\"原电影项目内容\"],\"existing_baseline\":\"单色罩染统一全幅低对比档案影像，形成温暖的时间感\",\"include_fields\":[\"visual_strategy\",\"composition\",\"color\"],\"preserve_elements\":[\"单色档案摄影策略\",\"全幅低对比影像\",\"温暖时间感\",\"充足的可编辑文字呼吸区\"],\"record_id\":\"COV-CN-0005\",\"required_changes\":[\"档案影像必须来自新项目\",\"单色色值须按项目照片重新确定\",\"影像裁切须适配新封面比例\"]}\n\nCOMPOSITION\nportrait cover with a centered dark memory window inside a generous warm-paper frame, low-density newly arranged color traces, and a softly unified low-contrast archival layer with a quiet upper safe zone\n\nIMAGE_CONTENT\nblank seasonal letter-paper forms and non-identifying memory fragments; use only authorized project imagery when supplied, otherwise keep the archival layer abstract and non-photographic\n\nCOLOR_LIGHT_MATERIAL\nwarm cream paper, soft charcoal memory window, low-saturation amber and muted sage accents, gentle window light, tactile uncoated-paper surface\n\nEDITABLE_TEXT_SAFE_ZONES\npreserve a spacious quiet upper zone and secondary lower corner for later editable layout layers; keep both zones free of image detail\n\nPRINT_AND_CROP\nportrait 2:3 composition with 3 mm bleed allowance; keep the memory window and color traces inside the trim-safe area\n\nNEGATIVE\nno readable text; no title, author, publisher, spine, or page-number glyphs; no logo; no watermark; no title or author glyphs; no publisher or studio mark; no copied line trajectory; no original central square content; no original architecture image; no copied orange color value; no invented personal photograph or identity\n\nOUTPUT_SPEC\n{\"aspect_ratio\":\"2:3\",\"component_type\":\"cover\",\"deliverable\":\"background image only; typography is added later as editable layers\",\"editable_text_overlay\":[\"title\",\"author\",\"studio_mark\"]}",
+  "generation_constraints": {
+    "readable_text": "none",
+    "logo": "none",
+    "watermark": "none",
+    "aspect_ratio": "2:3"
+  },
+  "editable_text_overlay": {
+    "title": "四时来信",
+    "author": "待确认（可编辑文字层）",
+    "studio_mark": "待确认（可编辑文字层）"
+  },
+  "negative_constraints": [
+    "no readable text",
+    "no title, author, publisher, spine, or page-number glyphs",
+    "no logo",
+    "no watermark",
+    "no title or author glyphs",
+    "no publisher or studio mark",
+    "no copied line trajectory",
+    "no original central square content",
+    "no original architecture image",
+    "no copied orange color value",
+    "no invented personal photograph or identity"
+  ]
+}

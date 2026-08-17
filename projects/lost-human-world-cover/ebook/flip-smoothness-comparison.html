@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>《失落人间》翻页流畅度对照</title>
+  <style>
+    :root { color-scheme:dark; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif; background:#11100f; }
+    * { box-sizing:border-box; }
+    html,body { width:100%; height:100%; margin:0; overflow:hidden; }
+    body { display:grid; grid-template-rows:auto minmax(0,1fr); color:#eee8df; background:#11100f; }
+    header { display:flex; align-items:center; justify-content:space-between; gap:18px; padding:12px 18px; border-bottom:1px solid rgba(255,255,255,.1); background:#1d1a18; }
+    .heading { min-width:0; }
+    h1 { margin:0; font:600 16px/1.2 "Songti SC",serif; letter-spacing:.08em; }
+    p { margin:4px 0 0; color:#aaa198; font-size:12px; }
+    .versions { display:flex; gap:8px; flex:0 0 auto; }
+    button { min-height:40px; padding:8px 15px; border:1px solid rgba(255,255,255,.16); border-radius:999px; color:#e9e2d8; background:rgba(255,255,255,.05); font:inherit; cursor:pointer; }
+    button:hover { background:rgba(255,255,255,.12); }
+    button[aria-pressed="true"] { border-color:#c77272; color:#fff; background:rgba(189,102,105,.22); }
+    iframe { display:block; width:100%; height:100%; border:0; background:#171513; }
+    @media (max-width:680px) { header { align-items:flex-start; padding:10px 12px; } p { display:none; } button { min-height:38px; padding:7px 11px; font-size:12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="heading">
+      <h1>《失落人间》翻页手感对照</h1>
+      <p id="version-note">当前：V004 Canvas 流畅版 · 620ms · 轻阴影</p>
+    </div>
+    <div class="versions" role="group" aria-label="选择翻页版本">
+      <button id="version-v003" type="button" data-version="v003" aria-pressed="false">旧版 V003</button>
+      <button id="version-v004" type="button" data-version="v004" aria-pressed="true">流畅版 V004</button>
+    </div>
+  </header>
+  <iframe id="reader-frame" title="《失落人间》可翻阅电子样书" src="lost-human-world-ebook-v004-smooth.html#cover"></iframe>
+  <script>
+    (() => {
+      const versions = {v003:'lost-human-world-ebook-v003-png.html#cover',v004:'lost-human-world-ebook-v004-smooth.html#cover'};
+      const notes = {v003:'当前：V003 HTML 页面模式 · 850ms · 较重阴影',v004:'当前：V004 Canvas 流畅版 · 620ms · 轻阴影'};
+      const readerFrame = document.getElementById('reader-frame');
+      const note = document.getElementById('version-note');
+      document.querySelectorAll('[data-version]').forEach(button => button.addEventListener('click',() => {
+        readerFrame.src = versions[button.dataset.version];
+        note.textContent = notes[button.dataset.version];
+        document.querySelectorAll('[data-version]').forEach(item => item.setAttribute('aria-pressed',String(item === button)));
+      }));
+    })();
+  </script>
+</body>
+</html>

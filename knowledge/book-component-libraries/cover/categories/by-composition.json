@@ -1,0 +1,67 @@
+{
+  "category": "by-composition",
+  "component": "cover",
+  "entries": {
+    "asymmetric": [
+      "COV-CN-0002",
+      "COV-CN-0007",
+      "COV-CN-0009",
+      "COV-CN-0010",
+      "COV-CN-0013",
+      "COV-CN-0014",
+      "COV-CN-0015",
+      "COV-CN-0016",
+      "COV-CN-0018",
+      "COV-CN-0019",
+      "COV-CN-0020",
+      "COV-CN-0022",
+      "COV-CN-0026",
+      "COV-CN-0028",
+      "COV-CN-0031",
+      "COV-CN-0033",
+      "COV-CN-0035",
+      "COV-CN-0036",
+      "COV-CN-0040",
+      "COV-CN-0045",
+      "COV-CN-0046",
+      "COV-CN-0047",
+      "COV-CN-0049"
+    ],
+    "centered": [
+      "COV-CN-0001",
+      "COV-CN-0003",
+      "COV-CN-0004",
+      "COV-CN-0023",
+      "COV-CN-0027",
+      "COV-CN-0034",
+      "COV-CN-0037",
+      "COV-CN-0041",
+      "COV-CN-0043",
+      "COV-CN-0044",
+      "COV-CN-0048"
+    ],
+    "full-bleed": [
+      "COV-CN-0005"
+    ],
+    "grid": [
+      "COV-CN-0008",
+      "COV-CN-0017",
+      "COV-CN-0021",
+      "COV-CN-0025",
+      "COV-CN-0029"
+    ],
+    "whitespace": [
+      "COV-CN-0006",
+      "COV-CN-0011",
+      "COV-CN-0012",
+      "COV-CN-0024",
+      "COV-CN-0030",
+      "COV-CN-0032",
+      "COV-CN-0038",
+      "COV-CN-0039",
+      "COV-CN-0042",
+      "COV-CN-0050"
+    ]
+  },
+  "schema_version": "1.0"
+}

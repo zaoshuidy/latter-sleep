@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "CHO-CN-0008",
+  "component_type": "chapter-opener",
+  "identity": {"book_case_id": "BOOK-CN-0056", "book_title": "入土为安：中国古代丧葬文化", "author": "张剑光", "designer": "陈楠", "publisher": "上海人民出版社", "publication_year": 2025, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0058", "source_url": "https://beautyofbooks.cn/bookdetail?id=542", "platform": "最美的书官网", "collected_at": "2026-08-13", "publication_year": 2025, "publication_year_source_url": "https://libdb.zju.edu.cn/s/libai/book/catype/K/24/20/2025/ING1NDVI83DQ6XRVSU82UUV78D8KMVM6FSRSTYBF4P6CYGFIER-29422"},
+  "asset": {"relative_path": "chapter-opener/assets/CHO-CN-0008.jpg", "sha256": "2ad85501fd5c68e950fb80fd12d29333cfd8eae3dc4b7612bc17f25d516fbb4e", "mime_type": "image/jpeg", "width": 1000, "height": 800},
+  "component_profile": {"opening_mode": "spread", "visual_strategy": "mixed", "chapter_number_zone": "top", "chapter_title_zone": "vertical", "image_role": "illustration", "text_image_relationship": "separate", "whitespace": "medium"},
+  "visual_decomposition": {"overall_strategy": "黑色窄幅章题页承接前置图像，章号、竖题和右页开篇形成三级递进", "observations": [
+    {"aspect": "章节层级", "value": "章号位于黑色中页上端，章题在中部纵向排列", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片可直接读出第十四章及纵向章题", "content_tags": ["章号", "竖排章题", "黑色页"]},
+    {"aspect": "开篇节奏", "value": "章题页右侧进入大字号引文或正文", "visibility": "clear", "confidence": 0.96, "evidence": "当前跨页可见黑色章题层与右侧白页开篇文字的递进", "content_tags": ["三级递进", "黑白对照", "开篇文字"]}
+  ]},
+  "reference_transfer": {"transferable": ["章号、章题、引文三级递进", "黑白页面形成章节阈值", "窄幅章题层与正文分离"], "avoid_copying": ["不复用送葬图和丧葬意象", "不照搬原书章题和专属字体"], "adaptation_notes": ["用项目自身意象替代前置图像", "根据章题长度调整纵排层级"]},
+  "retrieval_features": {"style_tags": ["黑白", "竖排", "层级"], "content_tags": ["丧葬文化", "章题", "引文"], "color_tags": ["黑色", "白色", "灰色"], "mood_tags": ["肃穆", "历史感", "沉静"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-13", "updated_at": "2026-08-13"}
+}

@@ -1,0 +1,9 @@
+{
+  "template_id": "paired-standard",
+  "left_source": "book_title",
+  "right_source": "chapter_title",
+  "folio_position": "outer-bottom",
+  "hidden_page_types": ["chapter-opener", "blank", "full-bleed-image"],
+  "long_title_fallback": "use-approved-short-title-or-hide-running-head",
+  "variables": {"font": null, "color": null, "book_title": null, "chapter_title": null}
+}

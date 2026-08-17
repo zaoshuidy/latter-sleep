@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "skills": [
+    {
+      "id": "gc-minimal-zine-poster",
+      "repository": "LiamGvchi/gc-minimal-zine-poster",
+      "source_url": "https://github.com/LiamGvchi/gc-minimal-zine-poster",
+      "commit": "342b5c11d6fa9be261841ec722c12a683a9fa5e9",
+      "commit_date": "2026-08-09T10:28:14Z",
+      "stars_at_fetch": 5056,
+      "license": "MIT",
+      "fetched_at": "2026-08-10",
+      "snapshot_path": "knowledge/upstream/gc-minimal-zine-poster-v0-1",
+      "preservation_mode": "full-original-no-summary",
+      "archive_sha256": "88807761fadce9de68c834ec3902a6ccc963029d0a2d2c383d78fa6254c535b5",
+      "files": {
+        ".gitignore": "7089a198f0608086f667eab09c19e7bb898c2f165847b0a216d72d7094280b37",
+        "LICENSE": "d15c81ae8fa9a0b4b1db46c66e4490cc92e4898fb1f55e030559fbd2a2e2a232",
+        "README.ja.md": "64c5dfedb1879ebd205163a05d8dab05042722499411a235f7cbf1d64c95f2a4",
+        "README.md": "7cb75cfc2e0061ba1d356b4ad22a2c0179b94e053190911b4130cc81f0f34c0b",
+        "README.zh-CN.md": "9de0e568378c698ca589b57853c74c8c52ac4f75885aa061d87e56d9db03c74d",
+        "SKILL.md": "79783457c7c9255694bedd4757a9016d370022f0eaa851616757828bb1938b6c",
+        "agents/openai.yaml": "56043cb567cd0031dc4aec3b190f50bd5d8214b5a704ad75339d147f7e93f811",
+        "evals/evals.json": "a9d864790ef90dbbae78dd061b49b9d77238e32a73f436c51e51e461b991126c",
+        "examples/moon-tide.jpeg": "5ad2c9227ae614f091fc0de086d771640ad66d357623b4ec005014d053d951cf",
+        "examples/night-door.jpeg": "96d5b2b8d2d2671d226f3159e69b175656e82270bb9bcb51fab2c9a726b408ac",
+        "examples/pause-map.jpeg": "5157482589ea85e93b2bdfd21ba6f429a3ab5d719724ff6b1dadbd4f01b7e797",
+        "examples/shore-pause.jpeg": "a540aa8c2631a5edeceda5e19296a232224506a6ae806c9ca1ce010d42efa02b",
+        "examples/typhoon-memory.jpeg": "56e9b7c855db29fa88eb2f77ebc76ac3192f6ed5e445bd1ebdd8324eb66559a8",
+        "examples/yellow-step.jpeg": "3e8a3485de5b6de0ca865400c42e5184e6994f7c824f4d30e546e3f7485e5d3d",
+        "references/prompt-compiler.md": "e0b1ad441715b00d763e19ba565fa4f0ffc4293fafd88b6f854bb020e8223c82",
+        "references/quality-gate.md": "e1a9c42304d54443f5a6ed38409d8153070a559a4d6fd98c0575ced4d222df0f",
+        "references/reference-analysis.md": "187c3c949439ec5793dc588e573bfd351c641a618acdf380d0fe8382b329f0b1",
+        "references/style-system.md": "9e2647b755da05615dbd195129dea1eadab01e11d2c9da022b52bda06be19839",
+        "references/variation-engine.md": "eabade130732d10241590619127a5d26d1e632a984ac9f1293cae598c8dff141"
+      }
+    }
+  ]
+}

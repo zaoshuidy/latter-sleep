@@ -1,0 +1,4 @@
+interface:
+  display_name: "图书编辑设计"
+  short_description: "基于正式案例设计目录、章首页、页眉页脚与全书页面家族"
+  default_prompt: "请基于项目真实文字、图片和已确认案例提出两套可编辑的图书视觉方向。"

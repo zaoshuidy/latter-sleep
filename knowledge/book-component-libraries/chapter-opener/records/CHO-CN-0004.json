@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "CHO-CN-0004",
+  "component_type": "chapter-opener",
+  "identity": {"book_case_id": "BOOK-CN-0024", "book_title": "中国植物的味道", "author": "悦木（王喆）", "designer": "周伟伟", "publisher": "江苏凤凰科学技术出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0054", "source_url": "https://www.thepaper.cn/newsDetail_forward_29521261", "platform": "澎湃新闻", "collected_at": "2026-08-13", "publication_year": 2024, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/013464043"},
+  "asset": {"relative_path": "chapter-opener/assets/CHO-CN-0004.jpg", "sha256": "a56440e0d3fd814786db7f3010e6666e5487c77838c5aeb55142a7806e55d3f7", "mime_type": "image/jpeg", "width": 1080, "height": 720},
+  "component_profile": {"opening_mode": "spread", "visual_strategy": "photography", "chapter_number_zone": "none", "chapter_title_zone": "top", "image_role": "photography", "text_image_relationship": "adjacent", "whitespace": "high"},
+  "visual_decomposition": {"overall_strategy": "左页以标题和短导语建立开篇，右页用植物现场照片列提供情境", "observations": [
+    {"aspect": "标题区", "value": "篇章标题位于左页上部，导语下置", "visibility": "clear", "confidence": 0.97, "evidence": "当前跨页左侧可见上方标题与下方短段落", "content_tags": ["左上标题", "短导语"]},
+    {"aspect": "图像角色", "value": "右页多张植物和茶叶照片形成竖向图像列", "visibility": "clear", "confidence": 0.97, "evidence": "当前跨页右侧可见多张纪实图片组合", "content_tags": ["植物摄影", "图像列", "情境建立"]}
+  ]},
+  "reference_transfer": {"transferable": ["左文右图的跨页入口", "标题与导语的疏密层级", "多张情境照片形成图像列"], "avoid_copying": ["不复用具体茶叶照片", "不照搬原书标题和网格尺寸"], "adaptation_notes": ["以项目真实图像替代植物素材", "按章题长度调整左页留白"]},
+  "retrieval_features": {"style_tags": ["自然", "纪实", "非对称网格"], "content_tags": ["植物", "茶", "图文开篇"], "color_tags": ["米白", "植物绿", "土褐"], "mood_tags": ["自然", "安静", "清新"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-13", "updated_at": "2026-08-13"}
+}

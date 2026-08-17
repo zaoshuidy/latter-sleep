@@ -1,0 +1,9 @@
+{
+  "template_id": "folio-centered",
+  "left_source": "none",
+  "right_source": "none",
+  "folio_position": "center-bottom",
+  "hidden_page_types": ["chapter-opener", "blank", "full-bleed-image"],
+  "long_title_fallback": "not-applicable-no-running-head",
+  "variables": {"font": null, "color": null, "book_title": null, "chapter_title": null}
+}

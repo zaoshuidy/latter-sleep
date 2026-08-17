@@ -1,0 +1,14 @@
+[
+  {
+    "id": "APC-LOST-HUMAN-WORLD-TOC-001",
+    "kind": "approved-project-case",
+    "state": "accepted",
+    "path": "knowledge/indexes/approved-project-case-index.json"
+  },
+  {
+    "id": "APC-LOST-HUMAN-WORLD-RUNNING-HEADERS-001",
+    "kind": "approved-project-case",
+    "state": "accepted",
+    "path": "knowledge/indexes/approved-project-case-index.json"
+  }
+]

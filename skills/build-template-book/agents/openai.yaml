@@ -1,0 +1,4 @@
+interface:
+  display_name: "模板书制作"
+  short_description: "校验固定页数、文字槽、图片槽与素材映射并明确报告全部冲突"
+  default_prompt: "请按固定模板映射文字和图片，报告所有溢出与缺失，不要修改原文。"

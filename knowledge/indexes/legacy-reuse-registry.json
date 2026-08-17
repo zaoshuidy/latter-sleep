@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "source_archive": {
+    "path": "/Users/edy/Desktop/book/图书知识库与制作Skills套件_2026-08-06.zip",
+    "sha256": "f27c5209a03761f6ce12d8cf00cf32931d563791d088f61e09fa77e9ff3edbb1",
+    "verified_at": "2026-08-10"
+  },
+  "entries": [
+    {
+      "id": "chapter-opener-design",
+      "source_path": "图书知识库与制作Skills套件_2026-08-06/02-核心Skills/openclaw/chapter-opener-design/SKILL.md",
+      "sha256": "37d91b135414202b82ac7a8e6b71d0832794d2b810def415fd9c601fb4a9a088",
+      "decision": "migrated-original",
+      "runtime_target": "knowledge/legacy-sources/original-suite/chapter-opener-design/SKILL.md",
+      "notes": "完整原件只读保存；运行时仅由新版 editorial reference 按需引用。"
+    },
+    {
+      "id": "toc-design",
+      "source_path": "图书知识库与制作Skills套件_2026-08-06/02-核心Skills/openclaw/toc-design/SKILL.md",
+      "sha256": "cade0c15283c840915374730ed9cea862af7568741bc40ae687b5a732672c229",
+      "decision": "migrated-original",
+      "runtime_target": "knowledge/legacy-sources/original-suite/toc-design/SKILL.md",
+      "notes": "完整原件只读保存；目录规则经筛选后进入新版 reference，不直接执行旧 Skill。"
+    },
+    {
+      "id": "running-headers-design",
+      "source_path": "图书知识库与制作Skills套件_2026-08-06/02-核心Skills/openclaw/running-headers-design/SKILL.md",
+      "sha256": "6d6943d5492722f261b32faece59cda042403cb0bd8948a7e8c432009f6aebc0",
+      "decision": "migrated-original",
+      "runtime_target": "knowledge/legacy-sources/original-suite/running-headers-design/SKILL.md",
+      "notes": "完整原件只读保存；新版使用可复用页眉页脚 JSON 模板。"
+    },
+    {
+      "id": "print-composition",
+      "source_path": "图书知识库与制作Skills套件_2026-08-06/02-核心Skills/openclaw/print-composition/SKILL.md",
+      "sha256": "0232fd3ab7050c11cb6044ca1129f7fa429f8637fb59d6e8452ea02705fea280",
+      "decision": "migrated-original",
+      "runtime_target": "knowledge/legacy-sources/original-suite/print-composition/SKILL.md",
+      "notes": "完整原件只读保存；仅抽取构图与文字可编辑性原则。"
+    },
+    {
+      "id": "chinese-book-interior-typesetting",
+      "source_path": "图书知识库与制作Skills套件_2026-08-06/03-补充Skills/chinese-book-interior-typesetting/SKILL.md",
+      "sha256": "14c718759a18610dfe4a315f144de78f5fd31117a07d0aac52024b32eace9af1",
+      "decision": "migrated-original",
+      "runtime_target": "knowledge/legacy-sources/original-suite/chinese-book-interior-typesetting/SKILL.md",
+      "notes": "3188 行完整原件只读保存；不作为运行时长 Skill，只拆取必要出版规则。"
+    },
+    {
+      "id": "paper-boat-brand",
+      "source_path": "图书知识库与制作Skills套件_2026-08-06/02-核心Skills/openclaw/paper-boat-brand/SKILL.md",
+      "sha256": "1dffc8872ebecd47e01453de7016e7104f8f03165e309828b843e7a540f26411",
+      "decision": "migrated-original",
+      "runtime_target": "knowledge/brand-profiles/paper-boat.json",
+      "notes": "完整原件只读保存；运行时转换为默认品牌配置，不保留为独立生产 Skill。"
+    },
+    {
+      "id": "indesign-book-layout",
+      "source_path": "图书知识库与制作Skills套件_2026-08-06/03-补充Skills/indesign-book-layout/SKILL.md",
+      "sha256": "bf3d873e49bda40be38528a82aa88721305f80ad2d11d3a006ae635dc6442b82",
+      "decision": "deferred",
+      "runtime_target": null,
+      "notes": "后续唯一保留的 InDesign 能力索引；旧实现依赖 Windows COM，V1 不调用、不复制、不安装。"
+    }
+  ],
+  "excluded_groups": [
+    "legacy-cover-skills",
+    "legacy-orchestrators",
+    "flipbook-skills",
+    "chatgpt-image-generation",
+    "project-specific-skills",
+    "other-indesign-skills",
+    "proofreading-knowledge"
+  ]
+}

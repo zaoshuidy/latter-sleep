@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-component-retrieval-result.schema.json",
+  "title": "Book Component Retrieval Result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "query_id", "component_type", "status", "candidates"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "query_id": {"type": "string", "minLength": 1},
+    "component_type": {"enum": ["cover", "toc", "chapter-opener", "illustration-decoration"]},
+    "status": {"enum": ["building", "available"]},
+    "candidates": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["record_id", "book_case_id", "field_scores", "total_score", "match_explanation"],
+        "properties": {
+          "record_id": {"type": "string", "minLength": 1},
+          "book_case_id": {"type": "string", "minLength": 1},
+          "field_scores": {
+            "oneOf": [
+              {"$ref": "#/$defs/cover_scores"},
+              {"$ref": "#/$defs/chapter_opener_scores"}
+            ]
+          },
+          "total_score": {"type": "number", "minimum": 0, "maximum": 1},
+          "match_explanation": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "score": {"type": "number", "minimum": 0, "maximum": 1},
+    "cover_scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["visual_strategy", "composition", "title_zone", "color", "material", "mood", "cover_scope", "book_category"],
+      "properties": {
+        "visual_strategy": {"$ref": "#/$defs/score"},
+        "composition": {"$ref": "#/$defs/score"},
+        "title_zone": {"$ref": "#/$defs/score"},
+        "color": {"$ref": "#/$defs/score"},
+        "material": {"$ref": "#/$defs/score"},
+        "mood": {"$ref": "#/$defs/score"},
+        "cover_scope": {"$ref": "#/$defs/score"},
+        "book_category": {"$ref": "#/$defs/score"}
+      }
+    },
+    "chapter_opener_scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["opening_mode", "visual_strategy", "chapter_number_zone", "chapter_title_zone", "image_role", "text_image_relationship", "whitespace"],
+      "properties": {
+        "opening_mode": {"$ref": "#/$defs/score"},
+        "visual_strategy": {"$ref": "#/$defs/score"},
+        "chapter_number_zone": {"$ref": "#/$defs/score"},
+        "chapter_title_zone": {"$ref": "#/$defs/score"},
+        "image_role": {"$ref": "#/$defs/score"},
+        "text_image_relationship": {"$ref": "#/$defs/score"},
+        "whitespace": {"$ref": "#/$defs/score"}
+      }
+    }
+  }
+}

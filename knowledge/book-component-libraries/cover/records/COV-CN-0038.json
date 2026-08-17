@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0038",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0038", "book_title": "千古霓裳：汉服穿着文化", "author": "汉服北京", "designer": "尹琳琳", "publisher": "化学工业出版社", "publication_year": 2023, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0038", "source_url": "https://beautyofbooks.cn/bookdetail?id=499", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2023, "publication_year_source_url": "https://www.cbbr.com.cn/contents/560/92285.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0038.jpg", "sha256": "89a11096c62f8c46313767bb28d9b1187a03738894ccfcc8d63a610858106dda", "mime_type": "image/jpeg", "width": 1875, "height": 1250},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "whitespace", "title_zone": "vertical", "spine_relationship": "independent", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "profile 只绑定官方案例 hero 前景中央的深棕题名面：四个金棕汉字沿右侧纵向疏排，小号中英文信息分置左缘；后方展开的深棕多面仅为同案展示上下文，不据此认定完整包封或未见结构", "observations": [
+    {"aspect": "纵向题名", "value": "“千古霓裳”四个金棕汉字沿前景深棕面右侧纵向分散排列", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片前景中央题名面右侧可读四个相隔较远的金棕汉字", "content_tags": ["纵向题名", "疏排", "金棕字"]},
+    {"aspect": "多面展示", "value": "前景题名面后方左右展开多个深棕色面，并可见少量低对比文字", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片前景书面后方横向铺开深棕色面，左右区域可见少量暗色和金色小字", "content_tags": ["多面展示", "低对比文字", "深棕"]}
+  ]},
+  "reference_transfer": {"transferable": ["用疏朗纵向单字建立传统服饰主题的节奏", "以同色系低对比信息形成多层视觉", "在多面案例图中明确唯一检索profile"], "avoid_copying": ["不照搬四字间距、字形或具体棕金配色", "不把后方展示面自动解释为完整包封结构"], "adaptation_notes": ["从项目自身文字气质重新选择字形与纵向节奏", "实际多面信息须在结构确认后独立规划"]},
+  "retrieval_features": {"style_tags": ["传统服饰", "纵向排版", "低对比"], "content_tags": ["汉服", "穿着文化", "服饰史"], "color_tags": ["深棕", "金棕", "黑色"], "mood_tags": ["古雅", "沉静", "礼序"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

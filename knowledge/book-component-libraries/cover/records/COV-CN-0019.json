@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0019",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0019", "book_title": "杨振宁传（最新增订版）", "author": "杨建邺", "designer": null, "publisher": "商务印书馆", "publication_year": 2021, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0019", "source_url": "https://www.cp.com.cn/book/69375699-f.html", "platform": "商务印书馆官网", "collected_at": "2026-08-11", "publication_year": 2021, "publication_year_source_url": "https://www.cp.com.cn/book/69375699-f.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0019.jpg", "sha256": "e6bdb762ff946cd2ad4d7e7f4008f2b5bace1568df9140d36923dbbe06ac2a1f", "mime_type": "image/jpeg", "width": 800, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "photography", "composition": "asymmetric", "title_zone": "vertical", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "深蓝至紫色背景上将人物现场照片集中于封面下部，金黄色手写感书名竖排靠右，上方点状光源形成夜空般空间", "observations": [
+    {"aspect": "人物摄影", "value": "坐在浅色座椅上的人物位于封面下部偏左", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片主面下方可见一位坐姿人物、浅色座椅、麦克风与舞台地面", "content_tags": ["坐姿人物", "讲坛", "舞台"]},
+    {"aspect": "标题", "value": "金黄色中文书名竖排位于右上区域", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片右上可清晰读到竖排金黄色“杨振宁传”", "content_tags": ["竖排书名", "金黄色", "手写感"]}
+  ]},
+  "reference_transfer": {"transferable": ["用现场人物照片建立传记可信感", "将人物压在下部以保留大面积环境空间", "用暖色竖排标题对比冷色照片"], "avoid_copying": ["不复用原书人物照片和舞台角度", "不临摹原书金色书名字形"], "adaptation_notes": ["使用项目授权的人物照片并保留环境线索", "标题位置应避开人物面部和关键动作"]},
+  "retrieval_features": {"style_tags": ["人物传记", "现场摄影", "竖排标题"], "content_tags": ["科学家", "演讲", "人物"], "color_tags": ["深蓝", "紫色", "金黄色"], "mood_tags": ["沉静", "庄重", "星空感"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

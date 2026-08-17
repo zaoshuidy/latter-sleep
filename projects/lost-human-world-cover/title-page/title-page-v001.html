@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>《失落人间》扉页 V001</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      width: 1740px;
+      height: 1260px;
+      margin: 0;
+      overflow: hidden;
+      background: #F1EDE4;
+    }
+    .spread {
+      position: relative;
+      display: grid;
+      grid-template-columns: 870px 870px;
+      width: 1740px;
+      height: 1260px;
+      color: #1C1B19;
+      background: #F1EDE4;
+      font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
+    }
+    .spread::after {
+      content: "";
+      position: absolute;
+      z-index: 10;
+      inset: 0 auto 0 869px;
+      width: 2px;
+      background: linear-gradient(180deg, rgba(72,59,48,.03), rgba(72,59,48,.17), rgba(72,59,48,.03));
+      pointer-events: none;
+    }
+    .page {
+      position: relative;
+      height: 1260px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 22% 13%, rgba(255,255,255,.42), transparent 34%),
+        radial-gradient(circle at 74% 82%, rgba(156,132,105,.035), transparent 38%),
+        repeating-linear-gradient(0deg, rgba(70,57,44,.012) 0 1px, transparent 1px 5px),
+        #F1EDE4;
+    }
+    .verso {
+      box-shadow: inset -22px 0 30px rgba(50,40,30,.025);
+    }
+    .recto {
+      box-shadow: inset 22px 0 30px rgba(50,40,30,.025);
+    }
+    .axis {
+      position: absolute;
+      left: 228px;
+      top: 96px;
+      bottom: 105px;
+      width: 2px;
+    }
+    .axis::before,
+    .axis::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 2px;
+      background: #7A2428;
+    }
+    .axis::before { top: 0; height: 340px; }
+    .axis::after { bottom: 0; height: 430px; }
+    .axis-node {
+      position: absolute;
+      left: 221px;
+      top: 518px;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #7A2428;
+      border-radius: 50%;
+      background: #F1EDE4;
+    }
+    .axis-cross {
+      position: absolute;
+      left: 222px;
+      top: 684px;
+      width: 14px;
+      height: 14px;
+      transform: rotate(45deg);
+      border-right: 2px solid #7A2428;
+      border-bottom: 2px solid #7A2428;
+    }
+    .title,
+    .subtitle,
+    .author {
+      position: absolute;
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      white-space: nowrap;
+    }
+    .title {
+      left: 350px;
+      top: 246px;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: .42em;
+    }
+    .subtitle {
+      left: 474px;
+      top: 340px;
+      color: #504B45;
+      font-size: 19px;
+      line-height: 1;
+      letter-spacing: .25em;
+    }
+    .author {
+      left: 592px;
+      top: 652px;
+      color: #34312E;
+      font-size: 20px;
+      line-height: 1;
+      letter-spacing: .24em;
+    }
+    .studio-mark {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 92px;
+      color: #8F887E;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: .36em;
+      text-align: center;
+      transform: translateX(.18em);
+    }
+    .quiet-rule {
+      position: absolute;
+      left: 350px;
+      bottom: 148px;
+      width: 70px;
+      height: 1px;
+      background: rgba(122,36,40,.45);
+    }
+  </style>
+</head>
+<body>
+  <main class="spread" data-component="title-page" aria-label="《失落人间》扉页双页原型">
+    <section class="page verso" aria-label="空白左页"></section>
+    <section class="page recto" aria-label="扉页右页">
+      <span class="axis" aria-hidden="true"></span>
+      <span class="axis-node" aria-hidden="true"></span>
+      <span class="axis-cross" aria-hidden="true"></span>
+      <span class="title" data-role="title" data-text-layer="editable">失落人间</span>
+      <span class="subtitle" data-role="subtitle" data-text-layer="editable">在所有归途之外</span>
+      <span class="author" data-role="author" data-text-layer="editable">早睡的猫</span>
+      <span class="quiet-rule" aria-hidden="true"></span>
+      <span class="studio-mark" data-role="studio_mark" data-text-layer="editable">纸船工作室</span>
+    </section>
+  </main>
+</body>
+</html>

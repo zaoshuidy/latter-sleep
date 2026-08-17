@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0040",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0040", "book_title": "我不是好惹的", "author": "丁成", "designer": "张鑫", "publisher": "湖南美术出版社", "publication_year": 2025, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0040", "source_url": "https://beautyofbooks.cn/bookdetail?id=532", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2025, "publication_year_source_url": "https://book.douban.com/subject/37816782/"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0040.jpg", "sha256": "9e243c0728391ece8cdc8fce61a6012a3073370d33941358c46cd29cb448e9fe", "mime_type": "image/jpeg", "width": 1063, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "center", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 只绑定官方案例 hero 中斜置书册的米色正面：超大黑色手写感中文题名占据主体，右侧作者及英文副信息形成较小层级，橙红横带承载补充文案；左侧可见窄书脊有独立纵向题名信息，不据此推断未见背面或完整环绕结构", "observations": [
+    {"aspect": "超大中文题名", "value": "黑色中文题名以大小错落的粗笔画字符覆盖米色正面大部", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片米色主面可清楚读到“我不是好惹的”，字符尺度明显大于作者和英文信息", "content_tags": ["超大题名", "粗笔画", "尺度反差"]},
+    {"aspect": "双色分区与可见书脊", "value": "橙红色横向区块位于正面右侧并承载多行黑字，左侧窄书脊另有纵向中文题名", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片正面右侧可见橙红色信息区，左侧窄面可见纵向题名；图片没有显示完整背面", "content_tags": ["米色", "橙红色带", "独立书脊"]}
+  ]},
+  "reference_transfer": {"transferable": ["以超大主标题和小号副信息建立强尺度层级", "用高饱和横向色带容纳说明文案并切分信息区", "从斜置案例图中只提取可见正面与书脊关系"], "avoid_copying": ["不照搬原题名字形、字符错落关系和具体坐标", "不复制原橙红色比例或原文案分行"], "adaptation_notes": ["按新书标题长度重新计算大字组合和安全边距", "实际书脊与背面设计须取得完整展开资料后另行处理"]},
+  "retrieval_features": {"style_tags": ["强标题", "双色分区", "手写感字体"], "content_tags": ["自我保护", "儿童成长", "情绪表达"], "color_tags": ["米色", "黑色", "橙红"], "mood_tags": ["直接", "有力", "警醒"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

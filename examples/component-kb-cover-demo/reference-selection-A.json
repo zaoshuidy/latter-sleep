@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "selection_id": "SEL-COV-FOUR-SEASONS-A-0001",
+  "query_id": "QUERY-COV-FOUR-SEASONS-LETTERS-0001",
+  "component_type": "cover",
+  "selected_references": [
+    {
+      "record_id": "COV-CN-0031",
+      "include_fields": [
+        "composition",
+        "title_zone",
+        "color"
+      ],
+      "existing_baseline": "浅灰大留白、非对称小尺度信息区与单一低占比几何锚点",
+      "adjustment_instruction": "把顶部安全区和几何锚点调整为适合四时书信主题的克制封面结构",
+      "preserve_elements": [
+        "非对称大留白",
+        "顶部可编辑文字安全区",
+        "低对比浅灰基底"
+      ],
+      "required_changes": [
+        "几何锚点必须重新设计",
+        "信息尺度须适配新书封面比例",
+        "不得沿用案例内容"
+      ],
+      "exclude_fields": [
+        "原书文字",
+        "原蓝色英文题名断行",
+        "原三角折线",
+        "原侧面文字",
+        "原展览图录内容"
+      ]
+    },
+    {
+      "record_id": "COV-CN-0036",
+      "include_fields": [
+        "visual_strategy",
+        "composition",
+        "title_zone"
+      ],
+      "existing_baseline": "高反差纪实图像从下缘进入，右上保留纵向标题安全区",
+      "adjustment_instruction": "只借用图像与留白的重心关系，以项目自有或获授权的季节书信影像替换案例主体",
+      "preserve_elements": [
+        "图像自下切入的结构",
+        "高反差视觉层级",
+        "右上纵向可编辑文字安全区"
+      ],
+      "required_changes": [
+        "主题图像必须来自新项目",
+        "标题安全区按四字书名重新校准",
+        "视觉语言不得被描述为实际木刻工艺"
+      ],
+      "exclude_fields": [
+        "原书文字",
+        "原劳动人物图像",
+        "原五字双列关系",
+        "原具体字形",
+        "原工艺推断"
+      ]
+    },
+    {
+      "record_id": "COV-CN-0047",
+      "include_fields": [
+        "composition",
+        "title_zone",
+        "color"
+      ],
+      "existing_baseline": "大面积黑场、下部低对比摄影与横纵双轴安全区",
+      "adjustment_instruction": "将暗场摄影结构转换为四季回望的克制纪实氛围，并保持文字区域完全可编辑",
+      "preserve_elements": [
+        "下部低对比影像",
+        "上部安静黑场",
+        "横纵双轴安全区",
+        "黑灰白克制关系"
+      ],
+      "required_changes": [
+        "影像内容必须替换为新项目素材",
+        "地平线与明暗比例须重新设计",
+        "双轴位置须适配新书信息层级"
+      ],
+      "exclude_fields": [
+        "原书文字",
+        "原马群照片",
+        "原地平线高度",
+        "原黑灰比例",
+        "原中英文文案与字距"
+      ]
+    }
+  ],
+  "status": "approved"
+}

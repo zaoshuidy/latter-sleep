@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "prompt_id": "PROMPT-COV-FOUR-SEASONS-A-0001",
+  "component_type": "cover",
+  "selection_id": "SEL-COV-FOUR-SEASONS-A-0001",
+  "compiled_blocks": {
+    "PROJECT_TRUTH": "{\"mode\":\"memorial\",\"primary_category\":\"letters-diaries\",\"primary_readers\":\"个人项目维护者\",\"project_id\":\"DEMO-FOUR-SEASONS-LETTERS\",\"purpose\":\"验证图书生产 Skills 的结构化流程\",\"title_handling\":\"real title remains metadata for an editable layout layer; do not render it\"}",
+    "COMPONENT_ROLE": "front-cover background for a restrained documentary direction",
+    "DESIGN_GENOME": "{\"brand_profile\":\"paper-boat\",\"color\":{\"accent\":\"muted archival blue-gray\",\"ink\":\"charcoal black\",\"paper\":\"low-contrast pale gray\"},\"direction_id\":\"DIRECTION-A-RESTRAINED-DOCUMENTARY\",\"grid\":{\"character\":\"restrained documentary with asymmetric breathing room\",\"columns\":8},\"page_families\":[\"cover-interface\",\"toc\",\"chapter-opener\",\"body\",\"image-page\",\"running-headers\"]}",
+    "REFERENCE_TRANSFERS": "{\"adjustment_instruction\":\"把顶部安全区和几何锚点调整为适合四时书信主题的克制封面结构\",\"exclude_fields\":[\"原书文字\",\"原蓝色英文题名断行\",\"原三角折线\",\"原侧面文字\",\"原展览图录内容\"],\"existing_baseline\":\"浅灰大留白、非对称小尺度信息区与单一低占比几何锚点\",\"include_fields\":[\"composition\",\"title_zone\",\"color\"],\"preserve_elements\":[\"非对称大留白\",\"顶部可编辑文字安全区\",\"低对比浅灰基底\"],\"record_id\":\"COV-CN-0031\",\"required_changes\":[\"几何锚点必须重新设计\",\"信息尺度须适配新书封面比例\",\"不得沿用案例内容\"]}\n{\"adjustment_instruction\":\"只借用图像与留白的重心关系，以项目自有或获授权的季节书信影像替换案例主体\",\"exclude_fields\":[\"原书文字\",\"原劳动人物图像\",\"原五字双列关系\",\"原具体字形\",\"原工艺推断\"],\"existing_baseline\":\"高反差纪实图像从下缘进入，右上保留纵向标题安全区\",\"include_fields\":[\"visual_strategy\",\"composition\",\"title_zone\"],\"preserve_elements\":[\"图像自下切入的结构\",\"高反差视觉层级\",\"右上纵向可编辑文字安全区\"],\"record_id\":\"COV-CN-0036\",\"required_changes\":[\"主题图像必须来自新项目\",\"标题安全区按四字书名重新校准\",\"视觉语言不得被描述为实际木刻工艺\"]}\n{\"adjustment_instruction\":\"将暗场摄影结构转换为四季回望的克制纪实氛围，并保持文字区域完全可编辑\",\"exclude_fields\":[\"原书文字\",\"原马群照片\",\"原地平线高度\",\"原黑灰比例\",\"原中英文文案与字距\"],\"existing_baseline\":\"大面积黑场、下部低对比摄影与横纵双轴安全区\",\"include_fields\":[\"composition\",\"title_zone\",\"color\"],\"preserve_elements\":[\"下部低对比影像\",\"上部安静黑场\",\"横纵双轴安全区\",\"黑灰白克制关系\"],\"record_id\":\"COV-CN-0047\",\"required_changes\":[\"影像内容必须替换为新项目素材\",\"地平线与明暗比例须重新设计\",\"双轴位置须适配新书信息层级\"]}",
+    "COMPOSITION": "portrait cover with broad pale-gray negative space, a low-contrast documentary fragment entering from the lower edge, one newly designed low-density geometric anchor, and visually quiet upper and right-side safe zones",
+    "IMAGE_CONTENT": "non-identifying seasonal correspondence artifacts and authorized project documentary fragments; keep all surfaces blank and avoid invented personal events or identities",
+    "COLOR_LIGHT_MATERIAL": "pale gray paper, charcoal-black image structure, muted archival blue-gray accent, flat soft light, subtle uncoated-paper grain",
+    "EDITABLE_TEXT_SAFE_ZONES": "reserve a quiet upper area and right vertical area for later editable layout layers; keep these zones free of high-contrast detail",
+    "PRINT_AND_CROP": "portrait 2:3 composition with 3 mm bleed allowance; keep the documentary focal fragment and geometric anchor inside the trim-safe area",
+    "NEGATIVE": "no readable text; no title, author, publisher, spine, or page-number glyphs; no logo; no watermark; no title or author glyphs; no publisher or studio mark; no copied case geometry; no original labor figure; no original horse photograph; no original exhibition content; no invented personal photograph or biographical event",
+    "OUTPUT_SPEC": "{\"aspect_ratio\":\"2:3\",\"component_type\":\"cover\",\"deliverable\":\"background image only; typography is added later as editable layers\",\"editable_text_overlay\":[\"title\",\"author\",\"studio_mark\"]}"
+  },
+  "background_prompt": "PROJECT_TRUTH\n{\"mode\":\"memorial\",\"primary_category\":\"letters-diaries\",\"primary_readers\":\"个人项目维护者\",\"project_id\":\"DEMO-FOUR-SEASONS-LETTERS\",\"purpose\":\"验证图书生产 Skills 的结构化流程\",\"title_handling\":\"real title remains metadata for an editable layout layer; do not render it\"}\n\nCOMPONENT_ROLE\nfront-cover background for a restrained documentary direction\n\nDESIGN_GENOME\n{\"brand_profile\":\"paper-boat\",\"color\":{\"accent\":\"muted archival blue-gray\",\"ink\":\"charcoal black\",\"paper\":\"low-contrast pale gray\"},\"direction_id\":\"DIRECTION-A-RESTRAINED-DOCUMENTARY\",\"grid\":{\"character\":\"restrained documentary with asymmetric breathing room\",\"columns\":8},\"page_families\":[\"cover-interface\",\"toc\",\"chapter-opener\",\"body\",\"image-page\",\"running-headers\"]}\n\nREFERENCE_TRANSFERS\n{\"adjustment_instruction\":\"把顶部安全区和几何锚点调整为适合四时书信主题的克制封面结构\",\"exclude_fields\":[\"原书文字\",\"原蓝色英文题名断行\",\"原三角折线\",\"原侧面文字\",\"原展览图录内容\"],\"existing_baseline\":\"浅灰大留白、非对称小尺度信息区与单一低占比几何锚点\",\"include_fields\":[\"composition\",\"title_zone\",\"color\"],\"preserve_elements\":[\"非对称大留白\",\"顶部可编辑文字安全区\",\"低对比浅灰基底\"],\"record_id\":\"COV-CN-0031\",\"required_changes\":[\"几何锚点必须重新设计\",\"信息尺度须适配新书封面比例\",\"不得沿用案例内容\"]}\n{\"adjustment_instruction\":\"只借用图像与留白的重心关系，以项目自有或获授权的季节书信影像替换案例主体\",\"exclude_fields\":[\"原书文字\",\"原劳动人物图像\",\"原五字双列关系\",\"原具体字形\",\"原工艺推断\"],\"existing_baseline\":\"高反差纪实图像从下缘进入，右上保留纵向标题安全区\",\"include_fields\":[\"visual_strategy\",\"composition\",\"title_zone\"],\"preserve_elements\":[\"图像自下切入的结构\",\"高反差视觉层级\",\"右上纵向可编辑文字安全区\"],\"record_id\":\"COV-CN-0036\",\"required_changes\":[\"主题图像必须来自新项目\",\"标题安全区按四字书名重新校准\",\"视觉语言不得被描述为实际木刻工艺\"]}\n{\"adjustment_instruction\":\"将暗场摄影结构转换为四季回望的克制纪实氛围，并保持文字区域完全可编辑\",\"exclude_fields\":[\"原书文字\",\"原马群照片\",\"原地平线高度\",\"原黑灰比例\",\"原中英文文案与字距\"],\"existing_baseline\":\"大面积黑场、下部低对比摄影与横纵双轴安全区\",\"include_fields\":[\"composition\",\"title_zone\",\"color\"],\"preserve_elements\":[\"下部低对比影像\",\"上部安静黑场\",\"横纵双轴安全区\",\"黑灰白克制关系\"],\"record_id\":\"COV-CN-0047\",\"required_changes\":[\"影像内容必须替换为新项目素材\",\"地平线与明暗比例须重新设计\",\"双轴位置须适配新书信息层级\"]}\n\nCOMPOSITION\nportrait cover with broad pale-gray negative space, a low-contrast documentary fragment entering from the lower edge, one newly designed low-density geometric anchor, and visually quiet upper and right-side safe zones\n\nIMAGE_CONTENT\nnon-identifying seasonal correspondence artifacts and authorized project documentary fragments; keep all surfaces blank and avoid invented personal events or identities\n\nCOLOR_LIGHT_MATERIAL\npale gray paper, charcoal-black image structure, muted archival blue-gray accent, flat soft light, subtle uncoated-paper grain\n\nEDITABLE_TEXT_SAFE_ZONES\nreserve a quiet upper area and right vertical area for later editable layout layers; keep these zones free of high-contrast detail\n\nPRINT_AND_CROP\nportrait 2:3 composition with 3 mm bleed allowance; keep the documentary focal fragment and geometric anchor inside the trim-safe area\n\nNEGATIVE\nno readable text; no title, author, publisher, spine, or page-number glyphs; no logo; no watermark; no title or author glyphs; no publisher or studio mark; no copied case geometry; no original labor figure; no original horse photograph; no original exhibition content; no invented personal photograph or biographical event\n\nOUTPUT_SPEC\n{\"aspect_ratio\":\"2:3\",\"component_type\":\"cover\",\"deliverable\":\"background image only; typography is added later as editable layers\",\"editable_text_overlay\":[\"title\",\"author\",\"studio_mark\"]}",
+  "generation_constraints": {
+    "readable_text": "none",
+    "logo": "none",
+    "watermark": "none",
+    "aspect_ratio": "2:3"
+  },
+  "editable_text_overlay": {
+    "title": "四时来信",
+    "author": "待确认（可编辑文字层）",
+    "studio_mark": "待确认（可编辑文字层）"
+  },
+  "negative_constraints": [
+    "no readable text",
+    "no title, author, publisher, spine, or page-number glyphs",
+    "no logo",
+    "no watermark",
+    "no title or author glyphs",
+    "no publisher or studio mark",
+    "no copied case geometry",
+    "no original labor figure",
+    "no original horse photograph",
+    "no original exhibition content",
+    "no invented personal photograph or biographical event"
+  ]
+}

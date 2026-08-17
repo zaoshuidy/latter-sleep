@@ -1,0 +1,88 @@
+{
+  "candidates": [
+    {
+      "book_case_id": "BOOK-CN-0004",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [mixed]; composition=0.20/0.20 matched [centered]; title_zone=0.15/0.15 matched [top]; color=0.15/0.15 matched [白色, 黑色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [怀念, 温柔, 私密]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0004",
+      "total_score": 0.85
+    },
+    {
+      "book_case_id": "BOOK-CN-0005",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [photography]; composition=0.20/0.20 matched [full-bleed]; title_zone=0.15/0.15 matched [center]; color=0.15/0.15 matched [橙色, 灰绿色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [怀旧, 时间感, 温暖]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0005",
+      "total_score": 0.85
+    },
+    {
+      "book_case_id": "BOOK-CN-0031",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [mixed]; composition=0.20/0.20 matched [asymmetric]; title_zone=0.15/0.15 matched [top]; color=0.15/0.15 matched [浅灰]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [克制, 档案感]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0031",
+      "total_score": 0.85
+    },
+    {
+      "book_case_id": "BOOK-CN-0036",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [mixed]; composition=0.20/0.20 matched [asymmetric]; title_zone=0.15/0.15 matched [vertical]; color=0.15/0.15 matched [米白, 黑色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [纪实]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0036",
+      "total_score": 0.85
+    },
+    {
+      "book_case_id": "BOOK-CN-0047",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [mixed]; composition=0.20/0.20 matched [asymmetric]; title_zone=0.15/0.15 matched [vertical]; color=0.15/0.15 matched [灰色, 白色, 黑色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [寂静, 沉思]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0047",
+      "total_score": 0.85
+    }
+  ],
+  "component_type": "cover",
+  "query_id": "QUERY-COV-FOUR-SEASONS-LETTERS-0001",
+  "schema_version": "1.0",
+  "status": "available"
+}

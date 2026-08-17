@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0030",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0030", "book_title": "大美汉字", "author": "Chao Xu", "designer": "tenmilliontimes", "publisher": "Guangxi Normal University Press", "publication_year": 2021, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0030", "source_url": "https://tenmilliontimes.com/Great-Beauty-of-Chinese-Characters", "platform": "tenmilliontimes", "collected_at": "2026-08-11", "publication_year": 2021, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/010129803"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0030.png", "sha256": "ba4bb3e640f153e0f32852f53b3d60d97d94e599ea4f6e3715ca3561fc507712", "mime_type": "image/png", "width": 2000, "height": 1309},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "whitespace", "title_zone": "vertical", "spine_relationship": "not-visible", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定上方书本的浅棕封面：四个深棕汉字沿右侧纵向等距排开，作者信息缩小置于左下，大面积空白突出单字形态；工作室来源明确区分 cover 与下方深棕外盒（case），并说明100个汉字压印在外盒上，外盒不进入 front profile", "observations": [
+    {"aspect": "竖向单字", "value": "“大美汉字”四个深棕汉字沿题名面右侧自上而下分散排列", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片上方书本正面右侧可见四个相隔较远的汉字“大、美、汉、字”", "content_tags": ["单字", "竖排", "右侧"]},
+    {"aspect": "留白", "value": "浅棕题名面除右侧标题和左下小字外保持大面积空白", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片书本正面中央与左上区域几乎无其他图像信息，仅可见细微斑点与浅色变化", "content_tags": ["大留白", "浅棕色", "极简"]}
+  ]},
+  "reference_transfer": {"transferable": ["把短标题拆成独立字符沿边缘排列", "以大面积留白强调汉字字形", "将封面与外盒作为两层信息载体协同设计"], "avoid_copying": ["不照搬原书四字间距和右边距", "不复制原外盒尺寸、100字字阵、压印布局或表面效果"], "adaptation_notes": ["为项目选择与内容匹配的字形并重新测试字符间距", "已确认 cover 与 case 的结构分层；新项目须重新定义两层信息职责和外盒制作参数"]},
+  "retrieval_features": {"style_tags": ["汉字设计", "极简", "边缘排版"], "content_tags": ["汉字", "文字文化", "书法"], "color_tags": ["浅棕", "深棕", "米白"], "mood_tags": ["雅致", "安静", "温润"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

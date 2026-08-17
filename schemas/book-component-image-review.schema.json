@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-component-image-review.schema.json",
+  "title": "Book Component Image Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "review_id", "prompt_id", "component_type", "image", "observations", "checks", "status"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "review_id": {"type": "string", "minLength": 1},
+    "prompt_id": {"type": "string", "minLength": 1},
+    "component_type": {"enum": ["cover", "toc", "chapter-opener", "illustration-decoration"]},
+    "text_rendering_mode": {
+      "enum": ["editable-overlay", "integrated-typography"]
+    },
+    "integrated_text": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/integratedTextEntry"}
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relative_path", "sha256", "mime_type"],
+      "properties": {
+        "relative_path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "mime_type": {"enum": ["image/jpeg", "image/png", "image/webp"]}
+      }
+    },
+    "observations": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/observation"}},
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["no_unwanted_text", "safe_zones_clear", "genome_consistent", "reference_transformed", "print_crop_valid", "truthfulness_valid", "provenance_complete"],
+      "properties": {
+        "no_unwanted_text": {"type": "boolean"},
+        "safe_zones_clear": {"type": "boolean"},
+        "genome_consistent": {"type": "boolean"},
+        "reference_transformed": {"type": "boolean"},
+        "print_crop_valid": {"type": "boolean"},
+        "truthfulness_valid": {"type": "boolean"},
+        "provenance_complete": {"type": "boolean"},
+        "integrated_text_exact": {"type": "boolean"},
+        "no_extra_text": {"type": "boolean"},
+        "typography_usable": {"type": "boolean"},
+        "machine_identifiers_absent": {"type": "boolean"}
+      }
+    },
+    "status": {"enum": ["draft", "selected", "archived", "rejected"]},
+    "human_selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decision", "approval_id", "approved_by", "selected_version", "selected_image_sha256", "approval_artifact_sha256"],
+      "properties": {
+        "decision": {"const": "selected"},
+        "approval_id": {"type": "string", "minLength": 1},
+        "approved_by": {"type": "string", "minLength": 1},
+        "selected_version": {"type": "string", "pattern": "^V[0-9]{3,}$"},
+        "selected_image_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "approval_artifact_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  },
+  "$defs": {
+    "integratedTextEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text_id", "surface", "role", "value", "language"],
+      "properties": {
+        "text_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]*[0-9]$"},
+        "surface": {"enum": ["front", "back", "spine"]},
+        "role": {"enum": ["title", "subtitle", "author", "short-note", "back-cover-copy", "recommendation"]},
+        "value": {"type": "string", "minLength": 1},
+        "language": {"type": "string", "minLength": 2}
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["aspect", "value", "visibility", "confidence", "evidence", "content_tags"],
+      "properties": {
+        "aspect": {"type": "string", "minLength": 1},
+        "value": {"type": "string", "minLength": 1},
+        "visibility": {"enum": ["clear", "partial", "uncertain"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "minLength": 1},
+        "content_tags": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"text_rendering_mode": {"const": "integrated-typography"}},
+        "required": ["text_rendering_mode"]
+      },
+      "then": {
+        "required": ["integrated_text"],
+        "properties": {
+          "component_type": {"const": "cover"},
+          "checks": {
+            "required": [
+              "integrated_text_exact",
+              "no_extra_text",
+              "typography_usable",
+              "machine_identifiers_absent"
+            ]
+          }
+        }
+      },
+      "else": {"properties": {"integrated_text": false}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "selected"}}, "required": ["status"]},
+      "then": {"required": ["human_selection"]},
+      "else": {"not": {"required": ["human_selection"]}}
+    }
+  ]
+}

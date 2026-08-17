@@ -1,0 +1,26 @@
+{
+  "profile_id": "paper-boat",
+  "display_name": "纸船工作室（Paper Boat Studio）",
+  "positioning": "AI 驱动的个人书籍定制工作室，面向私人、非商业化且具有仪式感的纪念书制作",
+  "emotion_keywords": ["私人", "手札感", "仪式感", "克制", "非商业化"],
+  "required_elements": [
+    "book-title",
+    "author-name",
+    "discreet-studio-mark"
+  ],
+  "forbidden_elements": [
+    "isbn-barcode-unless-public-release",
+    "retail-price",
+    "editor-proofreader-list",
+    "commercial-belly-band",
+    "copyright-page-production"
+  ],
+  "overridable_fields": [
+    "emotion_keywords",
+    "studio-mark-placement",
+    "studio-mark-color",
+    "flap-usage",
+    "back-cover-letter-content"
+  ],
+  "source_ref": "knowledge/legacy-sources/original-suite/paper-boat-brand/SKILL.md"
+}

@@ -1,0 +1,88 @@
+{
+  "candidates": [
+    {
+      "book_case_id": "BOOK-CN-0022",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [typography]; composition=0.20/0.20 matched [asymmetric]; title_zone=0.15/0.15 matched [top]; color=0.15/0.15 matched [黑色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [克制]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0022",
+      "total_score": 0.85
+    },
+    {
+      "book_case_id": "BOOK-CN-0039",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [typography]; composition=0.20/0.20 matched [whitespace]; title_zone=0.15/0.15 matched [center]; color=0.15/0.15 matched [白色, 黑色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [克制, 哲思]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0039",
+      "total_score": 0.85
+    },
+    {
+      "book_case_id": "BOOK-CN-0042",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [typography]; composition=0.20/0.20 matched [whitespace]; title_zone=0.15/0.15 matched [top]; color=0.15/0.15 matched [米白, 黑色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [克制]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0042",
+      "total_score": 0.85
+    },
+    {
+      "book_case_id": "BOOK-CN-0043",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [abstract]; composition=0.20/0.20 matched [centered]; title_zone=0.15/0.15 matched [vertical]; color=0.15/0.15 matched [低对比灰, 浅灰米色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [克制]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0043",
+      "total_score": 0.85
+    },
+    {
+      "book_case_id": "BOOK-CN-0047",
+      "field_scores": {
+        "book_category": 0.0,
+        "color": 0.15,
+        "composition": 0.2,
+        "cover_scope": 0.05,
+        "material": 0.0,
+        "mood": 0.1,
+        "title_zone": 0.15,
+        "visual_strategy": 0.2
+      },
+      "match_explanation": "visual_strategy=0.20/0.20 matched [mixed]; composition=0.20/0.20 matched [asymmetric]; title_zone=0.15/0.15 matched [vertical]; color=0.15/0.15 matched [白色, 黑色]; material=0.00/0.10 no certain indexed observation; mood=0.10/0.10 matched [寂静]; cover_scope=0.05/0.05 matched [front]; book_category=0.00/0.05 no certain indexed observation; total=0.85",
+      "record_id": "COV-CN-0047",
+      "total_score": 0.85
+    }
+  ],
+  "component_type": "cover",
+  "query_id": "QUERY-COV-LOST-HUMAN-WORLD-0001",
+  "schema_version": "1.0",
+  "status": "available"
+}

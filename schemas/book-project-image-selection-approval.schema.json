@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-project-image-selection-approval.schema.json",
+  "title": "Book Project Image Selection Approval Artifact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "approval_id", "approved_by", "decision", "selection_id", "prompt_id", "component_type", "image_id", "selected_version", "selected_image_sha256", "approved_at"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "approval_id": {"type": "string", "minLength": 1},
+    "approved_by": {"type": "string", "minLength": 1},
+    "decision": {"const": "selected"},
+    "selection_id": {"type": "string", "minLength": 1},
+    "prompt_id": {"type": "string", "minLength": 1},
+    "component_type": {"enum": ["cover", "toc", "chapter-opener", "illustration-decoration"]},
+    "image_id": {"type": "string", "minLength": 1},
+    "selected_version": {"type": "string", "pattern": "^V[0-9]{3,}$"},
+    "selected_image_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "approved_at": {"type": "string", "format": "date"}
+  }
+}

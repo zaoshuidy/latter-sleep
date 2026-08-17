@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "review_id": "REVIEW-LOST-HUMAN-WORLD-CHAPTER-001-V001",
+  "prompt_id": "PROMPT-LOST-HUMAN-WORLD-CHAPTER-001-V001",
+  "component_type": "chapter-opener",
+  "text_rendering_mode": "editable-overlay",
+  "image": {
+    "relative_path": "generated/chapter-opener-v001-preview.png",
+    "sha256": "e464340672222fb11ef6650374759de76268f94c57edcb4604bfd195723aebca",
+    "mime_type": "image/png"
+  },
+  "observations": [
+    {
+      "aspect": "background-text-separation",
+      "value": "AI 背景无可读文字，第一章与车窗里的故乡均保存在 SVG 可编辑文字层。",
+      "visibility": "clear",
+      "confidence": 1.0,
+      "evidence": "背景 PNG 与 SVG 文字层为独立文件；SVG 使用 chapter-number 和 chapter-title 两个文字组。",
+      "content_tags": ["editable-text", "text-free-background"]
+    },
+    {
+      "aspect": "composition-and-safe-zone",
+      "value": "深色抽象边界停留在左页，书沟与右页纵向章题区保持干净。",
+      "visibility": "clear",
+      "confidence": 0.99,
+      "evidence": "最终预览中黑色形体未越过书沟，右页章题周围保留大面积暖灰留白。",
+      "content_tags": ["high-whitespace", "right-page-title-zone"]
+    },
+    {
+      "aspect": "symbolic-intent",
+      "value": "断裂边界和未抵达书沟的暗红细线表达悬置与归属中断，没有直白复述情节。",
+      "visibility": "clear",
+      "confidence": 0.96,
+      "evidence": "画面未出现人物、道路、城市、乡村、车窗、疾病或葬礼等具象元素。",
+      "content_tags": ["abstract-metaphor", "literary-fiction"]
+    },
+    {
+      "aspect": "typography",
+      "value": "章号为小号暗红竖排，章题为两列黑色宋体结构，层级清楚且与背景形成对比。",
+      "visibility": "clear",
+      "confidence": 0.98,
+      "evidence": "章号、第一列车窗里的、第二列故乡均可辨认，且没有压入黑色形体。",
+      "content_tags": ["vertical-typography", "hierarchy"]
+    },
+    {
+      "aspect": "format-and-crop",
+      "value": "跨页比例与 290×210 mm 母版一致，中心书沟、外边缘和文字安全区均未被裁切。",
+      "visibility": "clear",
+      "confidence": 0.99,
+      "evidence": "输出为 1474×1067 px，比例约 1.381，与 290:210 一致；当前仅作为设计样稿。",
+      "content_tags": ["32-open", "spread", "preview-resolution"]
+    }
+  ],
+  "checks": {
+    "no_unwanted_text": true,
+    "safe_zones_clear": true,
+    "genome_consistent": true,
+    "reference_transformed": true,
+    "print_crop_valid": true,
+    "truthfulness_valid": true,
+    "provenance_complete": true
+  },
+  "status": "draft"
+}

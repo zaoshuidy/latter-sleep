@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0002",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0002", "book_title": "三十六张脸 : 1985年以来的中国青年摄影家侧面", "author": "崔波", "designer": "莫广平", "publisher": "广西师范大学出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0002", "source_url": "https://beautyofbooks.cn/bookdetail?id=524", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://m.bookdao.com/book.aspx?bookid=4487302"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0002.jpg", "sha256": "ce1883bb3a012720a6bde9aae0db213499117ad5e29513098f71e14abe48fbf9", "mime_type": "image/jpeg", "width": 1500, "height": 1007},
+  "component_profile": {"cover_scope": "casebound", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "vertical", "spine_relationship": "independent", "thumbnail_recognition": "weak"},
+  "visual_decomposition": {"overall_strategy": "近乎无图的白色方形封面把信息收束到侧边窄带，以极弱正面信息制造实体感与克制感", "observations": [
+    {"aspect": "构图", "value": "白色正面占据绝大多数面积，文字信息集中在左侧可见边缘", "visibility": "clear", "confidence": 0.98, "evidence": "当前图中方形封面正面近乎全白，左侧边缘存在密集黑色竖向信息", "content_tags": ["留白", "侧边信息", "方形"]},
+    {"aspect": "色彩", "value": "白色为主，仅以黑色文字形成低信息密度对比", "visibility": "clear", "confidence": 0.99, "evidence": "当前封面图除白色底面和黑色小字外无明显其他色彩", "content_tags": ["白色", "黑色", "极简"]}
+  ]},
+  "reference_transfer": {"transferable": ["将信息压缩到边缘窄带", "用大面积无图留白建立安静感", "以方形厚书形态强化对象感"], "avoid_copying": ["不复用原封面边缘文字编排", "不复制完全空白的比例关系"], "adaptation_notes": ["仅在内容允许弱识别时采用边缘信息策略", "为实际书名保留可编辑竖排文字区"]},
+  "retrieval_features": {"style_tags": ["极简", "留白", "实验性"], "content_tags": ["摄影家", "肖像", "档案"], "color_tags": ["白色", "黑色"], "mood_tags": ["安静", "克制", "疏离"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>《失落人间》正文首跨页 V001</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      width: 1740px;
+      height: 1260px;
+      margin: 0;
+      overflow: hidden;
+      background: #F1EDE4;
+    }
+    .spread {
+      position: relative;
+      display: grid;
+      grid-template-columns: 870px 870px;
+      width: 1740px;
+      height: 1260px;
+      background: #F1EDE4;
+      color: #1C1B19;
+    }
+    .spread::after {
+      content: "";
+      position: absolute;
+      z-index: 4;
+      top: 0;
+      bottom: 0;
+      left: 869px;
+      width: 1px;
+      background: rgba(128, 112, 92, 0.11);
+      pointer-events: none;
+    }
+    .page {
+      position: relative;
+      height: 1260px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 28% 20%, rgba(255,255,255,0.22), transparent 34%),
+        #F1EDE4;
+    }
+    .left-page { padding: 324px 132px 144px 108px; }
+    .right-page { padding: 156px 108px 144px 132px; }
+    .text {
+      font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 36.5px;
+      letter-spacing: 0.015em;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      color: #1C1B19;
+      orphans: 2;
+      widows: 2;
+    }
+    .text p {
+      margin: 0 0 11px;
+      text-indent: 2em;
+    }
+    .entry-line {
+      width: 84px;
+      border-top: 3px solid #7A2428;
+      margin: 0 0 36px 40px;
+    }
+    .folio {
+      position: absolute;
+      bottom: 58px;
+      color: #8C8275;
+      font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
+      font-size: 15px;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+    .left-page .folio { left: 108px; }
+    .right-page .folio { right: 108px; }
+  </style>
+</head>
+<body>
+  <main class="spread" data-text-layer="editable" aria-label="正文首跨页">
+    <section class="page left-page" aria-label="正文第一页">
+      <div class="entry-line" aria-hidden="true"></div>
+      <article class="text">
+        <p data-source-index="1">车开出城的时候，雨还没有落下来。</p>
+        <p data-source-index="2">高架两旁的灯一盏接一盏退到车后，玻璃上映着车厢里的脸。那些脸被窗外的光切开，亮一阵，暗一阵，像在很远的水里浮着。他坐在靠窗的位置，把额头抵在玻璃上。冷气从窗缝里渗进来，贴着眉骨，过一会儿便留下了一小块模糊的白雾。</p>
+        <p data-source-index="3">手机还停在那条消息上。</p>
+        <p data-source-index="4">你爸走了。回来吧。</p>
+        <p data-source-index="5">句号很小，缩在屏幕右下角。他看了很多遍，始终没有往上翻。发信人是一个没有存进通讯录的号码，但他认得末尾四位。小时候家里装过一部座机，后来拆了，二叔把那四位留在了自己的手机号码里，说这样好记。很多年过去，他记不得二叔现在住哪条街，倒还记得那部座机摆在堂屋木柜上，下面压着一本缺了封皮的电话簿。</p>
+      </article>
+      <span class="folio" data-folio-status="provisional">6</span>
+    </section>
+
+    <section class="page right-page" aria-label="正文第二页">
+      <article class="text">
+        <p data-source-index="6">车厢里有人拆开塑料袋，茶叶蛋的气味散出来。司机把广播调得很低，一个女人在说南方将有大范围降温。邻座没有人，座椅靠背仍保持着笔直的角度。上车时他问过乘务员，旁边是否有人。乘务员看了一眼票，说有，在下一站上。他便把背包抱到腿上。车经过下一站时没有停，后来也没人来。</p>
+        <p data-source-index="7">空座位随着车身轻轻晃动，像有人刚刚起身。</p>
+        <p data-source-index="8">他锁了手机，又很快按亮。屏幕上方显示十一点十七分。消息是傍晚六点四十三分发来的，那时他还在公司。办公室的灯全部亮着，窗外已经黑了。打印机卡住一张纸，同事隔着几排桌子叫他帮忙。他把那张纸抽出来，边缘留下一道黑色的墨痕。等他回到座位，手机屏幕已经灭了。</p>
+        <p data-source-index="9">他没有立刻请假。先回复了一封邮件，保存桌面上的表格，又把明天要交的文件发给同事。主管问他需要几天，他说不知道。主管把“不知道”重复了一遍，像确认一个项目期限。他于是说三天，也可能五天。主管点点头，提醒他在系统里补流程。</p>
+        <p data-source-index="10">离开办公楼时，保安照常让他刷卡。绿色的灯亮了一下，玻璃门向两边打开。他走出去，门又在身后合上。那一刻他想起父亲以前锁院门的声音。两扇铁门并不严丝合缝，每到冬天，风从中间挤进来，门闩便一夜一夜地响。父亲会披着棉袄出去，在门缝里塞一截旧胶皮。</p>
+      </article>
+      <span class="folio" data-folio-status="provisional">7</span>
+    </section>
+  </main>
+</body>
+</html>

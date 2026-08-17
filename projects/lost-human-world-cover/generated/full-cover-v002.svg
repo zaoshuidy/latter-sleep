@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="309mm" height="216mm" viewBox="0 0 3650 2551">
+  <title>《失落人间》完整封面 V002</title>
+  <desc>145×210 mm，13 mm 暂定书脊，四周 3 mm 出血；左封底、中书脊、右正封。</desc>
+  <defs>
+    <linearGradient id="matchedPaper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbf5e8"/>
+      <stop offset="0.55" stop-color="#fcf6e9"/>
+      <stop offset="1" stop-color="#fbf5e8"/>
+    </linearGradient>
+    <clipPath id="frontTrim"><rect x="1902" y="35" width="1713" height="2480"/></clipPath>
+    <style><![CDATA[
+      .song { font-family: "Songti SC", "Source Han Serif CN", "Noto Serif CJK SC", serif; fill:#211f1c; }
+      .copy { font-size:42px; font-weight:400; letter-spacing:1.8px; }
+      .spine { font-size:43px; font-weight:400; }
+      .spine-author { font-size:29px; font-weight:400; }
+    ]]></style>
+  </defs>
+
+  <!-- 3 mm bleed background -->
+  <rect x="0" y="0" width="3650" height="2551" fill="#fcf6e9"/>
+
+  <!-- Back cover: editable true text over a restrained paper field -->
+  <rect x="35" y="35" width="1713" height="2480" fill="url(#matchedPaper)"/>
+  <path d="M 360 -20 L 360 390 L 350 610 L 374 850" fill="none" stroke="#7d1e1b" stroke-width="3" opacity="0.82"/>
+  <path d="M 374 850 L 388 1090" fill="none" stroke="#7d1e1b" stroke-width="3" opacity="0.82"/>
+  <path d="M 440 2140 l 34 -52" fill="none" stroke="#7d1e1b" stroke-width="5" opacity="0.92"/>
+
+  <g class="song copy">
+    <text x="565" y="620">人们用来路确认一个人，</text>
+    <text x="565" y="692">也用归处收留一个人。</text>
+
+    <text x="565" y="900">他曾相信远方会给予新的名字，</text>
+    <text x="565" y="972">后来才明白，</text>
+    <text x="565" y="1044">城市只改变了他的生活，</text>
+    <text x="565" y="1116">并没有替他找到位置。</text>
+    <text x="565" y="1188">当旧日的灯一盏盏熄灭，</text>
+    <text x="565" y="1260">故乡仍在，</text>
+    <text x="565" y="1332">归来的人却成了异乡人。</text>
+
+    <text x="565" y="1645">有些离开通向抵达，</text>
+    <text x="565" y="1717">有些归来只是另一种流落。</text>
+    <text x="565" y="1789">在所有归途之外，</text>
+    <text x="565" y="1861">他继续生活在人间。</text>
+  </g>
+
+  <!-- 13 mm provisional spine -->
+  <rect x="1748" y="35" width="154" height="2480" fill="#fbf5e8"/>
+  <line x1="1748" y1="35" x2="1748" y2="2515" stroke="#7d1e1b" stroke-width="2" opacity="0.45"/>
+  <g class="song spine" text-anchor="middle">
+    <text x="1825" y="550">失</text>
+    <text x="1825" y="620">落</text>
+    <text x="1825" y="690">人</text>
+    <text x="1825" y="760">间</text>
+  </g>
+  <g class="song spine-author" text-anchor="middle">
+    <text x="1825" y="1560">早</text>
+    <text x="1825" y="1610">睡</text>
+    <text x="1825" y="1660">的</text>
+    <text x="1825" y="1710">猫</text>
+  </g>
+
+  <!-- Approved front artwork, placed without alteration -->
+  <g clip-path="url(#frontTrim)">
+    <image x="1902" y="35" width="1713" height="2480" preserveAspectRatio="none"
+           href="cover-v001.png" xlink:href="cover-v001.png"/>
+  </g>
+</svg>

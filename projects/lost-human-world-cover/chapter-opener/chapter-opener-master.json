@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "component_type": "chapter-opener",
+  "master_id": "OPENER-LOST-HUMAN-WORLD-A-001",
+  "page_geometry": {
+    "trim_mm": [145, 210],
+    "spread_mm": [290, 210],
+    "bleed_mm": 3,
+    "safe_margin_mm": {
+      "top": 18,
+      "outside": 16,
+      "bottom": 18,
+      "inside": 18
+    }
+  },
+  "reference_ids": [
+    "CHO-CN-0006",
+    "CHO-CN-0011"
+  ],
+  "palette": {
+    "paper": "#F1EDE4",
+    "ink": "#1C1B19",
+    "accent": "#7A2428",
+    "quiet_line": "#B8AEA0"
+  },
+  "layout": {
+    "opening_mode": "spread",
+    "left_page": "high-whitespace abstract boundary entering from the outer edge and stopping before the gutter",
+    "right_page": "single-side vertical editable chapter information with staggered title columns",
+    "abstract_boundary_coverage": "approximately 18 percent of the spread",
+    "gutter_clearance_mm": 17,
+    "chapter_number_zone_mm": [237, 38, 8, 30],
+    "chapter_title_zone_mm": [218, 62, 28, 92]
+  },
+  "editable_text": {
+    "chapter_number": {
+      "value": "第一章",
+      "editable": true,
+      "writing_mode": "vertical-rl",
+      "font_stack": "Source Han Serif SC, Noto Serif CJK SC, Songti SC, serif",
+      "font_size_pt": 8,
+      "letter_spacing_em": 0.28,
+      "color": "#7A2428"
+    },
+    "chapter_title": {
+      "value": "车窗里的故乡",
+      "editable": true,
+      "line_plan": ["车窗里的", "故乡"],
+      "writing_mode": "vertical-rl",
+      "font_stack": "Source Han Serif SC, Noto Serif CJK SC, Songti SC, serif",
+      "font_size_pt": 21,
+      "letter_spacing_em": 0.16,
+      "color": "#1C1B19"
+    }
+  },
+  "background": {
+    "text_free": true,
+    "visual_strategy": "abstract",
+    "symbolic_intent": "an incomplete boundary that enters the page but never reaches a place of belonging",
+    "forbidden_literal_content": [
+      "person",
+      "road",
+      "vehicle window",
+      "home architecture",
+      "illness",
+      "funeral"
+    ]
+  },
+  "visibility_rules": {
+    "running_header": "hidden",
+    "folio": "hidden"
+  },
+  "reuse_rules": {
+    "same_master_for_all_chapters": true,
+    "replace_only": [
+      "chapter_number.value",
+      "chapter_title.value",
+      "chapter_title.line_plan"
+    ],
+    "long_title_fallback": "use three vertical columns before reducing title size; minimum 16 pt",
+    "background_variation": "none"
+  }
+}

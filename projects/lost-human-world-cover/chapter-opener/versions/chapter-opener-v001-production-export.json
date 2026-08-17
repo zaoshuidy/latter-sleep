@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "export_id": "EXPORT-LOST-HUMAN-WORLD-CHAPTER-001-V001-300DPI",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "component_type": "chapter-opener",
+  "source_version": "V001",
+  "selection_status": "selected",
+  "approval_id": "APPROVE-LOST-HUMAN-WORLD-CHAPTER-001-V001",
+  "approved_image_sha256": "e464340672222fb11ef6650374759de76268f94c57edcb4604bfd195723aebca",
+  "physical_spec": {
+    "trim_width_mm": 290,
+    "trim_height_mm": 210,
+    "dpi": 300,
+    "pixel_width": 3425,
+    "pixel_height": 2480
+  },
+  "background": {
+    "path": "generated/chapter-opener-background-v001-300dpi.png",
+    "sha256": "153e2570796fc521a8176de4cc010123338b4f6593d774951faa51961dbeb872",
+    "text_free": true
+  },
+  "editable_master": {
+    "path": "generated/chapter-opener-v001-300dpi.svg",
+    "sha256": "624eea7ce0dd4c0bf8da2d95130a43fcb82f634b5fb8062d1b36248527b7aa3d",
+    "text_layer_ids": ["chapter-number", "chapter-title"]
+  },
+  "raster_preview": {
+    "path": "generated/chapter-opener-v001-300dpi.png",
+    "sha256": "53b583121715e5b49d1abfa85942f2ff98a5cf1099241878c9d28569d4e1ba8d"
+  },
+  "production_boundary": "高分辨率排版母版；尚未执行 InDesign、印刷色彩转换或整书排版。"
+}

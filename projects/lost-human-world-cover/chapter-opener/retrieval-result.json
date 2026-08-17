@@ -1,0 +1,83 @@
+{
+  "candidates": [
+    {
+      "book_case_id": "BOOK-CN-0053",
+      "field_scores": {
+        "chapter_number_zone": 0.15,
+        "chapter_title_zone": 0.2,
+        "image_role": 0.15,
+        "opening_mode": 0.15,
+        "text_image_relationship": 0.1,
+        "visual_strategy": 0.15,
+        "whitespace": 0.1
+      },
+      "match_explanation": "opening_mode=0.15/0.15 matched [spread]; visual_strategy=0.15/0.15 matched [mixed]; chapter_number_zone=0.15/0.15 matched [none]; chapter_title_zone=0.20/0.20 matched [vertical]; image_role=0.15/0.15 matched [decoration]; text_image_relationship=0.10/0.10 matched [integrated]; whitespace=0.10/0.10 matched [medium]; total=1.00",
+      "record_id": "CHO-CN-0005",
+      "total_score": 1.0
+    },
+    {
+      "book_case_id": "BOOK-CN-0054",
+      "field_scores": {
+        "chapter_number_zone": 0.15,
+        "chapter_title_zone": 0.2,
+        "image_role": 0.15,
+        "opening_mode": 0.15,
+        "text_image_relationship": 0.1,
+        "visual_strategy": 0.15,
+        "whitespace": 0.1
+      },
+      "match_explanation": "opening_mode=0.15/0.15 matched [spread]; visual_strategy=0.15/0.15 matched [abstract]; chapter_number_zone=0.15/0.15 matched [none]; chapter_title_zone=0.20/0.20 matched [center]; image_role=0.15/0.15 matched [decoration]; text_image_relationship=0.10/0.10 matched [integrated]; whitespace=0.10/0.10 matched [high]; total=1.00",
+      "record_id": "CHO-CN-0006",
+      "total_score": 1.0
+    },
+    {
+      "book_case_id": "BOOK-CN-0055",
+      "field_scores": {
+        "chapter_number_zone": 0.15,
+        "chapter_title_zone": 0.2,
+        "image_role": 0.15,
+        "opening_mode": 0.15,
+        "text_image_relationship": 0.1,
+        "visual_strategy": 0.15,
+        "whitespace": 0.1
+      },
+      "match_explanation": "opening_mode=0.15/0.15 matched [spread]; visual_strategy=0.15/0.15 matched [typography]; chapter_number_zone=0.15/0.15 matched [none]; chapter_title_zone=0.20/0.20 matched [distributed]; image_role=0.15/0.15 matched [none]; text_image_relationship=0.10/0.10 matched [text-only]; whitespace=0.10/0.10 matched [high]; total=1.00",
+      "record_id": "CHO-CN-0007",
+      "total_score": 1.0
+    },
+    {
+      "book_case_id": "BOOK-CN-0057",
+      "field_scores": {
+        "chapter_number_zone": 0.15,
+        "chapter_title_zone": 0.2,
+        "image_role": 0.15,
+        "opening_mode": 0.15,
+        "text_image_relationship": 0.1,
+        "visual_strategy": 0.15,
+        "whitespace": 0.1
+      },
+      "match_explanation": "opening_mode=0.15/0.15 matched [spread]; visual_strategy=0.15/0.15 matched [abstract]; chapter_number_zone=0.15/0.15 matched [none]; chapter_title_zone=0.20/0.20 matched [vertical]; image_role=0.15/0.15 matched [decoration]; text_image_relationship=0.10/0.10 matched [integrated]; whitespace=0.10/0.10 matched [high]; total=1.00",
+      "record_id": "CHO-CN-0009",
+      "total_score": 1.0
+    },
+    {
+      "book_case_id": "BOOK-CN-0047",
+      "field_scores": {
+        "chapter_number_zone": 0.15,
+        "chapter_title_zone": 0.2,
+        "image_role": 0.15,
+        "opening_mode": 0.15,
+        "text_image_relationship": 0.1,
+        "visual_strategy": 0.15,
+        "whitespace": 0.1
+      },
+      "match_explanation": "opening_mode=0.15/0.15 matched [spread]; visual_strategy=0.15/0.15 matched [typography]; chapter_number_zone=0.15/0.15 matched [none]; chapter_title_zone=0.20/0.20 matched [vertical]; image_role=0.15/0.15 matched [none]; text_image_relationship=0.10/0.10 matched [text-only]; whitespace=0.10/0.10 matched [high]; total=1.00",
+      "record_id": "CHO-CN-0011",
+      "total_score": 1.0
+    }
+  ],
+  "component_type": "chapter-opener",
+  "query_id": "QUERY-LOST-HUMAN-WORLD-CHAPTER-01",
+  "schema_version": "1.0",
+  "status": "available"
+}

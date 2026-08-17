@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>《失落人间》动态页眉页脚 B V001</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      width: 1740px;
+      height: 1260px;
+      margin: 0;
+      overflow: hidden;
+      background: #F1EDE4;
+    }
+    .spread {
+      position: relative;
+      display: grid;
+      grid-template-columns: 870px 870px;
+      width: 1740px;
+      height: 1260px;
+      background: #F1EDE4;
+      color: #1C1B19;
+    }
+    .spread::after {
+      content: "";
+      position: absolute;
+      z-index: 4;
+      top: 0;
+      bottom: 0;
+      left: 869px;
+      width: 1px;
+      background: rgba(128, 112, 92, 0.11);
+      pointer-events: none;
+    }
+    .page {
+      position: relative;
+      height: 1260px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 28% 20%, rgba(255,255,255,0.22), transparent 34%),
+        #F1EDE4;
+    }
+    .left-page { padding: 174px 132px 144px 108px; }
+    .right-page { padding: 174px 108px 144px 132px; }
+    .running-header {
+      position: absolute;
+      top: 70px;
+      color: #8C8275;
+      font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: .22em;
+    }
+    .left-page .running-header { left: 108px; }
+    .right-page .running-header { right: 108px; }
+    .header-rule {
+      position: absolute;
+      top: 108px;
+      width: 64px;
+      border-top: 1px solid rgba(122,36,40,.42);
+    }
+    .left-page .header-rule { left: 108px; }
+    .right-page .header-rule { right: 108px; }
+    .text {
+      font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 36.5px;
+      letter-spacing: 0;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      color: #1C1B19;
+      orphans: 2;
+      widows: 2;
+    }
+    .text p { margin: 0; text-indent: 2em; }
+    .folio {
+      position: absolute;
+      bottom: 72px;
+      color: #8C8275;
+      font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
+      font-size: 15px;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+    .left-page .folio { left: 108px; }
+    .right-page .folio { right: 108px; }
+  </style>
+</head>
+<body>
+  <main class="spread" data-text-layer="editable" aria-label="动态页眉页脚测试跨页">
+    <section class="page left-page" aria-label="正文第八页">
+      <span class="running-header verso" data-running-source="book-title">失落人间</span>
+      <span class="header-rule" aria-hidden="true"></span>
+      <article class="text">
+        <p data-source-index="11">他已经想不起那截胶皮是什么颜色。</p>
+        <p data-source-index="12">高速公路在黑暗里延伸。路旁偶尔出现一片厂房，屋顶的红灯同时闪烁。更远处是尚未封顶的楼，窗口没有光，只在轮廓上挂着几排绿色的安全网。车从它们中间穿过去，没有减速。</p>
+        <p data-source-index="13">前排的孩子醒了一次，问母亲到了没有。母亲说快了，又说睡吧。孩子把脸埋回外套里。过了几分钟，他再次问到了没有，声音已经含混。母亲仍说快了。</p>
+        <p data-source-index="14">他小时候也问过同样的话。那时去县医院看母亲，父亲骑一辆旧摩托，他坐在后座，手抓着父亲腰间的衣服。路还没有修好，车轮碾过碎石，每一下都从座位传到牙齿。他隔一段路便问到了没有。父亲总说前面就是。前面有时是一座桥，有时是一排杨树，有时什么也没有。</p>
+        <p data-source-index="15">母亲住院的那几年，他学会了不再问。后来她回家，药瓶在窗台上排成一列，早晚各有不同的数量。她把吃空的瓶子洗净，用来装针线、纽扣和晒干的花椒。她去世后，父亲没有扔掉那些瓶子。前年他回去，窗台已经积了灰，瓶口却仍用白布封着。</p>
+      </article>
+      <span class="folio" data-folio="8" data-folio-status="provisional">8</span>
+    </section>
+    <section class="page right-page" aria-label="正文第九页">
+      <span class="running-header recto" data-running-source="chapter-title">车窗里的故乡</span>
+      <span class="header-rule" aria-hidden="true"></span>
+      <article class="text">
+        <p data-source-index="16">那次他只住了一晚。</p>
+        <p data-source-index="17">父亲问城里的房租贵不贵，他说还好；问工作累不累，他说还好；问什么时候再回来，他说有空。回答都是现成的，像商店里找回的零钱，大小合适，却不属于任何一件具体的东西。第二天清早，父亲在灶房煮面，锅盖被蒸汽顶得发响。他说赶时间，没有吃完。父亲送他到巷口，手里还拿着擦锅沿的布。</p>
+        <p data-source-index="18">后来父亲给他打过几次电话。</p>
+      </article>
+      <span class="folio" data-folio="9" data-folio-status="provisional">9</span>
+    </section>
+  </main>
+</body>
+</html>

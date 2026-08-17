@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="3425" height="2480" viewBox="0 0 3425 2480"
+     data-trim-mm="290 210" data-output-dpi="300">
+  <title>《失落人间》第一章章首页 V001 · 300 dpi 生产尺寸</title>
+  <desc>290×210 mm 跨页；高分辨率无字背景与可编辑文字层。</desc>
+
+  <image id="generated-background"
+         x="0" y="0" width="3425" height="2480"
+         preserveAspectRatio="none"
+         xlink:href="/Users/edy/Desktop/book/book-production-skills-v1/projects/lost-human-world-cover/chapter-opener/generated/chapter-opener-background-v001-300dpi.png"/>
+
+  <g id="editable-chapter-text"
+     font-family="Source Han Serif SC, Noto Serif CJK SC, Songti SC, STSong, serif">
+    <g id="chapter-number"
+       fill="#7A2428"
+       font-size="40"
+       font-weight="500"
+       text-anchor="middle">
+      <text x="2896" y="367">第</text>
+      <text x="2896" y="428">一</text>
+      <text x="2896" y="488">章</text>
+    </g>
+
+    <g id="chapter-title"
+       fill="#1C1B19"
+       font-size="91"
+       font-weight="500"
+       text-anchor="middle">
+      <text x="2700" y="655">车</text>
+      <text x="2700" y="776">窗</text>
+      <text x="2700" y="897">里</text>
+      <text x="2700" y="1018">的</text>
+      <text x="2538" y="776">故</text>
+      <text x="2538" y="897">乡</text>
+    </g>
+  </g>
+</svg>

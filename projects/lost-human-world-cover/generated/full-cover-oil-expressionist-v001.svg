@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="309mm" height="216mm" viewBox="0 0 3650 2551">
+  <title>《失落人间》油画版完整封面 V001</title>
+  <desc>145×210 mm，70g轻型纸200页，13 mm暂定书脊，四周3 mm出血；左封底、中书脊、右正封。</desc>
+  <defs>
+    <clipPath id="backTrim"><rect x="35" y="35" width="1713" height="2480"/></clipPath>
+    <clipPath id="frontTrim"><rect x="1902" y="35" width="1713" height="2480"/></clipPath>
+    <linearGradient id="backReadability" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#182025" stop-opacity="0.30"/>
+      <stop offset="0.72" stop-color="#182025" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#182025" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="spineField" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#343b3d"/>
+      <stop offset="0.50" stop-color="#283034"/>
+      <stop offset="1" stop-color="#31383a"/>
+    </linearGradient>
+    <style><![CDATA[
+      .song { font-family: "Songti SC", "STSong", "Source Han Serif CN", serif; }
+      .back-copy { fill:#eee3ce; font-size:38px; font-weight:400; letter-spacing:2px; }
+      .back-lead { fill:#f2e7d3; font-size:42px; font-weight:500; letter-spacing:2.5px; }
+      .spine-title { fill:#eee3ce; font-size:43px; font-weight:500; }
+      .spine-author { fill:#eee3ce; font-size:28px; font-weight:400; }
+    ]]></style>
+  </defs>
+
+  <!-- Full bleed field -->
+  <rect x="0" y="0" width="3650" height="2551" fill="#2d3436"/>
+
+  <!-- Back cover: generated text-free companion painting -->
+  <g clip-path="url(#backTrim)">
+    <image x="35" y="35" width="1713" height="2480" preserveAspectRatio="none"
+           href="back-oil-expressionist-v001.png" xlink:href="back-oil-expressionist-v001.png"/>
+    <rect x="35" y="35" width="1713" height="2480" fill="url(#backReadability)"/>
+  </g>
+
+  <!-- Editable back-cover copy -->
+  <g class="song">
+    <g class="back-lead">
+      <text x="265" y="460">人们用来路确认一个人，</text>
+      <text x="265" y="530">也用归处收留一个人。</text>
+    </g>
+
+    <g class="back-copy">
+      <text x="265" y="790">他曾相信远方会给予新的名字，</text>
+      <text x="265" y="858">后来才明白，</text>
+      <text x="265" y="926">城市只改变了他的生活，</text>
+      <text x="265" y="994">并没有替他找到位置。</text>
+      <text x="265" y="1062">当旧日的灯一盏盏熄灭，</text>
+      <text x="265" y="1130">故乡仍在，</text>
+      <text x="265" y="1198">归来的人却成了异乡人。</text>
+    </g>
+
+    <g class="back-copy">
+      <text x="265" y="1545">有些离开通向抵达，</text>
+      <text x="265" y="1613">有些归来只是另一种流落。</text>
+      <text x="265" y="1681">在所有归途之外，</text>
+      <text x="265" y="1749">他继续生活在人间。</text>
+    </g>
+  </g>
+
+  <!-- Provisional 13 mm spine -->
+  <rect x="1748" y="35" width="154" height="2480" fill="url(#spineField)"/>
+  <line x1="1748" y1="35" x2="1748" y2="2515" stroke="#171d20" stroke-width="2" opacity="0.55"/>
+  <line x1="1902" y1="35" x2="1902" y2="2515" stroke="#171d20" stroke-width="2" opacity="0.55"/>
+  <g class="song spine-title" text-anchor="middle">
+    <text x="1825" y="520">失</text>
+    <text x="1825" y="590">落</text>
+    <text x="1825" y="660" fill="#a73720">人</text>
+    <text x="1825" y="730">间</text>
+  </g>
+  <g class="song spine-author" text-anchor="middle">
+    <text x="1825" y="1650">早</text>
+    <text x="1825" y="1700">睡</text>
+    <text x="1825" y="1750">的</text>
+    <text x="1825" y="1800">猫</text>
+  </g>
+
+  <!-- Approved front cover V005, placed without alteration -->
+  <g clip-path="url(#frontTrim)">
+    <image x="1902" y="35" width="1713" height="2480" preserveAspectRatio="none"
+           href="cover-oil-expressionist-v005.png" xlink:href="cover-oil-expressionist-v005.png"/>
+  </g>
+</svg>

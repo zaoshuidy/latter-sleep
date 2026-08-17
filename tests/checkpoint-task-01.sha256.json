@@ -1,0 +1,17 @@
+{
+  "VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+  "ai/__init__.py": "75fa33f04328e08fb0ff0cc3195ea897fb4dd25ebf5524c9d4144ea0931ac0fd",
+  "ai/contracts.py": "50f5373bdfc3ad40831326327ee113402efed8f0bd11459555f1e2580ed4d05b",
+  "requirements-dev.txt": "c16d522f6854b2f51ea3acbefd7d6b808eaecbd6757f37bc5adfa7d89f732682",
+  "schemas/asset-manifest.schema.json": "2dd924aeb4269427a65608daf73a6e30f3eb6142133e68e5e2dec3ecc642b8a0",
+  "schemas/content-map.schema.json": "1a4974460c3ad310b2b08d82371713387b980238d2a116f75b660fc968cdbf88",
+  "schemas/design-genome.schema.json": "5ea9216793b86730438d93d992ac071fc9c17074a3e5797e41310a461dad1d88",
+  "schemas/image-manifest.schema.json": "ab4ea11f86327d8d6f96aed3c530f035de6d10b80d8e44133b6a8163a25cb039",
+  "schemas/page-plan.schema.json": "5ae54553df04a52835ddc224fb8cd27ec59a75e17f37403db23912da7d47e020",
+  "schemas/project-config.schema.json": "20542c07a03b0e7155843e971f52211c62ec3354feb2930f60cfd768ebe68fba",
+  "schemas/review-report.schema.json": "2b90a361e72139fc534587bcf1c1a50dd65e3805883f43154b2debbda2cdfebd",
+  "scripts/hash_tree.py": "46dad4a726043eced534201db627826406e7bca952b31925aeb5e0963c3a070f",
+  "scripts/validate_json.py": "619973c466ef8a61180c7d888825758ef1fafb0d065665a0e5f7c5d7c31aeafb",
+  "tests/__init__.py": "8bbce6ce77b8fa9d0704243620311e5aa4bf0ecfd8783a5cc7557e705324dce6",
+  "tests/test_contracts.py": "ec691a351c20c3e3d83d79a81de0b8f77ebd545ed189305afb2649a621472c1a"
+}

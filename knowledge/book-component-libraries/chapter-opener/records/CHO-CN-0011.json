@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0011","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0047","book_title":"一群马 满天星","author":"李刚","designer":"樊响","publisher":"中国摄影出版社","publication_year":2022,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0047","source_url":"https://beautyofbooks.cn/bookdetail?id=476","platform":"BeautyOfBooks","collected_at":"2026-08-11","publication_year":2022,"publication_year_source_url":"https://aus.zxhsd.com/kgsm/ts/2022/09/26/5639030.shtml"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0011.jpg","sha256":"205e6f0e3623bb276a2afd910b4702f843b627820f2b9cff25d367a4cd527061","mime_type":"image/jpeg","width":1200,"height":800},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"typography","chapter_number_zone":"none","chapter_title_zone":"vertical","image_role":"none","text_image_relationship":"text-only","whitespace":"high"},
+  "visual_decomposition":{"overall_strategy":"左页近空，右页以错落竖排章题和细小双语信息形成单侧聚焦","observations":[{"aspect":"标题层级","value":"右页章题分成错落竖排字列，英文小字在左下平衡","visibility":"clear","confidence":0.98,"evidence":"当前图片可直接看见灰色右页的竖排大字与底部小英文","content_tags":["错落竖排","双语小字","单侧聚焦"]}]},
+  "reference_transfer":{"transferable":["单侧聚焦","错落竖排和字号反差","底角小字平衡"],"avoid_copying":["不复制原章题断行和手工纸效果"],"adaptation_notes":["按真实章题字数重排竖列"]},
+  "retrieval_features":{"style_tags":["纯排版","竖排","极简"],"content_tags":["摄影集","诗性标题","篇章"],"color_tags":["暖灰","黑色"],"mood_tags":["辽阔","安静","克制"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>《失落人间》章首页母版 A</title>
+  <style>
+    :root {
+      --paper: #f1ede4;
+      --ink: #1c1b19;
+      --accent: #7a2428;
+      --quiet: #b8aea0;
+      --desk: #262522;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: #e9e4db;
+      background: var(--desk);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+    }
+    main { width: min(1180px, calc(100vw - 40px)); margin: 32px auto 48px; }
+    header { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 18px; }
+    h1 { margin: 0; font-size: 18px; font-weight: 520; letter-spacing: .05em; }
+    .meta { color: #aaa39a; font-size: 12px; }
+    .stage { overflow: auto; padding: 20px; border: 1px solid #46433e; background: #1f1e1b; }
+    .spread {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 290mm;
+      height: 210mm;
+      margin: 0 auto;
+      color: var(--ink);
+      background: var(--paper);
+      box-shadow: 0 22px 60px rgba(0,0,0,.44);
+      overflow: hidden;
+    }
+    .page { position: relative; overflow: hidden; background: var(--paper); }
+    .left { border-right: .25mm solid rgba(28,27,25,.14); }
+    .left::before {
+      content: "";
+      position: absolute;
+      left: -7mm;
+      top: 57mm;
+      width: 105mm;
+      height: 91mm;
+      background: var(--ink);
+      clip-path: polygon(0 11%, 50% 0, 78% 18%, 88% 43%, 73% 65%, 43% 82%, 0 100%);
+    }
+    .left::after {
+      content: "";
+      position: absolute;
+      left: 61mm;
+      top: 112mm;
+      width: 67mm;
+      height: .5mm;
+      background: var(--accent);
+      transform: rotate(-7deg);
+      transform-origin: left center;
+    }
+    .boundary-end {
+      position: absolute;
+      left: 116mm;
+      top: 101mm;
+      width: 6mm;
+      height: 6mm;
+      border-top: .4mm solid var(--accent);
+      transform: rotate(19deg);
+    }
+    .right::before {
+      content: "";
+      position: absolute;
+      top: 18mm;
+      right: 17mm;
+      width: .22mm;
+      height: 174mm;
+      background: linear-gradient(var(--quiet), transparent 92%);
+      opacity: .52;
+    }
+    .chapter-number {
+      position: absolute;
+      top: 38mm;
+      right: 24mm;
+      writing-mode: vertical-rl;
+      color: var(--accent);
+      font: 8pt/1.5 "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", serif;
+      letter-spacing: .28em;
+    }
+    .chapter-title {
+      position: absolute;
+      top: 62mm;
+      right: 34mm;
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 5mm;
+      align-items: flex-start;
+      font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", serif;
+      font-size: 21pt;
+      line-height: 1;
+      letter-spacing: .16em;
+    }
+    .chapter-title span { writing-mode: vertical-rl; }
+    .chapter-title span:last-child { margin-top: 17mm; font-size: .78em; }
+    .editable-marker {
+      position: absolute;
+      right: 16mm;
+      bottom: 16mm;
+      color: var(--quiet);
+      font-size: 7px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .notes {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .note { padding: 13px 14px; color: #c9c2b9; background: #302e2a; border: 1px solid #44413b; font-size: 12px; line-height: 1.65; }
+    .note strong { display: block; margin-bottom: 3px; color: #f0ebe3; font-weight: 520; }
+    @media (max-width: 900px) {
+      .notes { grid-template-columns: 1fr; }
+      header { align-items: flex-start; flex-direction: column; }
+    }
+    @media print {
+      body, main, .stage { margin: 0; padding: 0; background: white; }
+      header, .notes { display: none; }
+      .spread { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>《失落人间》章首页母版 A</h1>
+      <div class="meta">32 开 · 145 × 210 mm／页 · 跨页预览</div>
+    </header>
+    <section class="stage" aria-label="章首页跨页预览">
+      <div class="spread">
+        <div class="page left" aria-label="左页抽象边界">
+          <div class="boundary-end" aria-hidden="true"></div>
+        </div>
+        <div class="page right" aria-label="右页可编辑章题">
+          <div class="chapter-number" data-layer="editable-text">第一章</div>
+          <div class="chapter-title" data-layer="editable-text">
+            <span>车窗里的</span>
+            <span>故乡</span>
+          </div>
+          <div class="editable-marker">editable text layers</div>
+        </div>
+      </div>
+    </section>
+    <section class="notes" aria-label="设计说明">
+      <div class="note"><strong>隐喻</strong>边界从页面外进入，却在书沟之前中断；不画人物、道路或故乡。</div>
+      <div class="note"><strong>文字</strong>章号与章题都是 HTML 真文字，可直接替换；不是背景图的一部分。</div>
+      <div class="note"><strong>复用</strong>全书保持同一结构，只替换章号、章题及长标题分列。</div>
+    </section>
+  </main>
+</body>
+</html>

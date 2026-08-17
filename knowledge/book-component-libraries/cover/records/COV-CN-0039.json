@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0039",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0039", "book_title": "何物", "author": "何明", "designer": "清门引", "publisher": "江苏凤凰美术出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0039", "source_url": "https://beautyofbooks.cn/bookdetail?id=506", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/014362378"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0039.jpg", "sha256": "ce0e35e7bdc4fb6907129bf8546169c2da5374e08dc16a835e67e4e78c99b56f", "mime_type": "image/jpeg", "width": 1500, "height": 1000},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "whitespace", "title_zone": "center", "spine_relationship": "independent", "thumbnail_recognition": "weak"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 右侧平放对象的浅灰正面：极小中文书名居中，大片近白空场突出尺度反差；正面左侧的可见窄书脊承载独立纵向中英信息，左侧闭合视图与中央展开浅色面仅作同案展示上下文", "observations": [
+    {"aspect": "微型居中题名", "value": "两个小号黑色汉字在浅灰题名面中央上下排列", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片右侧浅灰面中央可读小号“何物”二字", "content_tags": ["小号题名", "居中", "上下排列"]},
+    {"aspect": "近白空场与侧面", "value": "浅灰题名面保持大面积空白，相邻窄书脊可见纵向中英信息", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片右侧题名面中央只有小标题，邻接窄面可见纵向中英文字；左侧闭合视图与中央展开浅色面仅作上下文", "content_tags": ["大留白", "独立书脊", "极低信息密度"]}
+  ]},
+  "reference_transfer": {"transferable": ["以极小居中标题对比大面积近白空场", "把英文与出版信息压缩到边缘形成次级轴线", "从复杂展示图中选定唯一题名面作为profile"], "avoid_copying": ["不照搬二字题名的字距、字号和中心坐标", "不复制原白灰关系或延展面结构"], "adaptation_notes": ["用真实印刷尺寸测试小字识别下限", "实际延展结构和多面关系须另行确认"]},
+  "retrieval_features": {"style_tags": ["极简", "微型标题", "边缘信息"], "content_tags": ["器物", "何物", "艺术"], "color_tags": ["白色", "浅灰", "黑色"], "mood_tags": ["安静", "克制", "哲思"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

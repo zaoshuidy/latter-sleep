@@ -1,0 +1,32 @@
+{
+  "prompt_id": "PROMPT-COV-FOUR-SEASONS-A-0001",
+  "aspect_ratio": "2:3",
+  "component_role": "front-cover background for a restrained documentary direction",
+  "composition": "portrait cover with broad pale-gray negative space, a low-contrast documentary fragment entering from the lower edge, one newly designed low-density geometric anchor, and visually quiet upper and right-side safe zones",
+  "image_content": "non-identifying seasonal correspondence artifacts and authorized project documentary fragments; keep all surfaces blank and avoid invented personal events or identities",
+  "color_light_material": "pale gray paper, charcoal-black image structure, muted archival blue-gray accent, flat soft light, subtle uncoated-paper grain",
+  "editable_text_safe_zones": "reserve a quiet upper area and right vertical area for later editable layout layers; keep these zones free of high-contrast detail",
+  "print_and_crop": "portrait 2:3 composition with 3 mm bleed allowance; keep the documentary focal fragment and geometric anchor inside the trim-safe area",
+  "negative_constraints": [
+    "no readable text",
+    "no title or author glyphs",
+    "no publisher or studio mark",
+    "no logo",
+    "no watermark",
+    "no copied case geometry",
+    "no original labor figure",
+    "no original horse photograph",
+    "no original exhibition content",
+    "no invented personal photograph or biographical event"
+  ],
+  "editable_text_overlay": [
+    "title",
+    "author",
+    "studio_mark"
+  ],
+  "editable_text_values": {
+    "title": "四时来信",
+    "author": "待确认（可编辑文字层）",
+    "studio_mark": "待确认（可编辑文字层）"
+  }
+}

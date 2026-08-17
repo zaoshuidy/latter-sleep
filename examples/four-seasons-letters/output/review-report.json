@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "checks": [
+    {
+      "check_id": "source_integrity",
+      "status": "passed",
+      "reason": "all source hashes match"
+    },
+    {
+      "check_id": "toc_complete",
+      "status": "passed",
+      "reason": "confirmed"
+    },
+    {
+      "check_id": "running_headers_consistent",
+      "status": "passed",
+      "reason": "confirmed"
+    },
+    {
+      "check_id": "fonts_available",
+      "status": "passed",
+      "reason": "confirmed"
+    },
+    {
+      "check_id": "no_overflow",
+      "status": "passed",
+      "reason": "confirmed"
+    },
+    {
+      "check_id": "images_resolution_ok",
+      "status": "passed",
+      "reason": "confirmed"
+    },
+    {
+      "check_id": "page_numbers_continuous",
+      "status": "passed",
+      "reason": "confirmed"
+    },
+    {
+      "check_id": "prompts_complete",
+      "status": "passed",
+      "reason": "confirmed"
+    }
+  ],
+  "gates": {
+    "sample_review": "approved",
+    "final_review": "approved"
+  },
+  "status": "approved",
+  "next_action": "complete"
+}

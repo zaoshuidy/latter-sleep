@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-component-prompt.schema.json",
+  "title": "Book Component Generation Prompt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "prompt_id", "component_type", "selection_id", "compiled_blocks", "background_prompt", "generation_constraints", "editable_text_overlay", "negative_constraints"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "prompt_id": {"type": "string", "minLength": 1},
+    "component_type": {"enum": ["cover", "toc", "chapter-opener", "illustration-decoration"]},
+    "selection_id": {"type": "string", "minLength": 1},
+    "compiled_blocks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["PROJECT_TRUTH", "COMPONENT_ROLE", "DESIGN_GENOME", "REFERENCE_TRANSFERS", "COMPOSITION", "IMAGE_CONTENT", "COLOR_LIGHT_MATERIAL", "EDITABLE_TEXT_SAFE_ZONES", "PRINT_AND_CROP", "NEGATIVE", "OUTPUT_SPEC"],
+      "properties": {
+        "PROJECT_TRUTH": {"type": "string", "minLength": 1},
+        "COMPONENT_ROLE": {"type": "string", "minLength": 1},
+        "DESIGN_GENOME": {"type": "string", "minLength": 1},
+        "REFERENCE_TRANSFERS": {"type": "string", "minLength": 1},
+        "COMPOSITION": {"type": "string", "minLength": 1},
+        "IMAGE_CONTENT": {"type": "string", "minLength": 1},
+        "COLOR_LIGHT_MATERIAL": {"type": "string", "minLength": 1},
+        "EDITABLE_TEXT_SAFE_ZONES": {"type": "string", "minLength": 1},
+        "INTEGRATED_TEXT": {"type": "string", "minLength": 1},
+        "PRINT_AND_CROP": {"type": "string", "minLength": 1},
+        "NEGATIVE": {"type": "string", "minLength": 1},
+        "OUTPUT_SPEC": {"type": "string", "minLength": 1}
+      }
+    },
+    "background_prompt": {"type": "string", "minLength": 20},
+    "generation_constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["readable_text", "logo", "watermark", "aspect_ratio"],
+      "properties": {
+        "readable_text": {"enum": ["none", "exact-project-text"]},
+        "logo": {"const": "none"},
+        "watermark": {"const": "none"},
+        "aspect_ratio": {"type": "string", "minLength": 1}
+      }
+    },
+    "editable_text_overlay": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "author": {"type": "string", "minLength": 1},
+        "studio_mark": {"type": "string", "minLength": 1},
+        "publisher_mark": {"type": "string", "minLength": 1},
+        "spine_text": {"type": "string", "minLength": 1},
+        "other_text": {"type": "string", "minLength": 1}
+      }
+    },
+    "text_rendering_mode": {
+      "enum": ["editable-overlay", "integrated-typography"]
+    },
+    "integrated_text": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/integratedTextEntry"}
+    },
+    "editable_text_backup": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {"pattern": "^[A-Z][A-Z0-9-]*[0-9]$"},
+      "additionalProperties": {"type": "string", "minLength": 1}
+    },
+    "negative_constraints": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+  },
+  "$defs": {
+    "integratedTextEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text_id", "surface", "role", "value", "language"],
+      "properties": {
+        "text_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]*[0-9]$"},
+        "surface": {"enum": ["front", "back", "spine"]},
+        "role": {"enum": ["title", "subtitle", "author", "short-note", "back-cover-copy", "recommendation"]},
+        "value": {"type": "string", "minLength": 1},
+        "language": {"type": "string", "minLength": 2}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"text_rendering_mode": {"const": "integrated-typography"}},
+        "required": ["text_rendering_mode"]
+      },
+      "then": {
+        "required": ["integrated_text", "editable_text_backup"],
+        "properties": {
+          "component_type": {"const": "cover"},
+          "compiled_blocks": {"required": ["INTEGRATED_TEXT"]},
+          "generation_constraints": {
+            "properties": {"readable_text": {"const": "exact-project-text"}}
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "integrated_text": false,
+          "editable_text_backup": false,
+          "compiled_blocks": {"properties": {"INTEGRATED_TEXT": false}},
+          "generation_constraints": {
+            "properties": {"readable_text": {"const": "none"}}
+          }
+        }
+      }
+    }
+  ]
+}

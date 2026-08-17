@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0023",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0023", "book_title": "儿戏（特装版）", "author": "Jue Hou", "designer": "tenmilliontimes", "publisher": "Guangxi People's Publishing House", "publication_year": 2025, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0023", "source_url": "https://tenmilliontimes.com/Children-s-Games", "platform": "tenmilliontimes", "collected_at": "2026-08-11", "publication_year": 2025, "publication_year_source_url": "https://image.chinawriter.com.cn/n1/2025/0414/c404072-40459309.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0023.png", "sha256": "2b68de36c67036d259db2fbb25d752557cb3d5cff3d06f134dc43181514e512c", "mime_type": "image/png", "width": 2000, "height": 1333},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "illustration", "composition": "centered", "title_zone": "distributed", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 只绑定盒内书本的可见正面：红色儿童游戏线描居中，蓝色题名二字分置左右，米色底面保留宽松空间；外部展开包装及右侧槽位作为独立展示对象记录", "observations": [
+    {"aspect": "中心插图", "value": "红色线描儿童、球和花形图案集中在题名面中央", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片盒内书本正面中央可见红色儿童弯身、球体与花朵状图形", "content_tags": ["儿童", "游戏", "红色线描"]},
+    {"aspect": "分布式题名", "value": "蓝色“儿”“戏”分别位于中心插图左右", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片书本正面左侧可见蓝色“儿”，右侧可见蓝色“戏”", "content_tags": ["分置书名", "蓝色", "中心留位"]}
+  ]},
+  "reference_transfer": {"transferable": ["用分置标题围合中央叙事插图", "以两种主色区分文字和人物", "将特装包装信息与封面本体分别设计和检索"], "avoid_copying": ["不临摹原书儿童动作和红色边框图形", "不复制右侧槽位及附属物布局"], "adaptation_notes": ["为项目重新绘制原创人物动作和游戏物件", "先定义包装容纳物后再设计独立结构，不从参考图直接套用"]},
+  "retrieval_features": {"style_tags": ["儿童插画", "特装展示", "分置标题"], "content_tags": ["儿戏", "儿童", "游戏"], "color_tags": ["米色", "红色", "蓝色", "棕色"], "mood_tags": ["童真", "朴素", "趣味"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

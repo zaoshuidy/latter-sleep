@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0009",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0009", "book_title": "北大馆藏西文珍本中的老北京图像", "author": "张红扬、邹新明", "designer": "林海波", "publisher": "北京出版社", "publication_year": 2025, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0009", "source_url": "https://beautyofbooks.cn/bookdetail?id=520", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2025, "publication_year_source_url": "https://www.nationalreading.gov.cn/tshzx/202502/t20250224_885506.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0009.jpg", "sha256": "5097863bd4fe95917b685f6406b085f1f0dd39e08729cb0085b16e548c78179f", "mime_type": "image/jpeg", "width": 1500, "height": 1000},
+  "component_profile": {"cover_scope": "casebound", "visual_strategy": "illustration", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "continuous", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "红色老北京建筑线描连续包裹厚重书体，顶部白色信息区与四周密集城市图景形成上下层次", "observations": [
+    {"aspect": "图像", "value": "红色建筑与城市线描从正面延续到侧面", "visibility": "clear", "confidence": 0.98, "evidence": "当前图可见红色城楼、屋顶和街景线条连续覆盖书体正面及侧面", "content_tags": ["老北京", "建筑", "线描"]},
+    {"aspect": "色彩", "value": "白底与单一红色图像构成强烈双色系统", "visibility": "clear", "confidence": 0.99, "evidence": "当前书体仅见白色底面、红色图像和少量深色文字", "content_tags": ["红色", "白色", "双色"]}
+  ]},
+  "reference_transfer": {"transferable": ["让地域线描跨正背面连续展开", "用单色图像统一庞大资料体量", "顶部信息区与下部城市图景分层"], "avoid_copying": ["不复用老北京建筑线稿", "不复制原书红白具体图案密度"], "adaptation_notes": ["改用项目所在地或主题场景建立连续线描", "根据书体厚度重新规划跨脊衔接"]},
+  "retrieval_features": {"style_tags": ["历史图录", "线描", "地域性"], "content_tags": ["北京", "建筑", "珍本"], "color_tags": ["红色", "白色"], "mood_tags": ["历史感", "宏阔", "鲜明"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

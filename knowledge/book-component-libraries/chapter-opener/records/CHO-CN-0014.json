@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0014","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0061","book_title":"时空针灸学","author":"朱勉生","designer":"张志伟、赵祯、尹岩","publisher":"人民卫生出版社","publication_year":2021,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0063","source_url":"https://beautyofbooks.cn/bookdetail?id=456","platform":"最美的书官网","collected_at":"2026-08-13","publication_year":2021,"publication_year_source_url":"https://book.douban.com/isbn/9787117295765/"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0014.jpg","sha256":"54361f9e0cbc3e12c4cf78f10ea93e5c9e19d1eba87171a9ced86f04450950fa","mime_type":"image/jpeg","width":1200,"height":800},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"mixed","chapter_number_zone":"top","chapter_title_zone":"vertical","image_role":"background","text_image_relationship":"separate","whitespace":"medium"},
+  "visual_decomposition":{"overall_strategy":"左页大号蓝色竖题对位右页全幅抽象空间图，以单色建立章节分区","observations":[{"aspect":"跨页对位","value":"左页高留白竖题，右页为蓝色全幅概念图","visibility":"clear","confidence":0.97,"evidence":"当前图片清楚显示左文右图的蓝色跨页关系","content_tags":["左文右图","蓝色专色","竖排章题"]}]},
+  "reference_transfer":{"transferable":["左文右图强对位","章节专色","短页或局部页制造过渡"],"avoid_copying":["不复制针灸字形、穴位图和蓝色配方"],"adaptation_notes":["用项目核心概念图替换空间图"]},
+  "retrieval_features":{"style_tags":["单色","概念图","对位"],"content_tags":["针灸","空间","章节"],"color_tags":["蓝色","白色"],"mood_tags":["理性","神秘","专业"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

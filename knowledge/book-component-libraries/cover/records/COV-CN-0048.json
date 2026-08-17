@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0048",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0048", "book_title": "豆腐", "author": "朱赢椿（主编）", "designer": "朱赢椿、小羊、谢磊", "publisher": "湖南文艺出版社", "publication_year": 2022, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0048", "source_url": "https://beautyofbooks.cn/bookdetail?id=454", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2022, "publication_year_source_url": "https://tuan.bookschina.com/tuan/20754"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0048.jpg", "sha256": "46d773b65a79791fc93c31cdd59286cd118bdc06b13c167c4f0456df9e71b009", "mime_type": "image/jpeg", "width": 1875, "height": 1250},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "abstract", "composition": "centered", "title_zone": "center", "spine_relationship": "not-visible", "thumbnail_recognition": "weak"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 中正对镜头的近白正封：中央只有极低对比、浅浮凸外观的方块与字符状轮廓，四周保持大面积纯白；仅记录可见外观，不据此认定制作工艺", "observations": [
+    {"aspect": "中央浅浮凸外观", "value": "近白正封中央可见一组方块和字符状的浅浮凸外观", "visibility": "clear", "confidence": 0.96, "evidence": "当前图片中央白色题名面上可见依靠明暗边缘显现的低对比方形与字符轮廓；不推断工艺", "content_tags": ["浅浮凸外观", "方块", "低对比"]},
+    {"aspect": "纯白空场", "value": "中央图形之外几乎没有其他高对比信息，白色空场占据绝大部分正面", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片白色正面四周保持空白，没有清晰彩色图像或大号深色文字", "content_tags": ["白色空场", "极简", "弱识别"]}
+  ]},
+  "reference_transfer": {"transferable": ["以同色低对比形态替代常规高对比题名", "用中央小面积体块对比大面积白场", "把触感联想限制为可见明暗外观"], "avoid_copying": ["不复刻原方块、字符轮廓和尺寸", "不把可见外观直接指定为压凸或其他工艺"], "adaptation_notes": ["用项目自身主题形态建立新的低对比中心", "必须在真实光线与缩略图条件下测试识别下限"]},
+  "retrieval_features": {"style_tags": ["极简", "同色低对比", "浅浮凸外观"], "content_tags": ["豆腐", "饮食文化", "方块"], "color_tags": ["白色", "乳白", "浅灰"], "mood_tags": ["安静", "柔和", "质朴"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0006",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0006", "book_title": "语词中的历史与风景——中国新诗的基本问题", "author": "张桃洲", "designer": "白凤鹍", "publisher": "中国青年出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0006", "source_url": "https://beautyofbooks.cn/bookdetail?id=528", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://product.dangdang.com/product.aspx?product_id=11946354977"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0006.jpg", "sha256": "ab29331ac381f8078a1c9b026f44db8004d8907b8f93c5e5a8c8b8d8f3590dab", "mime_type": "image/jpeg", "width": 1500, "height": 973},
+  "component_profile": {"cover_scope": "casebound", "visual_strategy": "typography", "composition": "whitespace", "title_zone": "center", "spine_relationship": "independent", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "纯白精装封面以不同尺度的黑色中文词组松散分布，把学术题名转化为空间节奏而非图像装饰", "observations": [
+    {"aspect": "文字层级", "value": "多个黑色中文词组以大小差异分布在封面上半与中部", "visibility": "clear", "confidence": 0.98, "evidence": "当前封面图可见大小不一的黑色中文词组散布在白色正面", "content_tags": ["中文排版", "尺度变化", "词组"]},
+    {"aspect": "留白", "value": "白色底面占主体，图像元素缺席", "visibility": "clear", "confidence": 0.99, "evidence": "当前正面除黑色文字外为大面积白色，无插图或摄影主体", "content_tags": ["白底", "无图", "学术"]}
+  ]},
+  "reference_transfer": {"transferable": ["用词组尺度变化组织学术封面", "保留大面积白底降低信息压力", "将副标题拆解为空间节奏"], "avoid_copying": ["不复制原书词组拆分与坐标", "不照搬特定字形和字距"], "adaptation_notes": ["按项目关键词重新建立主次词组", "所有书名信息保留为可编辑文字层"]},
+  "retrieval_features": {"style_tags": ["学术", "极简", "文字编排"], "content_tags": ["诗歌", "历史", "语词"], "color_tags": ["白色", "黑色"], "mood_tags": ["理性", "沉静", "清晰"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

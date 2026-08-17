@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "people": [],
+  "times": [{"value": "四时", "source_ids": ["TXT-001"], "precision": "主题表达"}],
+  "places": [],
+  "events": [],
+  "themes": [{"value": "季节与来信", "source_ids": ["TXT-001"]}],
+  "image_links": [],
+  "gaps": [{"field": "正文段落", "status": "待确认", "reason": "旧项目样张未提供正文"}],
+  "source_text_hashes": {"TXT-001": "7efa333cfd083a01d7b58b998c94ad75af9ac160061671eb42c8d3543894b75a"}
+}

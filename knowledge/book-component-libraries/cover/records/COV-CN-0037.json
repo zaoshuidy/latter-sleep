@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0037",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0037", "book_title": "吸呼（全3册）", "author": "胡一凡", "designer": "胡一凡、戚翔宇", "publisher": "海豚出版社", "publication_year": 2023, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0037", "source_url": "https://beautyofbooks.cn/bookdetail?id=501", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2023, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/012700139"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0037.jpg", "sha256": "f0ab16941a48bc92b43f7d293565e1c6bb8aec87a6f81b4860bc0142b3ef5e84", "mime_type": "image/jpeg", "width": 1875, "height": 1250},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "abstract", "composition": "centered", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 只绑定官方案例 hero 前景蓝色册的可见正面：浅蓝题名横列上部，中央用大圆与白色弦月形叠置建立呼吸和天体般的抽象识别；后方粉色、绿色两册、浅色题名外盒和展开内页仅作三册套书上下文", "observations": [
+    {"aspect": "圆与弦月", "value": "大号浅蓝圆形位于蓝色正面中央，下方叠加白色弦月形", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片前景蓝色册中央可见浅蓝大圆，圆的右下缘外露白色弦月状图形", "content_tags": ["大圆", "弦月", "抽象图形"]},
+    {"aspect": "三册上下文", "value": "前景蓝册后方可见粉色与绿色册，并有浅色题名外盒和展开彩色内页面", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片可见蓝、粉、绿三册及后方浅色外盒；profile 不合并后方对象", "content_tags": ["三册", "多色", "外盒上下文"]}
+  ]},
+  "reference_transfer": {"transferable": ["用单一大圆与局部弦月构成高识别抽象主图", "让套书在统一标题框架中以不同底色分册", "多物件展示时绑定唯一前景正面作为profile"], "avoid_copying": ["不复刻原圆月比例、叠置位置和蓝粉绿色组合", "不复制原外盒人脸线条或三册内容分配"], "adaptation_notes": ["从新项目核心动作提炼可瞬间识别的原创几何关系", "先建立真实分册逻辑，再配置颜色与外盒职责"]},
+  "retrieval_features": {"style_tags": ["抽象绘本", "几何图形", "套书系统"], "content_tags": ["呼吸", "三册", "生命"], "color_tags": ["蓝色", "浅蓝", "白色", "粉色", "绿色"], "mood_tags": ["明快", "宁静", "开放"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0044",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0044", "book_title": "梦影红楼", "author": "孙温、孙允谟绘", "designer": "潘焰荣", "publisher": "上海古籍出版社", "publication_year": 2019, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0044", "source_url": "https://beautyofbooks.cn/bookdetail?id=389", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2019, "publication_year_source_url": "https://book.douban.com/subject/33379360/"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0044.jpg", "sha256": "c902ee876df2aff7db3600ccedb4be6f81be440afce139d80d0637c5867d9d78", "mime_type": "image/jpeg", "width": 900, "height": 600},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "abstract", "composition": "centered", "title_zone": "vertical", "spine_relationship": "independent", "thumbnail_recognition": "weak"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 中朝上的淡青绿色正面：中央大面积低对比椭圆形构图与零散小号文字共同形成弱识别；相邻粉色窄书脊承载独立纵向信息", "observations": [
+    {"aspect": "中央低对比椭圆", "value": "淡青绿色正面中央可见一块更浅的大型椭圆形区域", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片朝上的淡青绿面中央可见边界柔和的浅色椭圆区域", "content_tags": ["椭圆", "低对比", "居中"]},
+    {"aspect": "小号文字与粉色书脊", "value": "正面仅有少量细小文字点，粉色窄书脊上另有独立纵向信息", "visibility": "clear", "confidence": 0.96, "evidence": "当前图片淡青绿面可见少量粉红小字，相邻粉色窄面可见成列小型文字", "content_tags": ["微型文字", "粉色书脊", "独立信息"]}
+  ]},
+  "reference_transfer": {"transferable": ["用大面积低对比抽象形建立含蓄主视觉", "让正面极少量文字与独立书脊形成信息分工", "以柔和互补色区分正面与书脊"], "avoid_copying": ["不复刻原椭圆轮廓和青粉配色", "不照搬原文字点位与书脊节奏"], "adaptation_notes": ["从新书叙事中提炼可被弱化的抽象母题", "弱识别正面须配合真实销售缩略图测试"]},
+  "retrieval_features": {"style_tags": ["低对比", "抽象椭圆", "含蓄古典"], "content_tags": ["红楼梦", "绘画", "大观园"], "color_tags": ["淡青绿", "粉色", "米白"], "mood_tags": ["朦胧", "雅致", "静谧"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

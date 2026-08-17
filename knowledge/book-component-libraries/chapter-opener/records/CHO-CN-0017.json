@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0017","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0014","book_title":"铸印——何效义的田野实践","author":"阎海军","designer":"潘焰荣","publisher":"商务印书馆","publication_year":2021,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0066","source_url":"https://beautyofbooks.cn/bookdetail?id=470","platform":"最美的书官网","collected_at":"2026-08-13","publication_year":2021,"publication_year_source_url":"https://book.douban.com/isbn/9787100199926/"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0017.jpg","sha256":"1dfaecf2fd189f2d4c4bf9a3db4c057774a6fc40021775e197e6b9f99577443c","mime_type":"image/jpeg","width":1200,"height":800},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"mixed","chapter_number_zone":"none","chapter_title_zone":"top","image_role":"illustration","text_image_relationship":"adjacent","whitespace":"high"},
+  "visual_decomposition":{"overall_strategy":"再生纸感跨页以左上粗黑地名章题锚定，右侧小型地图插页形成田野档案感","observations":[{"aspect":"标题图像关系","value":"左上大号章题与右侧越出书口的地图插页形成比例反差","visibility":"clear","confidence":0.96,"evidence":"当前图片可见粗黑标题、颗粒底面与右侧附图","content_tags":["大章题","地图插页","田野档案"]}]},
+  "reference_transfer":{"transferable":["大标题与小地图的比例反差","附页越界形成层次","颗粒底面营造档案感"],"avoid_copying":["不复制马营地图、田野坐标和锈蚀工艺"],"adaptation_notes":["用项目自身地点或路径图替代地图"]},
+  "retrieval_features":{"style_tags":["田野档案","粗黑标题","材料感"],"content_tags":["乡土","地图","田野实践"],"color_tags":["纸褐","黑色","锈红"],"mood_tags":["质朴","纪实","沉稳"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

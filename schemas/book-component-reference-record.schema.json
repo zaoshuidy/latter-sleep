@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-component-reference-record.schema.json",
+  "title": "Book Component Reference Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_id", "component_type", "identity", "source", "asset", "component_profile", "visual_decomposition", "reference_transfer", "retrieval_features", "lifecycle"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "record_id": {"type": "string"},
+    "component_type": {"enum": ["cover", "toc", "chapter-opener", "illustration-decoration"]},
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["book_case_id", "book_title", "author", "designer", "publisher", "publication_year", "language"],
+      "properties": {
+        "book_case_id": {"type": "string", "pattern": "^BOOK-CN-[0-9]{4}$"},
+        "book_title": {"type": "string", "minLength": 1},
+        "author": {"type": ["string", "null"], "minLength": 1},
+        "designer": {"type": ["string", "null"], "minLength": 1},
+        "publisher": {"type": ["string", "null"], "minLength": 1},
+        "publication_year": {"type": "integer", "minimum": 2017, "maximum": 2026},
+        "language": {"type": "string", "minLength": 1}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_registry_id", "source_url", "platform", "collected_at", "publication_year", "publication_year_source_url"],
+      "properties": {
+        "source_registry_id": {"type": "string", "pattern": "^SRC-CN-[0-9]{4}$"},
+        "source_url": {"type": "string", "minLength": 1, "pattern": "^https?://[^\\s/]+(?:/[^\\s]*)?$"},
+        "platform": {"type": "string", "minLength": 1},
+        "collected_at": {"type": "string", "format": "date", "pattern": "^[0-9]{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12][0-9]|3[01])|(?:0[469]|11)-(?:0[1-9]|[12][0-9]|30)|02-(?:0[1-9]|1[0-9]|2[0-9]))$"},
+        "publication_year": {"type": "integer", "minimum": 2017, "maximum": 2026},
+        "publication_year_source_url": {"type": "string", "minLength": 1, "pattern": "^https?://[^\\s/]+(?:/[^\\s]*)?$"}
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relative_path", "sha256", "mime_type", "width", "height"],
+      "properties": {
+        "relative_path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "mime_type": {"enum": ["image/jpeg", "image/png", "image/webp"]},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1}
+      }
+    },
+    "component_profile": {"type": "object"},
+    "visual_decomposition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["overall_strategy", "observations"],
+      "properties": {
+        "overall_strategy": {"type": "string", "minLength": 1},
+        "observations": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/observation"}}
+      }
+    },
+    "reference_transfer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["transferable", "avoid_copying", "adaptation_notes"],
+      "properties": {
+        "transferable": {"$ref": "#/$defs/non_empty_strings"},
+        "avoid_copying": {"$ref": "#/$defs/non_empty_strings"},
+        "adaptation_notes": {"$ref": "#/$defs/non_empty_strings"}
+      }
+    },
+    "retrieval_features": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["style_tags", "content_tags", "color_tags", "mood_tags"],
+      "properties": {
+        "style_tags": {"$ref": "#/$defs/non_empty_strings"},
+        "content_tags": {"$ref": "#/$defs/non_empty_strings"},
+        "color_tags": {"$ref": "#/$defs/non_empty_strings"},
+        "mood_tags": {"$ref": "#/$defs/non_empty_strings"}
+      }
+    },
+    "lifecycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "created_at", "updated_at"],
+      "properties": {
+        "status": {"enum": ["accumulation", "confirmed", "archived"]},
+        "created_at": {"type": "string", "format": "date", "pattern": "^[0-9]{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12][0-9]|3[01])|(?:0[469]|11)-(?:0[1-9]|[12][0-9]|30)|02-(?:0[1-9]|1[0-9]|2[0-9]))$"},
+        "updated_at": {"type": "string", "format": "date", "pattern": "^[0-9]{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12][0-9]|3[01])|(?:0[469]|11)-(?:0[1-9]|[12][0-9]|30)|02-(?:0[1-9]|1[0-9]|2[0-9]))$"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"component_type": {"const": "cover"}}},
+      "then": {"properties": {"record_id": {"pattern": "^COV-CN-[0-9]{4}$"}, "component_profile": {"$ref": "#/$defs/cover_profile"}}}
+    },
+    {
+      "if": {"properties": {"component_type": {"const": "toc"}}},
+      "then": {"properties": {"record_id": {"pattern": "^TOC-CN-[0-9]{4}$"}, "component_profile": {"$ref": "#/$defs/toc_profile"}}}
+    },
+    {
+      "if": {"properties": {"component_type": {"const": "chapter-opener"}}},
+      "then": {"properties": {"record_id": {"pattern": "^CHO-CN-[0-9]{4}$"}, "component_profile": {"$ref": "#/$defs/chapter_opener_profile"}}}
+    },
+    {
+      "if": {"properties": {"component_type": {"const": "illustration-decoration"}}},
+      "then": {"properties": {"record_id": {"pattern": "^ILD-CN-[0-9]{4}$"}, "component_profile": {"$ref": "#/$defs/illustration_decoration_profile"}}}
+    }
+  ],
+  "$defs": {
+    "non_empty_strings": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["aspect", "value", "visibility", "confidence", "evidence", "content_tags"],
+      "properties": {
+        "aspect": {"type": "string", "minLength": 1},
+        "value": {"type": "string", "minLength": 1},
+        "visibility": {"enum": ["clear", "partial", "uncertain"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "minLength": 1},
+        "content_tags": {"$ref": "#/$defs/non_empty_strings"}
+      }
+    },
+    "cover_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cover_scope", "visual_strategy", "composition", "title_zone", "spine_relationship", "thumbnail_recognition"],
+      "properties": {
+        "cover_scope": {"enum": ["front", "full-wrap", "dust-jacket", "casebound", "with-flaps"]},
+        "visual_strategy": {"enum": ["image", "typography", "abstract", "photography", "illustration", "mixed"]},
+        "composition": {"enum": ["centered", "asymmetric", "full-bleed", "whitespace", "bordered", "grid"]},
+        "title_zone": {"enum": ["top", "center", "bottom", "vertical", "distributed"]},
+        "spine_relationship": {"enum": ["independent", "continuous", "not-visible"]},
+        "thumbnail_recognition": {"enum": ["strong", "medium", "weak"]}
+      }
+    },
+    "toc_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["layout_system", "entry_hierarchy", "navigation_style"],
+      "properties": {
+        "layout_system": {"type": "string", "minLength": 1},
+        "entry_hierarchy": {"type": "string", "minLength": 1},
+        "navigation_style": {"type": "string", "minLength": 1}
+      }
+    },
+    "chapter_opener_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["opening_mode", "visual_strategy", "chapter_number_zone", "chapter_title_zone", "image_role", "text_image_relationship", "whitespace"],
+      "properties": {
+        "opening_mode": {"enum": ["single-page", "spread"]},
+        "visual_strategy": {"enum": ["typography", "image", "photography", "illustration", "abstract", "mixed"]},
+        "chapter_number_zone": {"enum": ["top", "center", "bottom", "vertical", "margin", "distributed", "none"]},
+        "chapter_title_zone": {"enum": ["top", "center", "bottom", "vertical", "margin", "distributed"]},
+        "image_role": {"enum": ["none", "background", "illustration", "photography", "decoration"]},
+        "text_image_relationship": {"enum": ["text-only", "separate", "overlay", "adjacent", "integrated"]},
+        "whitespace": {"enum": ["high", "medium", "low"]}
+      }
+    },
+    "illustration_decoration_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["image_role", "placement", "visual_language"],
+      "properties": {
+        "image_role": {"type": "string", "minLength": 1},
+        "placement": {"type": "string", "minLength": 1},
+        "visual_language": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

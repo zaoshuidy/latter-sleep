@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-project-image-generation-payload.schema.json",
+  "title": "Book Project Image Generation Payload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["background_prompt", "referenced_image_paths"],
+  "properties": {
+    "background_prompt": {"type": "string", "minLength": 1},
+    "referenced_image_paths": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    }
+  }
+}

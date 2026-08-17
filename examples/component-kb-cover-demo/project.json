@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "title": "四时来信",
+  "mode": "memorial",
+  "primary_category": "letters-diaries",
+  "tags": [
+    "seasonal-letters",
+    "workflow-demo",
+    "第一章 春归"
+  ],
+  "confirmer": "V1 样例维护人",
+  "purpose": "验证图书生产 Skills 的结构化流程",
+  "primary_readers": "个人项目维护者",
+  "page_size": "140mm × 210mm",
+  "brand_profile": "paper-boat",
+  "page_plan": {
+    "min_pages": 8,
+    "max_pages": 16
+  }
+}

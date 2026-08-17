@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0022",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0022", "book_title": "金圣叹选批唐诗六百首·新年特装版", "author": "金圣叹（选批）", "designer": "Dooo Design Studio", "publisher": "北京联合出版公司", "publication_year": 2017, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0022", "source_url": "https://www.dooodesign.com/%E4%BD%9C%E5%93%81/5192.html", "platform": "Dooo Design Studio", "collected_at": "2026-08-11", "publication_year": 2017, "publication_year_source_url": "https://www.kchushu.net/newbook/2017-08-12/583.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0022.jpg", "sha256": "3f7a2830041915cec7050bfc8d73b3a6640346ab1b364ff89a004618c10b5377", "mime_type": "image/jpeg", "width": 1280, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "近黑色题名面用小号浅色汉字沿斜向阶梯分布，大片暗部只保留低对比竖线痕迹，使古典诗选呈现克制而现代的文字结构", "observations": [
+    {"aspect": "题名路径", "value": "浅灰书名字符从上部偏右沿斜向阶梯逐字展开", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片近黑色表面上可读“金圣叹选批唐诗六百首”，单字沿右上至中部的斜向路径排列", "content_tags": ["斜向题名", "逐字排列", "浅灰字"]},
+    {"aspect": "暗部结构", "value": "左侧暗面可见多条间距相近的低对比竖向线条", "visibility": "clear", "confidence": 0.93, "evidence": "当前图片左半部在侧光下可见一组细长平行痕迹，但仅凭图片不判断其制作方式", "content_tags": ["低对比", "竖线", "暗面"]}
+  ]},
+  "reference_transfer": {"transferable": ["让长书名沿非水平路径拆分为节奏单元", "用低对比背景线条支撑主标题", "以大面积深色控制古典主题的肃静感"], "avoid_copying": ["不照搬原书逐字坐标和斜率", "不把可见线痕推断为具体工艺"], "adaptation_notes": ["依据新书名字数重新计算路径和阅读顺序", "必须以缩略图和实尺寸两级测试可读性"]},
+  "retrieval_features": {"style_tags": ["文字解构", "古典当代化", "暗色极简"], "content_tags": ["唐诗", "选批", "古典文学"], "color_tags": ["黑色", "深灰", "浅灰"], "mood_tags": ["肃静", "克制", "神秘"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

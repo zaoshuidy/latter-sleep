@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "concept_id": "COVER-A-PAPER-SEASONS",
+  "reference_ids": ["DC-01-cover", "DC-07-cover"],
+  "core_metaphor": "一张随着季节光线变化的信纸",
+  "composition": {"format": "portrait", "focus": "lower-third paper fold", "title_safe_area": "upper half"},
+  "subject": ["folded letter paper", "subtle seasonal light"],
+  "color": ["warm cream", "muted sage green"],
+  "material": ["uncoated fiber paper", "soft blind emboss impression"],
+  "lighting": "diffused window light",
+  "style_constraints": ["restrained editorial", "quiet personal ritual", "combine multiple references"],
+  "negative_constraints": ["no readable text", "no logo", "no single-case replica", "no fake personal photograph"],
+  "background_prompt": "Portrait book-cover background, folded cream letter paper under subtle seasonal window light, muted sage accent, generous clean upper-half title area, restrained editorial composition, no readable text or logo.",
+  "editable_text_overlay": {"title": "editable-text-layer", "author": "editable-text-layer", "studio_mark": "editable-text-layer"},
+  "version": "v1",
+  "evaluation_status": "draft"
+}

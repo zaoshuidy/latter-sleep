@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-project-image-version.schema.json",
+  "title": "Book Project Image Version Evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "image_id", "prompt_id", "selection_id", "component_type", "record_ids", "output_path", "sha256", "mime_type", "dimensions", "version", "status", "selection_sha256", "prompt_sha256", "generation_payload_sha256", "generation_authorization_sha256", "retrieval_result_sha256"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "image_id": {"type": "string", "minLength": 1},
+    "prompt_id": {"type": "string", "minLength": 1},
+    "selection_id": {"type": "string", "minLength": 1},
+    "component_type": {"enum": ["cover", "toc", "chapter-opener", "illustration-decoration"]},
+    "record_ids": {"type": "array", "minItems": 2, "maxItems": 3, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "output_path": {"type": "string", "minLength": 1},
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "mime_type": {"enum": ["image/jpeg", "image/png", "image/webp"]},
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height"],
+      "properties": {"width": {"type": "integer", "minimum": 1}, "height": {"type": "integer", "minimum": 1}}
+    },
+    "version": {"type": "string", "pattern": "^V[0-9]{3,}$"},
+    "status": {"const": "draft"},
+    "selection_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "prompt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "generation_payload_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "generation_authorization_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "retrieval_result_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

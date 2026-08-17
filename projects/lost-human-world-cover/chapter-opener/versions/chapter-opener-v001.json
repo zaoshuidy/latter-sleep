@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "version_id": "IMG-LOST-HUMAN-WORLD-CHAPTER-001-V001",
+  "status": "draft",
+  "component_type": "chapter-opener",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "selection_id": "SEL-LOST-HUMAN-WORLD-CHAPTER-A-001",
+  "selection_sha256": "1de9c60c9c173a8745e345cfbec5ca76f3ea91a47b2954b262d49afbf180a65b",
+  "master_id": "OPENER-LOST-HUMAN-WORLD-A-001",
+  "master_sha256": "13a449df97a2c47d5159920ebd2b8e21e3f3941e156b711be2a2e19bb7fea43c",
+  "generation_authorization": {
+    "authorized_by": "user",
+    "authorized_action": "generate one first-version chapter-opener image for visual review",
+    "authorized_at": "2026-08-14"
+  },
+  "background": {
+    "path": "generated/chapter-opener-background-v001.png",
+    "sha256": "1f03076080a678923d7ee76d46c90e6d0ae5844971c5967c4ffedafdc135b75f",
+    "pixel_width": 1474,
+    "pixel_height": 1067,
+    "text_free": true
+  },
+  "editable_composite": {
+    "path": "generated/chapter-opener-v001.svg",
+    "sha256": "b6bfd0b31ee1d4623c6024eab9c6fc2c90ebe417a73b2e9692cf652c2c9732bf",
+    "text_layer_ids": [
+      "chapter-number",
+      "chapter-title"
+    ]
+  },
+  "preview": {
+    "path": "generated/chapter-opener-v001-preview.png",
+    "sha256": "e464340672222fb11ef6650374759de76268f94c57edcb4604bfd195723aebca"
+  },
+  "review": {
+    "decision": "pending",
+    "notes": "等待用户对第一版进行视觉评判。"
+  }
+}

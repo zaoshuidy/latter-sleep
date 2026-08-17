@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0031",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0031", "book_title": "姑苏繁华录——苏州桃花坞木版年画特展作品集", "author": "张晴", "designer": "刘晓翔、郭晴婷、张宇", "publisher": "上海人民美术出版社", "publication_year": 2017, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0031", "source_url": "https://beautyofbooks.cn/bookdetail?id=328", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2017, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/006696287"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0031.jpg", "sha256": "572d4abdb59ee327deaeecd3c0b6a090b6f3f0d71d5724dfeb43eb2173e664af", "mime_type": "image/jpeg", "width": 600, "height": 400},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "mixed", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "independent", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "profile 只绑定官方案例 hero 中最大的浅灰题名面：小号蓝色英文信息集中在上部，左侧三角形折线形成局部视觉锚点；相邻顶面与窄侧面仅作展示上下文，不据此认定包装或完整结构", "observations": [
+    {"aspect": "上部文字层级", "value": "蓝色英文题名与数行小字集中在浅灰题名面上部偏左", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片最大浅灰面上部可见一行蓝色英文题名和下方多行较小文字", "content_tags": ["蓝色小字", "上部信息", "浅灰底"]},
+    {"aspect": "局部构形与侧面", "value": "左侧中部有三角形切口或凸起状构形，左侧窄可见面另有红色纵向文字", "visibility": "clear", "confidence": 0.96, "evidence": "当前图片最大浅灰面左中部可见三角形构形，邻接窄面可见红色纵向文字；不据此推断工艺或包装", "content_tags": ["三角构形", "独立侧面", "红色纵字"]}
+  ]},
+  "reference_transfer": {"transferable": ["以极小文字与大面积浅色空白建立展览图录的克制层级", "用单一几何折线形成低占比识别点", "把案例展示中的相邻面与受控profile分开"], "avoid_copying": ["不照搬蓝色英文题名的位置和断行", "不复刻原三角折线形状或侧面文字"], "adaptation_notes": ["按新书中英文比例重新设计小字号层级", "先确认实际结构后再分配正面、侧面及包装信息"]},
+  "retrieval_features": {"style_tags": ["展览图录", "极简信息", "几何折线"], "content_tags": ["苏州", "桃花坞", "木版年画"], "color_tags": ["浅灰", "蓝色", "橙红"], "mood_tags": ["克制", "现代", "档案感"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

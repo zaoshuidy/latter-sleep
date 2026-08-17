@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "assets": [
+    {
+      "asset_id": "TXT-001",
+      "asset_type": "text",
+      "original_path": "content/source.txt",
+      "state": "received",
+      "source": "旧套件章首页示例中的真实书名与章节名",
+      "notes": "旧样例没有正文段落；本 V1 样例不补造正文。"
+    }
+  ]
+}

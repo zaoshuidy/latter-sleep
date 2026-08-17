@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "CHO-CN-0007",
+  "component_type": "chapter-opener",
+  "identity": {"book_case_id": "BOOK-CN-0055", "book_title": "唯美：江南，江南", "author": "冷冰川（主编）", "designer": "周晨", "publisher": "商务印书馆", "publication_year": 2025, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0057", "source_url": "https://www.cp.com.cn/Content/2026/01-29/1536007219.html", "platform": "商务印书馆", "collected_at": "2026-08-13", "publication_year": 2025, "publication_year_source_url": "https://www.cp.com.cn/book/974e62c0-1.html"},
+  "asset": {"relative_path": "chapter-opener/assets/CHO-CN-0007.png", "sha256": "a898dc07a8dbdbbb8a756495ab79ba2b05fc5dfd81a9e587c4c9776d6f19a85d", "mime_type": "image/png", "width": 1302, "height": 974},
+  "component_profile": {"opening_mode": "spread", "visual_strategy": "typography", "chapter_number_zone": "none", "chapter_title_zone": "distributed", "image_role": "none", "text_image_relationship": "text-only", "whitespace": "high"},
+  "visual_decomposition": {"overall_strategy": "巨型汉字拆分到跨页边缘，小型英文与名单作为次级信息", "observations": [
+    {"aspect": "标题区", "value": "大号分辑汉字分置跨页四角和边缘", "visibility": "clear", "confidence": 0.98, "evidence": "当前案例图可见多组整跨页中巨大汉字被拆分到不同边缘", "content_tags": ["巨型汉字", "四角分布", "跨页"]},
+    {"aspect": "信息层级", "value": "小英文和贡献者名单压缩为细列", "visibility": "clear", "confidence": 0.95, "evidence": "当前图片可见大字周围配置显著更小的英文与名单文字", "content_tags": ["小型英文", "细列名单", "层级反差"]}
+  ]},
+  "reference_transfer": {"transferable": ["跨页四角拆分长标题", "大字与细小次级信息形成尺度反差", "不同分辑使用材料色变化"], "avoid_copying": ["不复用原栏目名称与名单", "不照搬原书纹理和配色组合"], "adaptation_notes": ["按真实章题字数决定拆分方式", "保证大字跨书沟后仍可识别"]},
+  "retrieval_features": {"style_tags": ["实验排版", "超大标题", "跨页"], "content_tags": ["江南", "分辑", "诗文"], "color_tags": ["暖灰", "深红", "金属灰"], "mood_tags": ["文学", "当代", "疏朗"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-13", "updated_at": "2026-08-13"}
+}

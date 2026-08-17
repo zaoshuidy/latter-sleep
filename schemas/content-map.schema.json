@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "content-map.schema.json",
+  "title": "Memorial Content Map",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "project_id", "people", "times", "places", "events", "themes", "image_links", "gaps", "source_text_hashes"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "project_id": {"type": "string"},
+    "people": {"type": "array", "items": {"type": "object"}},
+    "times": {"type": "array", "items": {"type": "object"}},
+    "places": {"type": "array", "items": {"type": "object"}},
+    "events": {"type": "array", "items": {"type": "object"}},
+    "themes": {"type": "array", "items": {"type": "object"}},
+    "image_links": {"type": "array", "items": {"type": "object"}},
+    "gaps": {"type": "array", "items": {"type": "object"}},
+    "source_text_hashes": {"type": "object", "additionalProperties": {"type": "string"}}
+  }
+}

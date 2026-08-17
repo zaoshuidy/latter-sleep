@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "record_id": "CHO-CN-0044",
+  "component_type": "chapter-opener",
+  "identity": {
+    "book_case_id": "BOOK-CN-0088",
+    "book_title": "白话胶囊",
+    "author": "丁捷",
+    "designer": "tenmilliontimes",
+    "publisher": "江苏凤凰文艺出版社",
+    "publication_year": 2022,
+    "language": "zh-CN"
+  },
+  "source": {
+    "source_registry_id": "SRC-CN-0092",
+    "source_url": "https://tenmilliontimes.com/Truth-Capsule",
+    "platform": "tenmilliontimes",
+    "collected_at": "2026-08-13",
+    "publication_year": 2022,
+    "publication_year_source_url": "https://www.sanmin.com.tw/search?au=%E4%B8%81%E6%8D%B7"
+  },
+  "asset": {
+    "relative_path": "chapter-opener/assets/CHO-CN-0044.png",
+    "sha256": "469b9669e0b2833ba3b6307bdd92ba3572f6afe463211e97f95e339980673e33",
+    "mime_type": "image/png",
+    "width": 1512,
+    "height": 1002
+  },
+  "component_profile": {
+    "opening_mode": "single-page",
+    "visual_strategy": "typography",
+    "chapter_number_zone": "center",
+    "chapter_title_zone": "center",
+    "image_role": "decoration",
+    "text_image_relationship": "integrated",
+    "whitespace": "high"
+  },
+  "visual_decomposition": {
+    "overall_strategy": "以大号百分比作为章节识别符，与四字章题在单页中央叠合，黑白页面反转形成连续章节系统",
+    "observations": [
+      {
+        "aspect": "章节标识",
+        "value": "多个单页样张均以大号百分比和四字章题集中于页面中央，周围保留大面积空场",
+        "visibility": "clear",
+        "confidence": 0.99,
+        "evidence": "当前图片可直接见到 21%、17%、19% 三个百分比标识及对应四字标题",
+        "content_tags": [
+          "百分比章号",
+          "中央章题",
+          "单页系统"
+        ]
+      },
+      {
+        "aspect": "黑白反转",
+        "value": "白页使用黑色文字，黑页使用白色文字，细线圆环与小圆点叠在标题区作为装饰",
+        "visibility": "clear",
+        "confidence": 0.98,
+        "evidence": "当前图片同时展示白底黑字和黑底白字页面，并可见标题区的细线圆环",
+        "content_tags": [
+          "黑白反转",
+          "线性圆环",
+          "标题装饰"
+        ]
+      }
+    ]
+  },
+  "reference_transfer": {
+    "transferable": [
+      "用可量化符号建立章节识别系统",
+      "让章题与大号标识在中央形成尺度对比",
+      "以黑白反转区分章节而保持结构一致"
+    ],
+    "avoid_copying": [
+      "不复制原百分比、章题、字形、圆环组合或精确坐标",
+      "不复制原书具体黑白页面顺序"
+    ],
+    "adaptation_notes": [
+      "按项目章节语义重新选择标识符，并在统一网格内重建标题层级"
+    ]
+  },
+  "retrieval_features": {
+    "style_tags": [
+      "极简排版",
+      "数字系统",
+      "黑白反转"
+    ],
+    "content_tags": [
+      "百分比",
+      "四字章题",
+      "章节标识"
+    ],
+    "color_tags": [
+      "黑色",
+      "白色",
+      "灰色"
+    ],
+    "mood_tags": [
+      "克制",
+      "理性",
+      "清晰"
+    ]
+  },
+  "lifecycle": {
+    "status": "accumulation",
+    "created_at": "2026-08-13",
+    "updated_at": "2026-08-13"
+  }
+}

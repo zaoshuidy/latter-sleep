@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "book-component-kb-promotion.schema.json",
+  "title": "Book Component Knowledge-Base Promotion",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "promotion_id", "review_id", "record_id", "component_type", "status", "human_approval", "target_lifecycle"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "promotion_id": {"type": "string", "minLength": 1},
+    "review_id": {"type": "string", "minLength": 1},
+    "record_id": {"type": "string", "minLength": 1},
+    "component_type": {"enum": ["cover", "toc", "chapter-opener", "illustration-decoration"]},
+    "status": {"const": "proposed"},
+    "human_approval": {"const": "pending"},
+    "target_lifecycle": {"const": "accumulation"}
+  }
+}

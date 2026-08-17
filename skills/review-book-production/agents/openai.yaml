@@ -1,0 +1,4 @@
+interface:
+  display_name: "图书生产审核"
+  short_description: "检查正文完整性与生产质量并执行样页和全书两级人工门禁"
+  default_prompt: "请检查这个图书项目并生成审核报告，不要绕过任何待确认门禁。"

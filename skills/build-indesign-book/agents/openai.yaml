@@ -1,0 +1,5 @@
+interface:
+  display_name: "构建 InDesign 成书"
+  short_description: "把已批准物理页编译为 INDD 与 PDF 校样"
+  default_prompt: "请保持批准页序和页面内容不变，通过 Windows COM 构建 InDesign 文档并输出校验报告。"
+

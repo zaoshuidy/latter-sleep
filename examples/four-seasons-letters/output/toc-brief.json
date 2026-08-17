@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "layout_scope": "multi-page",
+  "entries": [
+    {
+      "entry_id": "C01",
+      "source_title": "春归",
+      "candidate_title": "春归",
+      "source_unit_ids": ["TXT-001"],
+      "confirmation_status": "confirmed"
+    }
+  ]
+}

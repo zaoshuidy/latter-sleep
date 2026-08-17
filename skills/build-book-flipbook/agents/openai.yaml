@@ -1,0 +1,4 @@
+interface:
+  display_name: "可翻阅电子样书"
+  short_description: "把已批准书页装配为离线真实翻页 HTML"
+  default_prompt: "请沿用已批准页面，生成可离线打开的 StPageFlip 电子样书。"

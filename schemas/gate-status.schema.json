@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gate-status.schema.json",
+  "title": "Book Human Review Gates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sample_review", "final_review"],
+  "properties": {
+    "sample_review": {"enum": ["pending", "approved", "rejected"]},
+    "final_review": {"enum": ["pending", "approved", "rejected"]}
+  }
+}

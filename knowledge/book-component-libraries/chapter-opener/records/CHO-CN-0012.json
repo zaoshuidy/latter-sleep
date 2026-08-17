@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0012","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0059","book_title":"古地图上的长城","author":"李孝聪","designer":"KJ.DesignStudio","publisher":"江苏凤凰科学技术出版社","publication_year":2022,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0061","source_url":"https://beautyofbooks.cn/bookdetail?id=466","platform":"最美的书官网","collected_at":"2026-08-13","publication_year":2022,"publication_year_source_url":"https://book.douban.com/isbn/9787571316471/"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0012.jpg","sha256":"7436d46cf517a2eab04990354d44358b95c58e87d68fd797f2a7062e3643a645","mime_type":"image/jpeg","width":1200,"height":800},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"image","chapter_number_zone":"top","chapter_title_zone":"margin","image_role":"background","text_image_relationship":"integrated","whitespace":"low"},
+  "visual_decomposition":{"overall_strategy":"篇章入口向左右展开为古地图全景，章节标识缩为地图边缘索引","observations":[{"aspect":"开篇结构","value":"长拉页从书心向两侧展开，地图成为完整横向叙事场","visibility":"clear","confidence":0.97,"evidence":"当前图片可见多折展开的横向地图与边缘索引文字","content_tags":["开门折","全景地图","边缘索引"]}]},
+  "reference_transfer":{"transferable":["跨页全景作为章节门槛","小型章节标识嵌入图像边缘","翻开展示建立节奏"],"avoid_copying":["不复用原古地图、城砖标识和具体折页尺寸"],"adaptation_notes":["若不做特殊装订，可在普通跨页模拟全景揭示"]},
+  "retrieval_features":{"style_tags":["全景","地图","叙事"],"content_tags":["长城","古地图","篇章入口"],"color_tags":["古纸黄","墨色","赭色"],"mood_tags":["历史感","宏阔","探索"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

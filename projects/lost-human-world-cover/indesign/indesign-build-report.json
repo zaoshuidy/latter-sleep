@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "mode": "proof",
+  "status": "built",
+  "page_count": 14,
+  "trim_mm": [
+    145,
+    210
+  ],
+  "quality": {
+    "minimum_effective_ppi": 175.14,
+    "print_ready": false,
+    "blockers": [
+      "minimum_effective_ppi_below_300",
+      "proof_pages_are_flattened_images"
+    ]
+  },
+  "source_pages": [
+    {
+      "index": 0,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\00-front-cover.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "09f73b2de79a33e34eda0c616169dfc2034a678fb15b0c240867b3917eb51975"
+    },
+    {
+      "index": 1,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\01-inside-front-cover.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "0ac8aaa97949dcffe5ccb96d5f68201054dd41fa8bd1d3789ab9f68c1d24f28f"
+    },
+    {
+      "index": 2,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\02-title-page.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "def37f34ce0fc96a6a90eaa73ae6060f06d3506adde57bba364fc1b1ae085141"
+    },
+    {
+      "index": 3,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\03-toc-left.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "8d3f5b8aeff05dee244d47e1dfd5b9f58f5eac08e50671906e3199ad0a5bd269"
+    },
+    {
+      "index": 4,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\04-toc-right.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "558614267de1ff2a83b6afd473d7437d2d02feaae6c58b0b7507082d473f64f9"
+    },
+    {
+      "index": 5,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\05-chapter-opener-left.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "a60e1752906d7fa7c69986fe5bc99df5efc5115bd09c1b89aa0e9841af820409"
+    },
+    {
+      "index": 6,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\06-chapter-opener-right.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "af4797ee9a69b812fc6874c51e5bbb4cbb88ab32a87e0ce301155057991c31b3"
+    },
+    {
+      "index": 7,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\07-body-6.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "a11ed0f2bc1c71b7e673d0bd1628371a6af6cc19b0ff5e49b9eaeafa085ce483"
+    },
+    {
+      "index": 8,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\08-body-7.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "3a0cb03610da6d4bee12bea824779b69a126f209020eeb0635496b165745bee7"
+    },
+    {
+      "index": 9,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\09-body-8.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "237e6f8a21d144908297a4b39a16dd1c9c5d2e04076e4ed9040b686482e3d905"
+    },
+    {
+      "index": 10,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\10-body-9.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "eec26de41cb3de430d415f1e1facb6f4f5d5d93251ea158017444d5c7e0aed9f"
+    },
+    {
+      "index": 11,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\11-body-10.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "bca3848aeecdb5158b9d94edcc58da3a67cab051c59cdf6cc05ee712d99d68e8"
+    },
+    {
+      "index": 12,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\12-body-11.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "1649bc2fce7fdf419b3c483870632d428720d6bc948be7d316730ad6ca9ee956"
+    },
+    {
+      "index": 13,
+      "path": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\ebook\\pages-v003\\13-back-cover.png",
+      "width_px": 1000,
+      "height_px": 1448,
+      "sha256": "33d4785b3b954da0076fab1a22ab598a8b49d188577f5ba8cf148b3d2872ea3f"
+    }
+  ],
+  "outputs": {
+    "jsx": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\indesign\\build-book.jsx",
+    "indd": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\indesign\\book-proof.indd",
+    "pdf": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\indesign\\book-proof.pdf",
+    "report": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\indesign\\indesign-build-report.json"
+  },
+  "execution": {
+    "status": "built",
+    "application": "Adobe InDesign",
+    "version": "20.4.1.4",
+    "pages": 14,
+    "links": 14
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "record_id": "CHO-CN-0045",
+  "component_type": "chapter-opener",
+  "identity": {
+    "book_case_id": "BOOK-CN-0028",
+    "book_title": "北京地铁站名掌故",
+    "author": "户力平",
+    "designer": "tenmilliontimes",
+    "publisher": "东方出版社",
+    "publication_year": 2020,
+    "language": "zh-CN"
+  },
+  "source": {
+    "source_registry_id": "SRC-CN-0028",
+    "source_url": "https://tenmilliontimes.com/Allusions-in-The-Subway-Stations-Name-of-Beijing",
+    "platform": "tenmilliontimes",
+    "collected_at": "2026-08-11",
+    "publication_year": 2020,
+    "publication_year_source_url": "https://search.worldcat.org/title/Allusions-in-the-subway-stations%27-name-of-Beijing/oclc/1243234501"
+  },
+  "asset": {
+    "relative_path": "chapter-opener/assets/CHO-CN-0045.png",
+    "sha256": "3e7c5b45d5e998d90c1c4be9c0f226a5392db62b59814662e1d93d8beb1549a3",
+    "mime_type": "image/png",
+    "width": 1733,
+    "height": 1309
+  },
+  "component_profile": {
+    "opening_mode": "spread",
+    "visual_strategy": "typography",
+    "chapter_number_zone": "center",
+    "chapter_title_zone": "center",
+    "image_role": "none",
+    "text_image_relationship": "text-only",
+    "whitespace": "medium"
+  },
+  "visual_decomposition": {
+    "overall_strategy": "左页以中英文站名纵向列出路线索引，右页用整块蓝色章节色场承载线路名、线路号和短导语",
+    "observations": [
+      {
+        "aspect": "跨页分工",
+        "value": "左页是多列中英文站名索引，右页是边界清晰的蓝色矩形章节页，两页通过线路信息形成对应",
+        "visibility": "clear",
+        "confidence": 0.99,
+        "evidence": "当前图片可直接见到左页站名列表以及右页蓝色章节色场",
+        "content_tags": [
+          "站名索引",
+          "跨页分工",
+          "章节色场"
+        ]
+      },
+      {
+        "aspect": "线路识别",
+        "value": "右页以线路号 10、中文线路名和英文线路名构成章节识别，底部另置短段说明文字",
+        "visibility": "clear",
+        "confidence": 0.99,
+        "evidence": "当前图片可直接读到 BEIJING SUBWAY LINE 10、北京地铁10号线和圆形数字 10",
+        "content_tags": [
+          "线路号",
+          "中英标题",
+          "底部导语"
+        ]
+      }
+    ]
+  },
+  "reference_transfer": {
+    "transferable": [
+      "让索引页与章节识别页承担不同信息职责",
+      "以大色场统一线路号、章题和导语",
+      "用中英文层级连接资料索引与章节入口"
+    ],
+    "avoid_copying": [
+      "不复制原站名、线路号、字形、蓝色色值或精确坐标",
+      "不复制原书线路索引的具体排列"
+    ],
+    "adaptation_notes": [
+      "按项目章节内容改写左页索引信息，并重建右页色场和文字层级"
+    ]
+  },
+  "retrieval_features": {
+    "style_tags": [
+      "信息设计",
+      "现代主义",
+      "跨页排版"
+    ],
+    "content_tags": [
+      "地铁线路",
+      "站名索引",
+      "中英标题"
+    ],
+    "color_tags": [
+      "蓝色",
+      "白色",
+      "黑色"
+    ],
+    "mood_tags": [
+      "清晰",
+      "秩序",
+      "都市"
+    ]
+  },
+  "lifecycle": {
+    "status": "accumulation",
+    "created_at": "2026-08-13",
+    "updated_at": "2026-08-13"
+  }
+}

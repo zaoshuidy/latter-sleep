@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "review-input.schema.json",
+  "title": "Book Review Input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "project_id", "source_texts", "production_checks", "gates"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "project_id": {"type": "string", "minLength": 1},
+    "source_texts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "path", "expected_sha256"],
+        "properties": {
+          "source_id": {"type": "string", "minLength": 1},
+          "path": {"type": "string", "minLength": 1},
+          "expected_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    },
+    "production_checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["toc_complete", "running_headers_consistent", "fonts_available", "no_overflow", "images_resolution_ok", "page_numbers_continuous", "prompts_complete"],
+      "properties": {
+        "toc_complete": {"type": "boolean"},
+        "running_headers_consistent": {"type": "boolean"},
+        "fonts_available": {"type": "boolean"},
+        "no_overflow": {"type": "boolean"},
+        "images_resolution_ok": {"type": "boolean"},
+        "page_numbers_continuous": {"type": "boolean"},
+        "prompts_complete": {"type": "boolean"}
+      }
+    },
+    "gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sample_review", "final_review"],
+      "properties": {
+        "sample_review": {"enum": ["pending", "approved", "rejected"]},
+        "final_review": {"enum": ["pending", "approved", "rejected"]}
+      }
+    }
+  }
+}

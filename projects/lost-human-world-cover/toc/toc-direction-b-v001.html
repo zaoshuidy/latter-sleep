@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>《失落人间》目录 B「归途坐标」V001</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      width: 1740px;
+      height: 1260px;
+      margin: 0;
+      overflow: hidden;
+      background: #F1EDE4;
+    }
+    .spread {
+      position: relative;
+      display: grid;
+      grid-template-columns: 870px 870px;
+      width: 1740px;
+      height: 1260px;
+      color: #1C1B19;
+      background: #F1EDE4;
+      font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", STSong, serif;
+    }
+    .spread::after {
+      content: "";
+      position: absolute;
+      z-index: 8;
+      inset: 0 auto 0 869px;
+      width: 2px;
+      background: linear-gradient(180deg, rgba(92,77,63,.03), rgba(92,77,63,.16), rgba(92,77,63,.03));
+      pointer-events: none;
+    }
+    .page {
+      position: relative;
+      height: 1260px;
+      overflow: hidden;
+      background:
+        linear-gradient(rgba(122,36,40,.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(122,36,40,.045) 1px, transparent 1px),
+        radial-gradient(circle at 22% 15%, rgba(255,255,255,.36), transparent 31%),
+        #F1EDE4;
+      background-size: 54px 54px, 54px 54px, auto, auto;
+    }
+    .left-page { padding: 168px 118px 126px 108px; box-shadow: inset -18px 0 24px rgba(50,40,30,.025); }
+    .right-page { padding: 168px 108px 126px 118px; box-shadow: inset 18px 0 24px rgba(50,40,30,.025); }
+    .running-header {
+      position: absolute;
+      top: 54px;
+      color: #8C8275;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: .24em;
+    }
+    .left-page .running-header { left: 108px; }
+    .right-page .running-header { right: 108px; }
+    .kicker {
+      position: absolute;
+      top: 103px;
+      color: #7A2428;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      letter-spacing: .36em;
+      text-transform: uppercase;
+    }
+    .left-page .kicker { left: 108px; }
+    .right-page .kicker { left: 118px; }
+    .axis {
+      position: absolute;
+      top: 184px;
+      bottom: 146px;
+      width: 2px;
+      background: #7A2428;
+      opacity: .92;
+    }
+    .left-page .axis { left: 159px; }
+    .right-page .axis { left: 169px; }
+    .entries { position: relative; display: flex; flex-direction: column; gap: 47px; }
+    .toc-entry {
+      position: relative;
+      display: grid;
+      grid-template-columns: 86px minmax(0, 1fr) 62px;
+      align-items: baseline;
+      min-height: 82px;
+      padding: 10px 0 14px;
+      border-bottom: 1px solid rgba(122,36,40,.12);
+    }
+    .toc-entry::before {
+      content: "";
+      position: absolute;
+      left: 46px;
+      top: 22px;
+      width: 10px;
+      height: 10px;
+      margin-left: -5px;
+      border: 2px solid #7A2428;
+      border-radius: 50%;
+      background: #F1EDE4;
+    }
+    .chapter-node {
+      color: #7A2428;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: .07em;
+    }
+    .chapter-title {
+      padding-right: 24px;
+      font-size: 25px;
+      line-height: 1.45;
+      letter-spacing: .08em;
+    }
+    .chapter-page {
+      color: #6E655C;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 16px;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    .test-note {
+      position: absolute;
+      bottom: 86px;
+      width: 280px;
+      color: #948A7E;
+      font-size: 11px;
+      line-height: 1.7;
+      letter-spacing: .06em;
+    }
+    .left-page .test-note { left: 108px; }
+    .right-page .test-note { right: 108px; text-align: right; }
+    .folio {
+      position: absolute;
+      bottom: 58px;
+      color: #8C8275;
+      font-size: 15px;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+    .left-page .folio { left: 108px; }
+    .right-page .folio { right: 108px; }
+  </style>
+</head>
+<body>
+  <main class="spread" data-text-layer="editable" data-prototype-status="test-content" aria-label="测试目录跨页">
+    <section class="page left-page" aria-label="目录左页">
+      <span class="running-header" data-running-source="book-title">失落人间</span>
+      <span class="kicker">route / index · 01</span>
+      <span class="axis" aria-hidden="true"></span>
+      <div class="entries">
+        <div class="toc-entry" data-entry-index="0" data-page-status="provisional"><span class="chapter-node">序</span><span class="chapter-title">灯灭以前</span><span class="chapter-page">1</span></div>
+        <div class="toc-entry" data-entry-index="1" data-page-status="provisional"><span class="chapter-node">01</span><span class="chapter-title">车窗里的故乡</span><span class="chapter-page">6</span></div>
+        <div class="toc-entry" data-entry-index="2" data-page-status="provisional"><span class="chapter-node">02</span><span class="chapter-title">白昼的缝隙</span><span class="chapter-page">24</span></div>
+        <div class="toc-entry" data-entry-index="3" data-page-status="provisional"><span class="chapter-node">03</span><span class="chapter-title">没有回声的房间</span><span class="chapter-page">42</span></div>
+        <div class="toc-entry" data-entry-index="4" data-page-status="provisional"><span class="chapter-node">04</span><span class="chapter-title">雨停在城外</span><span class="chapter-page">62</span></div>
+      </div>
+      <span class="test-note">功能原型 · 除第一章外均为测试拟题<br>页码待全书排版后自动回填</span>
+      <span class="folio" data-folio="2">2</span>
+    </section>
+    <section class="page right-page" aria-label="目录右页">
+      <span class="running-header" data-running-source="component-title">目录</span>
+      <span class="kicker">route / index · 02</span>
+      <span class="axis" aria-hidden="true"></span>
+      <div class="entries">
+        <div class="toc-entry" data-entry-index="5" data-page-status="provisional"><span class="chapter-node">05</span><span class="chapter-title">旧门向里开</span><span class="chapter-page">84</span></div>
+        <div class="toc-entry" data-entry-index="6" data-page-status="provisional"><span class="chapter-node">06</span><span class="chapter-title">乡音之外</span><span class="chapter-page">106</span></div>
+        <div class="toc-entry" data-entry-index="7" data-page-status="provisional"><span class="chapter-node">07</span><span class="chapter-title">临时住址</span><span class="chapter-page">130</span></div>
+        <div class="toc-entry" data-entry-index="8" data-page-status="provisional"><span class="chapter-node">08</span><span class="chapter-title">人间无岸</span><span class="chapter-page">154</span></div>
+      </div>
+      <span class="test-note">B · 归途坐标<br>可编辑目录文字与结构化页码列</span>
+      <span class="folio" data-folio="3">3</span>
+    </section>
+  </main>
+</body>
+</html>

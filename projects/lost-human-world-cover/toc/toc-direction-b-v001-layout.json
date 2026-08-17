@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "layout_id": "TOC-LOST-HUMAN-WORLD-B-V001",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "component_type": "toc",
+  "direction": "B-return-coordinate",
+  "status": "prototype",
+  "page_trim_mm": [145, 210],
+  "spread_trim_mm": [290, 210],
+  "entries": [
+    {"entry_id": "TOC-TEST-000", "level": "序章", "title": "灯灭以前", "page": 1},
+    {"entry_id": "TOC-TEST-001", "level": "第一章", "title": "车窗里的故乡", "page": 6},
+    {"entry_id": "TOC-TEST-002", "level": "第二章", "title": "白昼的缝隙", "page": 24},
+    {"entry_id": "TOC-TEST-003", "level": "第三章", "title": "没有回声的房间", "page": 42},
+    {"entry_id": "TOC-TEST-004", "level": "第四章", "title": "雨停在城外", "page": 62},
+    {"entry_id": "TOC-TEST-005", "level": "第五章", "title": "旧门向里开", "page": 84},
+    {"entry_id": "TOC-TEST-006", "level": "第六章", "title": "乡音之外", "page": 106},
+    {"entry_id": "TOC-TEST-007", "level": "第七章", "title": "临时住址", "page": 130},
+    {"entry_id": "TOC-TEST-008", "level": "第八章", "title": "人间无岸", "page": 154}
+  ],
+  "test_content": {
+    "synthetic_titles": true,
+    "provisional_pages": true,
+    "only_source_confirmed_title": "第一章 车窗里的故乡"
+  },
+  "palette": {
+    "paper": "#F1EDE4",
+    "ink": "#1C1B19",
+    "accent": "#7A2428",
+    "quiet": "#B8AEA0"
+  },
+  "layout": {
+    "opening_mode": "spread",
+    "left_entries": [0, 1, 2, 3, 4],
+    "right_entries": [5, 6, 7, 8],
+    "page_number_alignment": "fixed-right-column",
+    "long_title_fallback": "wrap-with-hanging-indent-and-fixed-page-column",
+    "grid": "low-contrast-coordinate-grid",
+    "axis": "vertical-accent-line"
+  },
+  "running_headers": {
+    "verso": "失落人间",
+    "recto": "目录"
+  },
+  "folio": {
+    "position": "outer-bottom",
+    "bottom_mm": 12,
+    "folios": [2, 3]
+  }
+}

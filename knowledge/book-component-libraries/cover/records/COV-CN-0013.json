@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0013",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0013", "book_title": "小学生必备古诗词112首（口袋版）", "author": null, "designer": null, "publisher": "人民教育出版社", "publication_year": 2020, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0013", "source_url": "https://www.pep.com.cn/xw/zt/cp/zxxbbgsc/xxsgsc112kd/202204/t20220406_1976042.html", "platform": "人民教育出版社官网", "collected_at": "2026-08-11", "publication_year": 2020, "publication_year_source_url": "https://www.pep.com.cn/xw/zt/cp/zxxbbgsc/xxsgsc112kd/202204/t20220406_1976042.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0013.png", "sha256": "ca702e4f5cf7cf6e94d2f7352bc28cc2796e1fb2124a9c8ae9541cf96d320d41", "mime_type": "image/png", "width": 373, "height": 581},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "illustration", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "橙红底面用大号黑字在上半区直接呈现书名，下半区以黑色山水线描建立古诗意境，信息明确而便于口袋书识别", "observations": [
+    {"aspect": "标题", "value": "三行大号黑色书名位于封面左上至中上部", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片上半部清晰可读“小学生 必备古诗词 112首”，字号显著大于周边信息", "content_tags": ["大标题", "三行", "黑字"]},
+    {"aspect": "插图", "value": "黑色山水线描位于下半部偏左", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片下半部可见松树、坡岸、舟与水纹的黑色线描", "content_tags": ["山水", "松树", "小舟"]}
+  ]},
+  "reference_transfer": {"transferable": ["用高反差大标题保障小开本识别", "以单色线描建立传统文化语境", "把插图集中于标题之外的单一区域"], "avoid_copying": ["不临摹原书松树、舟船和水纹构图", "不复用相同橙红底色与标题断行"], "adaptation_notes": ["按目标读者和开本重新测试标题字号", "以新的主题意象绘制原创单色插图"]},
+  "retrieval_features": {"style_tags": ["教育读物", "传统线描", "高识别"], "content_tags": ["古诗词", "山水", "小学生"], "color_tags": ["橙红色", "黑色"], "mood_tags": ["明快", "古朴", "亲切"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

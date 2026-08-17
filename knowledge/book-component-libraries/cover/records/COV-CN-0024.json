@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0024",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0024", "book_title": "中国植物的味道", "author": "Mu Yue", "designer": "tenmilliontimes", "publisher": "Jiangsu Phoenix Science and Technology Press", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0024", "source_url": "https://tenmilliontimes.com/The-Taste-of-Chinese-Plants", "platform": "tenmilliontimes", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/013464043"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0024.png", "sha256": "dd3430e37a13d68985ce86857f147a1af902efef129f7e3c150f7159004ddac0", "mime_type": "image/png", "width": 1663, "height": 1123},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "whitespace", "title_zone": "vertical", "spine_relationship": "not-visible", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定右侧书本的浅色题名面：深绿中文书名竖排靠右上，英文题名置于右下，大面积带细小斑点的浅色空白建立自然朴素感；工作室来源确认左侧浅木色物件为木盒，木盒作为独立包装层记录而不进入 front profile", "observations": [
+    {"aspect": "竖排题名", "value": "深绿色中文书名竖排位于浅色正面右上区域", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片右侧书本正面可读竖排“中国植物的味道”，位置靠右并处在上半部", "content_tags": ["竖排书名", "深绿色", "右上"]},
+    {"aspect": "留白底面", "value": "浅色题名面大部分为空白并分布细小深色斑点", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片书本正面除右侧文字外为大面积浅色，其上可见不规则细小斑点；不据此判断纸材", "content_tags": ["浅色留白", "细小斑点", "自然感"]}
+  ]},
+  "reference_transfer": {"transferable": ["以竖排中文和底部英文形成轻量双语层级", "保留大面积浅色空白表达自然主题", "将木盒包装层与书本正面分开设计并建立协同关系"], "avoid_copying": ["不照搬书名坐标和中英文字体关系", "不复制原木盒尺寸、表面效果或茶砖包装顺序"], "adaptation_notes": ["根据实际书名长度重新分配竖排区域", "已确认木盒结构角色；具体材料、尺寸与表面效果仍须按新项目重新选样和打样"]},
+  "retrieval_features": {"style_tags": ["自然博物", "双语极简", "竖排"], "content_tags": ["植物", "味道", "自然"], "color_tags": ["米白", "深绿", "浅木色"], "mood_tags": ["自然", "安静", "朴素"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

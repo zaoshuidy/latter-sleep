@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "images": [
+    {
+      "image_id": "COVER-A-BG",
+      "image_role": "design",
+      "use": "direction A cover background",
+      "skill": "imagegen",
+      "prompt_file": "prompts/COVER-A-BG.md",
+      "output_file": "pending-generation",
+      "status": "draft"
+    },
+    {
+      "image_id": "COVER-B-BG",
+      "image_role": "design",
+      "use": "direction B cover background",
+      "skill": "imagegen",
+      "prompt_file": "prompts/COVER-B-BG.md",
+      "output_file": "pending-generation",
+      "status": "draft"
+    }
+  ]
+}

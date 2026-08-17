@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cover-prompt.schema.json",
+  "title": "Book Cover Generation Prompt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "project_id", "concept_id", "reference_ids", "core_metaphor",
+    "composition", "subject", "color", "material", "lighting", "style_constraints",
+    "negative_constraints", "background_prompt", "editable_text_overlay", "version",
+    "evaluation_status"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "project_id": {"type": "string", "minLength": 1},
+    "concept_id": {"type": "string", "minLength": 1},
+    "reference_ids": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"type": "string"}},
+    "core_metaphor": {"type": "string", "minLength": 1},
+    "composition": {"type": "object", "minProperties": 1},
+    "subject": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "color": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "material": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "lighting": {"type": "string", "minLength": 1},
+    "style_constraints": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "negative_constraints": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "background_prompt": {"type": "string", "minLength": 20},
+    "editable_text_overlay": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "author", "studio_mark"],
+      "properties": {
+        "title": {"const": "editable-text-layer"},
+        "author": {"const": "editable-text-layer"},
+        "studio_mark": {"const": "editable-text-layer"}
+      }
+    },
+    "version": {"type": "string", "minLength": 1},
+    "evaluation_status": {"enum": ["draft", "selected", "archived", "rejected"]}
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0001",
+  "component_type": "cover",
+  "identity": {
+    "book_case_id": "BOOK-CN-0001",
+    "book_title": "四时来信",
+    "author": null,
+    "designer": null,
+    "publisher": null,
+    "publication_year": 2024,
+    "language": "zh-CN"
+  },
+  "source": {
+    "source_registry_id": "SRC-CN-0001",
+    "source_url": "https://example.com/books/BOOK-CN-0001",
+    "platform": "出版社官网",
+    "collected_at": "2026-08-10",
+    "publication_year": 2024,
+    "publication_year_source_url": "https://example.com/books/BOOK-CN-0001/bibliography"
+  },
+  "asset": {
+    "relative_path": "cover/assets/COV-CN-0001.jpg",
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "mime_type": "image/jpeg",
+    "width": 1200,
+    "height": 1800
+  },
+  "component_profile": {
+    "cover_scope": "front",
+    "visual_strategy": "illustration",
+    "composition": "whitespace",
+    "title_zone": "top",
+    "spine_relationship": "not-visible",
+    "thumbnail_recognition": "strong"
+  },
+  "visual_decomposition": {
+    "overall_strategy": "纸船与水纹构成留白封面",
+    "observations": [
+      {
+        "aspect": "主体",
+        "value": "纸船位于画面下方",
+        "visibility": "clear",
+        "confidence": 0.95,
+        "evidence": "封面图像可见纸船轮廓",
+        "content_tags": ["纸船", "水纹"]
+      }
+    ]
+  },
+  "reference_transfer": {
+    "transferable": ["上方标题留白", "低饱和蓝色"],
+    "avoid_copying": ["不复用具体纸船插画"],
+    "adaptation_notes": ["以项目自身意象替换纸船"]
+  },
+  "retrieval_features": {
+    "style_tags": ["克制", "编辑感"],
+    "content_tags": ["纸船", "书信"],
+    "color_tags": ["米白", "墨蓝"],
+    "mood_tags": ["安静", "回忆"]
+  },
+  "lifecycle": {
+    "status": "accumulation",
+    "created_at": "2026-08-10",
+    "updated_at": "2026-08-10"
+  }
+}

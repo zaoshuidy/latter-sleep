@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "direction_id": "DIRECTION-B-INK-LETTER",
+  "reference_ids": ["DC-03-chapter-opener", "DC-05-toc", "DC-10-image-page"],
+  "brand_profile": "paper-boat",
+  "color": {"paper": "#FAF8F3", "ink": "#242424", "accent": "#B35A44"},
+  "fonts": {"display": "Noto Serif SC", "navigation": "Noto Sans SC", "license": "free-commercial-use; verify project installation"},
+  "grid": {"columns": 8, "character": "letter-like and structured"},
+  "toc": {"scope": "multi-page", "text_layer": "editable", "long_title_fallback": "wrap-with-fixed-folio-zone"},
+  "chapter_opener": {"master_id": "OPENER-B", "image_optional": false, "text_layer": "editable"},
+  "running_headers": {"template_id": "folio-centered"},
+  "page_families": ["cover-interface", "toc", "chapter-opener", "body", "letter-facsimile", "running-headers"]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0011",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0011", "book_title": "飞鸟集", "author": "泰戈尔", "designer": "潘焰荣", "publisher": "商务印书馆", "publication_year": 2018, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0011", "source_url": "https://www.cp.com.cn/Content/2019/01-17/1355001334.html", "platform": "商务印书馆官网", "collected_at": "2026-08-11", "publication_year": 2018, "publication_year_source_url": "https://www.cp.com.cn/book/8f840611-d.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0011.jpg", "sha256": "a57acfe61ad326eb072cebbb6111b0dba1573b374e4535dca78825c3dc88f148", "mime_type": "image/jpeg", "width": 1265, "height": 1265},
+  "component_profile": {"cover_scope": "dust-jacket", "visual_strategy": "abstract", "composition": "whitespace", "title_zone": "top", "spine_relationship": "continuous", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "白色护封以少量细弧线跨越可见正面与书脊，浅灰竖排书名靠近正面右上，在极低对比中形成轻盈而疏朗的诗集封面", "observations": [
+    {"aspect": "跨面线条", "value": "金色与灰色细弧线跨越可见正面与书脊并形成连续轨迹", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片同时显示白色正面和左侧书脊，金色与灰色弧线在两处可见并跨越两面之间的折线", "content_tags": ["弧线", "跨面连续", "护封"]},
+    {"aspect": "文字层级", "value": "浅灰竖排书名位于右上，小号作者译者信息分散排列", "visibility": "clear", "confidence": 0.96, "evidence": "当前图片右上可读竖排“飞鸟集”，其下与左侧可见更浅更小的信息文字", "content_tags": ["竖排书名", "小字号", "低对比"]}
+  ]},
+  "reference_transfer": {"transferable": ["以少量轨迹线跨越正面与书脊组织整体留白", "用低对比文字表达轻盈气质", "让主标题与跨面细线形成非中心关系"], "avoid_copying": ["不复刻原书弧线走向和交点", "不照搬书名的竖排位置与灰度"], "adaptation_notes": ["根据主题重新定义跨面线条的起点、折线关系与运动含义", "在正面缩略图和书脊实宽中分别校验信息可读性"]},
+  "retrieval_features": {"style_tags": ["极简", "诗意", "线性抽象"], "content_tags": ["诗歌", "飞行", "自然"], "color_tags": ["白色", "浅灰", "金色"], "mood_tags": ["轻盈", "安静", "疏朗"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "CHO-CN-0002",
+  "component_type": "chapter-opener",
+  "identity": {"book_case_id": "BOOK-CN-0052", "book_title": "书籍形态艺术", "author": "善本出版有限公司", "designer": "林诗健、陈挺", "publisher": "电子工业出版社", "publication_year": 2018, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0052", "source_url": "https://www.zcool.com.cn/work/ZNjE0NzU0NDg%3D.html", "platform": "站酷", "collected_at": "2026-08-13", "publication_year": 2018, "publication_year_source_url": "https://yinshuw.com/hk/2018%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E9%A6%99%E6%B8%AF%E5%8D%B0%E5%88%B7%E6%9B%B8%E5%88%8A%E7%9B%AE%E9%8C%84.pdf"},
+  "asset": {"relative_path": "chapter-opener/assets/CHO-CN-0002.jpg", "sha256": "0ef3ba4d8d368553c5f473df2fdf7bb7901da8d5b46ee2a270c87e3ecb5d7b18", "mime_type": "image/jpeg", "width": 1080, "height": 721},
+  "component_profile": {"opening_mode": "single-page", "visual_strategy": "photography", "chapter_number_zone": "none", "chapter_title_zone": "center", "image_role": "photography", "text_image_relationship": "adjacent", "whitespace": "medium"},
+  "visual_decomposition": {"overall_strategy": "用暖灰色薄插页、人物工作照和短引介作为每段采访的进入页", "observations": [
+    {"aspect": "图像角色", "value": "插页上部为人物工作照，下部和侧边承接姓名与简介", "visibility": "clear", "confidence": 0.96, "evidence": "当前图片可见照片、姓名与简介形成上下相邻的独立信息页", "content_tags": ["人物照片", "短引介", "分节开篇"]},
+    {"aspect": "页面层次", "value": "暖灰插页与白色正文形成灰度差", "visibility": "clear", "confidence": 0.94, "evidence": "当前图片可见暖灰色独立页与相邻白色页面", "content_tags": ["暖灰色场", "页面过渡"]}
+  ]},
+  "reference_transfer": {"transferable": ["用独立色场建立分节阈值", "肖像与短引介组成紧凑开篇", "插页与正文形成翻阅节奏"], "avoid_copying": ["不复用人物照片与专访文字", "不照搬原版式比例和色阶"], "adaptation_notes": ["可替换为章节意象照片或人物档案", "根据开篇文字量调整图文比例"]},
+  "retrieval_features": {"style_tags": ["编辑设计", "访谈", "摄影"], "content_tags": ["人物", "采访", "分节"], "color_tags": ["暖灰", "白色"], "mood_tags": ["理性", "专业", "克制"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-13", "updated_at": "2026-08-13"}
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0050",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0050", "book_title": "东京行", "author": "洪卫", "designer": "洪卫", "publisher": "岭南美术出版社", "publication_year": 2025, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0050", "source_url": "https://beautyofbooks.cn/bookdetail?id=536", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2025, "publication_year_source_url": "https://tl.zxhsd.com/kgsm/ts/big5/2025/12/10/6738819.shtml"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0050.jpg", "sha256": "1e5fa8207706fe8fb8a710e34fd8272541d80bdcc41064b915dd8c55e1983de3", "mime_type": "image/jpeg", "width": 1200, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "whitespace", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 中斜置书册的黑色正封：上部以大号白色线性字符形成主识别，其余区域保持黑色空场，仅在下缘保留小型白色信息；可见黑白图案页边不作为书脊或工艺证据", "observations": [
+    {"aspect": "上部线性题名", "value": "黑色正封上部集中大号白色线性中文与拉丁字符", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片朝上的黑色正面上半部可见白色细线构成的大号题名字符", "content_tags": ["白色线字", "上部题名", "黑底"]},
+    {"aspect": "黑色空场与页边", "value": "题名下方保持大面积黑色空场，下缘有小号白字，书页边缘另见黑白图案", "visibility": "clear", "confidence": 0.97, "evidence": "当前图片正面中下部大多为黑色，下缘可见小型白字，侧下方页边有黑白图案；不推断其制作方式", "content_tags": ["黑色留白", "小号信息", "图案页边"]}
+  ]},
+  "reference_transfer": {"transferable": ["以线性大字在黑色空场上建立强识别", "把辅助信息压缩到下缘保持主次", "将可见页边与正封检索profile分开"], "avoid_copying": ["不照搬原题名字形、线条连接和倾斜关系", "不复制原黑白页边图案"], "adaptation_notes": ["按新标题笔画重构可读的线性字形系统", "黑色大面积印刷须通过实物打样确认层次与耐磨表现"]},
+  "retrieval_features": {"style_tags": ["黑底", "线性题名", "高对比极简"], "content_tags": ["东京", "旅行", "城市观察"], "color_tags": ["黑色", "白色"], "mood_tags": ["都市", "冷静", "锐利"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

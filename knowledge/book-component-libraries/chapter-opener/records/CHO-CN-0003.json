@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "CHO-CN-0003",
+  "component_type": "chapter-opener",
+  "identity": {"book_case_id": "BOOK-CN-0008", "book_title": "中国·最美的书20年图集", "author": "上海市新闻出版局、中国最美的书评委会", "designer": "张国樑、董伟", "publisher": "上海文艺出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0053", "source_url": "https://www.thepaper.cn/newsDetail_forward_29521261", "platform": "澎湃新闻", "collected_at": "2026-08-13", "publication_year": 2024, "publication_year_source_url": "https://sh.people.com.cn/n2/2024/0227/c134768-40758371.html"},
+  "asset": {"relative_path": "chapter-opener/assets/CHO-CN-0003.jpg", "sha256": "8017b04dcde09194ef776e5ec32c3af374726b46ab5280e33d559df7af3ab654", "mime_type": "image/jpeg", "width": 1080, "height": 721},
+  "component_profile": {"opening_mode": "single-page", "visual_strategy": "typography", "chapter_number_zone": "vertical", "chapter_title_zone": "top", "image_role": "none", "text_image_relationship": "text-only", "whitespace": "high"},
+  "visual_decomposition": {"overall_strategy": "用贯穿页面的巨大年份数字和单色分辑页建立年度入口", "observations": [
+    {"aspect": "章号", "value": "巨大年份数字纵向贯穿橙色页面", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片可直接看见超尺度轮廓年份数字占据主要页面高度", "content_tags": ["巨大数字", "年度分辑", "纵向"]},
+    {"aspect": "留白", "value": "数字之外只保留少量年度说明", "visibility": "clear", "confidence": 0.96, "evidence": "当前分辑页信息密度低，数字周围有宽阔单色空场", "content_tags": ["高留白", "单色"]}
+  ]},
+  "reference_transfer": {"transferable": ["超尺度章节号", "以单色编码不同分辑", "先建立导航阈值再进入内容"], "avoid_copying": ["不复用20周年标识", "不照搬橙色配方和筒页结构"], "adaptation_notes": ["可将年份数字替换为章节序号", "按全书色彩系统重新选择分辑色"]},
+  "retrieval_features": {"style_tags": ["超大数字", "现代主义", "导航"], "content_tags": ["年份", "分辑", "图录"], "color_tags": ["橙色", "黑色"], "mood_tags": ["醒目", "理性", "节奏感"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-13", "updated_at": "2026-08-13"}
+}

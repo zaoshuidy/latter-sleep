@@ -1,0 +1,32 @@
+{
+  "prompt_id": "PROMPT-COV-FOUR-SEASONS-B-0001",
+  "aspect_ratio": "2:3",
+  "component_role": "front-cover background for a warm memory direction",
+  "composition": "portrait cover with a centered dark memory window inside a generous warm-paper frame, low-density newly arranged color traces, and a softly unified low-contrast archival layer with a quiet upper safe zone",
+  "image_content": "blank seasonal letter-paper forms and non-identifying memory fragments; use only authorized project imagery when supplied, otherwise keep the archival layer abstract and non-photographic",
+  "color_light_material": "warm cream paper, soft charcoal memory window, low-saturation amber and muted sage accents, gentle window light, tactile uncoated-paper surface",
+  "editable_text_safe_zones": "preserve a spacious quiet upper zone and secondary lower corner for later editable layout layers; keep both zones free of image detail",
+  "print_and_crop": "portrait 2:3 composition with 3 mm bleed allowance; keep the memory window and color traces inside the trim-safe area",
+  "negative_constraints": [
+    "no readable text",
+    "no title or author glyphs",
+    "no publisher or studio mark",
+    "no logo",
+    "no watermark",
+    "no copied line trajectory",
+    "no original central square content",
+    "no original architecture image",
+    "no copied orange color value",
+    "no invented personal photograph or identity"
+  ],
+  "editable_text_overlay": [
+    "title",
+    "author",
+    "studio_mark"
+  ],
+  "editable_text_values": {
+    "title": "四时来信",
+    "author": "待确认（可编辑文字层）",
+    "studio_mark": "待确认（可编辑文字层）"
+  }
+}

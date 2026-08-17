@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "title": "失落人间",
+  "subtitle": "在所有归途之外",
+  "author": "早睡的猫",
+  "mode": "template",
+  "primary_category": "literary-fiction",
+  "tags": [
+    "double-displacement",
+    "urban-alienation",
+    "failed-homecoming",
+    "symbolic-cover"
+  ],
+  "confirmer": "用户",
+  "purpose": "为文学小说建立克制、开放、具有隐喻和象征意义的正封概念稿",
+  "primary_readers": "当代中文文学读者",
+  "page_size": "145mm × 210mm",
+  "brand_profile": "lost-human-world",
+  "page_plan": {
+    "fixed_pages": 1
+  }
+}

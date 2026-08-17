@@ -1,0 +1,4 @@
+interface:
+  display_name: "图书图像制作"
+  short_description: "区分纪实照片、设计图与回忆插画并保留完整提示词和版本记录"
+  default_prompt: "请按已确认的图书设计基因生成无关键文字的图片，并保存可追溯记录。"

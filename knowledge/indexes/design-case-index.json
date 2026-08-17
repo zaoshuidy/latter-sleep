@@ -1,0 +1,1667 @@
+{
+  "version": "1.0",
+  "policy": {
+    "target_per_component": 10,
+    "chinese_sources_primary": true,
+    "confirmed_source_projects": 10,
+    "chinese_source_projects": 6,
+    "international_source_projects": 4,
+    "social_discovery": "candidate-only-until-verified",
+    "reuse_rule": "允许借鉴方法；成品不得与单一案例一比一相同，必须记录借鉴项与变化项。"
+  },
+  "source_projects": [
+    {
+      "id": "CN-01",
+      "title": "我是外公外婆带大的孩子",
+      "url": "https://www.nppa.gov.cn/xxfb/dfgz/202412/t20241203_876173.html",
+      "type": "government-book-design-award",
+      "category": "family-memorial",
+      "region": "CN",
+      "fact": "色彩、字体、纸张材质与排版共同营造回忆氛围，视觉形式服务亲情内容与阅读沉浸。"
+    },
+    {
+      "id": "CN-02",
+      "title": "何物",
+      "url": "https://www.cbbr.com.cn/contents/533/98270.html",
+      "type": "publishing-trade-media",
+      "category": "life-memorial",
+      "region": "CN",
+      "fact": "低调优雅的极简设计与水墨器物、简短文字和个人记忆保持一致，强调内容与装帧气质统一。"
+    },
+    {
+      "id": "CN-03",
+      "title": "燕京传薪录——中法汉学研究所未刊稿研究",
+      "url": "https://www.nppa.gov.cn/xxfb/dfgz/202311/t20231108_778267.html",
+      "type": "government-book-design-award",
+      "category": "collective-memorial",
+      "region": "CN",
+      "fact": "内文留白、装订层次与随文本变化的版式并重，在厚重史料与现代阅读之间取得平衡。"
+    },
+    {
+      "id": "CN-04",
+      "title": "观照——栖居的哲学",
+      "url": "https://somethingdongxi.com/something-new/most-beautiful-books-in-china/",
+      "type": "professional-book-design-media",
+      "category": "essays-poetry",
+      "region": "CN",
+      "fact": "小开本经折装中图像与文字分列，字体尺度保持可读，以传统形制承载当代阅读。"
+    },
+    {
+      "id": "CN-05",
+      "title": "铁观音",
+      "url": "https://oss0-cdn.changxianggu.com/book/chapter/269_9787040236927.pdf",
+      "type": "book-design-textbook",
+      "category": "cultural-memory",
+      "region": "CN",
+      "fact": "黑、白、灰关系贯穿封套、封面、扉页、目录与内页，使字体、底衬和图形形成整体系统。"
+    },
+    {
+      "id": "CN-06",
+      "title": "XXL Studio 书籍项目集",
+      "url": "https://www.itsnicethat.com/articles/xxl-studio-iconic-book-design-graphic-design-051118",
+      "type": "professional-design-media",
+      "category": "cultural-memory",
+      "region": "CN",
+      "fact": "以当代图形语言重新解释中国文化内容，项目图库展示封面、装帧与多种内页形态。"
+    },
+    {
+      "id": "INT-01",
+      "title": "New City Books",
+      "url": "https://www.pentagram.com/work/new-city-books",
+      "type": "design-studio",
+      "category": "collective-memory",
+      "region": "INT",
+      "fact": "系列共享网格与说明文字系统，同时以标题字体、正文字体和书脊色区分不同内容。"
+    },
+    {
+      "id": "INT-02",
+      "title": "The Most Beautiful Swiss Books Catalogue",
+      "url": "https://www.itsnicethat.com/articles/hubertus-design-the-most-beautiful-swiss-books-catalogue-publication-131117",
+      "type": "professional-design-media",
+      "category": "collective-memory",
+      "region": "INT",
+      "fact": "以分析性编辑设计回应书籍集合，强调目录结构、出版信息和多层级内容之间的系统关系。"
+    },
+    {
+      "id": "INT-03",
+      "title": "Studio Spehr / Hello World",
+      "url": "https://www.itsnicethat.com/articles/studio-spehr-graphic-design-150121",
+      "type": "professional-design-media",
+      "category": "collective-memory",
+      "region": "INT",
+      "fact": "模块化容器兼容不同长度说明和图像需求，在多章节、多作者条件下保持一致而不僵化。"
+    },
+    {
+      "id": "INT-04",
+      "title": "Studio Front-Door / Abnormal Sense",
+      "url": "https://www.itsnicethat.com/articles/studio-front-door-graphic-design-260422",
+      "type": "professional-design-media",
+      "category": "life-memorial",
+      "region": "INT",
+      "fact": "用薄而半透明的内页材料与克制图像处理表达代际创伤和记忆传递，让物性服务叙事。"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "DC-01-cover",
+      "source_title": "我是外公外婆带大的孩子",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202412/t20241203_876173.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "family-memorial",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "色彩、字体、纸张材质与排版共同营造回忆氛围，视觉形式服务亲情内容与阅读沉浸。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-01-toc",
+      "source_title": "我是外公外婆带大的孩子",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202412/t20241203_876173.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "family-memorial",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "色彩、字体、纸张材质与排版共同营造回忆氛围，视觉形式服务亲情内容与阅读沉浸。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-01-chapter-opener",
+      "source_title": "我是外公外婆带大的孩子",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202412/t20241203_876173.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "family-memorial",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "色彩、字体、纸张材质与排版共同营造回忆氛围，视觉形式服务亲情内容与阅读沉浸。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-01-body",
+      "source_title": "我是外公外婆带大的孩子",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202412/t20241203_876173.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "family-memorial",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "色彩、字体、纸张材质与排版共同营造回忆氛围，视觉形式服务亲情内容与阅读沉浸。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-01-image-page",
+      "source_title": "我是外公外婆带大的孩子",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202412/t20241203_876173.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "family-memorial",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "色彩、字体、纸张材质与排版共同营造回忆氛围，视觉形式服务亲情内容与阅读沉浸。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-01-running-headers",
+      "source_title": "我是外公外婆带大的孩子",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202412/t20241203_876173.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "family-memorial",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "色彩、字体、纸张材质与排版共同营造回忆氛围，视觉形式服务亲情内容与阅读沉浸。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-02-cover",
+      "source_title": "何物",
+      "source_url": "https://www.cbbr.com.cn/contents/533/98270.html",
+      "source_type": "publishing-trade-media",
+      "source_region": "CN",
+      "book_category": "life-memorial",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "低调优雅的极简设计与水墨器物、简短文字和个人记忆保持一致，强调内容与装帧气质统一。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-02-toc",
+      "source_title": "何物",
+      "source_url": "https://www.cbbr.com.cn/contents/533/98270.html",
+      "source_type": "publishing-trade-media",
+      "source_region": "CN",
+      "book_category": "life-memorial",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "低调优雅的极简设计与水墨器物、简短文字和个人记忆保持一致，强调内容与装帧气质统一。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-02-chapter-opener",
+      "source_title": "何物",
+      "source_url": "https://www.cbbr.com.cn/contents/533/98270.html",
+      "source_type": "publishing-trade-media",
+      "source_region": "CN",
+      "book_category": "life-memorial",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "低调优雅的极简设计与水墨器物、简短文字和个人记忆保持一致，强调内容与装帧气质统一。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-02-body",
+      "source_title": "何物",
+      "source_url": "https://www.cbbr.com.cn/contents/533/98270.html",
+      "source_type": "publishing-trade-media",
+      "source_region": "CN",
+      "book_category": "life-memorial",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "低调优雅的极简设计与水墨器物、简短文字和个人记忆保持一致，强调内容与装帧气质统一。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-02-image-page",
+      "source_title": "何物",
+      "source_url": "https://www.cbbr.com.cn/contents/533/98270.html",
+      "source_type": "publishing-trade-media",
+      "source_region": "CN",
+      "book_category": "life-memorial",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "低调优雅的极简设计与水墨器物、简短文字和个人记忆保持一致，强调内容与装帧气质统一。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-02-running-headers",
+      "source_title": "何物",
+      "source_url": "https://www.cbbr.com.cn/contents/533/98270.html",
+      "source_type": "publishing-trade-media",
+      "source_region": "CN",
+      "book_category": "life-memorial",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "低调优雅的极简设计与水墨器物、简短文字和个人记忆保持一致，强调内容与装帧气质统一。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-03-cover",
+      "source_title": "燕京传薪录——中法汉学研究所未刊稿研究",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202311/t20231108_778267.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "collective-memorial",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "内文留白、装订层次与随文本变化的版式并重，在厚重史料与现代阅读之间取得平衡。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-03-toc",
+      "source_title": "燕京传薪录——中法汉学研究所未刊稿研究",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202311/t20231108_778267.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "collective-memorial",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "内文留白、装订层次与随文本变化的版式并重，在厚重史料与现代阅读之间取得平衡。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-03-chapter-opener",
+      "source_title": "燕京传薪录——中法汉学研究所未刊稿研究",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202311/t20231108_778267.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "collective-memorial",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "内文留白、装订层次与随文本变化的版式并重，在厚重史料与现代阅读之间取得平衡。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-03-body",
+      "source_title": "燕京传薪录——中法汉学研究所未刊稿研究",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202311/t20231108_778267.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "collective-memorial",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "内文留白、装订层次与随文本变化的版式并重，在厚重史料与现代阅读之间取得平衡。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-03-image-page",
+      "source_title": "燕京传薪录——中法汉学研究所未刊稿研究",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202311/t20231108_778267.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "collective-memorial",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "内文留白、装订层次与随文本变化的版式并重，在厚重史料与现代阅读之间取得平衡。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-03-running-headers",
+      "source_title": "燕京传薪录——中法汉学研究所未刊稿研究",
+      "source_url": "https://www.nppa.gov.cn/xxfb/dfgz/202311/t20231108_778267.html",
+      "source_type": "government-book-design-award",
+      "source_region": "CN",
+      "book_category": "collective-memorial",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "内文留白、装订层次与随文本变化的版式并重，在厚重史料与现代阅读之间取得平衡。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-04-cover",
+      "source_title": "观照——栖居的哲学",
+      "source_url": "https://somethingdongxi.com/something-new/most-beautiful-books-in-china/",
+      "source_type": "professional-book-design-media",
+      "source_region": "CN",
+      "book_category": "essays-poetry",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "小开本经折装中图像与文字分列，字体尺度保持可读，以传统形制承载当代阅读。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-04-toc",
+      "source_title": "观照——栖居的哲学",
+      "source_url": "https://somethingdongxi.com/something-new/most-beautiful-books-in-china/",
+      "source_type": "professional-book-design-media",
+      "source_region": "CN",
+      "book_category": "essays-poetry",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "小开本经折装中图像与文字分列，字体尺度保持可读，以传统形制承载当代阅读。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-04-chapter-opener",
+      "source_title": "观照——栖居的哲学",
+      "source_url": "https://somethingdongxi.com/something-new/most-beautiful-books-in-china/",
+      "source_type": "professional-book-design-media",
+      "source_region": "CN",
+      "book_category": "essays-poetry",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "小开本经折装中图像与文字分列，字体尺度保持可读，以传统形制承载当代阅读。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-04-body",
+      "source_title": "观照——栖居的哲学",
+      "source_url": "https://somethingdongxi.com/something-new/most-beautiful-books-in-china/",
+      "source_type": "professional-book-design-media",
+      "source_region": "CN",
+      "book_category": "essays-poetry",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "小开本经折装中图像与文字分列，字体尺度保持可读，以传统形制承载当代阅读。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-04-image-page",
+      "source_title": "观照——栖居的哲学",
+      "source_url": "https://somethingdongxi.com/something-new/most-beautiful-books-in-china/",
+      "source_type": "professional-book-design-media",
+      "source_region": "CN",
+      "book_category": "essays-poetry",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "小开本经折装中图像与文字分列，字体尺度保持可读，以传统形制承载当代阅读。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-04-running-headers",
+      "source_title": "观照——栖居的哲学",
+      "source_url": "https://somethingdongxi.com/something-new/most-beautiful-books-in-china/",
+      "source_type": "professional-book-design-media",
+      "source_region": "CN",
+      "book_category": "essays-poetry",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "小开本经折装中图像与文字分列，字体尺度保持可读，以传统形制承载当代阅读。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-05-cover",
+      "source_title": "铁观音",
+      "source_url": "https://oss0-cdn.changxianggu.com/book/chapter/269_9787040236927.pdf",
+      "source_type": "book-design-textbook",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "黑、白、灰关系贯穿封套、封面、扉页、目录与内页，使字体、底衬和图形形成整体系统。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-05-toc",
+      "source_title": "铁观音",
+      "source_url": "https://oss0-cdn.changxianggu.com/book/chapter/269_9787040236927.pdf",
+      "source_type": "book-design-textbook",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "黑、白、灰关系贯穿封套、封面、扉页、目录与内页，使字体、底衬和图形形成整体系统。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-05-chapter-opener",
+      "source_title": "铁观音",
+      "source_url": "https://oss0-cdn.changxianggu.com/book/chapter/269_9787040236927.pdf",
+      "source_type": "book-design-textbook",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "黑、白、灰关系贯穿封套、封面、扉页、目录与内页，使字体、底衬和图形形成整体系统。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-05-body",
+      "source_title": "铁观音",
+      "source_url": "https://oss0-cdn.changxianggu.com/book/chapter/269_9787040236927.pdf",
+      "source_type": "book-design-textbook",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "黑、白、灰关系贯穿封套、封面、扉页、目录与内页，使字体、底衬和图形形成整体系统。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-05-image-page",
+      "source_title": "铁观音",
+      "source_url": "https://oss0-cdn.changxianggu.com/book/chapter/269_9787040236927.pdf",
+      "source_type": "book-design-textbook",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "黑、白、灰关系贯穿封套、封面、扉页、目录与内页，使字体、底衬和图形形成整体系统。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-05-running-headers",
+      "source_title": "铁观音",
+      "source_url": "https://oss0-cdn.changxianggu.com/book/chapter/269_9787040236927.pdf",
+      "source_type": "book-design-textbook",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "黑、白、灰关系贯穿封套、封面、扉页、目录与内页，使字体、底衬和图形形成整体系统。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-06-cover",
+      "source_title": "XXL Studio 书籍项目集",
+      "source_url": "https://www.itsnicethat.com/articles/xxl-studio-iconic-book-design-graphic-design-051118",
+      "source_type": "professional-design-media",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以当代图形语言重新解释中国文化内容，项目图库展示封面、装帧与多种内页形态。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-06-toc",
+      "source_title": "XXL Studio 书籍项目集",
+      "source_url": "https://www.itsnicethat.com/articles/xxl-studio-iconic-book-design-graphic-design-051118",
+      "source_type": "professional-design-media",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以当代图形语言重新解释中国文化内容，项目图库展示封面、装帧与多种内页形态。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-06-chapter-opener",
+      "source_title": "XXL Studio 书籍项目集",
+      "source_url": "https://www.itsnicethat.com/articles/xxl-studio-iconic-book-design-graphic-design-051118",
+      "source_type": "professional-design-media",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以当代图形语言重新解释中国文化内容，项目图库展示封面、装帧与多种内页形态。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-06-body",
+      "source_title": "XXL Studio 书籍项目集",
+      "source_url": "https://www.itsnicethat.com/articles/xxl-studio-iconic-book-design-graphic-design-051118",
+      "source_type": "professional-design-media",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以当代图形语言重新解释中国文化内容，项目图库展示封面、装帧与多种内页形态。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-06-image-page",
+      "source_title": "XXL Studio 书籍项目集",
+      "source_url": "https://www.itsnicethat.com/articles/xxl-studio-iconic-book-design-graphic-design-051118",
+      "source_type": "professional-design-media",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以当代图形语言重新解释中国文化内容，项目图库展示封面、装帧与多种内页形态。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-06-running-headers",
+      "source_title": "XXL Studio 书籍项目集",
+      "source_url": "https://www.itsnicethat.com/articles/xxl-studio-iconic-book-design-graphic-design-051118",
+      "source_type": "professional-design-media",
+      "source_region": "CN",
+      "book_category": "cultural-memory",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以当代图形语言重新解释中国文化内容，项目图库展示封面、装帧与多种内页形态。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-07-cover",
+      "source_title": "New City Books",
+      "source_url": "https://www.pentagram.com/work/new-city-books",
+      "source_type": "design-studio",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "系列共享网格与说明文字系统，同时以标题字体、正文字体和书脊色区分不同内容。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-07-toc",
+      "source_title": "New City Books",
+      "source_url": "https://www.pentagram.com/work/new-city-books",
+      "source_type": "design-studio",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "系列共享网格与说明文字系统，同时以标题字体、正文字体和书脊色区分不同内容。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-07-chapter-opener",
+      "source_title": "New City Books",
+      "source_url": "https://www.pentagram.com/work/new-city-books",
+      "source_type": "design-studio",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "系列共享网格与说明文字系统，同时以标题字体、正文字体和书脊色区分不同内容。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-07-body",
+      "source_title": "New City Books",
+      "source_url": "https://www.pentagram.com/work/new-city-books",
+      "source_type": "design-studio",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "系列共享网格与说明文字系统，同时以标题字体、正文字体和书脊色区分不同内容。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-07-image-page",
+      "source_title": "New City Books",
+      "source_url": "https://www.pentagram.com/work/new-city-books",
+      "source_type": "design-studio",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "系列共享网格与说明文字系统，同时以标题字体、正文字体和书脊色区分不同内容。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-07-running-headers",
+      "source_title": "New City Books",
+      "source_url": "https://www.pentagram.com/work/new-city-books",
+      "source_type": "design-studio",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "系列共享网格与说明文字系统，同时以标题字体、正文字体和书脊色区分不同内容。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-08-cover",
+      "source_title": "The Most Beautiful Swiss Books Catalogue",
+      "source_url": "https://www.itsnicethat.com/articles/hubertus-design-the-most-beautiful-swiss-books-catalogue-publication-131117",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以分析性编辑设计回应书籍集合，强调目录结构、出版信息和多层级内容之间的系统关系。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-08-toc",
+      "source_title": "The Most Beautiful Swiss Books Catalogue",
+      "source_url": "https://www.itsnicethat.com/articles/hubertus-design-the-most-beautiful-swiss-books-catalogue-publication-131117",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以分析性编辑设计回应书籍集合，强调目录结构、出版信息和多层级内容之间的系统关系。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-08-chapter-opener",
+      "source_title": "The Most Beautiful Swiss Books Catalogue",
+      "source_url": "https://www.itsnicethat.com/articles/hubertus-design-the-most-beautiful-swiss-books-catalogue-publication-131117",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以分析性编辑设计回应书籍集合，强调目录结构、出版信息和多层级内容之间的系统关系。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-08-body",
+      "source_title": "The Most Beautiful Swiss Books Catalogue",
+      "source_url": "https://www.itsnicethat.com/articles/hubertus-design-the-most-beautiful-swiss-books-catalogue-publication-131117",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以分析性编辑设计回应书籍集合，强调目录结构、出版信息和多层级内容之间的系统关系。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-08-image-page",
+      "source_title": "The Most Beautiful Swiss Books Catalogue",
+      "source_url": "https://www.itsnicethat.com/articles/hubertus-design-the-most-beautiful-swiss-books-catalogue-publication-131117",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以分析性编辑设计回应书籍集合，强调目录结构、出版信息和多层级内容之间的系统关系。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-08-running-headers",
+      "source_title": "The Most Beautiful Swiss Books Catalogue",
+      "source_url": "https://www.itsnicethat.com/articles/hubertus-design-the-most-beautiful-swiss-books-catalogue-publication-131117",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "以分析性编辑设计回应书籍集合，强调目录结构、出版信息和多层级内容之间的系统关系。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-09-cover",
+      "source_title": "Studio Spehr / Hello World",
+      "source_url": "https://www.itsnicethat.com/articles/studio-spehr-graphic-design-150121",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "模块化容器兼容不同长度说明和图像需求，在多章节、多作者条件下保持一致而不僵化。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-09-toc",
+      "source_title": "Studio Spehr / Hello World",
+      "source_url": "https://www.itsnicethat.com/articles/studio-spehr-graphic-design-150121",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "模块化容器兼容不同长度说明和图像需求，在多章节、多作者条件下保持一致而不僵化。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-09-chapter-opener",
+      "source_title": "Studio Spehr / Hello World",
+      "source_url": "https://www.itsnicethat.com/articles/studio-spehr-graphic-design-150121",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "模块化容器兼容不同长度说明和图像需求，在多章节、多作者条件下保持一致而不僵化。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-09-body",
+      "source_title": "Studio Spehr / Hello World",
+      "source_url": "https://www.itsnicethat.com/articles/studio-spehr-graphic-design-150121",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "模块化容器兼容不同长度说明和图像需求，在多章节、多作者条件下保持一致而不僵化。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-09-image-page",
+      "source_title": "Studio Spehr / Hello World",
+      "source_url": "https://www.itsnicethat.com/articles/studio-spehr-graphic-design-150121",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "模块化容器兼容不同长度说明和图像需求，在多章节、多作者条件下保持一致而不僵化。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-09-running-headers",
+      "source_title": "Studio Spehr / Hello World",
+      "source_url": "https://www.itsnicethat.com/articles/studio-spehr-graphic-design-150121",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "collective-memory",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "模块化容器兼容不同长度说明和图像需求，在多章节、多作者条件下保持一致而不僵化。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-10-cover",
+      "source_title": "Studio Front-Door / Abnormal Sense",
+      "source_url": "https://www.itsnicethat.com/articles/studio-front-door-graphic-design-260422",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "life-memorial",
+      "page_component": "cover",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "用薄而半透明的内页材料与克制图像处理表达代际创伤和记忆传递，让物性服务叙事。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取内容与材料、色彩之间的对应方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-10-toc",
+      "source_title": "Studio Front-Door / Abnormal Sense",
+      "source_url": "https://www.itsnicethat.com/articles/studio-front-door-graphic-design-260422",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "life-memorial",
+      "page_component": "toc",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "用薄而半透明的内页材料与克制图像处理表达代际创伤和记忆传递，让物性服务叙事。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取多层级信息的网格、留白与导航节奏"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-10-chapter-opener",
+      "source_title": "Studio Front-Door / Abnormal Sense",
+      "source_url": "https://www.itsnicethat.com/articles/studio-front-door-graphic-design-260422",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "life-memorial",
+      "page_component": "chapter-opener",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "用薄而半透明的内页材料与克制图像处理表达代际创伤和记忆传递，让物性服务叙事。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取统一母版中的章节节奏与内容入口"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-10-body",
+      "source_title": "Studio Front-Door / Abnormal Sense",
+      "source_url": "https://www.itsnicethat.com/articles/studio-front-door-graphic-design-260422",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "life-memorial",
+      "page_component": "body",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "用薄而半透明的内页材料与克制图像处理表达代际创伤和记忆传递，让物性服务叙事。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取可读正文与内容驱动版面之间的平衡"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-10-image-page",
+      "source_title": "Studio Front-Door / Abnormal Sense",
+      "source_url": "https://www.itsnicethat.com/articles/studio-front-door-graphic-design-260422",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "life-memorial",
+      "page_component": "image-page",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "用薄而半透明的内页材料与克制图像处理表达代际创伤和记忆传递，让物性服务叙事。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取图片尺度、留白及图文关系的处理方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    },
+    {
+      "case_id": "DC-10-running-headers",
+      "source_title": "Studio Front-Door / Abnormal Sense",
+      "source_url": "https://www.itsnicethat.com/articles/studio-front-door-graphic-design-260422",
+      "source_type": "professional-design-media",
+      "source_region": "INT",
+      "book_category": "life-memorial",
+      "page_component": "running-headers",
+      "verification_status": "confirmed",
+      "verified_at": "2026-08-10",
+      "verification_method": "published project description and accompanying visual set reviewed",
+      "design_facts": [
+        "用薄而半透明的内页材料与克制图像处理表达代际创伤和记忆传递，让物性服务叙事。"
+      ],
+      "reuse_scope": [
+        "principle-only",
+        "combine-with-at-least-two-references",
+        "no-one-to-one-copy"
+      ],
+      "borrowed_elements": [
+        "提取低干扰导航、重复结构或有意省略的方法"
+      ],
+      "changed_elements": [
+        "替换为本项目真实文字与图片，并重新定义字体、比例、色彩或材料组合；不得复制该案例的完整页面。"
+      ]
+    }
+  ]
+}
+

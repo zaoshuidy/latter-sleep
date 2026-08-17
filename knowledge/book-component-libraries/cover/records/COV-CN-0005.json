@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0005",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0005", "book_title": "西影的名字叫西影", "author": "赵文涛", "designer": "李瑾、李威蒗、张媚婷", "publisher": "西安出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0005", "source_url": "https://beautyofbooks.cn/bookdetail?id=527", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://hotbook.nbt.edu.cn/nbt/?id=150728&what=detail"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0005.jpg", "sha256": "ea3a632971f8118aced36de49492daad5292858970747aa1e90de1369d52ee2b", "mime_type": "image/jpeg", "width": 1500, "height": 1060},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "photography", "composition": "full-bleed", "title_zone": "center", "spine_relationship": "not-visible", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "暖橙色透明感影像铺满可见正面，以低对比历史场景和极少文字形成电影胶片般的时间质感", "observations": [
+    {"aspect": "色彩", "value": "橙色单一色调覆盖可见正面", "visibility": "clear", "confidence": 0.99, "evidence": "当前图中可见正面为橙色，只有低对比灰绿色细节", "content_tags": ["橙色", "单色", "统一色调"]},
+    {"aspect": "影像", "value": "低对比建筑或场景影像隐约铺在橙色底面中", "visibility": "partial", "confidence": 0.86, "evidence": "当前封面正面可见被橙色覆盖的水平建筑轮廓和明暗块", "content_tags": ["历史影像", "建筑", "时间感"]}
+  ]},
+  "reference_transfer": {"transferable": ["用单色罩染统一封面影像", "让低对比历史照片作为远景纹理", "用极少文字保留影像呼吸感"], "avoid_copying": ["不复用原书建筑影像", "不照搬橙色具体色值与文字安排"], "adaptation_notes": ["从项目档案中选择适合正面构图的影像", "根据项目年代选择专属单色体系"]},
+  "retrieval_features": {"style_tags": ["档案感", "单色摄影", "全幅"], "content_tags": ["电影", "历史", "建筑"], "color_tags": ["橙色", "灰绿色"], "mood_tags": ["怀旧", "温暖", "时间感"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

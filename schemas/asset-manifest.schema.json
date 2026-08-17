@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "asset-manifest.schema.json",
+  "title": "Book Asset Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "project_id", "assets"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "project_id": {"type": "string", "minLength": 1},
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["asset_id", "asset_type", "original_path", "state"],
+        "properties": {
+          "asset_id": {"type": "string", "minLength": 1},
+          "asset_type": {"enum": ["text", "image", "template", "reference"]},
+          "original_path": {"type": "string", "minLength": 1},
+          "state": {"enum": ["received", "missing", "pending", "unusable"]},
+          "source": {"type": "string"},
+          "people": {"type": "array", "items": {"type": "string"}},
+          "period": {"type": "string"},
+          "notes": {"type": "string"}
+        }
+      }
+    }
+  }
+}

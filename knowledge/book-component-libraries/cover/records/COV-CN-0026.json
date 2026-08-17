@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0026",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0026", "book_title": "保罗·史密斯的骑行剪贴簿", "author": "Paul Smith", "designer": "Mlimt_Design", "publisher": "Hunan Literature and Art Publishing House", "publication_year": 2019, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0026", "source_url": "https://tenmilliontimes.com/Paul-Smith-s-Cycling-Scrapbook", "platform": "tenmilliontimes", "collected_at": "2026-08-11", "publication_year": 2019, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/007241437"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0026.png", "sha256": "970e77c9e8493599984d00a072ceeeb559873c795d0c96f92ae5199bb44fb189", "mime_type": "image/png", "width": 3175, "height": 2059},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "工作室来源确认该书由五册剪贴簿组成，以不同纸张与传统赛事标志色编码，并可用纸绳连接成整体或分开悬挂；profile 仍只绑定前景黑色题名面，其将英文大写书名压在右上并把小号出版信息置于左下", "observations": [
+    {"aspect": "前景题名面", "value": "黑色底面上以大号棕金色英文和中文书名占据右上区域", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片前景黑色封面可读多行英文大写题名及中文书名，文字集中在上半部偏右", "content_tags": ["英文大字", "中英混排", "黑色底"]},
+    {"aspect": "五册系统", "value": "同一套五册剪贴簿以黑、红、绿、蓝、黄题名面采用相同文字框架，来源确认其可连接或分开使用", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片在黑色题名面后方依次并置红、绿、蓝、黄色题名面，均有相同位置的大号中英文；五册关系与连接方式由工作室项目说明确认", "content_tags": ["五册", "色彩编码", "可组合"]}
+  ]},
+  "reference_transfer": {"transferable": ["用超大双语标题建立整套出版物主识别", "以内容分册、纸张和色彩编码形成五册系统", "让多册既可连接展示也可分开使用，同时把单一检索profile绑定到明确选定的前景题名面"], "avoid_copying": ["不照搬原书中英文断行和字距", "不复制原五色、纸张选择、纸绳连接结构或每册内容分配"], "adaptation_notes": ["根据项目语言比例重新设计双语层级", "先建立内容分册逻辑，再为每册独立选择纸张与色彩，并设计可连接和分开的使用方式"]},
+  "retrieval_features": {"style_tags": ["国际主义排版", "超大标题", "多色展示"], "content_tags": ["骑行", "剪贴簿", "设计师"], "color_tags": ["黑色", "红色", "绿色", "蓝色", "黄色"], "mood_tags": ["活力", "现代", "大胆"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

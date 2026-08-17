@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0003",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0003", "book_title": "石齐·字", "author": "石齐", "designer": "oooffice", "publisher": "北京时代华文书局", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0003", "source_url": "https://beautyofbooks.cn/bookdetail?id=522", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://www.cbbr.com.cn/contents/533/96323.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0003.jpg", "sha256": "d2a17699b3a4d26c0c108aff1d66e783243e053a11d801e1b4a687d3313a58d7", "mime_type": "image/jpeg", "width": 1500, "height": 1072},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "centered", "title_zone": "center", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "单个巨幅书法字覆盖黑色封面，利用粗粝白色笔触把书名本身转化为主图形", "observations": [
+    {"aspect": "文字图形", "value": "白色巨幅书法字占据封面中央大部分区域", "visibility": "clear", "confidence": 0.99, "evidence": "当前封面图可见单个粗笔白色汉字纵向贯穿黑色版面", "content_tags": ["书法", "巨字", "汉字"]},
+    {"aspect": "层级", "value": "主字极大，其他信息缩小并分散在边缘", "visibility": "clear", "confidence": 0.97, "evidence": "当前图中白色主字面积远大于顶部与底部的小字号信息", "content_tags": ["尺度对比", "边缘信息", "主次"]}
+  ]},
+  "reference_transfer": {"transferable": ["把一个核心字转化为封面主视觉", "用黑白尺度反差建立远距识别", "次要信息退到边缘"], "avoid_copying": ["不复刻原作书法笔触", "不使用相同汉字造型和裁切关系"], "adaptation_notes": ["根据项目关键词重新设计独立字形", "书名仍以可编辑文字层完整呈现"]},
+  "retrieval_features": {"style_tags": ["书法", "现代", "高反差"], "content_tags": ["汉字", "艺术家", "字形"], "color_tags": ["黑色", "白色"], "mood_tags": ["强烈", "凝练", "庄重"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

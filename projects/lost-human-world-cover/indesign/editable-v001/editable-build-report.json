@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "status": "built",
+  "mode": "native-editable-proof",
+  "trim_profile": "large-32mo-145x210mm",
+  "trim_mm": [
+    145,
+    210
+  ],
+  "body_typography": {
+    "font": "Source Han Serif SC Regular",
+    "size_pt": 10.5,
+    "leading_pt": 17.5,
+    "first_line_indent_em": 2,
+    "margins_mm": {
+      "top": 26,
+      "inside": 22,
+      "outside": 18,
+      "bottom": 24
+    }
+  },
+  "editable_components": [
+    "title-page",
+    "toc",
+    "chapter-opener",
+    "body",
+    "running-heads",
+    "folios"
+  ],
+  "raster_components": [
+    "front-cover",
+    "back-cover"
+  ],
+  "paragraph_count": 49,
+  "cover_source_sha256": "3e26f3a2fefb8a02fcc16bdc7a5d211fc0a0692f94d50c1d6d7361035d0fb051",
+  "outputs": {
+    "indd": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\indesign\\editable-v001\\book-editable-v001.indd",
+    "idml": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\indesign\\editable-v001\\book-editable-v001.idml",
+    "pdf": "D:\\book-production-skills-v1\\projects\\lost-human-world-cover\\indesign\\editable-v001\\book-editable-v001.pdf"
+  },
+  "execution": {
+    "status": "built",
+    "application": "Adobe InDesign",
+    "version": "20.4.1.4",
+    "pages": 14,
+    "links": 2,
+    "textFrames": 51,
+    "paragraphStyles": 15,
+    "parentSpreads": 6,
+    "overset": 0,
+    "missingLinks": 0,
+    "lowResolutionLinks": 0
+  }
+}

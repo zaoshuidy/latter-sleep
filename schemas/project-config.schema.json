@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project-config.schema.json",
+  "title": "Book Project Config",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "project_id", "title", "mode", "primary_category", "tags", "confirmer", "page_plan"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "project_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "subtitle": {"type": "string", "minLength": 1},
+    "author": {"type": "string", "minLength": 1},
+    "mode": {"enum": ["template", "memorial", "hybrid"]},
+    "primary_mode": {"enum": ["template", "memorial"]},
+    "primary_category": {
+      "enum": [
+        "life-memorial",
+        "family-memorial",
+        "letters-diaries",
+        "essays-poetry",
+        "literary-fiction",
+        "growth-memorial",
+        "collective-memorial"
+      ]
+    },
+    "tags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "cover_text_registry": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text_id", "surface", "role", "value", "language"],
+        "properties": {
+          "text_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9-]*[0-9]$"},
+          "surface": {"enum": ["front", "back", "spine"]},
+          "role": {"enum": ["title", "subtitle", "author", "short-note", "back-cover-copy", "recommendation"]},
+          "value": {"type": "string", "minLength": 1},
+          "language": {"type": "string", "minLength": 2}
+        }
+      }
+    },
+    "confirmer": {"type": "string", "minLength": 1},
+    "purpose": {"type": "string"},
+    "primary_readers": {"type": "string"},
+    "page_size": {"type": "string"},
+    "deadline": {"type": "string"},
+    "brand_profile": {"type": "string", "default": "paper-boat"},
+    "page_plan": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "fixed_pages": {"type": "integer", "minimum": 1},
+        "min_pages": {"type": "integer", "minimum": 1},
+        "max_pages": {"type": "integer", "minimum": 1}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"mode": {"const": "hybrid"}}, "required": ["mode"]},
+      "then": {"required": ["primary_mode"]}
+    },
+    {
+      "if": {"properties": {"mode": {"const": "template"}}, "required": ["mode"]},
+      "then": {"properties": {"page_plan": {"required": ["fixed_pages"]}}}
+    },
+    {
+      "if": {"properties": {"mode": {"const": "memorial"}}, "required": ["mode"]},
+      "then": {"properties": {"page_plan": {"required": ["min_pages", "max_pages"]}}}
+    }
+  ]
+}

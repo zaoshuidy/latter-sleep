@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0004",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0004", "book_title": "我是外公外婆带大的孩子", "author": "吴为", "designer": "苗倩", "publisher": "中信出版集团", "publication_year": 2023, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0004", "source_url": "https://beautyofbooks.cn/bookdetail?id=525", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2023, "publication_year_source_url": "https://www.chinawriter.com.cn/n1/2023/1211/c405084-40136269.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0004.jpg", "sha256": "ff088c521e8963567be3b27893a9263054a3e648b3d3b84082c6d89bbcf6ffac", "mime_type": "image/jpeg", "width": 1500, "height": 1073},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "mixed", "composition": "centered", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "白色框体包围黑色影像窗口，以零散彩色线条和中央浅色方块营造记忆碎片般的私人叙事", "observations": [
+    {"aspect": "构图", "value": "黑色竖向画面被白色宽边框居中包围", "visibility": "clear", "confidence": 0.99, "evidence": "当前封面图可见中央黑色矩形区域，四周为宽白边", "content_tags": ["画框", "居中", "留白"]},
+    {"aspect": "点缀", "value": "黑底上分布少量蓝紫与粉色细线，中央有浅色小方块", "visibility": "clear", "confidence": 0.96, "evidence": "当前封面黑色区域四周可见彩色细线，中部可见浅色方块", "content_tags": ["彩色线条", "记忆碎片", "黑底"]}
+  ]},
+  "reference_transfer": {"transferable": ["用框中框结构表达回忆窗口", "低密度彩色线条点亮深色底", "中央小尺度信息形成私密焦点"], "avoid_copying": ["不复制原有线条轨迹和中央方块内容", "不沿用相同黑白比例"], "adaptation_notes": ["以项目照片或象征物替换中央记忆窗口", "按人物关系重新组织点缀线索"]},
+  "retrieval_features": {"style_tags": ["叙事性", "现代", "框景"], "content_tags": ["家庭", "记忆", "亲情"], "color_tags": ["黑色", "白色", "蓝紫"], "mood_tags": ["怀念", "私密", "温柔"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0001",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0001", "book_title": "奇迹之境：艺术家手作书", "author": "王骥", "designer": "潘焰荣", "publisher": "江苏凤凰美术出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0001", "source_url": "https://beautyofbooks.cn/bookdetail?id=523", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://detail.youzan.com/show/goods?alias=276jexass3n0q3a&from_source=gbox_seo"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0001.jpg", "sha256": "9f616dd4443c1f6eaeb9fdd1dc8c3da638489d3021e4b6c83dc9d2472c8bc19b", "mime_type": "image/jpeg", "width": 1500, "height": 1072},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "photography", "composition": "centered", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "黑色底面以高反差手部摄影作为唯一主视觉，标题退居上缘形成冷静的艺术图录气质", "observations": [
+    {"aspect": "主体", "value": "一只握持剪刀与线材的手位于黑色封面中央", "visibility": "clear", "confidence": 0.99, "evidence": "当前封面图中央可见高亮手部、剪刀和线材，四周为大面积黑色", "content_tags": ["手部", "剪刀", "手作"]},
+    {"aspect": "色彩", "value": "黑白灰高反差，未见大面积彩色干扰", "visibility": "clear", "confidence": 0.98, "evidence": "当前封面图主体与背景均为黑白灰，亮部集中在手部", "content_tags": ["黑色", "白色", "高反差"]}
+  ]},
+  "reference_transfer": {"transferable": ["单一摄影主体集中于中轴", "小字号标题压在上缘", "黑底高反差建立艺术感"], "avoid_copying": ["不复用手握剪刀的具体摄影姿态", "不照搬原书标题位置与字距"], "adaptation_notes": ["替换为项目自身核心物件并保留单主体聚焦", "将标题留白按实际书名长度重新分配"]},
+  "retrieval_features": {"style_tags": ["克制", "艺术图录", "高反差"], "content_tags": ["手作", "手部", "工具"], "color_tags": ["黑色", "白色", "灰色"], "mood_tags": ["冷静", "专注", "神秘"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

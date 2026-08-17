@@ -1,0 +1,69 @@
+{
+  "category": "by-visual-strategy",
+  "component": "chapter-opener",
+  "entries": {
+    "abstract": [
+      "CHO-CN-0006",
+      "CHO-CN-0009",
+      "CHO-CN-0010",
+      "CHO-CN-0013"
+    ],
+    "illustration": [
+      "CHO-CN-0001",
+      "CHO-CN-0016",
+      "CHO-CN-0033",
+      "CHO-CN-0038"
+    ],
+    "image": [
+      "CHO-CN-0012"
+    ],
+    "mixed": [
+      "CHO-CN-0005",
+      "CHO-CN-0008",
+      "CHO-CN-0014",
+      "CHO-CN-0015",
+      "CHO-CN-0017",
+      "CHO-CN-0022",
+      "CHO-CN-0023",
+      "CHO-CN-0025",
+      "CHO-CN-0026",
+      "CHO-CN-0028",
+      "CHO-CN-0030",
+      "CHO-CN-0035",
+      "CHO-CN-0040",
+      "CHO-CN-0043",
+      "CHO-CN-0047",
+      "CHO-CN-0048",
+      "CHO-CN-0050"
+    ],
+    "photography": [
+      "CHO-CN-0002",
+      "CHO-CN-0004",
+      "CHO-CN-0020",
+      "CHO-CN-0032"
+    ],
+    "typography": [
+      "CHO-CN-0003",
+      "CHO-CN-0007",
+      "CHO-CN-0011",
+      "CHO-CN-0018",
+      "CHO-CN-0019",
+      "CHO-CN-0021",
+      "CHO-CN-0024",
+      "CHO-CN-0027",
+      "CHO-CN-0029",
+      "CHO-CN-0031",
+      "CHO-CN-0034",
+      "CHO-CN-0036",
+      "CHO-CN-0037",
+      "CHO-CN-0039",
+      "CHO-CN-0041",
+      "CHO-CN-0042",
+      "CHO-CN-0044",
+      "CHO-CN-0045",
+      "CHO-CN-0046",
+      "CHO-CN-0049"
+    ]
+  },
+  "schema_version": "1.0"
+}

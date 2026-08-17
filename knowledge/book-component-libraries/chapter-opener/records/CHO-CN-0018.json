@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0018","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0036","book_title":"乡村与木刻","author":"刘庆元、左靖","designer":"黄扬设计工作室","publisher":"上海人民美术出版社","publication_year":2022,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0036","source_url":"https://beautyofbooks.cn/bookdetail?id=468","platform":"BeautyOfBooks","collected_at":"2026-08-11","publication_year":2022,"publication_year_source_url":"https://books.google.com/books/about/%E4%B9%A1%E6%9D%91%E4%B8%8E%E6%9C%A8%E5%88%BB.html?id=dc8T0AEACAAJ"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0018.jpg","sha256":"ab021036a33bef374ac87c626e7d28a03d962d1be837f4b8800f51e4c18f58b8","mime_type":"image/jpeg","width":1200,"height":800},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"typography","chapter_number_zone":"margin","chapter_title_zone":"vertical","image_role":"none","text_image_relationship":"text-only","whitespace":"medium"},
+  "visual_decomposition":{"overall_strategy":"竖排大章题与横排正文共享连续跨页版心，让章首页直接进入阅读流","observations":[{"aspect":"文字关系","value":"左页上部竖排章题，下部和右页连续进入横排正文","visibility":"clear","confidence":0.98,"evidence":"当前图片可见竖题、横排正文和上方留白","content_tags":["竖题横文","连续阅读","单色"]}]},
+  "reference_transfer":{"transferable":["章题与正文连续进入","竖题对横排正文","单色与克制留白"],"avoid_copying":["不复制原章题和具体版心行长"],"adaptation_notes":["按既定正文基线网格接续章首页"]},
+  "retrieval_features":{"style_tags":["纯排版","连续阅读","黑白"],"content_tags":["乡村","木刻","正文入口"],"color_tags":["白色","黑色"],"mood_tags":["质朴","直接","克制"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

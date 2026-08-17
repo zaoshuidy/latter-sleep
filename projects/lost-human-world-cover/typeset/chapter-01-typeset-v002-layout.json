@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "layout_id": "TYPESET-LOST-HUMAN-WORLD-CH01-V002",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "source_path": "manuscript/chapter-01.md",
+  "source_sha256": "380b13c561191e5f3a9b52dcad7c7cbb6976487ef6d58910bc032f214de932b8",
+  "source_paragraph_range": [1, 49],
+  "page_paragraph_ranges": {
+    "6": [1, 5],
+    "7": [6, 10],
+    "8": [11, 18],
+    "9": [19, 26],
+    "10": [27, 39],
+    "11": [40, 49]
+  },
+  "page_trim_mm": [145, 210],
+  "spread_trim_mm": [290, 210],
+  "folios": [6, 7, 8, 9, 10, 11],
+  "status": "standardized",
+  "design_basis": "approved-body-opening-v001-plus-publishing-baseline",
+  "page_family": {
+    "page_6": "body-opening-left",
+    "pages_7_to_11": "body-standard",
+    "running_headers": "none"
+  },
+  "typography": {
+    "font_stack": "Source Han Serif SC, Noto Serif CJK SC, Songti SC, STSong, serif",
+    "body_font_size_pt": 10.5,
+    "body_line_height_pt": 17.5,
+    "paragraph_indent_em": 2,
+    "paragraph_spacing_pt": 0
+  },
+  "margins_mm": {
+    "standard_top": 26,
+    "opening_left_top": 54,
+    "inside": 22,
+    "outside": 18,
+    "bottom": 24
+  },
+  "folio": {
+    "template": "folio-outer",
+    "position": "outer-bottom",
+    "bottom_mm": 12,
+    "status": "provisional"
+  },
+  "palette": {
+    "paper": "#F1EDE4",
+    "ink": "#1C1B19",
+    "accent": "#7A2428",
+    "folio": "#8C8275"
+  }
+}

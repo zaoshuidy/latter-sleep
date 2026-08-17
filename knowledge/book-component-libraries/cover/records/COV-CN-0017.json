@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0017",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0017", "book_title": "革命的形成：清季十年的转折", "author": "罗志田", "designer": null, "publisher": "商务印书馆", "publication_year": 2021, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0017", "source_url": "https://www.cp.com.cn/book/ba70779d-6.html", "platform": "商务印书馆官网", "collected_at": "2026-08-11", "publication_year": 2021, "publication_year_source_url": "https://www.cp.com.cn/book/ba70779d-6.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0017.jpg", "sha256": "884eb24a40cd2839f5ed5be462af2598b23e130a8d107d9855d2475b1b1deaf7", "mime_type": "image/jpeg", "width": 770, "height": 770},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "grid", "title_zone": "bottom", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "封面以深绿上区和红色下区形成清晰水平分割，白色主标题集中在红区，绿区叠加低对比史料文字与放大笔画", "observations": [
+    {"aspect": "色块结构", "value": "深绿色上区与红色下区形成约三比一的水平分割", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片主面上部为大面积深绿，下部为红色矩形区域，两者边界水平清晰", "content_tags": ["红绿分区", "水平分割", "色块"]},
+    {"aspect": "信息层级", "value": "白色书名集中位于红区，作者和副题分布在绿区", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片下部红区可见大号白色“革命的形成”，上部绿区可见较小作者与副题", "content_tags": ["白色书名", "上下层级", "史料文字"]}
+  ]},
+  "reference_transfer": {"transferable": ["用高反差水平色块区分主副信息", "在大色块中叠入低对比史料背景", "把长副题与作者置于独立信息区"], "avoid_copying": ["不复用原书红绿比例和史料底纹", "不照搬主标题字形与断行"], "adaptation_notes": ["根据叙事转折重新定义两色区的语义", "确保背景史料不削弱主要文字可读性"]},
+  "retrieval_features": {"style_tags": ["历史学术", "色块", "现代排版"], "content_tags": ["革命", "清季", "历史"], "color_tags": ["深绿", "红色", "白色"], "mood_tags": ["严肃", "醒目", "张力"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

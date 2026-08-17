@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "query_id": "QUERY-COV-LOST-HUMAN-WORLD-0001",
+  "component_type": "cover",
+  "field_targets": {
+    "visual_strategy": [
+      "abstract",
+      "typography",
+      "mixed"
+    ],
+    "composition": [
+      "whitespace",
+      "asymmetric",
+      "centered"
+    ],
+    "title_zone": [
+      "top",
+      "center",
+      "vertical",
+      "distributed"
+    ],
+    "color": [
+      "米白",
+      "白色",
+      "浅灰米色",
+      "低对比灰",
+      "黑色",
+      "红色"
+    ],
+    "mood": [
+      "克制",
+      "疏离",
+      "冷峻",
+      "内省",
+      "寂静",
+      "哲思",
+      "张力"
+    ],
+    "cover_scope": [
+      "front"
+    ],
+    "book_category": [
+      "literary-fiction"
+    ]
+  },
+  "selection_policy": {
+    "max_results": 5,
+    "diversity": "strict"
+  }
+}

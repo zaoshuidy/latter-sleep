@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "review-report.schema.json",
+  "title": "Book Production Review Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "project_id", "checks", "gates", "status", "next_action"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "project_id": {"type": "string"},
+    "checks": {"type": "array", "items": {"type": "object"}},
+    "gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sample_review", "final_review"],
+      "properties": {
+        "sample_review": {"enum": ["pending", "approved", "rejected"]},
+        "final_review": {"enum": ["pending", "approved", "rejected"]}
+      }
+    },
+    "status": {"enum": ["blocked", "ready", "approved"]},
+    "next_action": {"enum": ["resolve_failed_checks", "await_sample_review", "await_final_review", "complete"]}
+  }
+}

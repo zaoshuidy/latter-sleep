@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "options": [
+    {
+      "option_id": "S-SEASON",
+      "bases": ["theme"],
+      "rationale": "仅根据已确认的四时主题建立候选，不推测正文内容。",
+      "unit_order": ["TXT-001"],
+      "advantages": ["主题直观"],
+      "risks": ["正文缺失时不能锁定更多章节"],
+      "image_opportunities": ["季节抽象背景"]
+    },
+    {
+      "option_id": "S-LETTER",
+      "bases": ["object"],
+      "rationale": "以已确认的来信意象组织阅读入口，不补造信件事实。",
+      "unit_order": ["TXT-001"],
+      "advantages": ["适合手札感设计"],
+      "risks": ["需要后续真实书信材料确认"],
+      "image_opportunities": ["纸张与折痕纹理"]
+    }
+  ]
+}

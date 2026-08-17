@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0034",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0034", "book_title": "猴子捞月", "author": "张俊杰", "designer": "张俊杰", "publisher": "明天出版社", "publication_year": 2020, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0034", "source_url": "https://beautyofbooks.cn/bookdetail?id=415", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2020, "publication_year_source_url": "https://www.ccgp-neimenggu.gov.cn/gpx-bid-file/150501/gpx-tender/2022/9/27/402881dd82f475a001837dd994c704ec.pdf?accessCode=6ee03dd5dfaa580f5676714376d8dec5"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0034.jpg", "sha256": "e4fae1a95f7badb3249262f726e566087a48b02de3cf451298a2f035d3f95a89", "mime_type": "image/jpeg", "width": 833, "height": 556},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "illustration", "composition": "centered", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "官方案例 hero 显示孤立正面：明亮黄色水彩状背景覆盖全幅，黑色手写题名横排于上部，三只黑色猴形剪影立于下部深色山丘，左下浅黄圆形与右下蓝色弧带形成色彩对照", "observations": [
+    {"aspect": "上部题名", "value": "四个黑色手写风汉字横排位于黄色正面上部", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片上部可清楚读到黑色“猴子捞月”，下方另有较小作者信息", "content_tags": ["手写题名", "黑色", "上部"]},
+    {"aspect": "猴与月图像", "value": "三只黑色猴形剪影站在下部深色山丘上，左下有浅黄圆形", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片下半部可见三只猴形黑色剪影、深色丘形和左下浅黄圆形", "content_tags": ["猴子", "圆月", "剪影"]}
+  ]},
+  "reference_transfer": {"transferable": ["用高明度背景承托黑色剪影叙事", "将儿童书题名保持在图像动作之外的上部区域", "用单一圆形建立故事关键物识别"], "avoid_copying": ["不复刻猴子、山丘和圆月的原构图", "不照搬题名字形和黄色背景纹理"], "adaptation_notes": ["根据新故事动作重新组织剪影关系", "用项目自有插图保持标题与主动作的清晰分区"]},
+  "retrieval_features": {"style_tags": ["儿童绘本", "剪影叙事", "手写标题"], "content_tags": ["猴子", "月亮", "故事"], "color_tags": ["黄色", "黑色", "浅蓝"], "mood_tags": ["童趣", "明快", "戏剧性"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

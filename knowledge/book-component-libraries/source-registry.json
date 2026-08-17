@@ -1,0 +1,839 @@
+{
+  "schema_version": "1.0",
+  "source_mode": "accumulation",
+  "sources": [
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://detail.youzan.com/show/goods?alias=276jexass3n0q3a&from_source=gbox_seo",
+      "source_registry_id": "SRC-CN-0001",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=523",
+      "title": "奇迹之境：艺术家手作书"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://m.bookdao.com/book.aspx?bookid=4487302",
+      "source_registry_id": "SRC-CN-0002",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=524",
+      "title": "三十六张脸 : 1985年以来的中国青年摄影家侧面"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://www.cbbr.com.cn/contents/533/96323.html",
+      "source_registry_id": "SRC-CN-0003",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=522",
+      "title": "石齐·字"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2023,
+      "publication_year_source_url": "https://www.chinawriter.com.cn/n1/2023/1211/c405084-40136269.html",
+      "source_registry_id": "SRC-CN-0004",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=525",
+      "title": "我是外公外婆带大的孩子"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://hotbook.nbt.edu.cn/nbt/?id=150728&what=detail",
+      "source_registry_id": "SRC-CN-0005",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=527",
+      "title": "西影的名字叫西影"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://product.dangdang.com/product.aspx?product_id=11946354977",
+      "source_registry_id": "SRC-CN-0006",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=528",
+      "title": "语词中的历史与风景——中国新诗的基本问题"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://tenmilliontimes.com/Here-or-Not-Here",
+      "source_registry_id": "SRC-CN-0007",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=526",
+      "title": "在，或不在"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://sh.people.com.cn/n2/2024/0227/c134768-40758371.html",
+      "source_registry_id": "SRC-CN-0008",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=529",
+      "title": "中国·最美的书20年图集"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2025,
+      "publication_year_source_url": "https://www.nationalreading.gov.cn/tshzx/202502/t20250224_885506.html",
+      "source_registry_id": "SRC-CN-0009",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=520",
+      "title": "北大馆藏西文珍本中的老北京图像"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "最美的书官网",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://yangbo.cctv.com/2025/03/24/ARTI4ZWmn6vgJ0xLF23wHTKb250324.shtml",
+      "source_registry_id": "SRC-CN-0010",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=518",
+      "title": "巨匠：紫砂七老传略"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "商务印书馆官网",
+      "publication_year": 2018,
+      "publication_year_source_url": "https://www.cp.com.cn/book/8f840611-d.html",
+      "source_registry_id": "SRC-CN-0011",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/Content/2019/01-17/1355001334.html",
+      "title": "飞鸟集"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "人民教育出版社官网",
+      "publication_year": 2017,
+      "publication_year_source_url": "https://www.cbbr.com.cn/contents/480/63354.html",
+      "source_registry_id": "SRC-CN-0012",
+      "source_type": "book",
+      "source_url": "https://www.pep.com.cn/xw/zt/ss/hx/gcls/jqztcb/202211/t20221130_1981618.shtml",
+      "title": "炫彩童年：中国百年童书精品图鉴"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "人民教育出版社官网",
+      "publication_year": 2020,
+      "publication_year_source_url": "https://www.pep.com.cn/xw/zt/cp/zxxbbgsc/xxsgsc112kd/202204/t20220406_1976042.html",
+      "source_registry_id": "SRC-CN-0013",
+      "source_type": "book",
+      "source_url": "https://www.pep.com.cn/xw/zt/cp/zxxbbgsc/xxsgsc112kd/202204/t20220406_1976042.html",
+      "title": "小学生必备古诗词112首（口袋版）"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "商务印书馆官网",
+      "publication_year": 2021,
+      "publication_year_source_url": "https://www.cp.com.cn/book/f4be75f9-8.html",
+      "source_registry_id": "SRC-CN-0014",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/book/f4be75f9-8.html",
+      "title": "铸印——何效义的田野实践"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "商务印书馆官网",
+      "publication_year": 2021,
+      "publication_year_source_url": "https://www.cp.com.cn/book/c38dbaed-b.html",
+      "source_registry_id": "SRC-CN-0015",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/book/c38dbaed-b.html",
+      "title": "吉尔伽美什史诗"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "商务印书馆官网",
+      "publication_year": 2023,
+      "publication_year_source_url": "https://www.cp.com.cn/book/8d027711-8.html",
+      "source_registry_id": "SRC-CN-0016",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/Content/2023/11-09/1532133039.html",
+      "title": "唯美·风格"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "商务印书馆官网",
+      "publication_year": 2021,
+      "publication_year_source_url": "https://www.cp.com.cn/book/ba70779d-6.html",
+      "source_registry_id": "SRC-CN-0017",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/book/ba70779d-6.html",
+      "title": "革命的形成：清季十年的转折"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "商务印书馆官网",
+      "publication_year": 2021,
+      "publication_year_source_url": "https://www.cp.com.cn/book/52c00ae5-d.html",
+      "source_registry_id": "SRC-CN-0018",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/book/52c00ae5-d.html",
+      "title": "守拙集"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "商务印书馆官网",
+      "publication_year": 2021,
+      "publication_year_source_url": "https://www.cp.com.cn/book/69375699-f.html",
+      "source_registry_id": "SRC-CN-0019",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/book/69375699-f.html",
+      "title": "杨振宁传（最新增订版）"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "商务印书馆官网",
+      "publication_year": 2022,
+      "publication_year_source_url": "https://www.cp.com.cn/book/bbe745dc-7.html",
+      "source_registry_id": "SRC-CN-0020",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/book/bbe745dc-7.html",
+      "title": "砚史：清初社会的工匠与士人"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "CLABdesign",
+      "publication_year": 2020,
+      "publication_year_source_url": "https://dnr.gxzf.gov.cn/zfxxgk/fdzdgknr/ghjh/ndjh/t16382179.shtml",
+      "source_registry_id": "SRC-CN-0021",
+      "source_type": "book",
+      "source_url": "https://clab-design.com/23559966",
+      "title": "广西历史地图集"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "Dooo Design Studio",
+      "publication_year": 2017,
+      "publication_year_source_url": "https://www.kchushu.net/newbook/2017-08-12/583.html",
+      "source_registry_id": "SRC-CN-0022",
+      "source_type": "book",
+      "source_url": "https://www.dooodesign.com/%E4%BD%9C%E5%93%81/5192.html",
+      "title": "金圣叹选批唐诗六百首·新年特装版"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "tenmilliontimes",
+      "publication_year": 2025,
+      "publication_year_source_url": "https://image.chinawriter.com.cn/n1/2025/0414/c404072-40459309.html",
+      "source_registry_id": "SRC-CN-0023",
+      "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/Children-s-Games",
+      "title": "儿戏（特装版）"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "tenmilliontimes",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/013464043",
+      "source_registry_id": "SRC-CN-0024",
+      "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/The-Taste-of-Chinese-Plants",
+      "title": "中国植物的味道"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "tenmilliontimes",
+      "publication_year": 2023,
+      "publication_year_source_url": "https://www.nationalreading.gov.cn/hstj/rwsk/202405/t20240521_849121.html",
+      "source_registry_id": "SRC-CN-0025",
+      "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/The-Beauty-of-Ancient-Chinese-Architecture",
+      "title": "古建之美"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "tenmilliontimes",
+      "publication_year": 2019,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/007241437",
+      "source_registry_id": "SRC-CN-0026",
+      "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/Paul-Smith-s-Cycling-Scrapbook",
+      "title": "保罗·史密斯的骑行剪贴簿"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "tenmilliontimes",
+      "publication_year": 2019,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/007175651",
+      "source_registry_id": "SRC-CN-0027",
+      "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/Crow",
+      "title": "乌鸦"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "tenmilliontimes",
+      "publication_year": 2020,
+      "publication_year_source_url": "https://search.worldcat.org/title/Allusions-in-the-subway-stations%27-name-of-Beijing/oclc/1243234501",
+      "source_registry_id": "SRC-CN-0028",
+      "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/Allusions-in-The-Subway-Stations-Name-of-Beijing",
+      "title": "北京地铁站名掌故"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "tenmilliontimes",
+      "publication_year": 2020,
+      "publication_year_source_url": "https://www.nju.edu.cn/info/3191/206341.htm",
+      "source_registry_id": "SRC-CN-0029",
+      "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/Manifesto-of-the-Communist-Party",
+      "title": "共产党宣言在中国"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "tenmilliontimes",
+      "publication_year": 2021,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/010129803",
+      "source_registry_id": "SRC-CN-0030",
+      "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/Great-Beauty-of-Chinese-Characters",
+      "title": "大美汉字"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2017,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/006696287",
+      "source_registry_id": "SRC-CN-0031",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=328",
+      "title": "姑苏繁华录——苏州桃花坞木版年画特展作品集"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2018,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/007011776",
+      "source_registry_id": "SRC-CN-0032",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=365",
+      "title": "敦煌"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2019,
+      "publication_year_source_url": "https://www.books.com.tw/products/CN11714154",
+      "source_registry_id": "SRC-CN-0033",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=394",
+      "title": "中国园林：诗意审美与四季"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2020,
+      "publication_year_source_url": "https://www.ccgp-neimenggu.gov.cn/gpx-bid-file/150501/gpx-tender/2022/9/27/402881dd82f475a001837dd994c704ec.pdf?accessCode=6ee03dd5dfaa580f5676714376d8dec5",
+      "source_registry_id": "SRC-CN-0034",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=415",
+      "title": "猴子捞月"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2021,
+      "publication_year_source_url": "https://topics.gmw.cn/2022-04/23/content_35674383.htm",
+      "source_registry_id": "SRC-CN-0035",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=420",
+      "title": "夏天的故事"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2022,
+      "publication_year_source_url": "https://books.google.com/books/about/%E4%B9%A1%E6%9D%91%E4%B8%8E%E6%9C%A8%E5%88%BB.html?id=dc8T0AEACAAJ",
+      "source_registry_id": "SRC-CN-0036",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=468",
+      "title": "乡村与木刻"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2023,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/012700139",
+      "source_registry_id": "SRC-CN-0037",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=501",
+      "title": "吸呼（全3册）"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2023,
+      "publication_year_source_url": "https://www.cbbr.com.cn/contents/560/92285.html",
+      "source_registry_id": "SRC-CN-0038",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=499",
+      "title": "千古霓裳：汉服穿着文化"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/014362378",
+      "source_registry_id": "SRC-CN-0039",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=506",
+      "title": "何物"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2025,
+      "publication_year_source_url": "https://book.douban.com/subject/37816782/",
+      "source_registry_id": "SRC-CN-0040",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=532",
+      "title": "我不是好惹的"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2017,
+      "publication_year_source_url": "https://www.megbook.com.hk/mall/detail.jsp?proID=3090155",
+      "source_registry_id": "SRC-CN-0041",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=361",
+      "title": "便形鸟"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2018,
+      "publication_year_source_url": "https://www.abebooks.com/9787549973248/Jiangsu-Old-Hongyi-Photo-7549973245/plp",
+      "source_registry_id": "SRC-CN-0042",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=359",
+      "title": "江苏老行当百业写真"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2017,
+      "publication_year_source_url": "https://www.pspress.cn/book-detail-7325.html",
+      "source_registry_id": "SRC-CN-0043",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=325",
+      "title": "芳华修远：第19届国际植物学大会植物艺术画展画集"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2019,
+      "publication_year_source_url": "https://book.douban.com/subject/33379360/",
+      "source_registry_id": "SRC-CN-0044",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=389",
+      "title": "梦影红楼"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2019,
+      "publication_year_source_url": "https://ci.nii.ac.jp/ncid/BD14670867",
+      "source_registry_id": "SRC-CN-0045",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=399",
+      "title": "天上掉下一头鲸"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2020,
+      "publication_year_source_url": "https://search.megbook.com.hk/mall/detail.jsp?proID=3516071",
+      "source_registry_id": "SRC-CN-0046",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=416",
+      "title": "肖全和妲妲的世界"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2022,
+      "publication_year_source_url": "https://aus.zxhsd.com/kgsm/ts/2022/09/26/5639030.shtml",
+      "source_registry_id": "SRC-CN-0047",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=476",
+      "title": "一群马 满天星"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2022,
+      "publication_year_source_url": "https://tuan.bookschina.com/tuan/20754",
+      "source_registry_id": "SRC-CN-0048",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=454",
+      "title": "豆腐"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2023,
+      "publication_year_source_url": "https://www.sohu.com/a/753516208_121418230",
+      "source_registry_id": "SRC-CN-0049",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=490",
+      "title": "衣冠民尚：中国百年民族服饰与传统工艺"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-11",
+      "platform": "BeautyOfBooks",
+      "publication_year": 2025,
+      "publication_year_source_url": "https://tl.zxhsd.com/kgsm/ts/big5/2025/12/10/6738819.shtml",
+      "source_registry_id": "SRC-CN-0050",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=536",
+      "title": "东京行"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-13",
+      "platform": "新浪看点",
+      "publication_year": 2018,
+      "publication_year_source_url": "https://www.chendianrong.com/754642061.html",
+      "source_registry_id": "SRC-CN-0051",
+      "source_type": "book",
+      "source_url": "https://kandian.sina.cn/article_6105713761_16bedcc61020016q9s.html",
+      "title": "寻绣记"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-13",
+      "platform": "站酷",
+      "publication_year": 2018,
+      "publication_year_source_url": "https://yinshuw.com/hk/2018%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E9%A6%99%E6%B8%AF%E5%8D%B0%E5%88%B7%E6%9B%B8%E5%88%8A%E7%9B%AE%E9%8C%84.pdf",
+      "source_registry_id": "SRC-CN-0052",
+      "source_type": "book",
+      "source_url": "https://www.zcool.com.cn/work/ZNjE0NzU0NDg%3D.html",
+      "title": "书籍形态艺术"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-13",
+      "platform": "澎湃新闻",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://sh.people.com.cn/n2/2024/0227/c134768-40758371.html",
+      "source_registry_id": "SRC-CN-0053",
+      "source_type": "book",
+      "source_url": "https://www.thepaper.cn/newsDetail_forward_29521261",
+      "title": "中国·最美的书20年图集"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-13",
+      "platform": "澎湃新闻",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/013464043",
+      "source_registry_id": "SRC-CN-0054",
+      "source_type": "book",
+      "source_url": "https://www.thepaper.cn/newsDetail_forward_29521261",
+      "title": "中国植物的味道"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-13",
+      "platform": "澎湃新闻",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/014579436",
+      "source_registry_id": "SRC-CN-0055",
+      "source_type": "book",
+      "source_url": "https://www.thepaper.cn/newsDetail_forward_29521261",
+      "title": "营造古文导览"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-13",
+      "platform": "澎湃新闻",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://hotbook.nbt.edu.cn/nbt/?id=150997&what=detail",
+      "source_registry_id": "SRC-CN-0056",
+      "source_type": "book",
+      "source_url": "https://www.thepaper.cn/newsDetail_forward_29521261",
+      "title": "捡来的瓷器史"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-13",
+      "platform": "商务印书馆",
+      "publication_year": 2025,
+      "publication_year_source_url": "https://www.cp.com.cn/book/974e62c0-1.html",
+      "source_registry_id": "SRC-CN-0057",
+      "source_type": "book",
+      "source_url": "https://www.cp.com.cn/Content/2026/01-29/1536007219.html",
+      "title": "唯美：江南，江南"
+    },
+    {
+      "authorization_status": "accumulation",
+      "collected_at": "2026-08-13",
+      "platform": "最美的书官网",
+      "publication_year": 2025,
+      "publication_year_source_url": "https://libdb.zju.edu.cn/s/libai/book/catype/K/24/20/2025/ING1NDVI83DQ6XRVSU82UUV78D8KMVM6FSRSTYBF4P6CYGFIER-29422",
+      "source_registry_id": "SRC-CN-0058",
+      "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=542",
+      "title": "入土为安：中国古代丧葬文化"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2021,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787507433821/", "source_registry_id": "SRC-CN-0059", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=424", "title": "中国古代界画研究"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2021,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787514235715/", "source_registry_id": "SRC-CN-0060", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=423", "title": "屈原总集"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787571316471/", "source_registry_id": "SRC-CN-0061", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=466", "title": "古地图上的长城"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787555913238/", "source_registry_id": "SRC-CN-0062", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=458", "title": "许宏的考古“方”"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2021,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787117295765/", "source_registry_id": "SRC-CN-0063", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=456", "title": "时空针灸学"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2023,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787569538755/", "source_registry_id": "SRC-CN-0064", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=482", "title": "别猜了，就是一本小说"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787308227728/", "source_registry_id": "SRC-CN-0065", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=481", "title": "转动世界的小发明：螺丝起子与螺丝演化的故事"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2021,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787100199926/", "source_registry_id": "SRC-CN-0066", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=470", "title": "铸印——何效义的田野实践"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2017,
+      "publication_year_source_url": "https://www.allbookstores.com/Thought-Was-Love-Chinese-Edition/9787559408327", "source_registry_id": "SRC-CN-0067", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=323", "title": "以为是爱情"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2018,
+      "publication_year_source_url": "https://www.books.com.tw/products/CN11611777", "source_registry_id": "SRC-CN-0068", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=365", "title": "敦煌"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2017,
+      "publication_year_source_url": "https://item.xhsd.com/items/110000104460417", "source_registry_id": "SRC-CN-0069", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=368", "title": "书艺问道——吕敬人书籍设计说"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2018,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787122336415/", "source_registry_id": "SRC-CN-0070", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=371", "title": "骨科小手术"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2019,
+      "publication_year_source_url": "https://hotbook.nbt.edu.cn/nbt/?id=90763&what=detail", "source_registry_id": "SRC-CN-0071", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=384", "title": "苏联人镜头中的新中国"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/009129542", "source_registry_id": "SRC-CN-0072", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=390", "title": "中国古代门窗"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2019,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787105157310/", "source_registry_id": "SRC-CN-0073", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=395", "title": "沉默的词"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://category.dangdang.com/cp01.32.09.00.00.00-as8589934592%3A8589934769.html", "source_registry_id": "SRC-CN-0074", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=401", "title": "沂蒙田野实践"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787557707019/", "source_registry_id": "SRC-CN-0075", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=408", "title": "千手观音：张继钢舞台剧作选"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://www.thepaper.cn/newsDetail_forward_11521913", "source_registry_id": "SRC-CN-0076", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/bookdetail?id=413", "title": "书之极"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "tenmilliontimes", "publication_year": 2023,
+      "publication_year_source_url": "https://libdb.zju.edu.cn/s/libai/book/index/433/20/2023/ING1NDVI83DQ6XRVSU82UUV78D8KMVM6FSRSTYBF4P6CYGFIER-29422", "source_registry_id": "SRC-CN-0077", "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/A-Brief-History-of-Abstract-Art", "title": "抽象艺术简史"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://zfcg.henan.gov.cn/cmsweb81e27e/nas/webfile2024//henan/rootfiles/2024/07/26/08154c950d1e4b9480f25461ae6a1166.pdf", "source_registry_id": "SRC-CN-0078", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=465", "title": "芥子园画传·全集"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/012443795", "source_registry_id": "SRC-CN-0079", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=473", "title": "北桥船拳"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2023,
+      "publication_year_source_url": "https://www.sanmin.com.tw/product/index/012623535", "source_registry_id": "SRC-CN-0080", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=498", "title": "消失的名菜"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2024,
+      "publication_year_source_url": "https://www.megbook.com.hk/mall/detail3.jsp?proID=4053797", "source_registry_id": "SRC-CN-0081", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=508", "title": "自贡剪纸沈成林作品集"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2024,
+      "publication_year_source_url": "https://m.bookschina.com/9450075.htm", "source_registry_id": "SRC-CN-0082", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=548", "title": "中国量天尺"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2024,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787521229592/", "source_registry_id": "SRC-CN-0083", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=556", "title": "KAFKA 100TH：城堡+诉讼·美国"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787532595730/", "source_registry_id": "SRC-CN-0084", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=414", "title": "尧臣壶：吕尧臣紫砂艺术"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787553525815/", "source_registry_id": "SRC-CN-0085", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=487", "title": "拾乐"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2025,
+      "publication_year_source_url": "https://www.96192.com/product/detail/1194381", "source_registry_id": "SRC-CN-0086", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=555", "title": "梅鉴"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787208165625/", "source_registry_id": "SRC-CN-0087", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=403", "title": "江南文化丛书（图中子册《江南印记》）"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787558426292/", "source_registry_id": "SRC-CN-0088", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=453", "title": "鸟语四季"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787108073501/", "source_registry_id": "SRC-CN-0089", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=457", "title": "肯特"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2021,
+      "publication_year_source_url": "https://qxb-img-osscache.qixin.com/bid/80e06be164e634fd64118e316cb4851a.pdf", "source_registry_id": "SRC-CN-0090", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=462", "title": "大美汉字"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2021,
+      "publication_year_source_url": "https://book.douban.com/isbn/9787515364667/", "source_registry_id": "SRC-CN-0091", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=463", "title": "坏设计"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "tenmilliontimes", "publication_year": 2022,
+      "publication_year_source_url": "https://www.sanmin.com.tw/search?au=%E4%B8%81%E6%8D%B7", "source_registry_id": "SRC-CN-0092", "source_type": "book",
+      "source_url": "https://tenmilliontimes.com/Truth-Capsule", "title": "白话胶囊"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=5b45ca30f18f967ee7f37254", "source_registry_id": "SRC-CN-0093", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=396", "title": "说舞留痕——山东“非遗”舞蹈口述史"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://wyb.chinawriter.com.cn/Pad/content/202603/18/content83160.html", "source_registry_id": "SRC-CN-0094", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=400", "title": "植物先生：二十四节气植物研学课"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2020,
+      "publication_year_source_url": "https://opac.sxufe.edu.cn/bookInfo_01h0443871.html", "source_registry_id": "SRC-CN-0095", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=412", "title": "瓶史·瓶花谱·瓶花三说"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2022,
+      "publication_year_source_url": "https://m.runshong.cn/chubanshe-list/72.507.html", "source_registry_id": "SRC-CN-0096", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=500", "title": "行路观心"
+    },
+    {
+      "authorization_status": "accumulation", "collected_at": "2026-08-13", "platform": "最美的书官网", "publication_year": 2025,
+      "publication_year_source_url": "https://www.chinacon.com.cn/site/content/3541.html", "source_registry_id": "SRC-CN-0097", "source_type": "book",
+      "source_url": "https://beautyofbooks.cn/web/bookdetail?id=546", "title": "环艺人"
+    }
+  ]
+}

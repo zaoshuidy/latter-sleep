@@ -1,0 +1,1557 @@
+{
+  "component": "cover",
+  "entries": [
+    {
+      "book_case_id": "BOOK-CN-0001",
+      "color_tags": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "工具",
+        "手作",
+        "手部"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "专注",
+        "冷静",
+        "神秘"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0001",
+      "source_registry_id": "SRC-CN-0001",
+      "style_tags": [
+        "克制",
+        "艺术图录",
+        "高反差"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "photography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0002",
+      "color_tags": [
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "摄影家",
+        "档案",
+        "肖像"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "克制",
+        "安静",
+        "疏离"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0002",
+      "source_registry_id": "SRC-CN-0002",
+      "style_tags": [
+        "实验性",
+        "极简",
+        "留白"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0003",
+      "color_tags": [
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "字形",
+        "汉字",
+        "艺术家"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "凝练",
+        "庄重",
+        "强烈"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0003",
+      "source_registry_id": "SRC-CN-0003",
+      "style_tags": [
+        "书法",
+        "现代",
+        "高反差"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0004",
+      "color_tags": [
+        "白色",
+        "蓝紫",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "亲情",
+        "家庭",
+        "记忆"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "怀念",
+        "温柔",
+        "私密"
+      ],
+      "publication_year": 2023,
+      "record_id": "COV-CN-0004",
+      "source_registry_id": "SRC-CN-0004",
+      "style_tags": [
+        "叙事性",
+        "框景",
+        "现代"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0005",
+      "color_tags": [
+        "橙色",
+        "灰绿色"
+      ],
+      "component": "cover",
+      "composition": "full-bleed",
+      "content_tags": [
+        "历史",
+        "建筑",
+        "电影"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "怀旧",
+        "时间感",
+        "温暖"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0005",
+      "source_registry_id": "SRC-CN-0005",
+      "style_tags": [
+        "全幅",
+        "单色摄影",
+        "档案感"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "photography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0006",
+      "color_tags": [
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "历史",
+        "诗歌",
+        "语词"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "沉静",
+        "清晰",
+        "理性"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0006",
+      "source_registry_id": "SRC-CN-0006",
+      "style_tags": [
+        "学术",
+        "文字编排",
+        "极简"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0007",
+      "color_tags": [
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "书口",
+        "章节",
+        "诗画"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "内省",
+        "含蓄",
+        "安静"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0007",
+      "source_registry_id": "SRC-CN-0007",
+      "style_tags": [
+        "手写",
+        "诗性",
+        "黑色极简"
+      ],
+      "title_zone": "bottom",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0008",
+      "color_tags": [
+        "橙色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "grid",
+      "content_tags": [
+        "书籍设计",
+        "周年",
+        "档案"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "庆典",
+        "理性",
+        "醒目"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0008",
+      "source_registry_id": "SRC-CN-0008",
+      "style_tags": [
+        "图录",
+        "强识别",
+        "现代主义"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0009",
+      "color_tags": [
+        "白色",
+        "红色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "北京",
+        "建筑",
+        "珍本"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "历史感",
+        "宏阔",
+        "鲜明"
+      ],
+      "publication_year": 2025,
+      "record_id": "COV-CN-0009",
+      "source_registry_id": "SRC-CN-0009",
+      "style_tags": [
+        "历史图录",
+        "地域性",
+        "线描"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "illustration"
+    },
+    {
+      "book_case_id": "BOOK-CN-0010",
+      "color_tags": [
+        "棕褐色",
+        "深棕",
+        "金色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "传记",
+        "匠人",
+        "紫砂"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "厚重",
+        "庄重",
+        "质朴"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0010",
+      "source_registry_id": "SRC-CN-0010",
+      "style_tags": [
+        "传统当代化",
+        "文字主导",
+        "纹理"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0011",
+      "color_tags": [
+        "浅灰",
+        "白色",
+        "金色"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "自然",
+        "诗歌",
+        "飞行"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "安静",
+        "疏朗",
+        "轻盈"
+      ],
+      "publication_year": 2018,
+      "record_id": "COV-CN-0011",
+      "source_registry_id": "SRC-CN-0011",
+      "style_tags": [
+        "极简",
+        "线性抽象",
+        "诗意"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "abstract"
+    },
+    {
+      "book_case_id": "BOOK-CN-0012",
+      "color_tags": [
+        "粉色",
+        "绿色",
+        "蓝色",
+        "黄色"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "历史",
+        "童书",
+        "童年"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "丰富",
+        "怀旧",
+        "活泼"
+      ],
+      "publication_year": 2017,
+      "record_id": "COV-CN-0012",
+      "source_registry_id": "SRC-CN-0012",
+      "style_tags": [
+        "多视图展示",
+        "竖排题名",
+        "童书图鉴"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0013",
+      "color_tags": [
+        "橙红色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "古诗词",
+        "小学生",
+        "山水"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "亲切",
+        "古朴",
+        "明快"
+      ],
+      "publication_year": 2020,
+      "record_id": "COV-CN-0013",
+      "source_registry_id": "SRC-CN-0013",
+      "style_tags": [
+        "传统线描",
+        "教育读物",
+        "高识别"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "illustration"
+    },
+    {
+      "book_case_id": "BOOK-CN-0014",
+      "color_tags": [
+        "土黄色",
+        "深棕色",
+        "灰白"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "手艺",
+        "篆刻",
+        "铸印"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "厚重",
+        "朴素",
+        "粗粝"
+      ],
+      "publication_year": 2021,
+      "record_id": "COV-CN-0014",
+      "source_registry_id": "SRC-CN-0014",
+      "style_tags": [
+        "巨字",
+        "田野记录",
+        "质朴"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0015",
+      "color_tags": [
+        "深蓝",
+        "白色",
+        "金色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "古代文明",
+        "史诗",
+        "面具"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "宏大",
+        "庄重",
+        "神秘"
+      ],
+      "publication_year": 2021,
+      "record_id": "COV-CN-0015",
+      "source_registry_id": "SRC-CN-0015",
+      "style_tags": [
+        "双语排版",
+        "古典",
+        "文物意象"
+      ],
+      "title_zone": "distributed",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0016",
+      "color_tags": [
+        "深蓝",
+        "灰蓝",
+        "金色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "艺术",
+        "设计",
+        "风格"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "优雅",
+        "克制",
+        "深邃"
+      ],
+      "publication_year": 2023,
+      "record_id": "COV-CN-0016",
+      "source_registry_id": "SRC-CN-0016",
+      "style_tags": [
+        "低对比",
+        "几何抽象",
+        "艺术期刊"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "abstract"
+    },
+    {
+      "book_case_id": "BOOK-CN-0017",
+      "color_tags": [
+        "深绿",
+        "白色",
+        "红色"
+      ],
+      "component": "cover",
+      "composition": "grid",
+      "content_tags": [
+        "历史",
+        "清季",
+        "革命"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "严肃",
+        "张力",
+        "醒目"
+      ],
+      "publication_year": 2021,
+      "record_id": "COV-CN-0017",
+      "source_registry_id": "SRC-CN-0017",
+      "style_tags": [
+        "历史学术",
+        "现代排版",
+        "色块"
+      ],
+      "title_zone": "bottom",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0018",
+      "color_tags": [
+        "浅青",
+        "深青",
+        "米白",
+        "红色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "守拙",
+        "波纹",
+        "随笔"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "平和",
+        "质朴",
+        "雅致"
+      ],
+      "publication_year": 2021,
+      "record_id": "COV-CN-0018",
+      "source_registry_id": "SRC-CN-0018",
+      "style_tags": [
+        "东方抽象",
+        "留白",
+        "纹样"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "abstract"
+    },
+    {
+      "book_case_id": "BOOK-CN-0019",
+      "color_tags": [
+        "深蓝",
+        "紫色",
+        "金黄色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "人物",
+        "演讲",
+        "科学家"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "庄重",
+        "星空感",
+        "沉静"
+      ],
+      "publication_year": 2021,
+      "record_id": "COV-CN-0019",
+      "source_registry_id": "SRC-CN-0019",
+      "style_tags": [
+        "人物传记",
+        "现场摄影",
+        "竖排标题"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "photography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0020",
+      "color_tags": [
+        "土褐色",
+        "深蓝",
+        "金色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "工匠",
+        "清初",
+        "砚台"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "厚重",
+        "学术",
+        "神秘"
+      ],
+      "publication_year": 2022,
+      "record_id": "COV-CN-0020",
+      "source_registry_id": "SRC-CN-0020",
+      "style_tags": [
+        "上下分区",
+        "器物轮廓",
+        "物质文化"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0021",
+      "color_tags": [
+        "多色",
+        "棕色",
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "grid",
+      "content_tags": [
+        "历史",
+        "地图",
+        "广西"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "庄重",
+        "文化感",
+        "秩序"
+      ],
+      "publication_year": 2020,
+      "record_id": "COV-CN-0021",
+      "source_registry_id": "SRC-CN-0021",
+      "style_tags": [
+        "图集",
+        "地域设计",
+        "纹样栅格"
+      ],
+      "title_zone": "bottom",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0022",
+      "color_tags": [
+        "浅灰",
+        "深灰",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "古典文学",
+        "唐诗",
+        "选批"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "克制",
+        "神秘",
+        "肃静"
+      ],
+      "publication_year": 2017,
+      "record_id": "COV-CN-0022",
+      "source_registry_id": "SRC-CN-0022",
+      "style_tags": [
+        "古典当代化",
+        "文字解构",
+        "暗色极简"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0023",
+      "color_tags": [
+        "棕色",
+        "米色",
+        "红色",
+        "蓝色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "儿戏",
+        "儿童",
+        "游戏"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "朴素",
+        "童真",
+        "趣味"
+      ],
+      "publication_year": 2025,
+      "record_id": "COV-CN-0023",
+      "source_registry_id": "SRC-CN-0023",
+      "style_tags": [
+        "儿童插画",
+        "分置标题",
+        "特装展示"
+      ],
+      "title_zone": "distributed",
+      "visual_strategy": "illustration"
+    },
+    {
+      "book_case_id": "BOOK-CN-0024",
+      "color_tags": [
+        "浅木色",
+        "深绿",
+        "米白"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "味道",
+        "植物",
+        "自然"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "安静",
+        "朴素",
+        "自然"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0024",
+      "source_registry_id": "SRC-CN-0024",
+      "style_tags": [
+        "双语极简",
+        "竖排",
+        "自然博物"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0025",
+      "color_tags": [
+        "深灰",
+        "粉褐",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "grid",
+      "content_tags": [
+        "古建筑",
+        "建筑史",
+        "构件"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "古朴",
+        "理性",
+        "稳重"
+      ],
+      "publication_year": 2023,
+      "record_id": "COV-CN-0025",
+      "source_registry_id": "SRC-CN-0025",
+      "style_tags": [
+        "上下分区",
+        "建筑图鉴",
+        "技术线图"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0026",
+      "color_tags": [
+        "红色",
+        "绿色",
+        "蓝色",
+        "黄色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "剪贴簿",
+        "设计师",
+        "骑行"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "大胆",
+        "活力",
+        "现代"
+      ],
+      "publication_year": 2019,
+      "record_id": "COV-CN-0026",
+      "source_registry_id": "SRC-CN-0026",
+      "style_tags": [
+        "国际主义排版",
+        "多色展示",
+        "超大标题"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0027",
+      "color_tags": [
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "乌鸦",
+        "动物文化",
+        "鸟类"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "冷峻",
+        "安静",
+        "神秘"
+      ],
+      "publication_year": 2019,
+      "record_id": "COV-CN-0027",
+      "source_registry_id": "SRC-CN-0027",
+      "style_tags": [
+        "低调对比",
+        "动物剪影",
+        "黑色极简"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "image"
+    },
+    {
+      "book_case_id": "BOOK-CN-0028",
+      "color_tags": [
+        "白色",
+        "紫色",
+        "绿色",
+        "蓝色",
+        "黄色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "北京",
+        "地铁",
+        "站名"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "城市感",
+        "清晰",
+        "理性"
+      ],
+      "publication_year": 2020,
+      "record_id": "COV-CN-0028",
+      "source_registry_id": "SRC-CN-0028",
+      "style_tags": [
+        "信息设计",
+        "线路图",
+        "跨书脊"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "abstract"
+    },
+    {
+      "book_case_id": "BOOK-CN-0029",
+      "color_tags": [
+        "棕色",
+        "浅灰",
+        "白色",
+        "红色"
+      ],
+      "component": "cover",
+      "composition": "grid",
+      "content_tags": [
+        "1919",
+        "中国",
+        "共产党宣言"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "历史感",
+        "庄重",
+        "纪念性"
+      ],
+      "publication_year": 2020,
+      "record_id": "COV-CN-0029",
+      "source_registry_id": "SRC-CN-0029",
+      "style_tags": [
+        "历史文献",
+        "多视图",
+        "文字方阵"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0030",
+      "color_tags": [
+        "浅棕",
+        "深棕",
+        "米白"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "书法",
+        "文字文化",
+        "汉字"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "安静",
+        "温润",
+        "雅致"
+      ],
+      "publication_year": 2021,
+      "record_id": "COV-CN-0030",
+      "source_registry_id": "SRC-CN-0030",
+      "style_tags": [
+        "极简",
+        "汉字设计",
+        "边缘排版"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0031",
+      "color_tags": [
+        "橙红",
+        "浅灰",
+        "蓝色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "木版年画",
+        "桃花坞",
+        "苏州"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "克制",
+        "档案感",
+        "现代"
+      ],
+      "publication_year": 2017,
+      "record_id": "COV-CN-0031",
+      "source_registry_id": "SRC-CN-0031",
+      "style_tags": [
+        "几何折线",
+        "展览图录",
+        "极简信息"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0032",
+      "color_tags": [
+        "深棕",
+        "青蓝",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "历史",
+        "敦煌",
+        "艺术"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "古朴",
+        "庄重",
+        "沉静"
+      ],
+      "publication_year": 2018,
+      "record_id": "COV-CN-0032",
+      "source_registry_id": "SRC-CN-0032",
+      "style_tags": [
+        "文化图录",
+        "极简",
+        "角落排版"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0033",
+      "color_tags": [
+        "橄榄色",
+        "浅灰绿",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "中国园林",
+        "四季",
+        "审美"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "理性",
+        "研究感",
+        "雅静"
+      ],
+      "publication_year": 2019,
+      "record_id": "COV-CN-0033",
+      "source_registry_id": "SRC-CN-0033",
+      "style_tags": [
+        "信息设计",
+        "园林文化",
+        "抽象点阵"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0034",
+      "color_tags": [
+        "浅蓝",
+        "黄色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "故事",
+        "月亮",
+        "猴子"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "戏剧性",
+        "明快",
+        "童趣"
+      ],
+      "publication_year": 2020,
+      "record_id": "COV-CN-0034",
+      "source_registry_id": "SRC-CN-0034",
+      "style_tags": [
+        "儿童绘本",
+        "剪影叙事",
+        "手写标题"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "illustration"
+    },
+    {
+      "book_case_id": "BOOK-CN-0035",
+      "color_tags": [
+        "白色",
+        "绿色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "夏天",
+        "故事",
+        "树木"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "宁静",
+        "清新",
+        "童真"
+      ],
+      "publication_year": 2021,
+      "record_id": "COV-CN-0035",
+      "source_registry_id": "SRC-CN-0035",
+      "style_tags": [
+        "儿童绘本",
+        "自然叙事",
+        "黑白线描"
+      ],
+      "title_zone": "bottom",
+      "visual_strategy": "illustration"
+    },
+    {
+      "book_case_id": "BOOK-CN-0036",
+      "color_tags": [
+        "米白",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "乡村",
+        "劳动",
+        "木刻"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "有力",
+        "纪实",
+        "质朴"
+      ],
+      "publication_year": 2022,
+      "record_id": "COV-CN-0036",
+      "source_registry_id": "SRC-CN-0036",
+      "style_tags": [
+        "木刻",
+        "社会艺术",
+        "黑白高反差"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0037",
+      "color_tags": [
+        "浅蓝",
+        "白色",
+        "粉色",
+        "绿色",
+        "蓝色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "三册",
+        "呼吸",
+        "生命"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "宁静",
+        "开放",
+        "明快"
+      ],
+      "publication_year": 2023,
+      "record_id": "COV-CN-0037",
+      "source_registry_id": "SRC-CN-0037",
+      "style_tags": [
+        "几何图形",
+        "套书系统",
+        "抽象绘本"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "abstract"
+    },
+    {
+      "book_case_id": "BOOK-CN-0038",
+      "color_tags": [
+        "深棕",
+        "金棕",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "服饰史",
+        "汉服",
+        "穿着文化"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "古雅",
+        "沉静",
+        "礼序"
+      ],
+      "publication_year": 2023,
+      "record_id": "COV-CN-0038",
+      "source_registry_id": "SRC-CN-0038",
+      "style_tags": [
+        "传统服饰",
+        "低对比",
+        "纵向排版"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0039",
+      "color_tags": [
+        "浅灰",
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "何物",
+        "器物",
+        "艺术"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "克制",
+        "哲思",
+        "安静"
+      ],
+      "publication_year": 2024,
+      "record_id": "COV-CN-0039",
+      "source_registry_id": "SRC-CN-0039",
+      "style_tags": [
+        "微型标题",
+        "极简",
+        "边缘信息"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0040",
+      "color_tags": [
+        "橙红",
+        "米色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "儿童成长",
+        "情绪表达",
+        "自我保护"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "有力",
+        "直接",
+        "警醒"
+      ],
+      "publication_year": 2025,
+      "record_id": "COV-CN-0040",
+      "source_registry_id": "SRC-CN-0040",
+      "style_tags": [
+        "双色分区",
+        "强标题",
+        "手写感字体"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0041",
+      "color_tags": [
+        "橙红",
+        "米色",
+        "青绿"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "想象",
+        "自然痕迹",
+        "鸟"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "博物感",
+        "好奇",
+        "灵动"
+      ],
+      "publication_year": 2017,
+      "record_id": "COV-CN-0041",
+      "source_registry_id": "SRC-CN-0041",
+      "style_tags": [
+        "实验插画",
+        "放射对称",
+        "自然图谱"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "illustration"
+    },
+    {
+      "book_case_id": "BOOK-CN-0042",
+      "color_tags": [
+        "浅灰棕",
+        "米白",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "摄影记录",
+        "江苏",
+        "老行当"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "克制",
+        "朴素",
+        "记录性"
+      ],
+      "publication_year": 2018,
+      "record_id": "COV-CN-0042",
+      "source_registry_id": "SRC-CN-0042",
+      "style_tags": [
+        "微型题名",
+        "极简",
+        "档案感"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0043",
+      "color_tags": [
+        "低对比灰",
+        "浅灰米色",
+        "细线色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "国际植物学大会",
+        "植物艺术",
+        "画展画集"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "克制",
+        "学术",
+        "静谧"
+      ],
+      "publication_year": 2017,
+      "record_id": "COV-CN-0043",
+      "source_registry_id": "SRC-CN-0043",
+      "style_tags": [
+        "抽象几何",
+        "极简",
+        "留白"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "abstract"
+    },
+    {
+      "book_case_id": "BOOK-CN-0044",
+      "color_tags": [
+        "淡青绿",
+        "米白",
+        "粉色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "大观园",
+        "红楼梦",
+        "绘画"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "朦胧",
+        "雅致",
+        "静谧"
+      ],
+      "publication_year": 2019,
+      "record_id": "COV-CN-0044",
+      "source_registry_id": "SRC-CN-0044",
+      "style_tags": [
+        "低对比",
+        "含蓄古典",
+        "抽象椭圆"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "abstract"
+    },
+    {
+      "book_case_id": "BOOK-CN-0045",
+      "color_tags": [
+        "橙色",
+        "深蓝",
+        "白色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "青花瓷板画",
+        "非遗",
+        "鲸"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "奇想",
+        "童真",
+        "轻盈"
+      ],
+      "publication_year": 2019,
+      "record_id": "COV-CN-0045",
+      "source_registry_id": "SRC-CN-0045",
+      "style_tags": [
+        "手写题名",
+        "绘本",
+        "蓝白分区"
+      ],
+      "title_zone": "bottom",
+      "visual_strategy": "illustration"
+    },
+    {
+      "book_case_id": "BOOK-CN-0046",
+      "color_tags": [
+        "浅灰",
+        "黄色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "成长",
+        "摄影",
+        "雨林"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "实验性",
+        "清新",
+        "私人"
+      ],
+      "publication_year": 2020,
+      "record_id": "COV-CN-0046",
+      "source_registry_id": "SRC-CN-0046",
+      "style_tags": [
+        "低对比排版",
+        "轮廓字",
+        "非对称信息"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0047",
+      "color_tags": [
+        "灰色",
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "摄影",
+        "草原",
+        "马群"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "寂静",
+        "沉思",
+        "辽阔"
+      ],
+      "publication_year": 2022,
+      "record_id": "COV-CN-0047",
+      "source_registry_id": "SRC-CN-0047",
+      "style_tags": [
+        "双轴排版",
+        "摄影书",
+        "黑场"
+      ],
+      "title_zone": "vertical",
+      "visual_strategy": "mixed"
+    },
+    {
+      "book_case_id": "BOOK-CN-0048",
+      "color_tags": [
+        "乳白",
+        "浅灰",
+        "白色"
+      ],
+      "component": "cover",
+      "composition": "centered",
+      "content_tags": [
+        "方块",
+        "豆腐",
+        "饮食文化"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "安静",
+        "柔和",
+        "质朴"
+      ],
+      "publication_year": 2022,
+      "record_id": "COV-CN-0048",
+      "source_registry_id": "SRC-CN-0048",
+      "style_tags": [
+        "同色低对比",
+        "极简",
+        "浅浮凸外观"
+      ],
+      "title_zone": "center",
+      "visual_strategy": "abstract"
+    },
+    {
+      "book_case_id": "BOOK-CN-0049",
+      "color_tags": [
+        "白色",
+        "红色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "asymmetric",
+      "content_tags": [
+        "传统工艺",
+        "民族服饰",
+        "百年"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "文化档案",
+        "现代",
+        "研究性"
+      ],
+      "publication_year": 2023,
+      "record_id": "COV-CN-0049",
+      "source_registry_id": "SRC-CN-0049",
+      "style_tags": [
+        "全包封",
+        "展览图录",
+        "跨面排版"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "typography"
+    },
+    {
+      "book_case_id": "BOOK-CN-0050",
+      "color_tags": [
+        "白色",
+        "黑色"
+      ],
+      "component": "cover",
+      "composition": "whitespace",
+      "content_tags": [
+        "东京",
+        "城市观察",
+        "旅行"
+      ],
+      "lifecycle": "accumulation",
+      "mood_tags": [
+        "冷静",
+        "都市",
+        "锐利"
+      ],
+      "publication_year": 2025,
+      "record_id": "COV-CN-0050",
+      "source_registry_id": "SRC-CN-0050",
+      "style_tags": [
+        "线性题名",
+        "高对比极简",
+        "黑底"
+      ],
+      "title_zone": "top",
+      "visual_strategy": "typography"
+    }
+  ],
+  "schema_version": "1.0"
+}

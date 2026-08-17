@@ -1,0 +1,31 @@
+{
+  "text_rendering_mode": "integrated-typography",
+  "integrated_text": [
+    {
+      "text_id": "TITLE-001",
+      "surface": "front",
+      "role": "title",
+      "value": "失落人间",
+      "language": "zh-CN"
+    },
+    {
+      "text_id": "SUBTITLE-001",
+      "surface": "front",
+      "role": "subtitle",
+      "value": "在所有归途之外",
+      "language": "zh-CN"
+    },
+    {
+      "text_id": "AUTHOR-001",
+      "surface": "front",
+      "role": "author",
+      "value": "早睡的猫",
+      "language": "zh-CN"
+    }
+  ],
+  "editable_text_backup": {
+    "TITLE-001": "失落人间",
+    "SUBTITLE-001": "在所有归途之外",
+    "AUTHOR-001": "早睡的猫"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0013","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0060","book_title":"许宏的考古“方”","author":"许宏","designer":"刘运来、徐胜男","publisher":"河南文艺出版社","publication_year":2022,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0062","source_url":"https://beautyofbooks.cn/bookdetail?id=458","platform":"最美的书官网","collected_at":"2026-08-13","publication_year":2022,"publication_year_source_url":"https://book.douban.com/isbn/9787555913238/"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0013.jpg","sha256":"a01201271ef6ba1e436c28836375c3c6bf9cce8b217e2aad9b911cf372845c01","mime_type":"image/jpeg","width":1200,"height":800},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"abstract","chapter_number_zone":"distributed","chapter_title_zone":"vertical","image_role":"decoration","text_image_relationship":"integrated","whitespace":"high"},
+  "visual_decomposition":{"overall_strategy":"考古探方网格统领跨页，纵向章题与圆形坐标标记依附网格分布","observations":[{"aspect":"系统结构","value":"白色跨页叠加方格，右页纵向大章题与圆形标记散布","visibility":"clear","confidence":0.97,"evidence":"当前图片可见规则方格、纵向题名和圆形索引点","content_tags":["探方网格","纵向章题","坐标标记"]}]},
+  "reference_transfer":{"transferable":["主题网格与章名组合","分布式序号点","局部透叠节奏"],"avoid_copying":["不复制探方专属方格、圆章和孔位"],"adaptation_notes":["从项目主题提炼新的基础网格"]},
+  "retrieval_features":{"style_tags":["网格","概念化","系统设计"],"content_tags":["考古","探方","坐标"],"color_tags":["白色","灰色","红色"],"mood_tags":["理性","探索","现代"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

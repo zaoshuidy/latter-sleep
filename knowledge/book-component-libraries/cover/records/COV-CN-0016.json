@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0016",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0016", "book_title": "唯美·风格", "author": "冷冰川（主编）", "designer": "瀚清堂设计（赵清、朱涛）", "publisher": "商务印书馆", "publication_year": 2023, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0016", "source_url": "https://www.cp.com.cn/Content/2023/11-09/1532133039.html", "platform": "商务印书馆官网", "collected_at": "2026-08-11", "publication_year": 2023, "publication_year_source_url": "https://www.cp.com.cn/book/8d027711-8.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0016.jpg", "sha256": "e2978c1e7ef15c94317624ab890d8ac863b06235a476c2079ce780077bb687d3", "mime_type": "image/jpeg", "width": 800, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "abstract", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "independent", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "深蓝主面以低对比竖线和半透明圆形建立几何层次，一条细金弧从左下穿过圆面，小号竖排书名收在右上", "observations": [
+    {"aspect": "几何层次", "value": "灰蓝圆形与多条深色竖线叠置在深蓝底面中央", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片主面中央可见一组重叠灰蓝圆形，背景可见间隔排列的深色竖线", "content_tags": ["圆形", "竖线", "叠置"]},
+    {"aspect": "线性焦点", "value": "细金弧从左下方向中央圆面弯入", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片左下至中部可见一条细金色弧线，与灰蓝圆形产生交叠", "content_tags": ["金色弧线", "曲线", "焦点"]}
+  ]},
+  "reference_transfer": {"transferable": ["用同色系几何叠置构建低对比层次", "以单条暖色曲线打破冷色秩序", "让标题退居边缘保持抽象主体"], "avoid_copying": ["不复刻原书圆形比例与金弧轨迹", "不照搬右上书名框的位置"], "adaptation_notes": ["从项目概念推导新的基础几何关系", "缩略图中保留足够的标题可读对比"]},
+  "retrieval_features": {"style_tags": ["几何抽象", "低对比", "艺术期刊"], "content_tags": ["风格", "艺术", "设计"], "color_tags": ["深蓝", "灰蓝", "金色"], "mood_tags": ["深邃", "克制", "优雅"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

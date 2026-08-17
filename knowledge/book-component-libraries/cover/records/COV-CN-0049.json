@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0049",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0049", "book_title": "衣冠民尚：中国百年民族服饰与传统工艺", "author": "上海浦东碧云美术馆编", "designer": "张志奇工作室", "publisher": "上海人民美术出版社", "publication_year": 2023, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0049", "source_url": "https://beautyofbooks.cn/bookdetail?id=490", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2023, "publication_year_source_url": "https://www.sohu.com/a/753516208_121418230"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0049.jpg", "sha256": "fed7289856d5ac4fc7a9b80c82a4b2fe0bbfa3a8bdf8b475c575bfae141297f9", "mime_type": "image/jpeg", "width": 1875, "height": 1250},
+  "component_profile": {"cover_scope": "full-wrap", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "continuous", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 中完整摊开的白色包封：大号红色题名在上部跨越中央折线，细红横线贯穿左右可见面；多列黑色竖排信息从题名下方向两侧展开，形成连续多面文字系统", "observations": [
+    {"aspect": "跨折线红色题名", "value": "大号红色中文题名位于展开包封上部并跨越中央折线", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片摊开的白色多面上方可见红色大字，字符分布在中央折线左右", "content_tags": ["红色题名", "跨折线", "连续包封"]},
+    {"aspect": "红线与竖排信息", "value": "细红横线贯穿可见展开面，多列黑色竖排文字从题名下方延伸", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片左右展开面可见连续红色细线及多列纵向黑字", "content_tags": ["连续红线", "竖排文字", "多列信息"]}
+  ]},
+  "reference_transfer": {"transferable": ["让题名和细线跨越书脊建立完整包封连续性", "以多列纵排信息支撑展览图录的资料感", "用单一强调色统领白底多面系统"], "avoid_copying": ["不照搬原红色题名字形、列数和跨折位置", "不复制原细线高度或全部文字密度"], "adaptation_notes": ["按实际书脊厚度重算跨面字符和安全区", "必须在完整展开刀版上验证连续线条与折线关系"]},
+  "retrieval_features": {"style_tags": ["全包封", "跨面排版", "展览图录"], "content_tags": ["民族服饰", "传统工艺", "百年"], "color_tags": ["白色", "红色", "黑色"], "mood_tags": ["研究性", "现代", "文化档案"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

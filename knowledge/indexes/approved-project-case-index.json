@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "library_role": "positive-project-evidence",
+  "description": "用户明确认可的真实项目设计结果。用于复用经过验证的方法，不替代外部出版案例库，也不是一比一套用模板。",
+  "policy": {
+    "admission": "direct-human-approval-required",
+    "artifact_integrity": "sha256-bound",
+    "reuse_rule": "只借用设计原则，并按新项目内容、开本、层级和阅读节奏重新设计。",
+    "external_case_gate": "仍须满足对应组件的外部案例调查门禁；本索引不增加外部案例计数。"
+  },
+  "cases": [
+    {
+      "case_id": "APC-LOST-HUMAN-WORLD-TOC-001",
+      "project_id": "BOOK-LOST-HUMAN-WORLD",
+      "project_title": "失落人间",
+      "page_component": "toc",
+      "status": "approved-positive",
+      "direction": "B 归途坐标",
+      "applicability": {
+        "book_category": "literary-fiction",
+        "page_trim_mm": [145, 210],
+        "content_shape": "序章加八章的双页目录测试；允许长短章名与三位数页码",
+        "text_mode": "editable-real-text"
+      },
+      "approval": {
+        "source": "user-direct",
+        "approved_at": "2026-08-14",
+        "decision": "方向 B 获得明确批准，用户评价很完美，并同意作为正面知识库。"
+      },
+      "reusable_principles": [
+        "用低对比坐标网格与单一暗红导航轴建立目录秩序，装饰层级必须弱于文字。",
+        "双页条目按阅读方向分组，页码保持统一基线，并为三位数页码预留稳定宽度。",
+        "中缝保持安全，利用非对称留白形成文学节奏，不用填满页面。",
+        "目录文字、章名和页码全部保留为可编辑真文字。"
+      ],
+      "non_copyable_elements": [
+        "《失落人间》的书名、章名、测试页码和具体文案",
+        "本项目坐标轴、节点、网格的精确位置、比例与暗红色值",
+        "将整个页面作为固定图片或通用模板原样套用"
+      ],
+      "usage": {
+        "not_a_copy_template": true,
+        "eligible_for": [
+          "design-direction-evidence",
+          "editable-toc-method-reference",
+          "visual-qa-reference"
+        ]
+      },
+      "artifacts": {
+        "layout": {
+          "path": "projects/lost-human-world-cover/toc/toc-direction-b-v001-layout.json",
+          "sha256": "a8ae7f818d578445ced2fd833a93ac16f5974df2f63c5a49702af2017e82162e"
+        },
+        "editable_html": {
+          "path": "projects/lost-human-world-cover/toc/toc-direction-b-v001.html",
+          "sha256": "ceed2e9c04aa021a24168d56fffc03cb6137fabdede3a09535a557c17cbc88f4"
+        },
+        "preview": {
+          "path": "projects/lost-human-world-cover/toc/toc-direction-b-v001-preview.png",
+          "sha256": "f9da9d9e4107693cc18e84f4bffa4d0f0f18cfa5ebc4e2fc515edc8e145c713d"
+        },
+        "review": {
+          "path": "projects/lost-human-world-cover/toc/toc-direction-b-v001-review.md",
+          "sha256": "ae734f837068bb3e31d3e22a918f6faffbecb3dce49be15cd8bde004f9415a21"
+        }
+      }
+    },
+    {
+      "case_id": "APC-LOST-HUMAN-WORLD-RUNNING-HEADERS-001",
+      "project_id": "BOOK-LOST-HUMAN-WORLD",
+      "project_title": "失落人间",
+      "page_component": "running-headers",
+      "status": "approved-positive",
+      "direction": "B 归途坐标配套导航",
+      "applicability": {
+        "book_category": "literary-fiction",
+        "page_trim_mm": [145, 210],
+        "content_shape": "普通正文双页导航",
+        "text_mode": "editable-real-text"
+      },
+      "approval": {
+        "source": "user-direct",
+        "approved_at": "2026-08-14",
+        "decision": "方向 B 获得明确批准，用户评价很完美，并同意作为正面知识库。"
+      },
+      "reusable_principles": [
+        "左页书名、右页章名形成成对动态导航，页眉信息层级必须弱于正文。",
+        "用细小暗红规则线延续全书视觉语言，但不得侵入正文版心。",
+        "页码镜像放在外侧底部 12 mm，并避开装订侧。",
+        "页眉、章名、页码和正文全部保留为可编辑真文字。"
+      ],
+      "non_copyable_elements": [
+        "《失落人间》的书名、章节名、正文和测试页码",
+        "本项目规则线、字距、位置与暗红色值的精确组合",
+        "在不检查新项目开本和阅读层级的情况下原样套用"
+      ],
+      "usage": {
+        "not_a_copy_template": true,
+        "eligible_for": [
+          "design-direction-evidence",
+          "running-header-method-reference",
+          "visual-qa-reference"
+        ]
+      },
+      "artifacts": {
+        "layout": {
+          "path": "projects/lost-human-world-cover/running-headers/running-headers-b-v001-layout.json",
+          "sha256": "4f2490e9cba652d5c39e1d2641c0b88708e882ae425af406b85adf2a12c8f1c8"
+        },
+        "editable_html": {
+          "path": "projects/lost-human-world-cover/running-headers/running-headers-b-v001.html",
+          "sha256": "6809a021c831c13243dc58937811665c70ca55dafbbabcc1699dd772e4c9a388"
+        },
+        "preview": {
+          "path": "projects/lost-human-world-cover/running-headers/running-headers-b-v001-preview.png",
+          "sha256": "f4267add2612d9a259d581bd23c651ceff1521a4e6a984183ab34369dacc9d91"
+        },
+        "review": {
+          "path": "projects/lost-human-world-cover/running-headers/running-headers-b-v001-review.md",
+          "sha256": "20081994ea61265823d6e7b6e774ac720f407fbbbf63a10c8067cb648b4a0dd3"
+        }
+      }
+    }
+  ]
+}

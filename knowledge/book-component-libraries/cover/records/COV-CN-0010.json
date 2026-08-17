@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0010",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0010", "book_title": "巨匠：紫砂七老传略", "author": "宜兴市政协文史委员会", "designer": "刘葶葶", "publisher": "江苏人民出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0010", "source_url": "https://beautyofbooks.cn/bookdetail?id=518", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://yangbo.cctv.com/2025/03/24/ARTI4ZWmn6vgJ0xLF23wHTKb250324.shtml"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0010.jpg", "sha256": "4b2923a072184532251ecf6bd2c32e8822926ce0372751650306aa5f06f1c692", "mime_type": "image/jpeg", "width": 1500, "height": 1123},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "center", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "棕褐纹理底面上放置超大深色汉字并让其越出边缘，小号金色书名横向悬置，形成传统材质感与现代裁切的对照", "observations": [
+    {"aspect": "文字图形", "value": "深色巨字纵向占据封面左侧并被边缘裁切", "visibility": "clear", "confidence": 0.99, "evidence": "当前封面图左侧可见超大深色汉字笔画，上下及左侧均有裁切", "content_tags": ["巨字", "裁切", "汉字"]},
+    {"aspect": "表面", "value": "棕褐色底面呈现细密可见的纹理", "visibility": "clear", "confidence": 0.97, "evidence": "当前封面图整体棕褐底面可见均匀细密纹理，但无法仅凭图像确认具体材料", "content_tags": ["棕褐色", "纹理", "质朴"]}
+  ]},
+  "reference_transfer": {"transferable": ["用裁切巨字建立传统主题的现代识别", "深色底纹与小号亮色信息形成双层级", "保留不对称文字张力"], "avoid_copying": ["不复刻原书巨字字形", "不把可见纹理推断为具体纸张或工艺"], "adaptation_notes": ["从项目主题中提炼独立核心字重新设计", "材质选择须在实物打样阶段另行确认"]},
+  "retrieval_features": {"style_tags": ["传统当代化", "文字主导", "纹理"], "content_tags": ["紫砂", "匠人", "传记"], "color_tags": ["棕褐色", "深棕", "金色"], "mood_tags": ["厚重", "质朴", "庄重"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

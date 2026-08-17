@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0028",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0028", "book_title": "北京地铁站名掌故", "author": "Liping Hu", "designer": "tenmilliontimes", "publisher": "The Oriental Press", "publication_year": 2020, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0028", "source_url": "https://tenmilliontimes.com/Allusions-in-The-Subway-Stations-Name-of-Beijing", "platform": "tenmilliontimes", "collected_at": "2026-08-11", "publication_year": 2020, "publication_year_source_url": "https://search.worldcat.org/title/Allusions-in-the-subway-stations%27-name-of-Beijing/oclc/1243234501"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0028.png", "sha256": "7735e35cc347ef5e8adb704f07b93a2c32a41683df264826ee1deb88c780eda9", "mime_type": "image/png", "width": 1733, "height": 1309},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "abstract", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "continuous", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "浅色正面以多条彩色地铁线路从下部交叉上行，线路在当前照片中连续延伸到可见书脊；中英文题名靠近上缘，以地图语汇直接连接主题和结构", "observations": [
+    {"aspect": "跨面线路", "value": "多条带站点圆点的彩色线路在正面交叉并连续进入可见书脊", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片同时显示正面和左侧书脊，绿色、黄色、紫色与蓝色线路跨越两面折线保持连续", "content_tags": ["地铁线", "跨面连续", "站点"]},
+    {"aspect": "标题区", "value": "灰黑色中文题名靠近正面上缘，英文说明位于左上", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片正面上方可见中文书名，左上区域可见多行英文题名", "content_tags": ["中英题名", "上缘", "留白"]}
+  ]},
+  "reference_transfer": {"transferable": ["让主题线路跨越正面与可见书脊形成导航连续性", "以多色线路承担内容分类", "将标题放在路线密度较低的上部区域"], "avoid_copying": ["不复用北京地铁线路形状、颜色编号和交点", "不据可见正面与书脊推断未展示背面"], "adaptation_notes": ["从项目自身信息关系生成原创线路网络", "书脊宽度确定后重新校验跨面节点位置"]},
+  "retrieval_features": {"style_tags": ["信息设计", "线路图", "跨书脊"], "content_tags": ["北京", "地铁", "站名"], "color_tags": ["白色", "紫色", "黄色", "蓝色", "绿色"], "mood_tags": ["清晰", "城市感", "理性"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

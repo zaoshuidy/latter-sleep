@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "approval_id": "APPROVE-LOST-HUMAN-WORLD-BODY-OPENING-V001",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "component_type": "body-opening",
+  "layout_id": "BODY-OPENING-LOST-HUMAN-WORLD-CH01-V001",
+  "selected_version": "V001",
+  "decision": "approved",
+  "approved_by": "项目维护人（用户）",
+  "source_sha256": "380b13c561191e5f3a9b52dcad7c7cbb6976487ef6d58910bc032f214de932b8",
+  "html_sha256": "e01d91758740fe1de631fd403776ca1ceed7521cf1c96a35e2dacb5192a29cf6",
+  "preview_sha256": "d2ed56687a5fed2b2494414c3027b5a57414360fd34724a708473fd7ade51aac",
+  "layout_sha256": "f3ec9dc4f38ed39efa824a80c4aa9b08acbebd1e1adb8b4813aa6e03619ad582",
+  "approved_at": "2026-08-14",
+  "next_step": "continue_chapter_01_body_sample"
+}

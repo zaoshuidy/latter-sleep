@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "CHO-CN-0005",
+  "component_type": "chapter-opener",
+  "identity": {"book_case_id": "BOOK-CN-0053", "book_title": "营造古文导览", "author": "卢有杰", "designer": "张悟静", "publisher": "中国建筑工业出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0055", "source_url": "https://www.thepaper.cn/newsDetail_forward_29521261", "platform": "澎湃新闻", "collected_at": "2026-08-13", "publication_year": 2024, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/014579436"},
+  "asset": {"relative_path": "chapter-opener/assets/CHO-CN-0005.jpg", "sha256": "a4c4be30c64622c45c1c7a0c6c6877c3e5e2dd2258f028e9d9ba6898673b00e0", "mime_type": "image/jpeg", "width": 1080, "height": 764},
+  "component_profile": {"opening_mode": "spread", "visual_strategy": "mixed", "chapter_number_zone": "none", "chapter_title_zone": "vertical", "image_role": "decoration", "text_image_relationship": "integrated", "whitespace": "medium"},
+  "visual_decomposition": {"overall_strategy": "竖排章题与仿旧文字建立古籍骨架，文献插页作为第二信息层", "observations": [
+    {"aspect": "标题区", "value": "左页上部使用竖排章题和竖排文字栏", "visibility": "clear", "confidence": 0.95, "evidence": "当前图片左页可见成组竖排文字与明显章题层级", "content_tags": ["竖排章题", "传统阅读"]},
+    {"aspect": "图像关系", "value": "古籍影印和插页跨越翻页关系", "visibility": "clear", "confidence": 0.93, "evidence": "当前图片可见文献图像与不同页面层交叠", "content_tags": ["文献插页", "古籍影印", "翻页过渡"]}
+  ]},
+  "reference_transfer": {"transferable": ["竖排标题与正文的层级", "文献插页形成翻页过渡", "传统形式与现代网格对照"], "avoid_copying": ["不复用古文献扫描和古建图像", "不照搬原书仿旧字形"], "adaptation_notes": ["用项目自身档案材料替代文献页", "保证竖排标题在目标字体中可读"]},
+  "retrieval_features": {"style_tags": ["传统", "文献", "竖排"], "content_tags": ["古籍", "建筑", "导览"], "color_tags": ["纸本黄", "墨黑", "赭色"], "mood_tags": ["古朴", "学术", "沉静"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-13", "updated_at": "2026-08-13"}
+}

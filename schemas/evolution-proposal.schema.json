@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evolution-proposal.schema.json",
+  "title": "Book Skill Evolution Proposal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "case_count", "baseline_score", "candidate_score", "improvement", "regressions", "human_approval", "rollback_path", "status", "reasons"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "case_count": {"type": "integer", "minimum": 0},
+    "baseline_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "candidate_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "improvement": {"type": "number"},
+    "regressions": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "human_approval": {"enum": ["pending", "approved", "rejected"]},
+    "rollback_path": {"type": "string", "minLength": 1},
+    "status": {"enum": ["proposed", "approved", "rejected"]},
+    "reasons": {"type": "array", "items": {"type": "string"}}
+  }
+}

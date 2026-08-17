@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "direction_id": "DIRECTION-A-PAPER-SEASONS",
+  "reference_ids": ["DC-01-toc", "DC-07-body", "DC-02-cover"],
+  "brand_profile": "paper-boat",
+  "color": {"paper": "#F5F0E6", "ink": "#2F2F2F", "accent": "#8FA47E"},
+  "fonts": {"display": "Noto Serif SC", "navigation": "Noto Sans SC", "license": "free-commercial-use; verify project installation"},
+  "grid": {"columns": 6, "character": "open and quiet"},
+  "toc": {"scope": "multi-page", "text_layer": "editable", "long_title_fallback": "wrap-with-hanging-indent"},
+  "chapter_opener": {"master_id": "OPENER-A", "image_optional": true, "text_layer": "editable"},
+  "running_headers": {"template_id": "paired-standard"},
+  "page_families": ["cover-interface", "toc", "chapter-opener", "body", "image-page", "running-headers"]
+}

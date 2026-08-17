@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "layout_id": "RUNNING-HEADERS-LOST-HUMAN-WORLD-B-V001",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "status": "prototype",
+  "template": "paired-standard",
+  "page_trim_mm": [145, 210],
+  "spread_trim_mm": [290, 210],
+  "source_path": "manuscript/chapter-01.md",
+  "source_sha256": "380b13c561191e5f3a9b52dcad7c7cbb6976487ef6d58910bc032f214de932b8",
+  "source_paragraph_range": [11, 18],
+  "page_paragraph_ranges": {
+    "8": [11, 15],
+    "9": [16, 18]
+  },
+  "running_headers": {
+    "verso_source": "book_title",
+    "verso_source_value": "失落人间",
+    "recto_source": "chapter_title",
+    "recto_source_value": "车窗里的故乡",
+    "position": "outer-top",
+    "color": "#8C8275"
+  },
+  "folio": {
+    "position": "outer-bottom",
+    "bottom_mm": 12,
+    "folios": [8, 9],
+    "status": "provisional"
+  },
+  "hidden_page_types": [
+    "chapter-opener",
+    "blank",
+    "full-bleed-image"
+  ],
+  "long_title_fallback": "use-approved-short-title-or-hide-running-head",
+  "typography": {
+    "body_font_size_pt": 10.5,
+    "body_line_height_pt": 17.5,
+    "paragraph_indent_em": 2,
+    "paragraph_spacing_pt": 0
+  }
+}

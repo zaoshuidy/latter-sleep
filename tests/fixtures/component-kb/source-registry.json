@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "source_mode": "accumulation",
+  "sources": [
+    {
+      "source_registry_id": "SRC-CN-0001",
+      "source_type": "book",
+      "title": "四时来信",
+      "source_url": "https://example.com/books/BOOK-CN-0001",
+      "platform": "出版社官网",
+      "collected_at": "2026-08-10",
+      "publication_year": 2024,
+      "publication_year_source_url": "https://example.com/books/BOOK-CN-0001/bibliography",
+      "authorization_status": "accumulation"
+    },
+    {
+      "source_registry_id": "SRC-CN-0002",
+      "source_type": "series",
+      "title": "纸船文学丛书",
+      "source_url": "https://example.com/series/SER-CN-0001",
+      "platform": "出版社官网",
+      "collected_at": "2026-08-10",
+      "publication_year": 2023,
+      "publication_year_source_url": "https://example.com/series/SER-CN-0001/bibliography",
+      "authorization_status": "accumulation"
+    }
+  ]
+}

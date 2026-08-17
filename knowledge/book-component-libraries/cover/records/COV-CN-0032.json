@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0032",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0032", "book_title": "敦煌", "author": "柴剑虹、刘进宝", "designer": "雅昌设计中心·田之友", "publisher": "朝华出版社", "publication_year": 2018, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0032", "source_url": "https://beautyofbooks.cn/bookdetail?id=365", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2018, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/007011776"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0032.jpg", "sha256": "5d0e8407941b9607a89b26e849cb7cd181cedd96ba64954c91ff1f8d2439b101", "mime_type": "image/jpeg", "width": 600, "height": 400},
+  "component_profile": {"cover_scope": "dust-jacket", "visual_strategy": "mixed", "composition": "whitespace", "title_zone": "vertical", "spine_relationship": "not-visible", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 中朝上的深棕护封正面：绝大部分保持单色空场，青蓝弧线、黑色中文题名与小号信息集中在右下；可见书页边缘不作为书脊或封面延展证据", "observations": [
+    {"aspect": "右侧识别区", "value": "青蓝双弧与小型纵向题名集中于深棕题名面右侧", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片朝上的深棕面右侧可见两道青蓝弧线及小型纵向中文题名", "content_tags": ["青蓝弧线", "纵向题名", "深棕底"]},
+    {"aspect": "空场与可见色带", "value": "深棕正面版面极疏，下方和左侧边缘露出窄幅多色色带", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片深棕面大部分无图像，下方和左侧可见多色窄带；不据此推断书口印刷或纸张", "content_tags": ["大留白", "多色色带", "低信息密度"]}
+  ]},
+  "reference_transfer": {"transferable": ["把主识别压缩到单色面的一个角落", "用一组弧线与小标题形成文化主题符号", "让大面积空场承担庄重感"], "avoid_copying": ["不复刻原青蓝弧线轨迹和题名字形", "不照搬深棕与青蓝的具体配色"], "adaptation_notes": ["从项目自身文化母题提炼新的简洁线性符号", "按缩略图测试重新确定角落识别区比例"]},
+  "retrieval_features": {"style_tags": ["文化图录", "角落排版", "极简"], "content_tags": ["敦煌", "历史", "艺术"], "color_tags": ["深棕", "青蓝", "黑色"], "mood_tags": ["庄重", "沉静", "古朴"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

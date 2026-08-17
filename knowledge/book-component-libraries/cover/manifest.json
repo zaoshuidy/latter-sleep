@@ -1,0 +1,493 @@
+{
+  "assets": [
+    {
+      "path": "assets/COV-CN-0001.jpg",
+      "sha256": "9f616dd4443c1f6eaeb9fdd1dc8c3da638489d3021e4b6c83dc9d2472c8bc19b"
+    },
+    {
+      "path": "assets/COV-CN-0002.jpg",
+      "sha256": "ce1883bb3a012720a6bde9aae0db213499117ad5e29513098f71e14abe48fbf9"
+    },
+    {
+      "path": "assets/COV-CN-0003.jpg",
+      "sha256": "d2a17699b3a4d26c0c108aff1d66e783243e053a11d801e1b4a687d3313a58d7"
+    },
+    {
+      "path": "assets/COV-CN-0004.jpg",
+      "sha256": "ff088c521e8963567be3b27893a9263054a3e648b3d3b84082c6d89bbcf6ffac"
+    },
+    {
+      "path": "assets/COV-CN-0005.jpg",
+      "sha256": "ea3a632971f8118aced36de49492daad5292858970747aa1e90de1369d52ee2b"
+    },
+    {
+      "path": "assets/COV-CN-0006.jpg",
+      "sha256": "ab29331ac381f8078a1c9b026f44db8004d8907b8f93c5e5a8c8b8d8f3590dab"
+    },
+    {
+      "path": "assets/COV-CN-0007.jpg",
+      "sha256": "f2773977033c70e5a95c7d03f86d3f456f1e2573155000e29c8816a5942d2ce7"
+    },
+    {
+      "path": "assets/COV-CN-0008.jpg",
+      "sha256": "48d5372b7a3e77792a96b60370811ab92b6fe86e8504639ac4c795edd6b04c3b"
+    },
+    {
+      "path": "assets/COV-CN-0009.jpg",
+      "sha256": "5097863bd4fe95917b685f6406b085f1f0dd39e08729cb0085b16e548c78179f"
+    },
+    {
+      "path": "assets/COV-CN-0010.jpg",
+      "sha256": "4b2923a072184532251ecf6bd2c32e8822926ce0372751650306aa5f06f1c692"
+    },
+    {
+      "path": "assets/COV-CN-0011.jpg",
+      "sha256": "a57acfe61ad326eb072cebbb6111b0dba1573b374e4535dca78825c3dc88f148"
+    },
+    {
+      "path": "assets/COV-CN-0012.jpg",
+      "sha256": "b0af5b56f1617fd6b43281322a7d0179b78e0f9bee93cb6680113afb8325ee73"
+    },
+    {
+      "path": "assets/COV-CN-0013.png",
+      "sha256": "ca702e4f5cf7cf6e94d2f7352bc28cc2796e1fb2124a9c8ae9541cf96d320d41"
+    },
+    {
+      "path": "assets/COV-CN-0014.jpg",
+      "sha256": "523f98c16cecea8b9b2517c0af47a53b3f65cf11d0691bd3452c7c92d312affe"
+    },
+    {
+      "path": "assets/COV-CN-0015.jpg",
+      "sha256": "be695c7846c5a43dafdf3b7fedd2b95e7bb5560dbeaeb40739bf0e91b8a9bb95"
+    },
+    {
+      "path": "assets/COV-CN-0016.jpg",
+      "sha256": "e2978c1e7ef15c94317624ab890d8ac863b06235a476c2079ce780077bb687d3"
+    },
+    {
+      "path": "assets/COV-CN-0017.jpg",
+      "sha256": "884eb24a40cd2839f5ed5be462af2598b23e130a8d107d9855d2475b1b1deaf7"
+    },
+    {
+      "path": "assets/COV-CN-0018.jpg",
+      "sha256": "fceb87fceae1b3b4d388714f5224e217a5baa425032b27cd9a603b6f69a35598"
+    },
+    {
+      "path": "assets/COV-CN-0019.jpg",
+      "sha256": "e6bdb762ff946cd2ad4d7e7f4008f2b5bace1568df9140d36923dbbe06ac2a1f"
+    },
+    {
+      "path": "assets/COV-CN-0020.jpg",
+      "sha256": "314743350153a47764e38a6122e41ff32648812501066cd030d23c06b91d4120"
+    },
+    {
+      "path": "assets/COV-CN-0021.jpg",
+      "sha256": "f012785937f42686c0d8fd13177b4813cd71ca01b9c6c1e4b79e7c9ca125ea66"
+    },
+    {
+      "path": "assets/COV-CN-0022.jpg",
+      "sha256": "3f7a2830041915cec7050bfc8d73b3a6640346ab1b364ff89a004618c10b5377"
+    },
+    {
+      "path": "assets/COV-CN-0023.png",
+      "sha256": "2b68de36c67036d259db2fbb25d752557cb3d5cff3d06f134dc43181514e512c"
+    },
+    {
+      "path": "assets/COV-CN-0024.png",
+      "sha256": "dd3430e37a13d68985ce86857f147a1af902efef129f7e3c150f7159004ddac0"
+    },
+    {
+      "path": "assets/COV-CN-0025.png",
+      "sha256": "3b480148a6ef1483c12238fc746951c1f15b693ca5d760f70c659e8d255b1d56"
+    },
+    {
+      "path": "assets/COV-CN-0026.png",
+      "sha256": "970e77c9e8493599984d00a072ceeeb559873c795d0c96f92ae5199bb44fb189"
+    },
+    {
+      "path": "assets/COV-CN-0027.png",
+      "sha256": "76f7f7ffb46f6dc95e36e11ddc4b845788321e03e67331540533737c3188f7b2"
+    },
+    {
+      "path": "assets/COV-CN-0028.png",
+      "sha256": "7735e35cc347ef5e8adb704f07b93a2c32a41683df264826ee1deb88c780eda9"
+    },
+    {
+      "path": "assets/COV-CN-0029.png",
+      "sha256": "ca708382e06d7046219f4561655991557e55c7cd009cd9ae7febe7925b29963f"
+    },
+    {
+      "path": "assets/COV-CN-0030.png",
+      "sha256": "ba4bb3e640f153e0f32852f53b3d60d97d94e599ea4f6e3715ca3561fc507712"
+    },
+    {
+      "path": "assets/COV-CN-0031.jpg",
+      "sha256": "572d4abdb59ee327deaeecd3c0b6a090b6f3f0d71d5724dfeb43eb2173e664af"
+    },
+    {
+      "path": "assets/COV-CN-0032.jpg",
+      "sha256": "5d0e8407941b9607a89b26e849cb7cd181cedd96ba64954c91ff1f8d2439b101"
+    },
+    {
+      "path": "assets/COV-CN-0033.jpg",
+      "sha256": "797721e1e0a2a60303352d8bd169b847f17eaac76a2e059ac59b93da9f0de6b6"
+    },
+    {
+      "path": "assets/COV-CN-0034.jpg",
+      "sha256": "e4fae1a95f7badb3249262f726e566087a48b02de3cf451298a2f035d3f95a89"
+    },
+    {
+      "path": "assets/COV-CN-0035.jpg",
+      "sha256": "c7ae60fe9470427cffaf38471d354adb3d2a46f4545a8b3f3e7c5b1ec490c786"
+    },
+    {
+      "path": "assets/COV-CN-0036.jpg",
+      "sha256": "8984f03fd4ae9ffcb54afd7fb2df6e696e03f3aa13db4a6f07e95fdf3743d053"
+    },
+    {
+      "path": "assets/COV-CN-0037.jpg",
+      "sha256": "f0ab16941a48bc92b43f7d293565e1c6bb8aec87a6f81b4860bc0142b3ef5e84"
+    },
+    {
+      "path": "assets/COV-CN-0038.jpg",
+      "sha256": "89a11096c62f8c46313767bb28d9b1187a03738894ccfcc8d63a610858106dda"
+    },
+    {
+      "path": "assets/COV-CN-0039.jpg",
+      "sha256": "ce0e35e7bdc4fb6907129bf8546169c2da5374e08dc16a835e67e4e78c99b56f"
+    },
+    {
+      "path": "assets/COV-CN-0040.jpg",
+      "sha256": "9e243c0728391ece8cdc8fce61a6012a3073370d33941358c46cd29cb448e9fe"
+    },
+    {
+      "path": "assets/COV-CN-0041.jpg",
+      "sha256": "23f09b742b0387fd9743e32afcca28d6c18d5b68a2c452f99eb2eee3f6e85aa1"
+    },
+    {
+      "path": "assets/COV-CN-0042.jpg",
+      "sha256": "9aaf4759099d877703cbebd2ee6f4e9997ff10ec76b0c54fa7918fe5bb3d58b3"
+    },
+    {
+      "path": "assets/COV-CN-0043.jpg",
+      "sha256": "90dca2f2ae03d486a0d93c66c6d3f7eb3a2422cce53d0043cd536db3703f580b"
+    },
+    {
+      "path": "assets/COV-CN-0044.jpg",
+      "sha256": "c902ee876df2aff7db3600ccedb4be6f81be440afce139d80d0637c5867d9d78"
+    },
+    {
+      "path": "assets/COV-CN-0045.jpg",
+      "sha256": "f3d8bfbc0cacf97374a0590a133dfad97f329701c850146874de72c54f735cab"
+    },
+    {
+      "path": "assets/COV-CN-0046.jpg",
+      "sha256": "75a596f34f1610bb9c753861a1dc4d27d04c20cf286066ddda8d1f13f47ea87a"
+    },
+    {
+      "path": "assets/COV-CN-0047.jpg",
+      "sha256": "55ed9368d7c692d5193777d883c9920fd89edef1e2d35df0bf794bfad342ecb3"
+    },
+    {
+      "path": "assets/COV-CN-0048.jpg",
+      "sha256": "46d773b65a79791fc93c31cdd59286cd118bdc06b13c167c4f0456df9e71b009"
+    },
+    {
+      "path": "assets/COV-CN-0049.jpg",
+      "sha256": "fed7289856d5ac4fc7a9b80c82a4b2fe0bbfa3a8bdf8b475c575bfae141297f9"
+    },
+    {
+      "path": "assets/COV-CN-0050.jpg",
+      "sha256": "1e5fa8207706fe8fb8a710e34fd8272541d80bdcc41064b915dd8c55e1983de3"
+    }
+  ],
+  "component": "cover",
+  "derived": [
+    {
+      "path": "categories/by-visual-strategy.json",
+      "sha256": "6d78e6d10b87ee0419df511652ce13c47f3fc77170889dbbd1eb816ae3a8c525"
+    },
+    {
+      "path": "categories/by-composition.json",
+      "sha256": "64e805797f858c97ee9c8436fb631863e8e7734613b974145790c3e6b632d5fe"
+    },
+    {
+      "path": "categories/by-title-zone.json",
+      "sha256": "dc5d3d5caea832ebc812c0aa75f8e447ed70b476c6270dcb076aac1f7969fb1a"
+    },
+    {
+      "path": "categories/by-publication-year.json",
+      "sha256": "73afddc85710da340c8211ef343d71b6057b1ee5aff5adcb2be7148a18a3b279"
+    },
+    {
+      "path": "catalog.json",
+      "sha256": "6a73b2aea977d74437e80a4de4bd61077f06c614dac24cbbffe5ee5b9ceb2e8c"
+    },
+    {
+      "path": "retrieval-index.json",
+      "sha256": "94c7eb36dfccde800358f4b185ab3ad4a1b25561caf30a1dbbedcbac8086162c"
+    }
+  ],
+  "errors": [],
+  "invalid_record_count": 0,
+  "records": [
+    {
+      "path": "records/COV-CN-0001.json",
+      "record_id": "COV-CN-0001",
+      "sha256": "019e90de16411f4d3b3e9f9293296b3185e452348e7f80587d511a7cf1116a8f"
+    },
+    {
+      "path": "records/COV-CN-0002.json",
+      "record_id": "COV-CN-0002",
+      "sha256": "efdbc1e9cefbc3d4a29b2fb797e7f213b3b2bab1d68200701ebae9a45220cbf0"
+    },
+    {
+      "path": "records/COV-CN-0003.json",
+      "record_id": "COV-CN-0003",
+      "sha256": "333f9a9217a1dfe8f1d31168da397cf74cdd19a294b9a92f0847c025e1589d8d"
+    },
+    {
+      "path": "records/COV-CN-0004.json",
+      "record_id": "COV-CN-0004",
+      "sha256": "0e112137428c514aa71d01c26eef4f86320ce352ca9c46c8558080ffb3056120"
+    },
+    {
+      "path": "records/COV-CN-0005.json",
+      "record_id": "COV-CN-0005",
+      "sha256": "c193072228397c49fbcf529d8f0d0244b35680cbe357dcff6534a9cbb53b12e7"
+    },
+    {
+      "path": "records/COV-CN-0006.json",
+      "record_id": "COV-CN-0006",
+      "sha256": "173fa397751dc8e1884d0e339067a20f32f590f666365f84a377fff4fa0a21c8"
+    },
+    {
+      "path": "records/COV-CN-0007.json",
+      "record_id": "COV-CN-0007",
+      "sha256": "f031749f0fc4515a97f0d511fd578775149e19db2404787bd8dc82baa1020367"
+    },
+    {
+      "path": "records/COV-CN-0008.json",
+      "record_id": "COV-CN-0008",
+      "sha256": "9e1f486e36459530086037995b7535c32c1b551fd602dac8eafc9e68eefe08e0"
+    },
+    {
+      "path": "records/COV-CN-0009.json",
+      "record_id": "COV-CN-0009",
+      "sha256": "9e18a7b5d00e3d5b82271e29ce51cac35d4fd982043af1460841fa51adbe4e8a"
+    },
+    {
+      "path": "records/COV-CN-0010.json",
+      "record_id": "COV-CN-0010",
+      "sha256": "8163b19a5aa5cfc18497627c0ae851e643dce340869640d41e48925ec26e8b9b"
+    },
+    {
+      "path": "records/COV-CN-0011.json",
+      "record_id": "COV-CN-0011",
+      "sha256": "0e8765b9e329699dd11a84eafb3357347746cb0d6673406e965756378277b72d"
+    },
+    {
+      "path": "records/COV-CN-0012.json",
+      "record_id": "COV-CN-0012",
+      "sha256": "9a802cbd74e8f36a547c3006f3680b965b9d57eaa5bce8212531f2f46742d534"
+    },
+    {
+      "path": "records/COV-CN-0013.json",
+      "record_id": "COV-CN-0013",
+      "sha256": "d5b41bba4f1c5aac149b14981a1bbaac5ca9f744b1859a49ca62acb5085c9006"
+    },
+    {
+      "path": "records/COV-CN-0014.json",
+      "record_id": "COV-CN-0014",
+      "sha256": "ad0f1d6fcebeb128f241189ad6bb92007bb87b724a4cdfdc7fc9c1661af8f0e9"
+    },
+    {
+      "path": "records/COV-CN-0015.json",
+      "record_id": "COV-CN-0015",
+      "sha256": "6b5af11c77935e6bc18fc2c10cd393c8444a2aacf76415e3e6e8c191dc3c3269"
+    },
+    {
+      "path": "records/COV-CN-0016.json",
+      "record_id": "COV-CN-0016",
+      "sha256": "90b44a687f18c3eff55227299352b54739c5551c44d7ed89154c888854d67a46"
+    },
+    {
+      "path": "records/COV-CN-0017.json",
+      "record_id": "COV-CN-0017",
+      "sha256": "7da49c3e2ee42cf9869e7ed765149acf62826be2b1c51af20329cf2aa420d6d7"
+    },
+    {
+      "path": "records/COV-CN-0018.json",
+      "record_id": "COV-CN-0018",
+      "sha256": "d2448bc23d02c00fc64233dfa718f4e5b831e8a5e6ab5f443c6198ea1740d71f"
+    },
+    {
+      "path": "records/COV-CN-0019.json",
+      "record_id": "COV-CN-0019",
+      "sha256": "b32b09f7d3a0b0246eb198d5f6341b9280ce0bb304f89369c13f0b39b7099646"
+    },
+    {
+      "path": "records/COV-CN-0020.json",
+      "record_id": "COV-CN-0020",
+      "sha256": "e08ae67fb7917f3219e75d293e603e44dfef54e96600a82a8f7ad40b5776f83f"
+    },
+    {
+      "path": "records/COV-CN-0021.json",
+      "record_id": "COV-CN-0021",
+      "sha256": "40cf54ea95a26051640070d5402c463007ba0a7424aaa72913e2fbc4428d42b6"
+    },
+    {
+      "path": "records/COV-CN-0022.json",
+      "record_id": "COV-CN-0022",
+      "sha256": "da1b3c701eb6e4384034ca0f9b8f13c9682e18f5e8d81051028bf5a3f030d294"
+    },
+    {
+      "path": "records/COV-CN-0023.json",
+      "record_id": "COV-CN-0023",
+      "sha256": "5cc3b48ca8eb44924ce7967eb214e0faec72fe3b8b4d1526b385d4b577ca1d30"
+    },
+    {
+      "path": "records/COV-CN-0024.json",
+      "record_id": "COV-CN-0024",
+      "sha256": "a5c42b10db96934ed55432d00bbf783d8686ffee93f79393b04cf9edd1c24ebc"
+    },
+    {
+      "path": "records/COV-CN-0025.json",
+      "record_id": "COV-CN-0025",
+      "sha256": "f568589db90474a8cced6b0a0406aa260d4b88aecbc7b09df0b5896ff8056ddd"
+    },
+    {
+      "path": "records/COV-CN-0026.json",
+      "record_id": "COV-CN-0026",
+      "sha256": "d49c7b053405c80b776809638a6175b91cf469c950b34f945fc6b17ddee8600a"
+    },
+    {
+      "path": "records/COV-CN-0027.json",
+      "record_id": "COV-CN-0027",
+      "sha256": "7746a1629a0e404cf636f2deacf6b2ef819337f02a80130b076227ff2d2d478c"
+    },
+    {
+      "path": "records/COV-CN-0028.json",
+      "record_id": "COV-CN-0028",
+      "sha256": "3f5a47ca16a604b79e0deb0bda3f8398e90a4c5461beca37c6d733a2057fd440"
+    },
+    {
+      "path": "records/COV-CN-0029.json",
+      "record_id": "COV-CN-0029",
+      "sha256": "e2643552221c682a66b411fcb5062f43ede056627957ec204b323d947c957763"
+    },
+    {
+      "path": "records/COV-CN-0030.json",
+      "record_id": "COV-CN-0030",
+      "sha256": "afa35df44d572caed05449f3b22358c373dbd1465935aa0e275021f74e634538"
+    },
+    {
+      "path": "records/COV-CN-0031.json",
+      "record_id": "COV-CN-0031",
+      "sha256": "659e3badc1a570c97871e09f80ed42774b54b7579dddc2c9748075734e179f89"
+    },
+    {
+      "path": "records/COV-CN-0032.json",
+      "record_id": "COV-CN-0032",
+      "sha256": "7b08a6eeae2486a9be7d6410fab497d4b1c9f02dbce3c5f19624ccbd2a2eb5a4"
+    },
+    {
+      "path": "records/COV-CN-0033.json",
+      "record_id": "COV-CN-0033",
+      "sha256": "9f410b608a6cc47c1e8a6ef08e4922abd399630bb17802f354ccd29338b5c05d"
+    },
+    {
+      "path": "records/COV-CN-0034.json",
+      "record_id": "COV-CN-0034",
+      "sha256": "2ea5988e166b7373fd5bd30cb215ea08016495199d51d6f7e2789522bcc72fb3"
+    },
+    {
+      "path": "records/COV-CN-0035.json",
+      "record_id": "COV-CN-0035",
+      "sha256": "acf0603838072fabb7a73a554fbaa82ac60150cd620a41ef193b3dfccc6b5633"
+    },
+    {
+      "path": "records/COV-CN-0036.json",
+      "record_id": "COV-CN-0036",
+      "sha256": "1a28b4dd6c9dedf8d44a7a279566b1f6d283c4c9c2cfcc8480ca1d12d3ccf657"
+    },
+    {
+      "path": "records/COV-CN-0037.json",
+      "record_id": "COV-CN-0037",
+      "sha256": "fbf4bbfb651e8130407c17fb07ef61cc43fe06b410b9fd73fcba58ccb3feb657"
+    },
+    {
+      "path": "records/COV-CN-0038.json",
+      "record_id": "COV-CN-0038",
+      "sha256": "ae5f875d1a4a3e7b821bddde165da6d14bf2f30e7f15289451870620622f3ea7"
+    },
+    {
+      "path": "records/COV-CN-0039.json",
+      "record_id": "COV-CN-0039",
+      "sha256": "75c68d7545915c90706003014167db891147dbacf97236379fcf751900cad0fa"
+    },
+    {
+      "path": "records/COV-CN-0040.json",
+      "record_id": "COV-CN-0040",
+      "sha256": "e9b18bfd3598adb9a027d7798b1e4f53c572673cff41e5918e573ccea96689b4"
+    },
+    {
+      "path": "records/COV-CN-0041.json",
+      "record_id": "COV-CN-0041",
+      "sha256": "924fce9d74c177c08ea678b4d8372b56ddb0b826ee512f412d1173b42bd386c1"
+    },
+    {
+      "path": "records/COV-CN-0042.json",
+      "record_id": "COV-CN-0042",
+      "sha256": "4b8d6191b0fca6437408377b16e58d90754a4fb167bee5d3e19235173c1ba919"
+    },
+    {
+      "path": "records/COV-CN-0043.json",
+      "record_id": "COV-CN-0043",
+      "sha256": "f3339e076295876f79cb45762852996ec27ae449ca30c41757f9674e71c15cba"
+    },
+    {
+      "path": "records/COV-CN-0044.json",
+      "record_id": "COV-CN-0044",
+      "sha256": "2ebdfcacb907364d7e3b85a7efdbd646b6af90b7b69b153b5a70e02ccafbe41e"
+    },
+    {
+      "path": "records/COV-CN-0045.json",
+      "record_id": "COV-CN-0045",
+      "sha256": "86ec006c74c1d91414dd632aeedc628984a966626e202f10ca4bead3d747ed91"
+    },
+    {
+      "path": "records/COV-CN-0046.json",
+      "record_id": "COV-CN-0046",
+      "sha256": "73239b54edd513428c3e094ccddf3c7cd44e30befa0f73cad4d43954c991afab"
+    },
+    {
+      "path": "records/COV-CN-0047.json",
+      "record_id": "COV-CN-0047",
+      "sha256": "0f03b96095241031fa74fa9b87f5a6ab612df2d1e815c9d3a06b83e45637ed59"
+    },
+    {
+      "path": "records/COV-CN-0048.json",
+      "record_id": "COV-CN-0048",
+      "sha256": "4e4b7230f2429d6916163efb72f97b86a2d4368aa29860b025e048240cedb3af"
+    },
+    {
+      "path": "records/COV-CN-0049.json",
+      "record_id": "COV-CN-0049",
+      "sha256": "d5935eca8f19d30e10d2b19165871df3b9731d7458d061ee7e459df4a142f77d"
+    },
+    {
+      "path": "records/COV-CN-0050.json",
+      "record_id": "COV-CN-0050",
+      "sha256": "e8dcc7c808b0769381df4ee20c0bac50b3549f3fd0b607655ca4b468899578ea"
+    }
+  ],
+  "registry": {
+    "path": "source-registry.json",
+    "sha256": "8deec747b27780d6de4a61e5b9a01690d885a4992288a5d12c4a6ffa1d9e084f"
+  },
+  "required_count": 50,
+  "schema_version": "1.0",
+  "status": "available",
+  "valid_record_count": 50
+}

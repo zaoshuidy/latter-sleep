@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0020",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0020", "book_title": "砚史：清初社会的工匠与士人", "author": "高彦颐", "designer": null, "publisher": "商务印书馆", "publication_year": 2022, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0020", "source_url": "https://www.cp.com.cn/book/bbe745dc-7.html", "platform": "商务印书馆官网", "collected_at": "2026-08-11", "publication_year": 2022, "publication_year_source_url": "https://www.cp.com.cn/book/bbe745dc-7.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0020.jpg", "sha256": "314743350153a47764e38a6122e41ff32648812501066cd030d23c06b91d4120", "mime_type": "image/jpeg", "width": 800, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "mixed", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "深蓝上区以金色书名、细线装饰轮廓和中央黑色负形营造器物研究感，下部土褐信息带承载推荐与说明，形成上下双层结构", "observations": [
+    {"aspect": "中心轮廓", "value": "深蓝区域中央有黑色拱形负形，外沿带对称细线装饰", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片主面中央可见大面积黑色拱形，其两侧与上缘可见细密对称纹样轮廓", "content_tags": ["拱形", "负形", "装饰线"]},
+    {"aspect": "分区", "value": "深蓝主区与土褐下部信息带由斜向边界分隔", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片约下三分之一为土褐色信息区，上方深蓝区域与其通过略倾斜边界连接", "content_tags": ["上下分区", "土褐色", "信息带"]}
+  ]},
+  "reference_transfer": {"transferable": ["用器物轮廓的负形建立主题悬念", "将推荐信息集中于独立下部色带", "以少量金色标题连接上下区域"], "avoid_copying": ["不复制原书拱形纹样与印章图形", "不照搬土褐信息带的比例和文案布局"], "adaptation_notes": ["从项目核心器物提炼新的可辨识轮廓", "控制附加信息密度，避免削弱主标题"]},
+  "retrieval_features": {"style_tags": ["物质文化", "器物轮廓", "上下分区"], "content_tags": ["砚台", "工匠", "清初"], "color_tags": ["深蓝", "黑色", "金色", "土褐色"], "mood_tags": ["厚重", "神秘", "学术"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

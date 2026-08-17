@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "direction_id": "DIRECTION-A-RESTRAINED-DOCUMENTARY",
+  "reference_ids": [
+    "COV-CN-0031",
+    "COV-CN-0036",
+    "COV-CN-0047"
+  ],
+  "brand_profile": "paper-boat",
+  "color": {
+    "paper": "low-contrast pale gray",
+    "ink": "charcoal black",
+    "accent": "muted archival blue-gray"
+  },
+  "fonts": {
+    "display": "editable later; final font pending layout",
+    "navigation": "editable later; body rules unchanged"
+  },
+  "grid": {
+    "columns": 8,
+    "character": "restrained documentary with asymmetric breathing room"
+  },
+  "toc": {
+    "scope": "multi-page",
+    "text_layer": "editable"
+  },
+  "chapter_opener": {
+    "image_optional": true,
+    "text_layer": "editable"
+  },
+  "running_headers": {
+    "template_id": "paired-standard"
+  },
+  "page_families": [
+    "cover-interface",
+    "toc",
+    "chapter-opener",
+    "body",
+    "image-page",
+    "running-headers"
+  ]
+}

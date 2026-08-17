@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0046",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0046", "book_title": "肖全和妲妲的世界", "author": "肖全", "designer": "白凤鹍", "publisher": "中国青年出版社", "publication_year": 2020, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0046", "source_url": "https://beautyofbooks.cn/bookdetail?id=416", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2020, "publication_year_source_url": "https://search.megbook.com.hk/mall/detail.jsp?proID=3516071"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0046.jpg", "sha256": "75a596f34f1610bb9c753861a1dc4d27d04c20cf286066ddda8d1f13f47ea87a", "mime_type": "image/jpeg", "width": 833, "height": 556},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "center", "spine_relationship": "not-visible", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "profile 只绑定案例 hero 中黄色题名面的正封：中央大号低对比轮廓英文构成主标题，左侧数字与小号黑字形成非对称次级信息列；绿色手写卡片、盒体与照片仅作同案上下文", "observations": [
+    {"aspect": "中央轮廓主标题", "value": "中央大号低对比轮廓“Xiao Quan & Ginda & Vanda”构成主标题", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片黄色题名面中央可见占据主要面积的大号低对比英文轮廓文字", "content_tags": ["轮廓英文", "中央主标题", "低对比文字"]},
+    {"aspect": "左侧次级信息与场景边界", "value": "左侧“01”和小号黑字构成次级信息列；绿色手写卡片、盒体与照片仅作上下文", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片黄色题名面左侧可见数字与小号黑字，周围另有绿色手写卡片、盒体及照片", "content_tags": ["左侧信息列", "数字01", "多组件上下文"]}
+  ]},
+  "reference_transfer": {"transferable": ["用大尺度低对比轮廓字建立中央题名层", "将编号与小号信息收束为偏侧次级列", "从复合展示中只绑定实际题名正封"], "avoid_copying": ["不照搬原英文题名轮廓、编号或具体分行", "不复制原绿色手写卡片、盒体与照片组合"], "adaptation_notes": ["按新项目标题长度重建主次文字尺度和非对称关系", "低对比轮廓字须在印刷样和缩略图中复核可读性"]},
+  "retrieval_features": {"style_tags": ["轮廓字", "非对称信息", "低对比排版"], "content_tags": ["摄影", "成长", "雨林"], "color_tags": ["黄色", "黑色", "浅灰"], "mood_tags": ["私人", "清新", "实验性"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-12"}
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "design-genome.schema.json",
+  "title": "Book Design Genome",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "project_id", "direction_id", "reference_ids", "brand_profile", "color", "fonts", "grid", "toc", "chapter_opener", "running_headers", "page_families"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "project_id": {"type": "string"},
+    "direction_id": {"type": "string"},
+    "reference_ids": {"type": "array", "items": {"type": "string"}},
+    "brand_profile": {"type": "string"},
+    "color": {"type": "object"},
+    "fonts": {"type": "object"},
+    "grid": {"type": "object"},
+    "toc": {"type": "object"},
+    "chapter_opener": {"type": "object"},
+    "running_headers": {"type": "object"},
+    "page_families": {"type": "array", "minItems": 5, "maxItems": 8, "items": {"type": "string"}, "uniqueItems": true}
+  }
+}

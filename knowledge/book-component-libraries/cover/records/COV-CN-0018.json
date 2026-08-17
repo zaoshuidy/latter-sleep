@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0018",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0018", "book_title": "守拙集", "author": "王利明", "designer": null, "publisher": "商务印书馆", "publication_year": 2021, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0018", "source_url": "https://www.cp.com.cn/book/52c00ae5-d.html", "platform": "商务印书馆官网", "collected_at": "2026-08-11", "publication_year": 2021, "publication_year_source_url": "https://www.cp.com.cn/book/52c00ae5-d.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0018.jpg", "sha256": "fceb87fceae1b3b4d388714f5224e217a5baa425032b27cd9a603b6f69a35598", "mime_type": "image/jpeg", "width": 800, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "abstract", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "米白底面被左侧深青与右下浅青两块弧形图形切分，图形内重复波纹小纹样，竖排黑字书名留在右上空白区", "observations": [
+    {"aspect": "形状", "value": "深青和浅青弧形色块从左侧与右下方向米白中央伸入", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片可见左侧深青弧形与右下浅青弧形，两者之间保留米白曲线通道", "content_tags": ["弧形", "负空间", "色块"]},
+    {"aspect": "纹样", "value": "两个青色色块内部重复排列浅深相间的小型波纹", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片两块青色区域中均可见规则重复的波浪状小图形", "content_tags": ["波纹", "重复纹样", "青色"]}
+  ]},
+  "reference_transfer": {"transferable": ["用两块不同明度的弧形组织负空间", "让重复小纹样统一分离的色块", "把竖排标题放在干净留白区"], "avoid_copying": ["不复制原书弧形轮廓和波纹单元", "不沿用相同青色配比"], "adaptation_notes": ["从项目意象重新设计抽象边界和纹样", "长书名应重新评估竖排区域宽度"]},
+  "retrieval_features": {"style_tags": ["东方抽象", "纹样", "留白"], "content_tags": ["随笔", "波纹", "守拙"], "color_tags": ["米白", "深青", "浅青", "红色"], "mood_tags": ["平和", "质朴", "雅致"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

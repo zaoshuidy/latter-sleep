@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "image-manifest.schema.json",
+  "title": "Book Image Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "project_id", "images"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "project_id": {"type": "string"},
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["image_id", "image_role", "use", "skill", "prompt_file", "output_file", "status"],
+        "properties": {
+          "image_id": {"type": "string"},
+          "image_role": {"enum": ["documentary", "design", "memory-illustration"]},
+          "use": {"type": "string"},
+          "skill": {"type": "string"},
+          "prompt_file": {"type": "string", "minLength": 1},
+          "reference_files": {"type": "array", "items": {"type": "string"}},
+          "output_file": {"type": "string"},
+          "status": {"enum": ["draft", "selected", "archived", "rejected"]}
+        }
+      }
+    }
+  }
+}

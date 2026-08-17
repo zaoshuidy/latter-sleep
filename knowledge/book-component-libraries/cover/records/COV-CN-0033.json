@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0033",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0033", "book_title": "中国园林：诗意审美与四季", "author": "(英)彼得·内斯特鲁克", "designer": "郭萌", "publisher": "中国民族摄影艺术出版社", "publication_year": 2019, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0033", "source_url": "https://beautyofbooks.cn/bookdetail?id=394", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2019, "publication_year_source_url": "https://www.books.com.tw/products/CN11714154"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0033.jpg", "sha256": "797721e1e0a2a60303352d8bd169b847f17eaac76a2e059ac59b93da9f0de6b6", "mime_type": "image/jpeg", "width": 900, "height": 600},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "mixed", "composition": "asymmetric", "title_zone": "center", "spine_relationship": "independent", "thumbnail_recognition": "medium"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 中朝上的浅灰绿色正面：中英题名与小号信息集中在左中部，右上排列整齐的细小文字块，橄榄色不规则圆点沿下半部形成节奏；左侧可见书脊有独立题名与符号，不推断未见背面", "observations": [
+    {"aspect": "分区信息", "value": "题名组位于正面左中部，右上另有多行细小文字形成矩形信息块", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片浅灰绿色正面左中部可见中英文题名，右上可见对齐的多行小字", "content_tags": ["中英题名", "右上文字块", "信息分区"]},
+    {"aspect": "圆点节奏与书脊", "value": "橄榄色不规则圆点沿正面下半部横向排列，可见书脊另有文字和圆点信息", "visibility": "clear", "confidence": 0.98, "evidence": "当前图片正面下半部可见一串橄榄色圆点，左侧书脊可见独立题名和符号；不据此推断连续包封", "content_tags": ["不规则圆点", "独立书脊", "横向节奏"]}
+  ]},
+  "reference_transfer": {"transferable": ["用两个尺度不同的信息块组织学术型题名与说明", "以低占比抽象圆点打破理性网格", "把书脊作为独立信息轴线"], "avoid_copying": ["不照搬原圆点形状、数量和排列", "不复制原中英文题名层级或书脊符号"], "adaptation_notes": ["根据新书信息量重新划分主标题与说明区", "使用项目自有抽象元素建立新的节奏"]},
+  "retrieval_features": {"style_tags": ["园林文化", "信息设计", "抽象点阵"], "content_tags": ["中国园林", "四季", "审美"], "color_tags": ["浅灰绿", "橄榄色", "黑色"], "mood_tags": ["理性", "雅静", "研究感"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

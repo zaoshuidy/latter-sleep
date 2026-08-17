@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0016","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0063","book_title":"转动世界的小发明：螺丝起子与螺丝演化的故事","author":"维托尔德·雷布琴斯基","designer":"周伟伟、张云浩","publisher":"浙江大学出版社","publication_year":2022,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0065","source_url":"https://beautyofbooks.cn/bookdetail?id=481","platform":"最美的书官网","collected_at":"2026-08-13","publication_year":2022,"publication_year_source_url":"https://book.douban.com/isbn/9787308227728/"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0016.jpg","sha256":"4b5c552289511dba37f4bbdcb7038e5e31ae7da96430b950420d7cb1dd3d37d5","mime_type":"image/jpeg","width":1200,"height":800},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"illustration","chapter_number_zone":"top","chapter_title_zone":"center","image_role":"illustration","text_image_relationship":"separate","whitespace":"high"},
+  "visual_decomposition":{"overall_strategy":"黑色跨页以小型章节信息对位超大螺纹抽象图形，形成尺度反差","observations":[{"aspect":"尺度对比","value":"左页小号章节信息与右页巨大银灰物件符号对位","visibility":"clear","confidence":0.97,"evidence":"当前图片可见黑底小文字和占据右页的大型螺纹图形","content_tags":["小标题","大图形","黑银"]}]},
+  "reference_transfer":{"transferable":["核心物件抽象为章节符号","小标题对大图形","暗底与金属感对比"],"avoid_copying":["不复制螺丝组合和原工艺"],"adaptation_notes":["从项目自身意象抽象新的大符号"]},
+  "retrieval_features":{"style_tags":["物件抽象","暗色","尺度反差"],"content_tags":["发明","螺丝","工业"],"color_tags":["黑色","银灰"],"mood_tags":["理性","机械","戏剧性"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

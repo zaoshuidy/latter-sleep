@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "layout_id": "TITLE-PAGE-LOST-HUMAN-WORLD-V001",
+  "project_id": "BOOK-LOST-HUMAN-WORLD",
+  "component_type": "title-page",
+  "direction": "return-coordinate-origin",
+  "status": "prototype",
+  "page_trim_mm": [145, 210],
+  "spread_trim_mm": [290, 210],
+  "left_page": "blank-verso",
+  "right_page": "title-page-recto",
+  "visible_running_headers": false,
+  "visible_folios": false,
+  "palette": {
+    "paper": "#F1EDE4",
+    "ink": "#1C1B19",
+    "accent": "#7A2428",
+    "quiet": "#8F887E"
+  },
+  "visual_system": {
+    "source_direction": "B-return-coordinate",
+    "axis": "segmented-vertical-accent-line",
+    "whitespace": "very-high",
+    "image_role": "none",
+    "gutter_clear": true
+  },
+  "text_layers": [
+    {
+      "role": "title",
+      "value": "失落人间",
+      "page": "recto",
+      "orientation": "vertical-rl",
+      "editable": true
+    },
+    {
+      "role": "subtitle",
+      "value": "在所有归途之外",
+      "page": "recto",
+      "orientation": "vertical-rl",
+      "editable": true
+    },
+    {
+      "role": "author",
+      "value": "早睡的猫",
+      "page": "recto",
+      "orientation": "vertical-rl",
+      "editable": true
+    },
+    {
+      "role": "studio_mark",
+      "value": "纸船工作室",
+      "page": "recto",
+      "orientation": "horizontal-tb",
+      "editable": true,
+      "identity_boundary": "studio imprint only; no legal publication claim"
+    }
+  ]
+}

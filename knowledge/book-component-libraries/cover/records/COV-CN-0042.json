@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0042",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0042", "book_title": "江苏老行当百业写真", "author": "龚为摄影、潘文龙撰文", "designer": "周晨", "publisher": "江苏凤凰教育出版社", "publication_year": 2018, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0042", "source_url": "https://beautyofbooks.cn/bookdetail?id=359", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2018, "publication_year_source_url": "https://www.abebooks.com/9787549973248/Jiangsu-Old-Hongyi-Photo-7549973245/plp"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0042.jpg", "sha256": "9aaf4759099d877703cbebd2ee6f4e9997ff10ec76b0c54fa7918fe5bb3d58b3", "mime_type": "image/jpeg", "width": 600, "height": 400},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "whitespace", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "weak"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定官方案例 hero 中朝上的浅灰棕题名面：上部仅有一处细小横向题名框，低处散布少量线描符号，大片空场形成极低信息密度；下方可见书页边缘不作为书脊证据", "observations": [
+    {"aspect": "上部微型题名", "value": "细小横向框线与文字位于浅灰棕题名面上部", "visibility": "clear", "confidence": 0.97, "evidence": "当前图片朝上的大面积浅灰棕面上部可见一条细长框线及小号文字", "content_tags": ["小号题名", "上部信息", "横向框线"]},
+    {"aspect": "大空场与低处线描", "value": "题名面大部留空，靠近下缘可见少量小型线描图形", "visibility": "clear", "confidence": 0.96, "evidence": "当前图片主面中央几乎无信息，下方左右散布小型深色线描；可见页边不推断材质或装订", "content_tags": ["大留白", "小型线描", "低信息密度"]}
+  ]},
+  "reference_transfer": {"transferable": ["把题名压缩为上部极小横向信息单元", "用大面积空场和少量底部符号建立克制节奏", "让弱识别封面依靠比例而非装饰密度"], "avoid_copying": ["不照搬原题名框尺寸、字形和坐标", "不复刻原底部线描形状"], "adaptation_notes": ["按新标题长度重算小字号识别下限", "缩略图弱识别方案须与书脊或销售图信息配合验证"]},
+  "retrieval_features": {"style_tags": ["极简", "微型题名", "档案感"], "content_tags": ["江苏", "老行当", "摄影记录"], "color_tags": ["浅灰棕", "黑色", "米白"], "mood_tags": ["朴素", "克制", "记录性"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

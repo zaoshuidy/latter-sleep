@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0027",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0027", "book_title": "乌鸦", "author": "Boria Sax", "designer": "tenmilliontimes", "publisher": "Nanjing University Press", "publication_year": 2019, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0027", "source_url": "https://tenmilliontimes.com/Crow", "platform": "tenmilliontimes", "collected_at": "2026-08-11", "publication_year": 2019, "publication_year_source_url": "https://www.sanmin.com.tw/product/index/007175651"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0027.png", "sha256": "76f7f7ffb46f6dc95e36e11ddc4b845788321e03e67331540533737c3188f7b2", "mime_type": "image/png", "width": 1663, "height": 1096},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "image", "composition": "centered", "title_zone": "top", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "profile 绑定右侧书本正面：大面积黑色乌鸦剪影横贯中央，白色中英文题名沿上缘排列，以极窄明度差在全黑画面中建立形象；左侧黑色矩形物件独立记录且不推断其结构角色", "observations": [
+    {"aspect": "主体剪影", "value": "黑色乌鸦侧面剪影占据正面中央至下部", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片右侧书本表面可辨认乌鸦头、喙、背部和尾部的完整暗色轮廓", "content_tags": ["乌鸦", "剪影", "黑色"]},
+    {"aspect": "题名", "value": "白色中文和英文题名位于正面上缘偏左", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片书本正面上方可读“乌鸦 CROW”，与黑色主体形成高反差", "content_tags": ["中英题名", "白色", "上缘"]}
+  ]},
+  "reference_transfer": {"transferable": ["用单一动物剪影建立强主题识别", "在同色背景中以微弱明度差显现主体", "用小号高反差题名固定阅读入口"], "avoid_copying": ["不复用原书乌鸦剪影轮廓和姿态", "不将旁侧黑色物件直接认定为函套"], "adaptation_notes": ["为项目创作或授权新的主体轮廓", "暗色方案必须进行屏幕与印刷可辨识测试"]},
+  "retrieval_features": {"style_tags": ["黑色极简", "动物剪影", "低调对比"], "content_tags": ["乌鸦", "动物文化", "鸟类"], "color_tags": ["黑色", "白色"], "mood_tags": ["神秘", "冷峻", "安静"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0035",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0035", "book_title": "夏天的故事", "author": "魏捷（文）、李小光（图）", "designer": "陈萌、任伟嘉", "publisher": "新世界出版社", "publication_year": 2021, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0035", "source_url": "https://beautyofbooks.cn/bookdetail?id=420", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2021, "publication_year_source_url": "https://topics.gmw.cn/2022-04/23/content_35674383.htm"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0035.jpg", "sha256": "c7ae60fe9470427cffaf38471d354adb3d2a46f4545a8b3f3e7c5b1ec490c786", "mime_type": "image/jpeg", "width": 600, "height": 400},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "illustration", "composition": "asymmetric", "title_zone": "bottom", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "官方案例 hero 显示横向孤立正面：黑白树冠与枝条覆盖上半部，左下延续小型人物和水岸线描，右下留出白色题名区，以绿色大字“夏天的故事”形成唯一高彩度识别", "observations": [
+    {"aspect": "树冠线描", "value": "密集黑白枝叶从上缘覆盖正面大部分区域并向左下延伸", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片上半部可见密集树枝与叶片线描，左下另有人物和水岸细节", "content_tags": ["树冠", "黑白线描", "夏日场景"]},
+    {"aspect": "绿色底部题名", "value": "绿色中文书名横排于右下白色区域，文图角色小字位于题名上方", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片右下可读绿色“夏天的故事”，其上方小字分别标注文与图信息", "content_tags": ["绿色题名", "右下", "文图角色"]}
+  ]},
+  "reference_transfer": {"transferable": ["以黑白自然图像覆盖大部分画面并保留局部白色题名窗", "只给主标题使用单一高彩度颜色", "在儿童书正面明确保留文与图的责任角色"], "avoid_copying": ["不复用原树冠、人物和水岸图像", "不照搬绿色题名的位置、字形或横向比例"], "adaptation_notes": ["用获授权插图重新安排黑白图像与题名窗关系", "完整保留项目实际文作者与图作者角色"]},
+  "retrieval_features": {"style_tags": ["儿童绘本", "黑白线描", "自然叙事"], "content_tags": ["夏天", "故事", "树木"], "color_tags": ["白色", "黑色", "绿色"], "mood_tags": ["清新", "童真", "宁静"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

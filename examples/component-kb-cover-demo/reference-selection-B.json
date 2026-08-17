@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "selection_id": "SEL-COV-FOUR-SEASONS-B-0001",
+  "query_id": "QUERY-COV-FOUR-SEASONS-LETTERS-0001",
+  "component_type": "cover",
+  "selected_references": [
+    {
+      "record_id": "COV-CN-0004",
+      "include_fields": [
+        "composition",
+        "color",
+        "title_zone"
+      ],
+      "existing_baseline": "深色记忆窗口被宽白边居中包围，低密度点色维持私密焦点",
+      "adjustment_instruction": "用项目自身的季节信件、照片或象征物建立新的记忆窗口，顶部保留可编辑文字安全区",
+      "preserve_elements": [
+        "框中框的居中层级",
+        "深色窗口与白色外框关系",
+        "低密度点色",
+        "顶部可编辑文字安全区"
+      ],
+      "required_changes": [
+        "中央内容必须替换为新项目素材",
+        "点色轨迹必须重新组织",
+        "黑白面积比例须重新设计"
+      ],
+      "exclude_fields": [
+        "原书文字",
+        "原彩色线条轨迹",
+        "原中央方块内容",
+        "原黑白比例",
+        "原书家庭叙事内容"
+      ]
+    },
+    {
+      "record_id": "COV-CN-0005",
+      "include_fields": [
+        "visual_strategy",
+        "composition",
+        "color"
+      ],
+      "existing_baseline": "单色罩染统一全幅低对比档案影像，形成温暖的时间感",
+      "adjustment_instruction": "从项目获授权档案中选择季节或书信相关影像，并建立专属的低饱和暖色体系",
+      "preserve_elements": [
+        "单色档案摄影策略",
+        "全幅低对比影像",
+        "温暖时间感",
+        "充足的可编辑文字呼吸区"
+      ],
+      "required_changes": [
+        "档案影像必须来自新项目",
+        "单色色值须按项目照片重新确定",
+        "影像裁切须适配新封面比例"
+      ],
+      "exclude_fields": [
+        "原书文字",
+        "原建筑影像",
+        "原橙色色值",
+        "原文字位置",
+        "原电影项目内容"
+      ]
+    }
+  ],
+  "status": "approved"
+}

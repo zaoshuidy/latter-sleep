@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "direction_id": "DIRECTION-B-WARM-MEMORY",
+  "reference_ids": [
+    "COV-CN-0004",
+    "COV-CN-0005"
+  ],
+  "brand_profile": "paper-boat",
+  "color": {
+    "paper": "warm cream",
+    "ink": "soft charcoal",
+    "accent": "low-saturation amber and muted sage"
+  },
+  "fonts": {
+    "display": "editable later; final font pending layout",
+    "navigation": "editable later; body rules unchanged"
+  },
+  "grid": {
+    "columns": 6,
+    "character": "warm memory window with quiet centered hierarchy"
+  },
+  "toc": {
+    "scope": "multi-page",
+    "text_layer": "editable"
+  },
+  "chapter_opener": {
+    "image_optional": true,
+    "text_layer": "editable"
+  },
+  "running_headers": {
+    "template_id": "paired-standard"
+  },
+  "page_families": [
+    "cover-interface",
+    "toc",
+    "chapter-opener",
+    "body",
+    "image-page",
+    "running-headers"
+  ]
+}

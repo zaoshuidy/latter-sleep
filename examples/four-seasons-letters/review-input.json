@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "project_id": "DEMO-FOUR-SEASONS-LETTERS",
+  "source_texts": [
+    {"source_id": "TXT-001", "path": "content/source.txt", "expected_sha256": "7efa333cfd083a01d7b58b998c94ad75af9ac160061671eb42c8d3543894b75a"}
+  ],
+  "production_checks": {
+    "toc_complete": true,
+    "running_headers_consistent": true,
+    "fonts_available": true,
+    "no_overflow": true,
+    "images_resolution_ok": true,
+    "page_numbers_continuous": true,
+    "prompts_complete": true
+  },
+  "gates": {"sample_review": "approved", "final_review": "approved"}
+}

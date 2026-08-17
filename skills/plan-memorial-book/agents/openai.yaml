@@ -1,0 +1,4 @@
+interface:
+  display_name: "纪念书策划"
+  short_description: "建立内容地图、生成多套叙事结构并设计可追溯的文字目录方案"
+  default_prompt: "请在不修改定稿正文的前提下分析材料，并提出两到三套目录结构。"

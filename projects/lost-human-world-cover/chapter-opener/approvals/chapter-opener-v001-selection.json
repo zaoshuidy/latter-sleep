@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "approval_id": "APPROVE-LOST-HUMAN-WORLD-CHAPTER-001-V001",
+  "approved_by": "项目维护人（用户）",
+  "decision": "selected",
+  "selection_id": "SEL-LOST-HUMAN-WORLD-CHAPTER-A-001",
+  "prompt_id": "PROMPT-LOST-HUMAN-WORLD-CHAPTER-001-V001",
+  "component_type": "chapter-opener",
+  "image_id": "IMG-LOST-HUMAN-WORLD-CHAPTER-001",
+  "selected_version": "V001",
+  "selected_image_sha256": "e464340672222fb11ef6650374759de76268f94c57edcb4604bfd195723aebca",
+  "approved_at": "2026-08-14"
+}

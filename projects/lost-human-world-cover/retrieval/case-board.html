@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>《失落人间》封面案例与字体结构</title>
+  <style>
+    :root{--paper:#f4f0e7;--ink:#171717;--muted:#686158;--red:#9e2922;--line:#d7d0c4}
+    *{box-sizing:border-box}body{margin:0;background:#e8e3da;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+    main{max-width:1440px;margin:auto;padding:36px}h1{font-family:"Songti SC",serif;font-weight:500;margin:0 0 8px}.sub{color:var(--muted);margin-bottom:28px}.grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+    .card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px}.card img{width:100%;aspect-ratio:3/4;object-fit:contain;background:#ddd7cd}.card h3{font-size:15px;margin:10px 0 4px}.card p{font-size:12px;line-height:1.55;color:var(--muted);margin:4px 0}.id{font:11px ui-monospace,monospace;color:var(--red)}
+    h2{font:500 24px "Songti SC",serif;margin:38px 0 14px}.types{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.type{background:var(--paper);border:1px solid var(--line);min-height:360px;padding:20px;position:relative;overflow:hidden}.type .label{font-size:12px;color:var(--red)}
+    .sample{height:230px;position:relative;border-bottom:1px solid var(--line);margin-bottom:12px}.sample span{position:absolute;font-family:"Songti SC",serif}.s1 .a{font-size:28px;writing-mode:vertical-rl;letter-spacing:.28em;left:48%;top:48px}.s1 .b{font-size:9px;left:54%;top:142px}.s1 .c{font-size:9px;right:12px;bottom:12px}.s1:after{content:"";position:absolute;width:4px;height:4px;border-radius:50%;background:var(--red);left:28%;top:72%}
+    .s2 span{font-family:"PingFang SC",sans-serif;font-weight:300;font-size:27px}.s2 .a{left:18%;top:42px}.s2 .b{left:35%;top:72px}.s2 .c{left:52%;top:103px}.s2 .d{left:68%;top:135px}.s2 .e{font-size:9px;left:18%;top:172px;letter-spacing:.22em}.s2:after{content:"";position:absolute;width:4px;height:4px;border-radius:50%;background:var(--red);right:15%;bottom:18px}
+    .s3 .a{font-size:31px;writing-mode:vertical-rl;letter-spacing:.2em;right:23%;top:35px}.s3 .b{font-size:10px;left:12%;top:52px;letter-spacing:.3em}.s3 .c{font-size:9px;left:16%;bottom:25px}.s3:after{content:"";position:absolute;width:46%;height:1px;background:var(--red);left:15%;top:50%}
+    .warn{margin-top:20px;padding:14px;border-left:3px solid var(--red);background:#f7f2e9;color:var(--muted);font-size:13px}
+    @media(max-width:1050px){.grid{grid-template-columns:repeat(2,1fr)}.types{grid-template-columns:1fr}}@media(max-width:620px){main{padding:18px}.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body><main>
+  <h1>《失落人间》封面案例与字体结构</h1>
+  <p class="sub">5 本来自同一次正式检索。图片只作内部参考；结构示意使用系统字体，不代表案例原字体或最终字体。</p>
+  <section class="grid">
+    <article class="card"><img src="file:///Users/edy/Desktop/book/book-production-skills-v1/knowledge/book-component-libraries/cover/assets/COV-CN-0022.jpg"><div class="id">C1 · COV-CN-0022</div><h3>斜向拆字</h3><p>可选：typography / asymmetric / top / 黑色 / 克制 / front</p><p>重点：非水平路径；不复制原坐标与字形。</p></article>
+    <article class="card"><img src="file:///Users/edy/Desktop/book/book-production-skills-v1/knowledge/book-component-libraries/cover/assets/COV-CN-0039.jpg"><div class="id">C2 · COV-CN-0039</div><h3>极小中心题名</h3><p>可选：typography / whitespace / center / 白黑 / 克制哲思 / front</p><p>重点：尺度反差；不复制二字中心坐标。</p></article>
+    <article class="card"><img src="file:///Users/edy/Desktop/book/book-production-skills-v1/knowledge/book-component-libraries/cover/assets/COV-CN-0042.jpg"><div class="id">C3 · COV-CN-0042</div><h3>上部微题与空场</h3><p>可选：typography / whitespace / top / 米白黑 / 克制 / front</p><p>重点：低信息密度；不借材料与装订。</p></article>
+    <article class="card"><img src="file:///Users/edy/Desktop/book/book-production-skills-v1/knowledge/book-component-libraries/cover/assets/COV-CN-0043.jpg"><div class="id">C4 · COV-CN-0043</div><h3>抽象中轴</h3><p>可选：abstract / centered / vertical / 低对比灰 / 克制 / front</p><p>重点：单一符号；不复制圆环比例与位置。</p></article>
+    <article class="card"><img src="file:///Users/edy/Desktop/book/book-production-skills-v1/knowledge/book-component-libraries/cover/assets/COV-CN-0047.jpg"><div class="id">C5 · COV-CN-0047</div><h3>横竖双轴</h3><p>可选：mixed / asymmetric / vertical / 白黑 / 寂静 / front</p><p>重点：双轴层级；不借马群照片与原字距。</p></article>
+  </section>
+  <h2>题名结构示意</h2>
+  <section class="types">
+    <article class="type"><div class="label">S1 · 中轴微题 / F1 思源宋体或 F2 清刻本悦宋</div><div class="sample s1"><span class="a">失落人间</span><span class="b">在所有归途之外</span><span class="c">早睡的猫</span></div><p>最克制、最开放；更适合方向 B。</p></article>
+    <article class="type"><div class="label">S2 · 断列斜行 / F3 方正兰亭纤黑或细黑</div><div class="sample s2"><span class="a">失</span><span class="b">落</span><span class="c">人</span><span class="d">间</span><span class="e">在所有归途之外</span></div><p>现代、疏离，强调无法归队；更适合方向 A。</p></article>
+    <article class="type"><div class="label">S3 · 横竖双轴 / F1、F2 或 F3</div><div class="sample s3"><span class="a">失落人间</span><span class="b">在所有归途之外</span><span class="c">早睡的猫</span></div><p>层级最明确、缩略图更稳定；两个方向都可用。</p></article>
+  </section>
+  <div class="warn">material 与 book_category 在 5 个候选中均为 0 分，不可选择。F1/F2/F3 当前未安装；这里显示的是排版结构，不是假装最终字形。</div>
+</main></body></html>

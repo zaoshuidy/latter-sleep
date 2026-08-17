@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0009","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0057","book_title":"中国古代界画研究","author":"王贵祥、李菁","designer":"张悟静、康羽、韩蒙恩、何芳","publisher":"中国城市出版社、中国建筑工业出版社","publication_year":2021,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0059","source_url":"https://beautyofbooks.cn/bookdetail?id=424","platform":"最美的书官网","collected_at":"2026-08-13","publication_year":2021,"publication_year_source_url":"https://book.douban.com/isbn/9787507433821/"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0009.jpg","sha256":"5df6d7f9d55ad2dd44a353f62a5b4540bdcfbc714a7736667d812001ad4c1c1e","mime_type":"image/jpeg","width":600,"height":400},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"abstract","chapter_number_zone":"none","chapter_title_zone":"vertical","image_role":"decoration","text_image_relationship":"integrated","whitespace":"high"},
+  "visual_decomposition":{"overall_strategy":"深棕左页作为前奏，右页以扇形小窗和上部竖题构成高留白章隔页","observations":[{"aspect":"章题结构","value":"右页上部竖题与中心小型扇形结构锚点分离","visibility":"clear","confidence":0.96,"evidence":"当前跨页可见右页竖排文字、扇形小窗及大面积空白","content_tags":["竖排章题","扇形小窗","高留白"]}]},
+  "reference_transfer":{"transferable":["左右明暗反差","小型结构锚点与上部竖题","高比例留白"],"avoid_copying":["不复制扇面模切轮廓和古画纹样"],"adaptation_notes":["以项目自身几何母题替换扇窗"]},
+  "retrieval_features":{"style_tags":["古典","结构感","高留白"],"content_tags":["界画","章隔页","扇窗"],"color_tags":["深棕","米白"],"mood_tags":["克制","学术","沉静"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

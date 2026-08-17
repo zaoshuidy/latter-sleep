@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "query_id": "QUERY-LOST-HUMAN-WORLD-CHAPTER-01",
+  "component_type": "chapter-opener",
+  "field_targets": {
+    "opening_mode": ["single-page", "spread"],
+    "visual_strategy": ["typography", "abstract", "mixed"],
+    "chapter_number_zone": ["center", "none"],
+    "chapter_title_zone": ["vertical", "center", "distributed"],
+    "image_role": ["none", "decoration", "photography"],
+    "text_image_relationship": ["text-only", "separate", "integrated"],
+    "whitespace": ["high", "medium"]
+  },
+  "selection_policy": {
+    "max_results": 5,
+    "diversity": "strict"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "图书生产入口"
+  short_description: "识别模板书、纪念书或混合模式并生成三项可追踪的建项文件"
+  default_prompt: "请根据我的书稿、照片和模板建立图书项目，并给出唯一的下一步生产路径。"

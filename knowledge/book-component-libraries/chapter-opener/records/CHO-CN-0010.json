@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0","record_id":"CHO-CN-0010","component_type":"chapter-opener",
+  "identity":{"book_case_id":"BOOK-CN-0058","book_title":"屈原总集","author":"文爱艺","designer":"赵清、曹卿云","publisher":"文化发展出版社","publication_year":2021,"language":"zh-CN"},
+  "source":{"source_registry_id":"SRC-CN-0060","source_url":"https://beautyofbooks.cn/bookdetail?id=423","platform":"最美的书官网","collected_at":"2026-08-13","publication_year":2021,"publication_year_source_url":"https://book.douban.com/isbn/9787514235715/"},
+  "asset":{"relative_path":"chapter-opener/assets/CHO-CN-0010.jpg","sha256":"853e818be166f8418afb49726a1d7a07f0f2b0cd3b249f5f334122b33f4b5345","mime_type":"image/jpeg","width":600,"height":400},
+  "component_profile":{"opening_mode":"spread","visual_strategy":"abstract","chapter_number_zone":"none","chapter_title_zone":"top","image_role":"decoration","text_image_relationship":"integrated","whitespace":"high"},
+  "visual_decomposition":{"overall_strategy":"浅蓝跨页中以稀疏水纹细线和悬浮题名建立诗性篇章入口","observations":[{"aspect":"图文关系","value":"题名与稀疏波纹分布在跨页上下区域，中央保持呼吸","visibility":"clear","confidence":0.95,"evidence":"当前图片可见浅蓝空场、细线水纹与少量文字","content_tags":["水纹","悬浮题名","跨页留白"]}]},
+  "reference_transfer":{"transferable":["跨页极高留白","低对比线条只做微弱节奏","题名悬浮于上部"],"avoid_copying":["不复制水意象专属线条和蓝纸配方"],"adaptation_notes":["以项目自身抽象线索替换水纹"]},
+  "retrieval_features":{"style_tags":["诗性","抽象","低对比"],"content_tags":["诗歌","水纹","篇章页"],"color_tags":["浅蓝","灰蓝"],"mood_tags":["空灵","安静","文学"]},
+  "lifecycle":{"status":"accumulation","created_at":"2026-08-13","updated_at":"2026-08-13"}
+}

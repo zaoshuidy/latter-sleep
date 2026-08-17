@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0008",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0008", "book_title": "中国·最美的书20年图集", "author": "上海市新闻出版局，中国·最美的书评委会编", "designer": "张国樑、董伟", "publisher": "上海文艺出版社", "publication_year": 2024, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0008", "source_url": "https://beautyofbooks.cn/bookdetail?id=529", "platform": "最美的书官网", "collected_at": "2026-08-11", "publication_year": 2024, "publication_year_source_url": "https://sh.people.com.cn/n2/2024/0227/c134768-40758371.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0008.jpg", "sha256": "48d5372b7a3e77792a96b60370811ab92b6fe86e8504639ac4c795edd6b04c3b", "mime_type": "image/jpeg", "width": 1500, "height": 1001},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "grid", "title_zone": "vertical", "spine_relationship": "not-visible", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "高饱和橙色统一两块可见封面面，以粗黑中英文字和20周年符号组成垂直信息带，呈现展览图录式识别", "observations": [
+    {"aspect": "色彩", "value": "两块可见封面面均使用高饱和橙色底和黑色文字", "visibility": "clear", "confidence": 0.99, "evidence": "当前图中左右两块可见封面面均为一致橙色，信息均以黑色呈现", "content_tags": ["橙色", "黑色", "高饱和"]},
+    {"aspect": "版式", "value": "主标题与英文信息形成靠边的垂直窄列，另一侧保留大面积空白", "visibility": "clear", "confidence": 0.97, "evidence": "当前图左侧封面可见集中在左边缘的黑色文字列，右侧封面只有上部符号与底部条码", "content_tags": ["垂直信息带", "中英文字", "留白"]}
+  ]},
+  "reference_transfer": {"transferable": ["用单一高饱和色统一多个可见封面面", "将长标题压缩为垂直信息带", "以周年数字建立辅助标识"], "avoid_copying": ["不复用20周年符号构形", "不照搬橙色与黑字的具体组合"], "adaptation_notes": ["根据项目节点重新设计数字或时间标记", "为长书名建立可编辑的中英文字栅格"]},
+  "retrieval_features": {"style_tags": ["图录", "现代主义", "强识别"], "content_tags": ["书籍设计", "周年", "档案"], "color_tags": ["橙色", "黑色"], "mood_tags": ["庆典", "理性", "醒目"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

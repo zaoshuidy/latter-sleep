@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0014",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0014", "book_title": "铸印——何效义的田野实践", "author": "阎海军", "designer": null, "publisher": "商务印书馆", "publication_year": 2021, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0014", "source_url": "https://www.cp.com.cn/book/f4be75f9-8.html", "platform": "商务印书馆官网", "collected_at": "2026-08-11", "publication_year": 2021, "publication_year_source_url": "https://www.cp.com.cn/book/f4be75f9-8.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0014.jpg", "sha256": "523f98c16cecea8b9b2517c0af47a53b3f65cf11d0691bd3452c7c92d312affe", "mime_type": "image/jpeg", "width": 800, "height": 800},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "typography", "composition": "asymmetric", "title_zone": "top", "spine_relationship": "independent", "thumbnail_recognition": "strong"},
+  "visual_decomposition": {"overall_strategy": "土黄色粗粝视觉底面承载上缘超大深棕汉字，左侧较窄区域安排重复短题，形成手工田野主题的直接识别", "observations": [
+    {"aspect": "文字尺度", "value": "深棕色“铸印”二字横向占据主面上缘", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片主面顶部可见两个超大深棕汉字，笔画占据显著宽度", "content_tags": ["巨字", "横排", "深棕色"]},
+    {"aspect": "底面", "value": "土黄色底面呈现不均匀斑点和颗粒视觉", "visibility": "clear", "confidence": 0.97, "evidence": "当前图片主面可见深浅不一的土黄色、棕色斑点与颗粒，但仅凭图片不能确认材料", "content_tags": ["土黄色", "颗粒", "斑点"]}
+  ]},
+  "reference_transfer": {"transferable": ["用主题核心字作为顶部主视觉", "让可见底面纹理呼应田野记录", "通过侧边窄区补充短题信息"], "avoid_copying": ["不复刻原书“铸印”字形", "不把图像中的颗粒推断为具体纸张或工艺"], "adaptation_notes": ["从项目主题重新提炼核心汉字", "实际材料和印制方式须另行打样确认"]},
+  "retrieval_features": {"style_tags": ["田野记录", "巨字", "质朴"], "content_tags": ["篆刻", "铸印", "手艺"], "color_tags": ["土黄色", "深棕色", "灰白"], "mood_tags": ["粗粝", "厚重", "朴素"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-11"}
+}

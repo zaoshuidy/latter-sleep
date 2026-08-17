@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_id": "COV-CN-0043",
+  "component_type": "cover",
+  "identity": {"book_case_id": "BOOK-CN-0043", "book_title": "芳华修远：第19届国际植物学大会植物艺术画展画集", "author": "第十九届国际植物学大会组织委员会、深圳市中国科学院仙湖植物园", "designer": "KJ.DesignStudio", "publisher": "江苏凤凰科学技术出版社", "publication_year": 2017, "language": "zh-CN"},
+  "source": {"source_registry_id": "SRC-CN-0043", "source_url": "https://beautyofbooks.cn/bookdetail?id=325", "platform": "BeautyOfBooks", "collected_at": "2026-08-11", "publication_year": 2017, "publication_year_source_url": "https://www.pspress.cn/book-detail-7325.html"},
+  "asset": {"relative_path": "cover/assets/COV-CN-0043.jpg", "sha256": "90dca2f2ae03d486a0d93c66c6d3f7eb3a2422cce53d0043cd536db3703f580b", "mime_type": "image/jpeg", "width": 600, "height": 400},
+  "component_profile": {"cover_scope": "front", "visual_strategy": "abstract", "composition": "centered", "title_zone": "vertical", "spine_relationship": "not-visible", "thumbnail_recognition": "weak"},
+  "visual_decomposition": {"overall_strategy": "profile 只绑定案例 hero 中浅灰米色孤立正封：中央偏上以细线圆环建立轻量视觉中心，极微小低对比竖排题名靠近中轴，四周保留大面积低信息空场；书脊不可见，不据表面纹理推断材料或工艺", "observations": [
+    {"aspect": "圆环与留白", "value": "浅灰米色孤立正封中央偏上仅一枚细线圆环，四周大面积低信息空场", "visibility": "clear", "confidence": 0.99, "evidence": "当前图片中孤立正封中央偏上可见细线圆环，外围无大面积图像或高对比信息", "content_tags": ["细线圆环", "大面积留白", "低信息空场"]},
+    {"aspect": "微小竖排题名", "value": "圆环内／近中轴为极微小低对比竖排题名；书脊不可见，不据纹理推断材料或工艺", "visibility": "clear", "confidence": 0.97, "evidence": "当前图片中圆环附近可见中轴竖排微小文字，画面未展示书脊", "content_tags": ["竖排题名", "低对比文字", "书脊不可见"]}
+  ]},
+  "reference_transfer": {"transferable": ["以单一细线几何符号建立克制的视觉中心", "用大面积低信息空场衬托极小尺度题名", "让中轴竖排信息与圆形母题形成秩序关系"], "avoid_copying": ["不照搬圆环比例、线宽、位置或原题名字形", "不把可见表面外观推断为具体材料或印刷工艺"], "adaptation_notes": ["先从新项目主题提炼可解释的单一几何母题，再确定其与题名的轴线关系", "弱缩略图识别方案需在实际销售缩略图和书架距离下另做可读性校验"]},
+  "retrieval_features": {"style_tags": ["极简", "抽象几何", "留白"], "content_tags": ["植物艺术", "画展画集", "国际植物学大会"], "color_tags": ["浅灰米色", "低对比灰", "细线色"], "mood_tags": ["克制", "静谧", "学术"]},
+  "lifecycle": {"status": "accumulation", "created_at": "2026-08-11", "updated_at": "2026-08-12"}
+}
