@@ -1,6 +1,7 @@
 from copy import deepcopy
 import json
 from pathlib import Path
+import tempfile
 import unittest
 
 from ai.contracts import validate_data
@@ -149,6 +150,26 @@ class TrimProfileContractTests(unittest.TestCase):
 
 
 class TrimProfileRuntimeTests(unittest.TestCase):
+    def valid_approved_profile(self):
+        return {
+            "schema_version": "1.0",
+            "trim_profile_id": "TRIM-32K-STANDARD",
+            "display_name": "标准32开",
+            "status": "approved",
+            "trim_mm": [130, 184],
+            "bleed_mm": 3,
+            "binding": "paperback-perfect-bound",
+            "evidence_id": "EVD-LULU-A5-001",
+            "activation_errors": [],
+        }
+
+    def write_temp_payload(self, payload):
+        tempdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tempdir.cleanup)
+        path = Path(tempdir.name) / "trim.json"
+        path.write_text(json.dumps(payload), encoding="utf-8")
+        return path
+
     def test_inventory_contains_exactly_three_expected_profiles(self):
         names = sorted(path.stem for path in (ROOT / "templates" / "trim-profiles").glob("*.json"))
         self.assertEqual(["16k-standard", "32k-large", "32k-standard"], names)
@@ -185,6 +206,38 @@ class TrimProfileRuntimeTests(unittest.TestCase):
                 path = ROOT / "templates" / "trim-profiles" / f"{stem}.json"
                 with self.assertRaisesRegex(ValueError, f"not approved.*{trim_profile_id}"):
                     load_trim_profile(path, require_approved=True)
+
+    def test_missing_path_raises_file_not_found(self):
+        missing_path = ROOT / "templates" / "trim-profiles" / "missing.json"
+        with self.assertRaises(FileNotFoundError):
+            load_trim_profile(missing_path)
+
+    def test_malformed_json_raises_json_decode_error(self):
+        tempdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tempdir.cleanup)
+        path = Path(tempdir.name) / "trim.json"
+        path.write_text("{", encoding="utf-8")
+        with self.assertRaises(json.JSONDecodeError):
+            load_trim_profile(path)
+
+    def test_top_level_array_raises_invalid_trim_profile_value_error(self):
+        path = self.write_temp_payload([])
+        with self.assertRaisesRegex(ValueError, r"invalid trim profile: .*object"):
+            load_trim_profile(path)
+
+    def test_approved_trim_mm_boolean_fails_validation(self):
+        profile = self.valid_approved_profile()
+        profile["trim_mm"] = [True, 184]
+        path = self.write_temp_payload(profile)
+        with self.assertRaisesRegex(ValueError, r"invalid trim profile: .*not of type 'number'"):
+            load_trim_profile(path)
+
+    def test_approved_bleed_mm_boolean_fails_validation(self):
+        profile = self.valid_approved_profile()
+        profile["bleed_mm"] = True
+        path = self.write_temp_payload(profile)
+        with self.assertRaisesRegex(ValueError, r"invalid trim profile: .*not of type 'number'"):
+            load_trim_profile(path)
 
 
 if __name__ == "__main__":
