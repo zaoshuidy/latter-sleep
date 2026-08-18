@@ -154,7 +154,9 @@ def _heading_of(line: str) -> tuple[str, str] | None:
     if match is None:
         return None
     level = len(match.group(1))
-    return _MARKDOWN_HEADINGS[level], match.group(2).strip()
+    # Heading text goes through the same whitespace normalization as every
+    # other text path, so "# 第一  章" yields "第一 章" (single spaces).
+    return _MARKDOWN_HEADINGS[level], _normalized(match.group(2))
 
 
 def _quote_content(line: str) -> str:

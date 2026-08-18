@@ -1,5 +1,4 @@
 import hashlib
-import re
 import unittest
 
 from ai.contracts import validate_data
@@ -196,6 +195,11 @@ class ParseMarkdownTests(unittest.TestCase):
             ["section-title", "body"], [block["type"] for block in result["blocks"]]
         )
         self.assertEqual("第一行 第二行。", result["blocks"][1]["text"])
+
+    def test_heading_inner_whitespace_is_normalized(self):
+        result = parse_markdown("# 第一  章")
+        self.assertEqual(["book-title"], [block["type"] for block in result["blocks"]])
+        self.assertEqual("第一 章", result["blocks"][0]["text"])
 
     def test_multiline_quote_joins_into_one_quote(self):
         source = """> 第一引行
