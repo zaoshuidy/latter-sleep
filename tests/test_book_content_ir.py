@@ -160,6 +160,36 @@ class ParseHtmlTests(unittest.TestCase):
         self.assertEqual(["body"], [block["type"] for block in result["blocks"]])
         self.assertEqual("未闭合段落", result["blocks"][0]["text"])
 
+    def test_blockquote_paragraph_keeps_quote_role(self):
+        result = parse_html("<blockquote><p>引文。</p></blockquote>")
+        self.assertEqual(["quote"], [block["type"] for block in result["blocks"]])
+        self.assertEqual("引文。", result["blocks"][0]["text"])
+
+    def test_nested_paragraph_merges_into_outer_note_and_signature(self):
+        result = parse_html("<aside><p>旁注</p></aside><address><p>落款</p></address>")
+        self.assertEqual(
+            ["note", "signature"], [block["type"] for block in result["blocks"]]
+        )
+        self.assertEqual("旁注", result["blocks"][0]["text"])
+        self.assertEqual("落款", result["blocks"][1]["text"])
+
+    def test_multiple_paragraphs_inside_quote_join_with_space(self):
+        result = parse_html("<blockquote><p>引文一</p><p>引文二</p></blockquote>")
+        self.assertEqual(["quote"], [block["type"] for block in result["blocks"]])
+        self.assertEqual("引文一 引文二", result["blocks"][0]["text"])
+
+    def test_inline_time_merges_into_paragraph_without_space(self):
+        result = parse_html("<p>发布于<time>3月</time>。</p>")
+        self.assertEqual(["body"], [block["type"] for block in result["blocks"]])
+        self.assertEqual("发布于3月。", result["blocks"][0]["text"])
+
+    def test_image_inside_paragraph_follows_its_block(self):
+        result = parse_html('<p>前置<img src="x.tif" alt="图">后置</p>')
+        self.assertEqual(["body", "image"], [block["type"] for block in result["blocks"]])
+        self.assertEqual("前置后置", result["blocks"][0]["text"])
+        self.assertEqual("图", result["blocks"][1]["text"])
+        self.assertEqual({"src": "x.tif"}, result["blocks"][1]["attributes"])
+
 
 class ParseMarkdownTests(unittest.TestCase):
     def test_headings_quote_and_body_keep_document_order(self):
@@ -234,6 +264,39 @@ class ParseMarkdownTests(unittest.TestCase):
         self.assertEqual(["body"], [block["type"] for block in result["blocks"]])
         self.assertEqual("- 第一项 - 第二项", result["blocks"][0]["text"])
 
+    def test_blank_line_separates_quote_blocks(self):
+        result = parse_markdown("> 引文一\n\n> 引文二\n")
+        self.assertEqual(["quote", "quote"], [block["type"] for block in result["blocks"]])
+        self.assertEqual("引文一", result["blocks"][0]["text"])
+        self.assertEqual("引文二", result["blocks"][1]["text"])
+
+    def test_consecutive_headings_each_become_blocks(self):
+        result = parse_markdown("# 书名\n# 副题\n")
+        self.assertEqual(
+            ["book-title", "book-title"], [block["type"] for block in result["blocks"]]
+        )
+
+    def test_paragraph_ends_at_heading(self):
+        result = parse_markdown("第一段\n# 标题\n")
+        self.assertEqual(
+            ["body", "book-title"], [block["type"] for block in result["blocks"]]
+        )
+        self.assertEqual("第一段", result["blocks"][0]["text"])
+
+    def test_crlf_input_parses_like_lf(self):
+        lf = parse_markdown("# 书\n\n正文。\n")
+        crlf = parse_markdown("# 书\r\n\r\n正文。\r\n")
+        # The digest hashes the raw source (which differs by line endings),
+        # but the semantic blocks must be identical.
+        self.assertEqual(lf["blocks"], crlf["blocks"])
+        self.assertEqual(lf["source_type"], crlf["source_type"])
+        self.assertNotEqual(lf["source_sha256"], crlf["source_sha256"])
+
+    def test_degenerate_hash_lines_merge_into_one_body(self):
+        result = parse_markdown("#\n## \n")
+        self.assertEqual(["body"], [block["type"] for block in result["blocks"]])
+        self.assertEqual("# ##", result["blocks"][0]["text"])
+
 
 class ContentIRContractTests(unittest.TestCase):
     def html_result(self):
@@ -262,6 +325,14 @@ class ContentIRContractTests(unittest.TestCase):
     def test_parse_results_are_schema_valid(self):
         for result in (self.html_result(), parse_markdown("## 章\n\n正文。")):
             self.assertEqual([], validate_data(result, "book-content-ir"))
+
+    def test_parse_results_are_deterministic(self):
+        html_source = '<blockquote><p>引文</p></blockquote><img src="a.tif" alt="图">'
+        markdown_source = "> 引文\n\n正文。\n"
+        self.assertEqual(parse_html(html_source), parse_html(html_source))
+        self.assertEqual(
+            parse_markdown(markdown_source), parse_markdown(markdown_source)
+        )
 
     def test_schema_closes_root_to_unexpected_properties(self):
         result = self.html_result()

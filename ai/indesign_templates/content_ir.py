@@ -14,6 +14,25 @@ Public API:
 Every parsed result is validated against ``book-content-ir.schema.json``
 before it is returned; an invalid internal result raises ``ValueError`` with
 the concrete schema messages joined in.
+
+Semantics of nested mapped containers
+-------------------------------------
+
+Mapped tags (h1-h3, p, blockquote, aside, time, address, figcaption) may be
+nested in valid HTML, e.g. ``<blockquote><p>引文</p></blockquote>``. The
+parser keeps the outermost role: the inner text is merged into the outer
+frame so the quote/note/signature role is never lost. Block-level inner
+containers (h1-h3, p, blockquote, aside, address, figcaption) start a new
+unit, so consecutive merged units are separated by a single space; inline
+``<time>`` merges without added spacing, matching HTML text flow.
+
+``<img>`` inside a mapped container is buffered into that frame and emitted
+after the frame's own block, so block order follows document order:
+``<p>前<img alt="图">后</p>`` yields ``[body("前后"), image("图")]``. Inside
+the passive ``<figure>`` (which is never a frame), images emit immediately.
+
+Unknown tags are passive containers: known children still parse, the wrapper
+itself never creates a block, and its bare text is dropped.
 """
 
 from __future__ import annotations
@@ -30,12 +49,20 @@ SCHEMA_NAME = "book-content-ir"
 # Tags that must never reach a book pipeline, even when empty.
 REJECTED_TAGS = frozenset({"script", "style", "iframe", "object", "embed"})
 
+# Shared role ladder for HTML h1-h3 and Markdown #/##/### so the two syntaxes
+# cannot drift apart.
+_LEVEL_ROLES = {
+    1: "book-title",
+    2: "chapter-title",
+    3: "section-title",
+}
+
 # Semantic HTML tags mapped to IR block roles. ``figure`` stays passive and is
 # deliberately absent: it groups children but never produces a block itself.
 HTML_MAPPING = {
-    "h1": "book-title",
-    "h2": "chapter-title",
-    "h3": "section-title",
+    "h1": _LEVEL_ROLES[1],
+    "h2": _LEVEL_ROLES[2],
+    "h3": _LEVEL_ROLES[3],
     "p": "body",
     "blockquote": "quote",
     "aside": "note",
@@ -44,13 +71,13 @@ HTML_MAPPING = {
     "figcaption": "caption",
 }
 
+# Block-level mapped tags: merging a closed frame into its parent separates
+# the units with a space. Inline tags (``time``) merge without spacing.
+_BLOCK_TAGS = frozenset({"h1", "h2", "h3", "p", "blockquote", "aside", "address", "figcaption"})
+
 _IMAGE_TAG = "img"
 
-_MARKDOWN_HEADINGS = {
-    1: "book-title",
-    2: "chapter-title",
-    3: "section-title",
-}
+_MARKDOWN_HEADINGS = _LEVEL_ROLES
 
 _HEADING_PATTERN = re.compile(r"^(#{1,3})[ \t]+(.+)$")
 
@@ -75,15 +102,13 @@ def _validated(payload: dict[str, Any]) -> dict[str, Any]:
     return payload
 
 
-def _finalize(block_type: str, chars: list[str], blocks: list[dict[str, Any]]) -> None:
-    """Append a non-image block unless its normalized text is empty."""
-    text = _normalized("".join(chars))
-    if text:
-        blocks.append({"type": block_type, "text": text, "attributes": {}})
-
-
 class _ContentHTMLParser(HTMLParser):
-    """Standard-library HTML parser that emits only semantic IR blocks."""
+    """Standard-library HTML parser that emits only semantic IR blocks.
+
+    Frames mirror open mapped containers. Each frame holds ``parts``: text
+    chunks and pending sub-blocks (images). Closing a frame emits its own
+    block, or merges its content into the open parent frame when one exists.
+    """
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -93,8 +118,7 @@ class _ContentHTMLParser(HTMLParser):
     def close(self) -> None:
         # Flush frames left open at EOF so a missing end tag never loses text.
         while self._content_stack:
-            frame = self._content_stack.pop()
-            _finalize(frame["type"], frame["chars"], self.blocks)
+            self._close_frame(self._content_stack.pop())
         super().close()
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
@@ -105,7 +129,9 @@ class _ContentHTMLParser(HTMLParser):
             self._emit_image(attrs)
             return
         if tag in HTML_MAPPING:
-            self._content_stack.append({"type": HTML_MAPPING[tag], "chars": []})
+            self._content_stack.append(
+                {"type": HTML_MAPPING[tag], "tag": tag, "parts": []}
+            )
 
     def handle_startendtag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         # ``<img ... />`` style markup must still produce an image block.
@@ -114,14 +140,13 @@ class _ContentHTMLParser(HTMLParser):
     def handle_endtag(self, tag: str) -> None:
         tag = tag.lower()
         if tag in HTML_MAPPING and self._content_stack:
-            frame = self._content_stack.pop()
-            _finalize(frame["type"], frame["chars"], self.blocks)
+            self._close_frame(self._content_stack.pop())
         # Unknown and passive containers (figure, section, div, spans, ...) end
         # without creating any block; their own text is dropped.
 
     def handle_data(self, data: str) -> None:
         if self._content_stack:
-            self._content_stack[-1]["chars"].append(data)
+            self._content_stack[-1]["parts"].append(data)
 
     def _emit_image(self, attrs: list[tuple[str, str | None]]) -> None:
         attributes: dict[str, str] = {}
@@ -132,7 +157,33 @@ class _ContentHTMLParser(HTMLParser):
                 attributes["src"] = value
             elif name == "alt" and value is not None:
                 alt = value
-        self.blocks.append({"type": "image", "text": alt, "attributes": attributes})
+        image = {"type": "image", "text": alt, "attributes": attributes}
+        if self._content_stack:
+            # Buffer into the open frame so document order is preserved and
+            # the image block follows its containing block.
+            self._content_stack[-1]["parts"].append(image)
+        else:
+            self.blocks.append(image)
+
+    def _close_frame(self, frame: dict[str, Any]) -> None:
+        text_parts = [part for part in frame["parts"] if isinstance(part, str)]
+        pending = [part for part in frame["parts"] if not isinstance(part, str)]
+        text = _normalized("".join(text_parts))
+        if self._content_stack:
+            parent = self._content_stack[-1]
+            if text:
+                if frame["tag"] in _BLOCK_TAGS and _has_text(parent["parts"]):
+                    parent["parts"].append(" ")
+                parent["parts"].append(text)
+            parent["parts"].extend(pending)
+        else:
+            if text:
+                self.blocks.append({"type": frame["type"], "text": text, "attributes": {}})
+            self.blocks.extend(pending)
+
+
+def _has_text(parts: list[Any]) -> bool:
+    return any(isinstance(part, str) and part.strip() for part in parts)
 
 
 def parse_html(source: str) -> dict[str, Any]:
@@ -160,6 +211,7 @@ def _heading_of(line: str) -> tuple[str, str] | None:
 
 
 def _quote_content(line: str) -> str:
+    """Drop the leading ``>`` and one optional space, then strip the line."""
     rest = line[1:]
     if rest.startswith(" "):
         rest = rest[1:]
